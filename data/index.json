@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:54:45.271Z",
+ "updated": "2026-11-21T19:26:39.079Z",
  "sets": [
   {
    "id": "ko-topik2-adjectives",
@@ -11,6 +11,10 @@
    "count": 300,
    "version": 1,
    "updated": "2026-11-21T17:54:37.461Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
    "file": "sets/ko-topik2-adjectives.json",
    "size": 41797
   },
@@ -22,10 +26,17 @@
     "uz"
    ],
    "count": 150,
-   "version": 1,
-   "updated": "2026-11-21T17:54:45.227Z",
+   "version": 2,
+   "updated": "2026-11-21T19:25:54.054Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
+   "partner": {
+    "name": "Salman"
+   },
    "file": "sets/ko-topik2-adverbs.json",
-   "size": 19825
+   "size": 19931
   },
   {
    "id": "ko-topik2-nouns",
@@ -35,10 +46,15 @@
     "uz"
    ],
    "count": 450,
-   "version": 1,
-   "updated": "2026-11-21T17:54:45.238Z",
+   "version": 2,
+   "updated": "2026-11-21T19:26:39.065Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
+   "locked": true,
    "file": "sets/ko-topik2-nouns.json",
-   "size": 58888
+   "size": 49869
   },
   {
    "id": "ko-topik2-verbs",
@@ -50,6 +66,10 @@
    "count": 600,
    "version": 1,
    "updated": "2026-11-21T17:54:45.253Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
    "file": "sets/ko-topik2-verbs.json",
    "size": 84444
   }

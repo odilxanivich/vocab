@@ -5,8 +5,15 @@
  "back": [
   "uz"
  ],
- "version": 1,
- "updated": "2026-11-21T17:54:45.227Z",
+ "by": {
+  "name": "Vocab",
+  "url": "https://t.me/odilxanivich"
+ },
+ "partner": {
+  "name": "Salman"
+ },
+ "version": 2,
+ "updated": "2026-11-21T19:25:54.054Z",
  "items": [
   {
    "id": "a1",
