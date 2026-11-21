@@ -68,7 +68,7 @@ function emptyHTML(){
   const has=lib.some(l=>l.learn===S.mode);
   if(!has)return`<div class="none"><h2>Nothing here yet</h2><p>Download a ${LANG[S.mode]} set once — it stays on your phone, offline.</p><button class="btn pri" data-go="library" style="width:240px">Browse vocabulary</button></div>`;
   if(S.filter==='fav')return`<div class="none"><h2>No saved words</h2><p>Tap the heart under any word to keep it here.</p><button class="btn" data-go="all" style="width:200px">All words</button></div>`;
-  return`<div class="none"><h2>You know them all</h2><p>Every word here is marked as known.</p><button class="btn" data-go="settings" style="width:220px">Reset known words</button></div>`;
+  return`<div class="none"><h2>You know them all</h2><p>Every word here is learned. Check for new sets.</p><button class="btn pri" data-go="library" style="width:240px">Browse new sets</button></div>`;
 }
 function paintActs(){const d=cur(),on=!!(d&&S.fav[d.k]);$('#aFav').classList.toggle('on',on);$('#aFav span').textContent=on?'Saved':'Save'}
 const first=u=>u?String(u.name||u.email||'').trim().split(/[\s@]/)[0].slice(0,12):'Guest';
@@ -257,7 +257,7 @@ async function pageLibrary(){
   const sec=m=>{const l=[...rows.values()].filter(x=>x.learn===m);if(!l.length)return'';
     const miss=l.filter(x=>!x.local&&!x.gone).length;
     return`<div class="sec"><h3>Learn ${LANG[m]}${miss&&u&&online?` · <a data-all="${m}" style="color:var(--fg)">get all ${miss}</a>`:''}</h3>`+
-      l.map(x=>`<div class="row"><div><b>${esc(x.title)}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}</small></div>${btn(x)}</div>`).join('')+'</div>'};
+      l.sort((p,q)=>!!p.local-!!q.local).map(x=>`<div class="row"><div><b>${esc(x.title)}${!x.local&&!x.gone?'<span class="new">New</span>':''}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}</small></div>${btn(x)}</div>`).join('')+'</div>'};
   B.innerHTML=(!online?`<div class="note">Offline · showing sets on this phone. They all work without internet.</div>`:
       !u?`<div class="note">Sign in with Google to download sets.</div><button class="btn pri" id="lIn">Continue with Google</button>`:'')+
     (err?`<div class="note wn">Could not reach the library (${esc(err)}).</div>`:'')+

@@ -75,13 +75,15 @@ PY
 
 icons(){
   command -v convert >/dev/null || { warn "icons skipped (sudo apt install imagemagick)"; return; }
-  local S=www/icon.svg Rz=android/app/src/main/res
+  local S=www/icon.png Rz=android/app/src/main/res
+  [ -f "$S" ] || S=www/icon.svg
+  [ -f "$S" ] || { warn "no www/icon.png — icons skipped"; return; }
   for pair in mdpi:48 hdpi:72 xhdpi:96 xxhdpi:144 xxxhdpi:192; do
     d=${pair%%:*}; s=${pair##*:}; f=$((s*108/48))
     mkdir -p "$Rz/mipmap-$d"
     convert -background none -density 384 "$S" -resize ${s}x${s} "$Rz/mipmap-$d/ic_launcher.png"
     cp "$Rz/mipmap-$d/ic_launcher.png" "$Rz/mipmap-$d/ic_launcher_round.png"
-    convert -background none -density 384 "$S" -resize $((f*70/100))x$((f*70/100)) -gravity center -extent ${f}x${f} "$Rz/mipmap-$d/ic_launcher_foreground.png"
+    convert -background none -density 384 "$S" -resize ${f}x${f}^ -gravity center -extent ${f}x${f} "$Rz/mipmap-$d/ic_launcher_foreground.png"
   done
   echo '<?xml version="1.0" encoding="utf-8"?><resources><color name="ic_launcher_background">#050505</color></resources>' > "$Rz/values/ic_launcher_background.xml"
   ok "icons"

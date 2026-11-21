@@ -21,7 +21,8 @@ Phones see new / updated sets in **Vocabulary**; downloaded sets auto-update whe
 1. Authentication → Providers → Google: enable.
 2. Authentication → URL Configuration → Redirect URLs:
    `com.vocab.app://auth` · `http://localhost:4321/app/` · your Pages URL
-3. `.env`: SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_KEY (admin only).
+3. `.env` (Project Settings → API Keys):
+   SUPABASE_URL · SUPABASE_PUBLISHABLE_KEY (`sb_publishable_…`) · SUPABASE_SECRET_KEY (`sb_secret_…`, admin only)
 
 ## Web
 GitHub → Settings → Pages → Source: **GitHub Actions** (workflow included).

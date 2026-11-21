@@ -1,0 +1,139 @@
+# Prompt: any source → Vocab app file
+
+Copy everything inside the box into ChatGPT / Claude / Gemini, then attach your PDF, photo, screenshot, handwritten notes, Excel or pasted text.
+
+---
+
+```text
+You are a professional lexicographer and data engineer for a Korean ⇄ English
+flashcard app. Convert the vocabulary in the attached material (PDF, image,
+screenshot, handwritten notes, table, or text) into the app's JSON file format,
+complete every missing field, and return files I can upload without editing.
+
+══════════════════════════════════════════════════════════════════
+1. DETECT THE LANGUAGES
+══════════════════════════════════════════════════════════════════
+• "learn" = the language of the HEADWORDS being studied.
+    - Headwords in Korean  → "learn": "ko"
+    - Headwords in English → "learn": "en"
+• "back" = languages shown on the back of the card. ALWAYS fill ALL of them:
+    - learn "ko" → "back": ["en", "uz"]
+    - learn "en" → "back": ["ko", "uz", "ru"]
+  (Even if the source only has one translation, add the others.)
+• If the source mixes Korean and English headwords, make one file per language.
+
+══════════════════════════════════════════════════════════════════
+2. OUTPUT FORMAT (exact — the app rejects anything else)
+══════════════════════════════════════════════════════════════════
+{
+  "id": "ko-topik2-nouns",              // learn prefix + short slug: a-z 0-9 -, max 60
+  "title": "TOPIK II · Nouns",           // short, human, max 40 chars
+  "learn": "ko",
+  "back": ["en", "uz"],
+  "items": [
+    {
+      "id": "n1",                        // unique inside the file, short (prefix+number)
+      "word": "갈등",                     // headword only, dictionary form
+      "pron": "galdeung",                // pronunciation guide (rules below)
+      "ex": "두 사람 사이에 갈등이 생겼어요.", // ONE example sentence in the learned language
+      "tr": {
+        "en": { "m": "conflict, discord",
+                "d": "A clash between people with different opinions or interests.",
+                "x": "A conflict arose between the two people." },
+        "uz": { "m": "kelishmovchilik, nizo",
+                "d": "Turli fikr yoki manfaatdagi odamlar orasidagi toʻqnashuv.",
+                "x": "Ikki kishi oʻrtasida kelishmovchilik paydo boʻldi." }
+      }
+    }
+  ]
+}
+
+Field meanings:
+• m = meaning: 1–4 words, max 3 senses, comma-separated, most common sense first.
+• d = definition: one short, simple sentence IN THAT BACK LANGUAGE (not a translation of m).
+• x = translation of "ex" into that back language.
+• No other fields. No comments in the real output. No trailing commas. Valid UTF-8 JSON.
+
+══════════════════════════════════════════════════════════════════
+3. EXTRACTION RULES
+══════════════════════════════════════════════════════════════════
+• Read EVERY entry, every page, every column. Multi-column pages: read each
+  column top-to-bottom in the source's numbering order. Never skip, never summarize.
+• Keep the source order. Remove numbering ("12.", "①") from "word".
+• Use dictionary form: verbs/adjectives end in -다 (Korean); English verbs base form.
+• Homonyms (e.g. "공모 1", "공모 2"): separate items, same "word", different
+  meanings — never put the number inside "word".
+• Remove exact duplicates (same word + same meaning). Keep the first.
+• Ignore headers, footers, page numbers, author names, dates, ads, watermarks.
+• Sections in the source (Nouns / Verbs / Adjectives / Adverbs, Lesson 1, Unit 3…)
+  → one file per section, title like "TOPIK II · Verbs" or "Lesson 3 · Food".
+• Handwriting / blurry OCR: choose the most likely real word that fits the
+  translation next to it. Fix OCR errors (e.g. "Qatiiylik" → "qatʼiylik").
+  Never invent words that are not in the source.
+• If the source translation is wrong or misleading, keep the author's meaning
+  only if it is a valid sense; otherwise replace it with the correct meaning.
+
+══════════════════════════════════════════════════════════════════
+4. PRONUNCIATION ("pron")
+══════════════════════════════════════════════════════════════════
+• Korean headwords: Revised Romanization of the ACTUAL pronunciation, lowercase,
+  no hyphens: 협력 → hyeomnyeok, 국물 → gungmul, 좋다 → jota, 신라 → silla,
+  막무가내 → mangmuganae, 읽다 → ikda.
+• English headwords: IPA between slashes, General American: /ˈæp.əl/.
+
+══════════════════════════════════════════════════════════════════
+5. LANGUAGE QUALITY
+══════════════════════════════════════════════════════════════════
+UZBEK (uz) — Latin script, official orthography:
+• oʻ and gʻ with U+02BB (ʻ); tutuq belgisi with U+02BC (ʼ): taʼsir, sanʼat, qatʼiy.
+  Never use ’ ` ' for these.
+• Verbs as infinitive with -moq / -lamoq (qamamoq, rivojlantirmoq).
+• Correct spelling: xizmat (not hizmat), qobiliyat, baʼzan, hojat, dahshatli.
+• Natural modern Uzbek, not word-by-word Russian calques.
+• Case suffixes as forms: "-ga qarshi bormoq", "-dan oʻtmoq".
+
+ENGLISH (en) — natural, learner-friendly (B1–B2 words in definitions).
+RUSSIAN (ru) — Cyrillic, natural; verbs in infinitive (imperfective unless the
+  meaning requires perfective).
+KOREAN (ko, as back language) — standard Korean; definitions like a learner's
+  dictionary (표준국어대사전 style but simpler).
+
+Example sentences ("ex"):
+• 6–14 words, natural, everyday or exam-style, matching the word's level
+  (TOPIK II words → TOPIK II-style sentences).
+• Korean examples in polite 해요체 unless the word is formal/written only.
+• The headword must appear in the sentence (conjugated is fine).
+• "x" translations must be faithful and natural, not literal.
+
+══════════════════════════════════════════════════════════════════
+6. SIZE & DELIVERY
+══════════════════════════════════════════════════════════════════
+• If you can create files: return downloadable .json files named "<id>.json".
+• Otherwise: for each file print the filename on its own line, then ONE ```json
+  code block containing the whole file, nothing else.
+• Max 300 items per file. Bigger sections → "TOPIK II · Verbs 1", "… Verbs 2",
+  ids "ko-topik2-verbs-1", "ko-topik2-verbs-2".
+• If you run out of space, stop at a complete file boundary and write exactly:
+  CONTINUE → <next file id>. When I reply "continue", carry on from there with
+  the same rules. Never cut a file in half.
+
+══════════════════════════════════════════════════════════════════
+7. SELF-CHECK BEFORE ANSWERING (do it silently)
+══════════════════════════════════════════════════════════════════
+☐ Item count matches the source (say the count per file in one line at the end).
+☐ Every item has word, pron, ex, and m + d + x for EVERY back language.
+☐ No numbering, brackets, or homonym digits inside "word".
+☐ Uzbek uses ʻ and ʼ correctly; no Cyrillic in uz; no Latin in ru.
+☐ ids unique; JSON valid (parse it mentally); no comments.
+☐ "learn" and "back" exactly as in section 1.
+
+After the JSON, write only one short summary line per file:
+<id>.json — <title> — <N> words — <learn> → <back>
+```
+
+---
+
+**Tips**
+- Handwritten notes: photograph in daylight, flat, one page per photo.
+- Already have a file from this app? Attach it and say: *"Fill every missing field using the same rules; keep ids."*
+- Upload result: Admin → drop the `.json` files → **Publish**.

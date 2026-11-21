@@ -15,17 +15,13 @@
     <input id="uQ" placeholder="Search name or email">
     <div class="list" id="uL"></div>
   </section>
-  <section class="col" id="add">
-    <div class="ch"><h2>Add +</h2><div class="hr"><select id="sSel"></select><button class="btn ghost" id="sNew">New set</button></div></div>
-    <div id="sMeta" class="meta"></div>
-    <form id="wF" autocomplete="off"></form>
-    <details id="bulkD"><summary>Bulk import</summary>
-      <p class="mut">First line = columns, separated by <b>Tab</b> or <b>|</b>. Columns: <code>word pron ex</code> + <code>&lt;lang&gt;.m</code> meaning, <code>.d</code> definition, <code>.x</code> example translation.</p>
-      <textarea id="bulk" rows="7" placeholder="word | pron | ex | en.m | en.x | uz.m | uz.x&#10;사과 | sagwa | 사과를 먹어요. | apple | I eat an apple. | olma | Men olma yeyman."></textarea>
-      <button class="btn pri" id="bulkGo" type="button">Import</button>
-    </details>
-    <div class="ch"><h3>Words <span class="mut" id="wN"></span></h3><input id="wQ" placeholder="Search words"></div>
-    <div class="list" id="wL"></div>
+  <section class="col" id="files">
+    <div class="ch"><h2>Vocabulary files</h2><span class="mut" id="fN"></span></div>
+    <label class="drop" id="drop">
+      <input type="file" id="fIn" accept=".json,application/json" multiple hidden>
+      <b>Drop .json files here</b><span class="mut">or click to choose from your computer · same id = replaced</span>
+    </label>
+    <div class="list" id="fL"></div>
   </section>
 </main>
 <div id="dlg"></div><div id="toast"></div>
