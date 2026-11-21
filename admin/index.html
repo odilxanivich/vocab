@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vocab · Admin</title>
+<link rel="icon" href="/app/icon.svg">
+<link rel="stylesheet" href="/admin.css">
+</head><body>
+<header>
+  <div class="brand">Vocab<span>Admin</span></div>
+  <div class="hr"><a class="btn ghost" href="/app/" target="_blank">Open app</a><button class="btn pri" id="pub">Publish</button></div>
+</header>
+<main>
+  <section class="col" id="users">
+    <div class="ch"><h2>Users</h2><span class="mut" id="uN"></span></div>
+    <input id="uQ" placeholder="Search name or email">
+    <div class="list" id="uL"></div>
+  </section>
+  <section class="col" id="add">
+    <div class="ch"><h2>Add +</h2><div class="hr"><select id="sSel"></select><button class="btn ghost" id="sNew">New set</button></div></div>
+    <div id="sMeta" class="meta"></div>
+    <form id="wF" autocomplete="off"></form>
+    <details id="bulkD"><summary>Bulk import</summary>
+      <p class="mut">First line = columns, separated by <b>Tab</b> or <b>|</b>. Columns: <code>word pron ex</code> + <code>&lt;lang&gt;.m</code> meaning, <code>.d</code> definition, <code>.x</code> example translation.</p>
+      <textarea id="bulk" rows="7" placeholder="word | pron | ex | en.m | en.x | uz.m | uz.x&#10;사과 | sagwa | 사과를 먹어요. | apple | I eat an apple. | olma | Men olma yeyman."></textarea>
+      <button class="btn pri" id="bulkGo" type="button">Import</button>
+    </details>
+    <div class="ch"><h3>Words <span class="mut" id="wN"></span></h3><input id="wQ" placeholder="Search words"></div>
+    <div class="list" id="wL"></div>
+  </section>
+</main>
+<div id="dlg"></div><div id="toast"></div>
+<script src="/admin.js"></script>
+</body></html>

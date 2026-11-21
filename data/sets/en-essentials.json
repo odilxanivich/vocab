@@ -1,0 +1,197 @@
+{
+ "id": "en-essentials",
+ "title": "Essentials",
+ "learn": "en",
+ "back": [
+  "ko",
+  "uz",
+  "ru"
+ ],
+ "version": 1,
+ "items": [
+  {
+   "id": "e1",
+   "word": "apple",
+   "pron": "/ˈæp.əl/",
+   "ex": "I eat an apple every day.",
+   "tr": {
+    "ko": {
+     "m": "사과",
+     "d": "둥글고 달콤한 과일.",
+     "x": "나는 매일 사과를 먹어요."
+    },
+    "uz": {
+     "m": "olma",
+     "d": "Yumaloq, shirin meva.",
+     "x": "Men har kuni olma yeyman."
+    },
+    "ru": {
+     "m": "яблоко",
+     "d": "Круглый сладкий фрукт.",
+     "x": "Я ем яблоко каждый день."
+    }
+   }
+  },
+  {
+   "id": "e2",
+   "word": "book",
+   "pron": "/bʊk/",
+   "ex": "This book is very interesting.",
+   "tr": {
+    "ko": {
+     "m": "책",
+     "d": "글이 인쇄된 종이 묶음.",
+     "x": "이 책은 아주 재미있어요."
+    },
+    "uz": {
+     "m": "kitob",
+     "d": "Bosilgan sahifalar to'plami.",
+     "x": "Bu kitob juda qiziq."
+    },
+    "ru": {
+     "m": "книга",
+     "d": "Сшитые печатные страницы.",
+     "x": "Эта книга очень интересная."
+    }
+   }
+  },
+  {
+   "id": "e3",
+   "word": "friend",
+   "pron": "/frend/",
+   "ex": "She is my best friend.",
+   "tr": {
+    "ko": {
+     "m": "친구",
+     "d": "가깝게 지내는 사람.",
+     "x": "그녀는 제 가장 친한 친구예요."
+    },
+    "uz": {
+     "m": "do'st",
+     "d": "Yaqin munosabatdagi inson.",
+     "x": "U mening eng yaqin do'stim."
+    },
+    "ru": {
+     "m": "друг",
+     "d": "Близкий человек.",
+     "x": "Она моя лучшая подруга."
+    }
+   }
+  },
+  {
+   "id": "e4",
+   "word": "beautiful",
+   "pron": "/ˈbjuː.tɪ.fəl/",
+   "ex": "What a beautiful day!",
+   "tr": {
+    "ko": {
+     "m": "아름다운",
+     "d": "보기에 매우 좋은.",
+     "x": "정말 아름다운 날이에요!"
+    },
+    "uz": {
+     "m": "go'zal",
+     "d": "Ko'rinishi juda chiroyli.",
+     "x": "Qanday go'zal kun!"
+    },
+    "ru": {
+     "m": "красивый",
+     "d": "Очень приятный на вид.",
+     "x": "Какой красивый день!"
+    }
+   }
+  },
+  {
+   "id": "e5",
+   "word": "learn",
+   "pron": "/lɜːn/",
+   "ex": "I want to learn Korean.",
+   "tr": {
+    "ko": {
+     "m": "배우다",
+     "d": "새로운 지식이나 기술을 얻다.",
+     "x": "저는 한국어를 배우고 싶어요."
+    },
+    "uz": {
+     "m": "o'rganmoq",
+     "d": "Yangi bilim yoki ko'nikma olmoq.",
+     "x": "Men koreys tilini o'rganmoqchiman."
+    },
+    "ru": {
+     "m": "учить",
+     "d": "Получать новые знания.",
+     "x": "Я хочу выучить корейский."
+    }
+   }
+  },
+  {
+   "id": "e6",
+   "word": "journey",
+   "pron": "/ˈdʒɜː.ni/",
+   "ex": "The journey took three hours.",
+   "tr": {
+    "ko": {
+     "m": "여행",
+     "d": "한 곳에서 다른 곳으로 가는 일.",
+     "x": "여행은 세 시간 걸렸어요."
+    },
+    "uz": {
+     "m": "safar",
+     "d": "Bir joydan boshqasiga borish.",
+     "x": "Safar uch soat davom etdi."
+    },
+    "ru": {
+     "m": "путешествие",
+     "d": "Поездка из одного места в другое.",
+     "x": "Поездка заняла три часа."
+    }
+   }
+  },
+  {
+   "id": "e7",
+   "word": "quiet",
+   "pron": "/ˈkwaɪ.ət/",
+   "ex": "The library is very quiet.",
+   "tr": {
+    "ko": {
+     "m": "조용한",
+     "d": "소리가 거의 없는.",
+     "x": "도서관은 아주 조용해요."
+    },
+    "uz": {
+     "m": "jim, sokin",
+     "d": "Deyarli ovozsiz.",
+     "x": "Kutubxona juda sokin."
+    },
+    "ru": {
+     "m": "тихий",
+     "d": "Почти без звука.",
+     "x": "В библиотеке очень тихо."
+    }
+   }
+  },
+  {
+   "id": "e8",
+   "word": "brave",
+   "pron": "/breɪv/",
+   "ex": "He was brave enough to try.",
+   "tr": {
+    "ko": {
+     "m": "용감한",
+     "d": "두려움 없이 행동하는.",
+     "x": "그는 시도할 만큼 용감했어요."
+    },
+    "uz": {
+     "m": "jasur",
+     "d": "Qo'rquvsiz harakat qiladigan.",
+     "x": "U urinib ko'rishga jasur edi."
+    },
+    "ru": {
+     "m": "смелый",
+     "d": "Действующий без страха.",
+     "x": "Он был достаточно смел, чтобы попробовать."
+    }
+   }
+  }
+ ]
+}

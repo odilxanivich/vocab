@@ -1,0 +1,48 @@
+{
+ "updated": "2026-11-21T16:14:18.489Z",
+ "sets": [
+  {
+   "id": "en-essentials",
+   "title": "Essentials",
+   "learn": "en",
+   "back": [
+    "ko",
+    "uz",
+    "ru"
+   ],
+   "count": 8,
+   "version": 1,
+   "updated": null,
+   "file": "sets/en-essentials.json",
+   "size": 4428
+  },
+  {
+   "id": "ko-food",
+   "title": "Food & Drinks",
+   "learn": "ko",
+   "back": [
+    "en",
+    "uz"
+   ],
+   "count": 6,
+   "version": 1,
+   "updated": null,
+   "file": "sets/ko-food.json",
+   "size": 2201
+  },
+  {
+   "id": "ko-numbers",
+   "title": "Numbers",
+   "learn": "ko",
+   "back": [
+    "en",
+    "uz"
+   ],
+   "count": 10,
+   "version": 1,
+   "updated": null,
+   "file": "sets/ko-numbers.json",
+   "size": 4213
+  }
+ ]
+}

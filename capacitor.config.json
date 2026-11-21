@@ -1,0 +1,12 @@
+{
+  "appId": "com.vocab.app",
+  "appName": "Vocab",
+  "webDir": "www",
+  "backgroundColor": "#050505",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#050505"
+  }
+}

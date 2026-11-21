@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#050505">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Vocab</title>
+<link rel="icon" href="icon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head><body>
+<header id="top">
+  <button id="sel" class="sel" aria-label="Vocabulary sets"><b id="selT">All words</b><small id="selN"></small></button>
+  <button id="me" class="me" aria-label="Account"><span id="meT"></span></button>
+</header>
+
+<main id="stage">
+  <div id="card"><div class="inner">
+    <section class="face front" id="front"></section>
+    <section class="face back" id="back"></section>
+  </div></div>
+  <nav id="acts">
+    <button id="aFav" aria-label="Save"><svg viewBox="0 0 24 24"><path d="M12 20.3s-7.6-4.6-9.3-9.3C1.6 7.8 3.7 4.6 7 4.6c2.1 0 3.6 1.2 5 3 1.4-1.8 2.9-3 5-3 3.3 0 5.4 3.2 4.3 6.4-1.7 4.7-9.3 9.3-9.3 9.3z"/></svg><span>Save</span></button>
+    <button id="aSay" aria-label="Listen"><svg viewBox="0 0 24 24"><path d="M4 10.5v3"/><path d="M8 7.5v9"/><path d="M12 4.5v15"/><path d="M16 8v8"/><path d="M20 10.5v3"/></svg><span>Listen</span></button>
+    <button id="aKnow" aria-label="I know this"><svg viewBox="0 0 24 24"><path d="M5 12.6l4.4 4.4L19 7.4"/></svg><span>I know</span></button>
+  </nav>
+</main>
+
+<footer id="foot"><span id="cnt"></span><div class="bar"><i id="barI"></i></div></footer>
+
+<div id="scrim"></div>
+<aside id="drawer"></aside>
+<div id="menu"></div>
+<section id="page"><header><button class="pbk" id="pgBack" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><h1 id="pgT"></h1><span></span></header><div class="pb" id="pgB"></div></section>
+<section id="gate"></section>
+<div id="toast"></div>
+
+<script src="js/config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/tts.js"></script>
+<script src="js/app.js"></script>
+</body></html>
