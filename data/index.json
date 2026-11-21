@@ -1,4 +1,57 @@
 {
- "updated": "2026-11-21T17:54:00.672Z",
- "sets": []
+ "updated": "2026-11-21T17:54:45.271Z",
+ "sets": [
+  {
+   "id": "ko-topik2-adjectives",
+   "title": "TOPIK II · Adjectives",
+   "learn": "ko",
+   "back": [
+    "uz"
+   ],
+   "count": 300,
+   "version": 1,
+   "updated": "2026-11-21T17:54:37.461Z",
+   "file": "sets/ko-topik2-adjectives.json",
+   "size": 41797
+  },
+  {
+   "id": "ko-topik2-adverbs",
+   "title": "TOPIK II · Adverbs",
+   "learn": "ko",
+   "back": [
+    "uz"
+   ],
+   "count": 150,
+   "version": 1,
+   "updated": "2026-11-21T17:54:45.227Z",
+   "file": "sets/ko-topik2-adverbs.json",
+   "size": 19825
+  },
+  {
+   "id": "ko-topik2-nouns",
+   "title": "TOPIK II · Nouns",
+   "learn": "ko",
+   "back": [
+    "uz"
+   ],
+   "count": 450,
+   "version": 1,
+   "updated": "2026-11-21T17:54:45.238Z",
+   "file": "sets/ko-topik2-nouns.json",
+   "size": 58888
+  },
+  {
+   "id": "ko-topik2-verbs",
+   "title": "TOPIK II · Verbs",
+   "learn": "ko",
+   "back": [
+    "uz"
+   ],
+   "count": 600,
+   "version": 1,
+   "updated": "2026-11-21T17:54:45.253Z",
+   "file": "sets/ko-topik2-verbs.json",
+   "size": 84444
+  }
+ ]
 }

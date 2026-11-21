@@ -1,0 +1,1512 @@
+{
+ "id": "ko-topik2-adverbs",
+ "title": "TOPIK II · Adverbs",
+ "learn": "ko",
+ "back": [
+  "uz"
+ ],
+ "version": 1,
+ "updated": "2026-11-21T17:54:45.227Z",
+ "items": [
+  {
+   "id": "a1",
+   "word": "가까스로",
+   "pron": "gakkaseuro",
+   "tr": {
+    "uz": {
+     "m": "Zoʻrgʻa"
+    }
+   }
+  },
+  {
+   "id": "a2",
+   "word": "간신히",
+   "pron": "gansinhi",
+   "tr": {
+    "uz": {
+     "m": "Zoʻrgʻa"
+    }
+   }
+  },
+  {
+   "id": "a3",
+   "word": "간절히",
+   "pron": "ganjeolhi",
+   "tr": {
+    "uz": {
+     "m": "Chin dildan"
+    }
+   }
+  },
+  {
+   "id": "a4",
+   "word": "간혹",
+   "pron": "ganhok",
+   "tr": {
+    "uz": {
+     "m": "Bazan"
+    }
+   }
+  },
+  {
+   "id": "a5",
+   "word": "갓",
+   "pron": "gat",
+   "tr": {
+    "uz": {
+     "m": "Hozir"
+    }
+   }
+  },
+  {
+   "id": "a6",
+   "word": "거듭",
+   "pron": "geodeup",
+   "tr": {
+    "uz": {
+     "m": "Qayta, yana"
+    }
+   }
+  },
+  {
+   "id": "a7",
+   "word": "거침없이",
+   "pron": "geochimeopsi",
+   "tr": {
+    "uz": {
+     "m": "Taraddutsiz, toʻsiqsiz"
+    }
+   }
+  },
+  {
+   "id": "a8",
+   "word": "겨우",
+   "pron": "gyeou",
+   "tr": {
+    "uz": {
+     "m": "Deyarli, zoʻrgʻa"
+    }
+   }
+  },
+  {
+   "id": "a9",
+   "word": "결코",
+   "pron": "gyeolko",
+   "tr": {
+    "uz": {
+     "m": "Umuman"
+    }
+   }
+  },
+  {
+   "id": "a10",
+   "word": "고스란히",
+   "pron": "goseuranhi",
+   "tr": {
+    "uz": {
+     "m": "Boricha, boʻlgani kabi"
+    }
+   }
+  },
+  {
+   "id": "a11",
+   "word": "고요히",
+   "pron": "goyohi",
+   "tr": {
+    "uz": {
+     "m": "Sekin, asta"
+    }
+   }
+  },
+  {
+   "id": "a12",
+   "word": "고이",
+   "pron": "goi",
+   "tr": {
+    "uz": {
+     "m": "Oxista, samimiy"
+    }
+   }
+  },
+  {
+   "id": "a13",
+   "word": "고작",
+   "pron": "gojak",
+   "tr": {
+    "uz": {
+     "m": "Atigi, faqat"
+    }
+   }
+  },
+  {
+   "id": "a14",
+   "word": "곧잘",
+   "pron": "gotjal",
+   "tr": {
+    "uz": {
+     "m": "Tez-tez"
+    }
+   }
+  },
+  {
+   "id": "a15",
+   "word": "공연히",
+   "pron": "gongyeonhi",
+   "tr": {
+    "uz": {
+     "m": "Keraksiz, bemani"
+    }
+   }
+  },
+  {
+   "id": "a16",
+   "word": "구태여",
+   "pron": "gutaeyeo",
+   "tr": {
+    "uz": {
+     "m": "Ataylab"
+    }
+   }
+  },
+  {
+   "id": "a17",
+   "word": "그나마",
+   "pron": "geunama",
+   "tr": {
+    "uz": {
+     "m": "Atigi bu ham"
+    }
+   }
+  },
+  {
+   "id": "a18",
+   "word": "그다지",
+   "pron": "geudaji",
+   "tr": {
+    "uz": {
+     "m": "Unchalik"
+    }
+   }
+  },
+  {
+   "id": "a19",
+   "word": "그야말로",
+   "pron": "geuyamallo",
+   "tr": {
+    "uz": {
+     "m": "Rostan ham"
+    }
+   }
+  },
+  {
+   "id": "a20",
+   "word": "근근이",
+   "pron": "geungeuni",
+   "tr": {
+    "uz": {
+     "m": "Zoʻrgʻa, arang"
+    }
+   }
+  },
+  {
+   "id": "a21",
+   "word": "금세",
+   "pron": "geumse",
+   "tr": {
+    "uz": {
+     "m": "Oʻsha payt, darhol"
+    }
+   }
+  },
+  {
+   "id": "a22",
+   "word": "급격히",
+   "pron": "geupgyeokhi",
+   "tr": {
+    "uz": {
+     "m": "Shoshilinch, bir pasta"
+    }
+   }
+  },
+  {
+   "id": "a23",
+   "word": "급작스레",
+   "pron": "geupjakseure",
+   "tr": {
+    "uz": {
+     "m": "Kutilmaganda"
+    }
+   }
+  },
+  {
+   "id": "a24",
+   "word": "기껏",
+   "pron": "gikkeot",
+   "tr": {
+    "uz": {
+     "m": "Faqat, atigi"
+    }
+   }
+  },
+  {
+   "id": "a25",
+   "word": "기껏해야",
+   "pron": "gikkeothaeya",
+   "tr": {
+    "uz": {
+     "m": "Nari borsa"
+    }
+   }
+  },
+  {
+   "id": "a26",
+   "word": "기왕이면",
+   "pron": "giwangimyeon",
+   "tr": {
+    "uz": {
+     "m": "U holda, bunday boʻlsa"
+    }
+   }
+  },
+  {
+   "id": "a27",
+   "word": "기필코",
+   "pron": "gipilko",
+   "tr": {
+    "uz": {
+     "m": "Doim, albatta"
+    }
+   }
+  },
+  {
+   "id": "a28",
+   "word": "꼼짝없이",
+   "pron": "kkomjjageopsi",
+   "tr": {
+    "uz": {
+     "m": "Hayratlanmay, indamay"
+    }
+   }
+  },
+  {
+   "id": "a29",
+   "word": "꽉",
+   "pron": "kkwak",
+   "tr": {
+    "uz": {
+     "m": "Qattiq, mahkam"
+    }
+   }
+  },
+  {
+   "id": "a30",
+   "word": "꽤나",
+   "pron": "kkwaena",
+   "tr": {
+    "uz": {
+     "m": "Ancha"
+    }
+   }
+  },
+  {
+   "id": "a31",
+   "word": "꾸밈없이",
+   "pron": "kkumimeopsi",
+   "tr": {
+    "uz": {
+     "m": "Bezaksiz"
+    }
+   }
+  },
+  {
+   "id": "a32",
+   "word": "꾸준히",
+   "pron": "kkujunhi",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy, toʻxtovsiz"
+    }
+   }
+  },
+  {
+   "id": "a33",
+   "word": "꿋꿋이",
+   "pron": "kkutkkusi",
+   "tr": {
+    "uz": {
+     "m": "Astoydil"
+    }
+   }
+  },
+  {
+   "id": "a34",
+   "word": "끝내",
+   "pron": "kkeunnae",
+   "tr": {
+    "uz": {
+     "m": "Oxiri"
+    }
+   }
+  },
+  {
+   "id": "a35",
+   "word": "나란히",
+   "pron": "naranhi",
+   "tr": {
+    "uz": {
+     "m": "Yonma-yon"
+    }
+   }
+  },
+  {
+   "id": "a36",
+   "word": "나름대로",
+   "pron": "nareumdaero",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos"
+    }
+   }
+  },
+  {
+   "id": "a37",
+   "word": "난데없이",
+   "pron": "nandeeopsi",
+   "tr": {
+    "uz": {
+     "m": "Kutilmaganda"
+    }
+   }
+  },
+  {
+   "id": "a38",
+   "word": "난김없이",
+   "pron": "nangimeopsi",
+   "tr": {
+    "uz": {
+     "m": "Butunlay, qoldirmay"
+    }
+   }
+  },
+  {
+   "id": "a39",
+   "word": "널리",
+   "pron": "neolli",
+   "tr": {
+    "uz": {
+     "m": "Keng miqyosda"
+    }
+   }
+  },
+  {
+   "id": "a40",
+   "word": "다소",
+   "pron": "daso",
+   "tr": {
+    "uz": {
+     "m": "Biroz"
+    }
+   }
+  },
+  {
+   "id": "a41",
+   "word": "다정히",
+   "pron": "dajeonghi",
+   "tr": {
+    "uz": {
+     "m": "Samimiy"
+    }
+   }
+  },
+  {
+   "id": "a42",
+   "word": "다짜고짜",
+   "pron": "dajjagojja",
+   "tr": {
+    "uz": {
+     "m": "Qoʻqqisdan, behosdan"
+    }
+   }
+  },
+  {
+   "id": "a43",
+   "word": "단숨에",
+   "pron": "dansume",
+   "tr": {
+    "uz": {
+     "m": "Bir urinishda"
+    }
+   }
+  },
+  {
+   "id": "a44",
+   "word": "단연",
+   "pron": "danyeon",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy, keskin"
+    }
+   }
+  },
+  {
+   "id": "a45",
+   "word": "더군다나",
+   "pron": "deogundana",
+   "tr": {
+    "uz": {
+     "m": "Bundan tashqari"
+    }
+   }
+  },
+  {
+   "id": "a46",
+   "word": "도리어",
+   "pron": "dorieo",
+   "tr": {
+    "uz": {
+     "m": "Aksincha"
+    }
+   }
+  },
+  {
+   "id": "a47",
+   "word": "도무지",
+   "pron": "domuji",
+   "tr": {
+    "uz": {
+     "m": "Umuman"
+    }
+   }
+  },
+  {
+   "id": "a48",
+   "word": "도저히",
+   "pron": "dojeohi",
+   "tr": {
+    "uz": {
+     "m": "Umuman"
+    }
+   }
+  },
+  {
+   "id": "a49",
+   "word": "도통",
+   "pron": "dotong",
+   "tr": {
+    "uz": {
+     "m": "Aslo"
+    }
+   }
+  },
+  {
+   "id": "a50",
+   "word": "돈독히",
+   "pron": "dondokhi",
+   "tr": {
+    "uz": {
+     "m": "Doʻstona"
+    }
+   }
+  },
+  {
+   "id": "a51",
+   "word": "마구",
+   "pron": "magu",
+   "tr": {
+    "uz": {
+     "m": "Keragidan ortiq"
+    }
+   }
+  },
+  {
+   "id": "a52",
+   "word": "마냥",
+   "pron": "manyang",
+   "tr": {
+    "uz": {
+     "m": "Abadiy, doimiy"
+    }
+   }
+  },
+  {
+   "id": "a53",
+   "word": "마지못해",
+   "pron": "majimothae",
+   "tr": {
+    "uz": {
+     "m": "Toʻsiqsiz, oʻzini chetga omay"
+    }
+   }
+  },
+  {
+   "id": "a54",
+   "word": "막상",
+   "pron": "maksang",
+   "tr": {
+    "uz": {
+     "m": "Aslida, haqiqatda"
+    }
+   }
+  },
+  {
+   "id": "a55",
+   "word": "맘껏",
+   "pron": "mamkkeot",
+   "tr": {
+    "uz": {
+     "m": "Bor qalbi bilan"
+    }
+   }
+  },
+  {
+   "id": "a56",
+   "word": "모조리",
+   "pron": "mojori",
+   "tr": {
+    "uz": {
+     "m": "Butunlay"
+    }
+   }
+  },
+  {
+   "id": "a57",
+   "word": "모처럼",
+   "pron": "mocheoreom",
+   "tr": {
+    "uz": {
+     "m": "Uzoq vaqtdan keyin"
+    }
+   }
+  },
+  {
+   "id": "a58",
+   "word": "무려",
+   "pron": "muryeo",
+   "tr": {
+    "uz": {
+     "m": "Roppa-rossa"
+    }
+   }
+  },
+  {
+   "id": "a59",
+   "word": "무작정",
+   "pron": "mujakjeong",
+   "tr": {
+    "uz": {
+     "m": "Bekorga"
+    }
+   }
+  },
+  {
+   "id": "a60",
+   "word": "무조건",
+   "pron": "mujogeon",
+   "tr": {
+    "uz": {
+     "m": "Oʻzicha"
+    }
+   }
+  },
+  {
+   "id": "a61",
+   "word": "무턱대고",
+   "pron": "muteokdaego",
+   "tr": {
+    "uz": {
+     "m": "Beparvolik bilan"
+    }
+   }
+  },
+  {
+   "id": "a62",
+   "word": "묵묵히",
+   "pron": "mungmukhi",
+   "tr": {
+    "uz": {
+     "m": "Indamay"
+    }
+   }
+  },
+  {
+   "id": "a63",
+   "word": "물끄러미",
+   "pron": "mulkkeureomi",
+   "tr": {
+    "uz": {
+     "m": "Indamay"
+    }
+   }
+  },
+  {
+   "id": "a64",
+   "word": "미처",
+   "pron": "micheo",
+   "tr": {
+    "uz": {
+     "m": "Haligacha"
+    }
+   }
+  },
+  {
+   "id": "a65",
+   "word": "번갈아",
+   "pron": "beongara",
+   "tr": {
+    "uz": {
+     "m": "Galma-gal"
+    }
+   }
+  },
+  {
+   "id": "a66",
+   "word": "번번이",
+   "pron": "beonbeoni",
+   "tr": {
+    "uz": {
+     "m": "Doim"
+    }
+   }
+  },
+  {
+   "id": "a67",
+   "word": "벌떡",
+   "pron": "beoltteok",
+   "tr": {
+    "uz": {
+     "m": "Darhol"
+    }
+   }
+  },
+  {
+   "id": "a68",
+   "word": "별반",
+   "pron": "byeolban",
+   "tr": {
+    "uz": {
+     "m": "Umuman"
+    }
+   }
+  },
+  {
+   "id": "a69",
+   "word": "부쩍",
+   "pron": "bujjeok",
+   "tr": {
+    "uz": {
+     "m": "Judayam"
+    }
+   }
+  },
+  {
+   "id": "a70",
+   "word": "불현듯이",
+   "pron": "bulhyeondeusi",
+   "tr": {
+    "uz": {
+     "m": "Toʻsatdan, birdan"
+    }
+   }
+  },
+  {
+   "id": "a71",
+   "word": "비로소",
+   "pron": "biroso",
+   "tr": {
+    "uz": {
+     "m": "Endigina"
+    }
+   }
+  },
+  {
+   "id": "a72",
+   "word": "빠짐없이",
+   "pron": "ppajimeopsi",
+   "tr": {
+    "uz": {
+     "m": "Oʻsha zahoti"
+    }
+   }
+  },
+  {
+   "id": "a73",
+   "word": "사뭇",
+   "pron": "samut",
+   "tr": {
+    "uz": {
+     "m": "Anchagina"
+    }
+   }
+  },
+  {
+   "id": "a74",
+   "word": "샅샅이",
+   "pron": "satsati",
+   "tr": {
+    "uz": {
+     "m": "Butunlay, yaxshilab"
+    }
+   }
+  },
+  {
+   "id": "a75",
+   "word": "새삼",
+   "pron": "saesam",
+   "tr": {
+    "uz": {
+     "m": "Yangi"
+    }
+   }
+  },
+  {
+   "id": "a76",
+   "word": "선뜻",
+   "pron": "seontteut",
+   "tr": {
+    "uz": {
+     "m": "Darhol, xursandchilik bilan"
+    }
+   }
+  },
+  {
+   "id": "a77",
+   "word": "섣불리",
+   "pron": "seotbulli",
+   "tr": {
+    "uz": {
+     "m": "Shoshib"
+    }
+   }
+  },
+  {
+   "id": "a78",
+   "word": "설령",
+   "pron": "seollyeong",
+   "tr": {
+    "uz": {
+     "m": "Qanchalik"
+    }
+   }
+  },
+  {
+   "id": "a79",
+   "word": "설마",
+   "pron": "seolma",
+   "tr": {
+    "uz": {
+     "m": "Nahot, ajabo"
+    }
+   }
+  },
+  {
+   "id": "a80",
+   "word": "성급히",
+   "pron": "seonggeuphi",
+   "tr": {
+    "uz": {
+     "m": "Shoshib"
+    }
+   }
+  },
+  {
+   "id": "a81",
+   "word": "소폭",
+   "pron": "sopok",
+   "tr": {
+    "uz": {
+     "m": "Asta-sekin"
+    }
+   }
+  },
+  {
+   "id": "a82",
+   "word": "속속",
+   "pron": "soksok",
+   "tr": {
+    "uz": {
+     "m": "Davomiy"
+    }
+   }
+  },
+  {
+   "id": "a83",
+   "word": "손색없이",
+   "pron": "sonsaegeopsi",
+   "tr": {
+    "uz": {
+     "m": "Mukammal"
+    }
+   }
+  },
+  {
+   "id": "a84",
+   "word": "손수",
+   "pron": "sonsu",
+   "tr": {
+    "uz": {
+     "m": "Oʻz qoʻllari bilan"
+    }
+   }
+  },
+  {
+   "id": "a85",
+   "word": "수시로",
+   "pron": "susiro",
+   "tr": {
+    "uz": {
+     "m": "Tez-tez"
+    }
+   }
+  },
+  {
+   "id": "a86",
+   "word": "쉽사리",
+   "pron": "swipsari",
+   "tr": {
+    "uz": {
+     "m": "Osongina"
+    }
+   }
+  },
+  {
+   "id": "a87",
+   "word": "스스럼없이",
+   "pron": "seuseureomeopsi",
+   "tr": {
+    "uz": {
+     "m": "Oʻz-oʻzidan"
+    }
+   }
+  },
+  {
+   "id": "a88",
+   "word": "슬그머니",
+   "pron": "seulgeumeoni",
+   "tr": {
+    "uz": {
+     "m": "Sekingina"
+    }
+   }
+  },
+  {
+   "id": "a89",
+   "word": "실컷",
+   "pron": "silkeot",
+   "tr": {
+    "uz": {
+     "m": "Xoxlagancha"
+    }
+   }
+  },
+  {
+   "id": "a90",
+   "word": "심지어",
+   "pron": "simjieo",
+   "tr": {
+    "uz": {
+     "m": "Mutlaqo, ustiga-ustak"
+    }
+   }
+  },
+  {
+   "id": "a91",
+   "word": "쏜살같이",
+   "pron": "ssonsalgati",
+   "tr": {
+    "uz": {
+     "m": "Oʻqdek"
+    }
+   }
+  },
+  {
+   "id": "a92",
+   "word": "아낌없이",
+   "pron": "akkimeopsi",
+   "tr": {
+    "uz": {
+     "m": "Qizgʻanmay"
+    }
+   }
+  },
+  {
+   "id": "a93",
+   "word": "아무래도",
+   "pron": "amuraedo",
+   "tr": {
+    "uz": {
+     "m": "Nima boʻlganda ham"
+    }
+   }
+  },
+  {
+   "id": "a94",
+   "word": "아무쪼록",
+   "pron": "amujjorok",
+   "tr": {
+    "uz": {
+     "m": "Iltimos, iloji boʻlsa"
+    }
+   }
+  },
+  {
+   "id": "a95",
+   "word": "아예",
+   "pron": "aye",
+   "tr": {
+    "uz": {
+     "m": "Yaxshisi"
+    }
+   }
+  },
+  {
+   "id": "a96",
+   "word": "아울러",
+   "pron": "aulleo",
+   "tr": {
+    "uz": {
+     "m": "Birga"
+    }
+   }
+  },
+  {
+   "id": "a97",
+   "word": "양껏",
+   "pron": "yangkkeot",
+   "tr": {
+    "uz": {
+     "m": "Xoxlagancha"
+    }
+   }
+  },
+  {
+   "id": "a98",
+   "word": "어느새",
+   "pron": "eoneusae",
+   "tr": {
+    "uz": {
+     "m": "Bir pasta"
+    }
+   }
+  },
+  {
+   "id": "a99",
+   "word": "어렴풋이",
+   "pron": "eoryeompusi",
+   "tr": {
+    "uz": {
+     "m": "Xira, noaniq"
+    }
+   }
+  },
+  {
+   "id": "a100",
+   "word": "어이없이",
+   "pron": "eoieopsi",
+   "tr": {
+    "uz": {
+     "m": "Osongina"
+    }
+   }
+  },
+  {
+   "id": "a101",
+   "word": "어차피",
+   "pron": "eochapi",
+   "tr": {
+    "uz": {
+     "m": "Baribir"
+    }
+   }
+  },
+  {
+   "id": "a102",
+   "word": "억지로",
+   "pron": "eokjiro",
+   "tr": {
+    "uz": {
+     "m": "Majburlab"
+    }
+   }
+  },
+  {
+   "id": "a103",
+   "word": "얼핏",
+   "pron": "eolpit",
+   "tr": {
+    "uz": {
+     "m": "Bir-zum"
+    }
+   }
+  },
+  {
+   "id": "a104",
+   "word": "엄연히",
+   "pron": "eomyeonhi",
+   "tr": {
+    "uz": {
+     "m": "Aniqlik bilan, jiddiylik bilan"
+    }
+   }
+  },
+  {
+   "id": "a105",
+   "word": "여간",
+   "pron": "yeogan",
+   "tr": {
+    "uz": {
+     "m": "Judayam"
+    }
+   }
+  },
+  {
+   "id": "a106",
+   "word": "여러모로",
+   "pron": "yeoreomoro",
+   "tr": {
+    "uz": {
+     "m": "Bir qancha"
+    }
+   }
+  },
+  {
+   "id": "a107",
+   "word": "오로지",
+   "pron": "oroji",
+   "tr": {
+    "uz": {
+     "m": "Faqat"
+    }
+   }
+  },
+  {
+   "id": "a108",
+   "word": "온통",
+   "pron": "ontong",
+   "tr": {
+    "uz": {
+     "m": "Butunlay"
+    }
+   }
+  },
+  {
+   "id": "a109",
+   "word": "워낙",
+   "pron": "wonak",
+   "tr": {
+    "uz": {
+     "m": "Haddan tashqari"
+    }
+   }
+  },
+  {
+   "id": "a110",
+   "word": "월등히",
+   "pron": "woldeunghi",
+   "tr": {
+    "uz": {
+     "m": "Yirik, katta, ancha ustun"
+    }
+   }
+  },
+  {
+   "id": "a111",
+   "word": "유난히",
+   "pron": "yunanhi",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos, odatdagidan"
+    }
+   }
+  },
+  {
+   "id": "a112",
+   "word": "유독",
+   "pron": "yudok",
+   "tr": {
+    "uz": {
+     "m": "Ayniqsa"
+    }
+   }
+  },
+  {
+   "id": "a113",
+   "word": "유유히",
+   "pron": "yuyuhi",
+   "tr": {
+    "uz": {
+     "m": "Xotirjam, bamaylixotir"
+    }
+   }
+  },
+  {
+   "id": "a114",
+   "word": "으레",
+   "pron": "eure",
+   "tr": {
+    "uz": {
+     "m": "Beixtiyor, hargalgidek"
+    }
+   }
+  },
+  {
+   "id": "a115",
+   "word": "은근히",
+   "pron": "eungeunhi",
+   "tr": {
+    "uz": {
+     "m": "Intiqlik bilan, mushtoqlik"
+    }
+   }
+  },
+  {
+   "id": "a116",
+   "word": "이내",
+   "pron": "inae",
+   "tr": {
+    "uz": {
+     "m": "Aynan, yaqinda"
+    }
+   }
+  },
+  {
+   "id": "a117",
+   "word": "이왕",
+   "pron": "iwang",
+   "tr": {
+    "uz": {
+     "m": "Baribir"
+    }
+   }
+  },
+  {
+   "id": "a118",
+   "word": "일단",
+   "pron": "ildan",
+   "tr": {
+    "uz": {
+     "m": "Birinchi, oldin"
+    }
+   }
+  },
+  {
+   "id": "a119",
+   "word": "일부러",
+   "pron": "ilbureo",
+   "tr": {
+    "uz": {
+     "m": "Ataylab"
+    }
+   }
+  },
+  {
+   "id": "a120",
+   "word": "일제히",
+   "pron": "iljehi",
+   "tr": {
+    "uz": {
+     "m": "Hammasi"
+    }
+   }
+  },
+  {
+   "id": "a121",
+   "word": "일찌감치",
+   "pron": "iljjigamchi",
+   "tr": {
+    "uz": {
+     "m": "Erta kunda"
+    }
+   }
+  },
+  {
+   "id": "a122",
+   "word": "일체",
+   "pron": "ilche",
+   "tr": {
+    "uz": {
+     "m": "Hamma, butunlay"
+    }
+   }
+  },
+  {
+   "id": "a123",
+   "word": "자칫",
+   "pron": "jachit",
+   "tr": {
+    "uz": {
+     "m": "Sal qolsa, salga"
+    }
+   }
+  },
+  {
+   "id": "a124",
+   "word": "장차",
+   "pron": "jangcha",
+   "tr": {
+    "uz": {
+     "m": "Kelgusida, kelajakda"
+    }
+   }
+  },
+  {
+   "id": "a125",
+   "word": "제멋대로",
+   "pron": "jemeotdaero",
+   "tr": {
+    "uz": {
+     "m": "Koʻngli tusagancha"
+    }
+   }
+  },
+  {
+   "id": "a126",
+   "word": "좀처럼",
+   "pron": "jomcheoreom",
+   "tr": {
+    "uz": {
+     "m": "Biroz, umuman"
+    }
+   }
+  },
+  {
+   "id": "a127",
+   "word": "줄곧",
+   "pron": "julgot",
+   "tr": {
+    "uz": {
+     "m": "Davomiy, uzoq"
+    }
+   }
+  },
+  {
+   "id": "a128",
+   "word": "지극히",
+   "pron": "jigeukhi",
+   "tr": {
+    "uz": {
+     "m": "Haddan ortiq"
+    }
+   }
+  },
+  {
+   "id": "a129",
+   "word": "진작",
+   "pron": "jinjak",
+   "tr": {
+    "uz": {
+     "m": "Oldinroq, avvalroq"
+    }
+   }
+  },
+  {
+   "id": "a130",
+   "word": "차라리",
+   "pron": "charari",
+   "tr": {
+    "uz": {
+     "m": "Yaxshisi, aksincha"
+    }
+   }
+  },
+  {
+   "id": "a131",
+   "word": "차마",
+   "pron": "chama",
+   "tr": {
+    "uz": {
+     "m": "Mutlaqo, umuman"
+    }
+   }
+  },
+  {
+   "id": "a132",
+   "word": "차츰",
+   "pron": "chacheum",
+   "tr": {
+    "uz": {
+     "m": "Asta-sekin"
+    }
+   }
+  },
+  {
+   "id": "a133",
+   "word": "턱없이",
+   "pron": "teogeopsi",
+   "tr": {
+    "uz": {
+     "m": "Asossiz, dalilsiz"
+    }
+   }
+  },
+  {
+   "id": "a134",
+   "word": "톡톡히",
+   "pron": "toktokhi",
+   "tr": {
+    "uz": {
+     "m": "Bir amallab"
+    }
+   }
+  },
+  {
+   "id": "a135",
+   "word": "통",
+   "pron": "tong",
+   "tr": {
+    "uz": {
+     "m": "Umuman"
+    }
+   }
+  },
+  {
+   "id": "a136",
+   "word": "틈틈이",
+   "pron": "teumteumi",
+   "tr": {
+    "uz": {
+     "m": "Vaqti-vaqti bilan"
+    }
+   }
+  },
+  {
+   "id": "a137",
+   "word": "하기는",
+   "pron": "hagineun",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri"
+    }
+   }
+  },
+  {
+   "id": "a138",
+   "word": "하마터면",
+   "pron": "hamateomyeon",
+   "tr": {
+    "uz": {
+     "m": "Sal qolsa"
+    }
+   }
+  },
+  {
+   "id": "a139",
+   "word": "하염없이",
+   "pron": "hayeomeopsi",
+   "tr": {
+    "uz": {
+     "m": "Mantiqsiz, manosiz"
+    }
+   }
+  },
+  {
+   "id": "a140",
+   "word": "하필",
+   "pron": "hapil",
+   "tr": {
+    "uz": {
+     "m": "Nega aynan, nimagadir"
+    }
+   }
+  },
+  {
+   "id": "a141",
+   "word": "한결",
+   "pron": "hangyeol",
+   "tr": {
+    "uz": {
+     "m": "Ancha"
+    }
+   }
+  },
+  {
+   "id": "a142",
+   "word": "한결같이",
+   "pron": "hangyeolgati",
+   "tr": {
+    "uz": {
+     "m": "Xammasi birdek"
+    }
+   }
+  },
+  {
+   "id": "a143",
+   "word": "한껏",
+   "pron": "hankkeot",
+   "tr": {
+    "uz": {
+     "m": "Xoxlagancha"
+    }
+   }
+  },
+  {
+   "id": "a144",
+   "word": "한사코",
+   "pron": "hansako",
+   "tr": {
+    "uz": {
+     "m": "Nima qilib boʻlsa ham"
+    }
+   }
+  },
+  {
+   "id": "a145",
+   "word": "한창",
+   "pron": "hanchang",
+   "tr": {
+    "uz": {
+     "m": "Ayni paytda"
+    }
+   }
+  },
+  {
+   "id": "a146",
+   "word": "행여",
+   "pron": "haengyeo",
+   "tr": {
+    "uz": {
+     "m": "Balki"
+    }
+   }
+  },
+  {
+   "id": "a147",
+   "word": "형편없이",
+   "pron": "hyeongpyeoneopsi",
+   "tr": {
+    "uz": {
+     "m": "Chidab boʻlmaydigon"
+    }
+   }
+  },
+  {
+   "id": "a148",
+   "word": "혹시",
+   "pron": "hoksi",
+   "tr": {
+    "uz": {
+     "m": "Mobodo"
+    }
+   }
+  },
+  {
+   "id": "a149",
+   "word": "확연히",
+   "pron": "hwagyeonhi",
+   "tr": {
+    "uz": {
+     "m": "Aniq, yaqqol"
+    }
+   }
+  },
+  {
+   "id": "a150",
+   "word": "힘껏",
+   "pron": "himkkeot",
+   "tr": {
+    "uz": {
+     "m": "Bor kuchi bilan"
+    }
+   }
+  }
+ ]
+}

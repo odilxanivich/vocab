@@ -1,0 +1,6012 @@
+{
+ "id": "ko-topik2-verbs",
+ "title": "TOPIK II · Verbs",
+ "learn": "ko",
+ "back": [
+  "uz"
+ ],
+ "version": 1,
+ "updated": "2026-11-21T17:54:45.253Z",
+ "items": [
+  {
+   "id": "v1",
+   "word": "가늠하다",
+   "pron": "ganeumhada",
+   "tr": {
+    "uz": {
+     "m": "Nishonga olmoq, taxmin"
+    }
+   }
+  },
+  {
+   "id": "v2",
+   "word": "가다듬다",
+   "pron": "gadadeumda",
+   "tr": {
+    "uz": {
+     "m": "Nafasini rostlab olmoq"
+    }
+   }
+  },
+  {
+   "id": "v3",
+   "word": "가두다",
+   "pron": "gaduda",
+   "tr": {
+    "uz": {
+     "m": "Qamamoq"
+    }
+   }
+  },
+  {
+   "id": "v4",
+   "word": "가려내다",
+   "pron": "garyeonaeda",
+   "tr": {
+    "uz": {
+     "m": "Tanlab olmoq, tortib olish"
+    }
+   }
+  },
+  {
+   "id": "v5",
+   "word": "가로지르다",
+   "pron": "garojireuda",
+   "tr": {
+    "uz": {
+     "m": "Kesib oʻtmoq"
+    }
+   }
+  },
+  {
+   "id": "v6",
+   "word": "가리다",
+   "pron": "garida",
+   "tr": {
+    "uz": {
+     "m": "Berkitmoq, tanlamoq"
+    }
+   }
+  },
+  {
+   "id": "v7",
+   "word": "가열하다",
+   "pron": "gayeolhada",
+   "tr": {
+    "uz": {
+     "m": "Qizitmoq, qizdirmoq"
+    }
+   }
+  },
+  {
+   "id": "v8",
+   "word": "각인되다",
+   "pron": "gagindoeda",
+   "tr": {
+    "uz": {
+     "m": "Iz qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v9",
+   "word": "간섭하다",
+   "pron": "ganseophada",
+   "tr": {
+    "uz": {
+     "m": "Aralashmoq"
+    }
+   }
+  },
+  {
+   "id": "v10",
+   "word": "간주하다",
+   "pron": "ganjuhada",
+   "tr": {
+    "uz": {
+     "m": "Deb hisoblamoq"
+    }
+   }
+  },
+  {
+   "id": "v11",
+   "word": "간파하다",
+   "pron": "ganpahada",
+   "tr": {
+    "uz": {
+     "m": "Bir qarashda sezmoq"
+    }
+   }
+  },
+  {
+   "id": "v12",
+   "word": "감당하다",
+   "pron": "gamdanghada",
+   "tr": {
+    "uz": {
+     "m": "Eplamoq"
+    }
+   }
+  },
+  {
+   "id": "v13",
+   "word": "감수하다",
+   "pron": "gamsuhada",
+   "tr": {
+    "uz": {
+     "m": "Qabul qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v14",
+   "word": "감시하다",
+   "pron": "gamsihada",
+   "tr": {
+    "uz": {
+     "m": "Kuzatmoq"
+    }
+   }
+  },
+  {
+   "id": "v15",
+   "word": "감안하다",
+   "pron": "gamanhada",
+   "tr": {
+    "uz": {
+     "m": "Hisobga olmoq"
+    }
+   }
+  },
+  {
+   "id": "v16",
+   "word": "감지하다",
+   "pron": "gamjihada",
+   "tr": {
+    "uz": {
+     "m": "Payqamoq, sezmoq"
+    }
+   }
+  },
+  {
+   "id": "v17",
+   "word": "감축하다",
+   "pron": "gamchukhada",
+   "tr": {
+    "uz": {
+     "m": "Kamaytirmoq, pasaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v18",
+   "word": "감행하다",
+   "pron": "gamhaenghada",
+   "tr": {
+    "uz": {
+     "m": "Boshlamoq, qoʻl urmoq"
+    }
+   }
+  },
+  {
+   "id": "v19",
+   "word": "강요하다",
+   "pron": "gangyohada",
+   "tr": {
+    "uz": {
+     "m": "Majbur qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v20",
+   "word": "강행하다",
+   "pron": "ganghaenghada",
+   "tr": {
+    "uz": {
+     "m": "Olgʻa bormoq"
+    }
+   }
+  },
+  {
+   "id": "v21",
+   "word": "개다",
+   "pron": "gaeda",
+   "tr": {
+    "uz": {
+     "m": "Tahlamoq"
+    }
+   }
+  },
+  {
+   "id": "v22",
+   "word": "개방되다",
+   "pron": "gaebangdoeda",
+   "tr": {
+    "uz": {
+     "m": "Ochilmoq"
+    }
+   }
+  },
+  {
+   "id": "v23",
+   "word": "개입하다",
+   "pron": "gaeiphada",
+   "tr": {
+    "uz": {
+     "m": "Aralashmoq, suqilmoq"
+    }
+   }
+  },
+  {
+   "id": "v24",
+   "word": "개혁하다",
+   "pron": "gaehyeokhada",
+   "tr": {
+    "uz": {
+     "m": "Yaxshilanmoq, suqilmoq"
+    }
+   }
+  },
+  {
+   "id": "v25",
+   "word": "갱신하다",
+   "pron": "gaengsinhada",
+   "tr": {
+    "uz": {
+     "m": "Qayta tiklamoq"
+    }
+   }
+  },
+  {
+   "id": "v26",
+   "word": "거두다",
+   "pron": "geoduda",
+   "tr": {
+    "uz": {
+     "m": "Oʻzini tutmoq, eplamoq"
+    }
+   }
+  },
+  {
+   "id": "v27",
+   "word": "거들다",
+   "pron": "geodeulda",
+   "tr": {
+    "uz": {
+     "m": "Yordam qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v28",
+   "word": "거르다",
+   "pron": "georeuda",
+   "tr": {
+    "uz": {
+     "m": "Qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v29",
+   "word": "거머쥐다",
+   "pron": "geomeojwida",
+   "tr": {
+    "uz": {
+     "m": "Ushlamoq"
+    }
+   }
+  },
+  {
+   "id": "v30",
+   "word": "거스르다",
+   "pron": "geoseureuda",
+   "tr": {
+    "uz": {
+     "m": "-ga qarshi bormoq"
+    }
+   }
+  },
+  {
+   "id": "v31",
+   "word": "거치다",
+   "pron": "geochida",
+   "tr": {
+    "uz": {
+     "m": "-dan oʻtmoq"
+    }
+   }
+  },
+  {
+   "id": "v32",
+   "word": "건지다",
+   "pron": "geonjida",
+   "tr": {
+    "uz": {
+     "m": "Qutqarmoq, saqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v33",
+   "word": "검증하다",
+   "pron": "geomjeunghada",
+   "tr": {
+    "uz": {
+     "m": "Tekshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v34",
+   "word": "격리되다",
+   "pron": "gyeongnidoeda",
+   "tr": {
+    "uz": {
+     "m": "Yakkalab qoʻymoq"
+    }
+   }
+  },
+  {
+   "id": "v35",
+   "word": "견주다",
+   "pron": "gyeonjuda",
+   "tr": {
+    "uz": {
+     "m": "Taqqoslamoq"
+    }
+   }
+  },
+  {
+   "id": "v36",
+   "word": "결근하다",
+   "pron": "gyeolgeunhada",
+   "tr": {
+    "uz": {
+     "m": "Ishga chiqmaslik"
+    }
+   }
+  },
+  {
+   "id": "v37",
+   "word": "겸비하다",
+   "pron": "gyeombihada",
+   "tr": {
+    "uz": {
+     "m": "-bilan birlashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v38",
+   "word": "겸하다",
+   "pron": "gyeomhada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻshib qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v39",
+   "word": "계발하다",
+   "pron": "gyebalhada",
+   "tr": {
+    "uz": {
+     "m": "Rivojlantirmoq"
+    }
+   }
+  },
+  {
+   "id": "v40",
+   "word": "고갈되다",
+   "pron": "gogaldoeda",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v41",
+   "word": "고발하다",
+   "pron": "gobalhada",
+   "tr": {
+    "uz": {
+     "m": "Ayblamoq"
+    }
+   }
+  },
+  {
+   "id": "v42",
+   "word": "고사하다",
+   "pron": "gosahada",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy koʻnmaslik"
+    }
+   }
+  },
+  {
+   "id": "v43",
+   "word": "고정하다",
+   "pron": "gojeonghada",
+   "tr": {
+    "uz": {
+     "m": "Mustahkamlash"
+    }
+   }
+  },
+  {
+   "id": "v44",
+   "word": "고조되다",
+   "pron": "gojodoeda",
+   "tr": {
+    "uz": {
+     "m": "Oʻsmoq, kuchaymoq"
+    }
+   }
+  },
+  {
+   "id": "v45",
+   "word": "공감하다",
+   "pron": "gonggamhada",
+   "tr": {
+    "uz": {
+     "m": "Hamdard boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v46",
+   "word": "공유하다",
+   "pron": "gongyuhada",
+   "tr": {
+    "uz": {
+     "m": "Boʻlishmoq"
+    }
+   }
+  },
+  {
+   "id": "v47",
+   "word": "관여하다",
+   "pron": "gwanyeohada",
+   "tr": {
+    "uz": {
+     "m": "Jalb etmoq"
+    }
+   }
+  },
+  {
+   "id": "v48",
+   "word": "관장하다",
+   "pron": "gwanjanghada",
+   "tr": {
+    "uz": {
+     "m": "Boshqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v49",
+   "word": "관측되다",
+   "pron": "gwancheukdoeda",
+   "tr": {
+    "uz": {
+     "m": "Kuzatilmoq, kuzatmoq"
+    }
+   }
+  },
+  {
+   "id": "v50",
+   "word": "교차하다",
+   "pron": "gyochahada",
+   "tr": {
+    "uz": {
+     "m": "Yoʻl kesishmoq"
+    }
+   }
+  },
+  {
+   "id": "v51",
+   "word": "교체되다",
+   "pron": "gyochedoeda",
+   "tr": {
+    "uz": {
+     "m": "Almashtirilmoq, oʻrniga"
+    }
+   }
+  },
+  {
+   "id": "v52",
+   "word": "구비하다",
+   "pron": "gubihada",
+   "tr": {
+    "uz": {
+     "m": "Tayyorlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v53",
+   "word": "구사하다",
+   "pron": "gusahada",
+   "tr": {
+    "uz": {
+     "m": "Bemalol gapirmoq"
+    }
+   }
+  },
+  {
+   "id": "v54",
+   "word": "구현하다",
+   "pron": "guhyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Amalga oshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v55",
+   "word": "국한되다",
+   "pron": "gukhandoeda",
+   "tr": {
+    "uz": {
+     "m": "Chegaralanmoq"
+    }
+   }
+  },
+  {
+   "id": "v56",
+   "word": "권장하다",
+   "pron": "gwonjanghada",
+   "tr": {
+    "uz": {
+     "m": "Tavsiya etmoq"
+    }
+   }
+  },
+  {
+   "id": "v57",
+   "word": "귀담아듣다",
+   "pron": "gwidamadeutda",
+   "tr": {
+    "uz": {
+     "m": "Quloq solmoq"
+    }
+   }
+  },
+  {
+   "id": "v58",
+   "word": "귀속하다",
+   "pron": "gwisokhada",
+   "tr": {
+    "uz": {
+     "m": "Egasiga qaytarmoq"
+    }
+   }
+  },
+  {
+   "id": "v59",
+   "word": "규제하다",
+   "pron": "gyujehada",
+   "tr": {
+    "uz": {
+     "m": "Nazorat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v60",
+   "word": "극대화하다",
+   "pron": "geukdaehwahada",
+   "tr": {
+    "uz": {
+     "m": "Maksimallashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v61",
+   "word": "급등하다",
+   "pron": "geupdeunghada",
+   "tr": {
+    "uz": {
+     "m": "Birdaniga koʻtarilmoq"
+    }
+   }
+  },
+  {
+   "id": "v62",
+   "word": "급락하다",
+   "pron": "geumnakhada",
+   "tr": {
+    "uz": {
+     "m": "Birdaniga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v63",
+   "word": "급변하다",
+   "pron": "geupbyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Tezlik b, n oʻzgarmoq"
+    }
+   }
+  },
+  {
+   "id": "v64",
+   "word": "급증하다",
+   "pron": "geupjeunghada",
+   "tr": {
+    "uz": {
+     "m": "Birdan tez koʻpaymoq"
+    }
+   }
+  },
+  {
+   "id": "v65",
+   "word": "기권하다",
+   "pron": "gigwonhada",
+   "tr": {
+    "uz": {
+     "m": "Voz kechmoq"
+    }
+   }
+  },
+  {
+   "id": "v66",
+   "word": "기어가다",
+   "pron": "gieogada",
+   "tr": {
+    "uz": {
+     "m": "Oʻrmalamoq, imillab borish"
+    }
+   }
+  },
+  {
+   "id": "v67",
+   "word": "기여하다",
+   "pron": "giyeohada",
+   "tr": {
+    "uz": {
+     "m": "Hissa qoʻshmoq"
+    }
+   }
+  },
+  {
+   "id": "v68",
+   "word": "기울다",
+   "pron": "giulda",
+   "tr": {
+    "uz": {
+     "m": "Egilmoq"
+    }
+   }
+  },
+  {
+   "id": "v69",
+   "word": "기인하다",
+   "pron": "giinhada",
+   "tr": {
+    "uz": {
+     "m": "Natijasi boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v70",
+   "word": "기탁하다",
+   "pron": "gitakhada",
+   "tr": {
+    "uz": {
+     "m": "Topshirmoq, bermoq"
+    }
+   }
+  },
+  {
+   "id": "v71",
+   "word": "기피하다",
+   "pron": "gipihada",
+   "tr": {
+    "uz": {
+     "m": "Oʻzini olib qochmoq"
+    }
+   }
+  },
+  {
+   "id": "v72",
+   "word": "꺼리다",
+   "pron": "kkeorida",
+   "tr": {
+    "uz": {
+     "m": "Tortinmoq, uyatmoq"
+    }
+   }
+  },
+  {
+   "id": "v73",
+   "word": "꼽다",
+   "pron": "kkopda",
+   "tr": {
+    "uz": {
+     "m": "Koʻrsatmoq, nishonga olish"
+    }
+   }
+  },
+  {
+   "id": "v74",
+   "word": "꾸리다",
+   "pron": "kkurida",
+   "tr": {
+    "uz": {
+     "m": "Yegʻmoq, paketga solish"
+    }
+   }
+  },
+  {
+   "id": "v75",
+   "word": "꾸물대다",
+   "pron": "kkumuldaeda",
+   "tr": {
+    "uz": {
+     "m": "Imillamoq"
+    }
+   }
+  },
+  {
+   "id": "v76",
+   "word": "꿈틀대다",
+   "pron": "kkumteuldaeda",
+   "tr": {
+    "uz": {
+     "m": "Qimirlamoq"
+    }
+   }
+  },
+  {
+   "id": "v77",
+   "word": "끼얹다",
+   "pron": "kkieonda",
+   "tr": {
+    "uz": {
+     "m": "Quymoq, toʻkmoq, sepmoq"
+    }
+   }
+  },
+  {
+   "id": "v78",
+   "word": "나무라다",
+   "pron": "namurada",
+   "tr": {
+    "uz": {
+     "m": "Soʻkmoq, urushmoq"
+    }
+   }
+  },
+  {
+   "id": "v79",
+   "word": "낙제하다",
+   "pron": "nakjehada",
+   "tr": {
+    "uz": {
+     "m": "Sinfda qolish, yeqilish"
+    }
+   }
+  },
+  {
+   "id": "v80",
+   "word": "낙후되다",
+   "pron": "nakhudoeda",
+   "tr": {
+    "uz": {
+     "m": "Orqada qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v81",
+   "word": "날뛰다",
+   "pron": "nalttwida",
+   "tr": {
+    "uz": {
+     "m": "Irgʻimoq"
+    }
+   }
+  },
+  {
+   "id": "v82",
+   "word": "날리다",
+   "pron": "nallida",
+   "tr": {
+    "uz": {
+     "m": "Uchirmoq"
+    }
+   }
+  },
+  {
+   "id": "v83",
+   "word": "남발하다",
+   "pron": "nambalhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻp foydalanmoq"
+    }
+   }
+  },
+  {
+   "id": "v84",
+   "word": "남용하다",
+   "pron": "namyonghada",
+   "tr": {
+    "uz": {
+     "m": "Notoʻgʻri foydalanmoq"
+    }
+   }
+  },
+  {
+   "id": "v85",
+   "word": "납득하다",
+   "pron": "napdeukhada",
+   "tr": {
+    "uz": {
+     "m": "Tushunmoq, anglamoq"
+    }
+   }
+  },
+  {
+   "id": "v86",
+   "word": "납입하다",
+   "pron": "nabiphada",
+   "tr": {
+    "uz": {
+     "m": "Toʻlamoq"
+    }
+   }
+  },
+  {
+   "id": "v87",
+   "word": "내다보다",
+   "pron": "naedaboda",
+   "tr": {
+    "uz": {
+     "m": "Ichkaridan qaramoq"
+    }
+   }
+  },
+  {
+   "id": "v88",
+   "word": "내몰다",
+   "pron": "naemolda",
+   "tr": {
+    "uz": {
+     "m": "Haydamoq"
+    }
+   }
+  },
+  {
+   "id": "v89",
+   "word": "내뱉다",
+   "pron": "naebaetda",
+   "tr": {
+    "uz": {
+     "m": "Oldi-orqasiga qaramay gapirish"
+    }
+   }
+  },
+  {
+   "id": "v90",
+   "word": "내뿜다",
+   "pron": "naeppumda",
+   "tr": {
+    "uz": {
+     "m": "Tashqariga chiqarmoq, chiqish"
+    }
+   }
+  },
+  {
+   "id": "v91",
+   "word": "내세우다",
+   "pron": "naeseuda",
+   "tr": {
+    "uz": {
+     "m": "Chiqarib qoʻymoq"
+    }
+   }
+  },
+  {
+   "id": "v92",
+   "word": "넘겨다보다",
+   "pron": "neomgyeodaboda",
+   "tr": {
+    "uz": {
+     "m": "Xavas qilmoq, tamagirlik"
+    }
+   }
+  },
+  {
+   "id": "v93",
+   "word": "넘나들다",
+   "pron": "neomnadeulda",
+   "tr": {
+    "uz": {
+     "m": "U yoqdan buyoqqa oʻtmoq"
+    }
+   }
+  },
+  {
+   "id": "v94",
+   "word": "누리다",
+   "pron": "nurida",
+   "tr": {
+    "uz": {
+     "m": "Huzurlanmoq, zavqlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v95",
+   "word": "눈여겨보다",
+   "pron": "nunyeogyeoboda",
+   "tr": {
+    "uz": {
+     "m": "Kimgadir tikilib qaramoq"
+    }
+   }
+  },
+  {
+   "id": "v96",
+   "word": "뉘우치다",
+   "pron": "nwiuchida",
+   "tr": {
+    "uz": {
+     "m": "Pushaymon boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v97",
+   "word": "다그치다",
+   "pron": "dageuchida",
+   "tr": {
+    "uz": {
+     "m": "Undamoq"
+    }
+   }
+  },
+  {
+   "id": "v98",
+   "word": "다다르다",
+   "pron": "dadareuda",
+   "tr": {
+    "uz": {
+     "m": "Yetib bormoq"
+    }
+   }
+  },
+  {
+   "id": "v99",
+   "word": "다물다",
+   "pron": "damulda",
+   "tr": {
+    "uz": {
+     "m": "Yummoq (ogʻzini)"
+    }
+   }
+  },
+  {
+   "id": "v100",
+   "word": "다스리다",
+   "pron": "daseurida",
+   "tr": {
+    "uz": {
+     "m": "Boshqarish, nazorat qilish"
+    }
+   }
+  },
+  {
+   "id": "v101",
+   "word": "닥치다",
+   "pron": "dakchida",
+   "tr": {
+    "uz": {
+     "m": "Yaqinlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v102",
+   "word": "단정하다",
+   "pron": "danjeonghada",
+   "tr": {
+    "uz": {
+     "m": "Bezamoq"
+    }
+   }
+  },
+  {
+   "id": "v103",
+   "word": "단절되다",
+   "pron": "danjeoldoeda",
+   "tr": {
+    "uz": {
+     "m": "Uzilmoq, buzilmoq"
+    }
+   }
+  },
+  {
+   "id": "v104",
+   "word": "단축되다",
+   "pron": "danchukdoeda",
+   "tr": {
+    "uz": {
+     "m": "Qisqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v105",
+   "word": "달구다",
+   "pron": "dalguda",
+   "tr": {
+    "uz": {
+     "m": "Yumshatmoq, isitmoq"
+    }
+   }
+  },
+  {
+   "id": "v106",
+   "word": "달리하다",
+   "pron": "dallihada",
+   "tr": {
+    "uz": {
+     "m": "Boshqacha boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v107",
+   "word": "달성하다",
+   "pron": "dalseonghada",
+   "tr": {
+    "uz": {
+     "m": "Erishmoq, eplamoq"
+    }
+   }
+  },
+  {
+   "id": "v108",
+   "word": "달이다",
+   "pron": "darida",
+   "tr": {
+    "uz": {
+     "m": "Damlamoq"
+    }
+   }
+  },
+  {
+   "id": "v109",
+   "word": "달하다",
+   "pron": "dalhada",
+   "tr": {
+    "uz": {
+     "m": "Yetib bormoq"
+    }
+   }
+  },
+  {
+   "id": "v110",
+   "word": "대두되다",
+   "pron": "daedudoeda",
+   "tr": {
+    "uz": {
+     "m": "Oʻsmoq, oshmoq"
+    }
+   }
+  },
+  {
+   "id": "v111",
+   "word": "대비하다",
+   "pron": "daebihada",
+   "tr": {
+    "uz": {
+     "m": "Tayyorlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v112",
+   "word": "대응되다",
+   "pron": "daeeungdoeda",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri kelmoq, mos kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v113",
+   "word": "대처하다",
+   "pron": "daecheohada",
+   "tr": {
+    "uz": {
+     "m": "Mos kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v114",
+   "word": "대체하다",
+   "pron": "daechehada",
+   "tr": {
+    "uz": {
+     "m": "Oʻrnini bosmoq"
+    }
+   }
+  },
+  {
+   "id": "v115",
+   "word": "대치하다",
+   "pron": "daechihada",
+   "tr": {
+    "uz": {
+     "m": "Toʻqnashmoq"
+    }
+   }
+  },
+  {
+   "id": "v116",
+   "word": "더듬다",
+   "pron": "deodeumda",
+   "tr": {
+    "uz": {
+     "m": "Paypaslamoq"
+    }
+   }
+  },
+  {
+   "id": "v117",
+   "word": "덜렁대다",
+   "pron": "deolleongdaeda",
+   "tr": {
+    "uz": {
+     "m": "Eʼtiborsizlik qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v118",
+   "word": "도달하다",
+   "pron": "dodalhada",
+   "tr": {
+    "uz": {
+     "m": "Yetib bormoq"
+    }
+   }
+  },
+  {
+   "id": "v119",
+   "word": "도래하다",
+   "pron": "doraehada",
+   "tr": {
+    "uz": {
+     "m": "Kelmoq, yetib kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v120",
+   "word": "도모하다",
+   "pron": "domohada",
+   "tr": {
+    "uz": {
+     "m": "Rejalashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v121",
+   "word": "도배하다",
+   "pron": "dobaehada",
+   "tr": {
+    "uz": {
+     "m": "Gulqogʻoz yopishtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v122",
+   "word": "도용하다",
+   "pron": "doyonghada",
+   "tr": {
+    "uz": {
+     "m": "Oʻzlashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v123",
+   "word": "도태되다",
+   "pron": "dotaedoeda",
+   "tr": {
+    "uz": {
+     "m": "Orqaga yeqilmoq"
+    }
+   }
+  },
+  {
+   "id": "v124",
+   "word": "독차지하다",
+   "pron": "dokchajihada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻlga kiritish, eʼtibor qozon"
+    }
+   }
+  },
+  {
+   "id": "v125",
+   "word": "돋보이다",
+   "pron": "dotboida",
+   "tr": {
+    "uz": {
+     "m": "Koʻzga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v126",
+   "word": "돌이키다",
+   "pron": "dorikida",
+   "tr": {
+    "uz": {
+     "m": "Oʻtmishga nazar solmoq"
+    }
+   }
+  },
+  {
+   "id": "v127",
+   "word": "동감하다",
+   "pron": "donggamhada",
+   "tr": {
+    "uz": {
+     "m": "Maqullamoq"
+    }
+   }
+  },
+  {
+   "id": "v128",
+   "word": "동원하다",
+   "pron": "dongwonhada",
+   "tr": {
+    "uz": {
+     "m": "Safarbar qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v129",
+   "word": "동정하다",
+   "pron": "dongjeonghada",
+   "tr": {
+    "uz": {
+     "m": "Holidan anglamoq"
+    }
+   }
+  },
+  {
+   "id": "v130",
+   "word": "동참하다",
+   "pron": "dongchamhada",
+   "tr": {
+    "uz": {
+     "m": "Qatnashmoq"
+    }
+   }
+  },
+  {
+   "id": "v131",
+   "word": "되새기다",
+   "pron": "doesaegida",
+   "tr": {
+    "uz": {
+     "m": "Obdan oʻylamoq"
+    }
+   }
+  },
+  {
+   "id": "v132",
+   "word": "되짚다",
+   "pron": "doejipda",
+   "tr": {
+    "uz": {
+     "m": "Nazar solmoq"
+    }
+   }
+  },
+  {
+   "id": "v133",
+   "word": "두드러지다",
+   "pron": "dudeureojida",
+   "tr": {
+    "uz": {
+     "m": "Koʻzg tashlanmoq, fosh boʻl"
+    }
+   }
+  },
+  {
+   "id": "v134",
+   "word": "둘러싸다",
+   "pron": "dulleossada",
+   "tr": {
+    "uz": {
+     "m": "Qurshab (oʻrab)olmoq"
+    }
+   }
+  },
+  {
+   "id": "v135",
+   "word": "뒤덮이다",
+   "pron": "dwideopida",
+   "tr": {
+    "uz": {
+     "m": "Qoplanmoq"
+    }
+   }
+  },
+  {
+   "id": "v136",
+   "word": "뒤엉키다",
+   "pron": "dwieongkida",
+   "tr": {
+    "uz": {
+     "m": "Chalkashmoq"
+    }
+   }
+  },
+  {
+   "id": "v137",
+   "word": "뒤지다",
+   "pron": "dwijida",
+   "tr": {
+    "uz": {
+     "m": "Titmoq, kovlashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v138",
+   "word": "뒤척이다",
+   "pron": "dwicheogida",
+   "tr": {
+    "uz": {
+     "m": "Toʻlgʻanmoq"
+    }
+   }
+  },
+  {
+   "id": "v139",
+   "word": "드나들다",
+   "pron": "deunadeulda",
+   "tr": {
+    "uz": {
+     "m": "Tez-tez borib kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v140",
+   "word": "드러나다",
+   "pron": "deureonada",
+   "tr": {
+    "uz": {
+     "m": "Oshkor boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v141",
+   "word": "들뜨다",
+   "pron": "deultteuda",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v142",
+   "word": "들썩거리다",
+   "pron": "deulsseokgeorida",
+   "tr": {
+    "uz": {
+     "m": "Bezovtalik, oʻrnashmaslik"
+    }
+   }
+  },
+  {
+   "id": "v143",
+   "word": "들이닥치다",
+   "pron": "deuridakchida",
+   "tr": {
+    "uz": {
+     "m": "Ketib qolish, yaqinlashib kelish"
+    }
+   }
+  },
+  {
+   "id": "v144",
+   "word": "들이마시다",
+   "pron": "deurimasida",
+   "tr": {
+    "uz": {
+     "m": "Ichmoq, nafas olmoq"
+    }
+   }
+  },
+  {
+   "id": "v145",
+   "word": "들키다",
+   "pron": "deulkida",
+   "tr": {
+    "uz": {
+     "m": "Ochilmoq (sir, yolgʻon)"
+    }
+   }
+  },
+  {
+   "id": "v146",
+   "word": "등장하다",
+   "pron": "deungjanghada",
+   "tr": {
+    "uz": {
+     "m": "Saxnaga chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v147",
+   "word": "등재하다",
+   "pron": "deungjaehada",
+   "tr": {
+    "uz": {
+     "m": "Roʻyhatga kiritmoq"
+    }
+   }
+  },
+  {
+   "id": "v148",
+   "word": "따돌리다",
+   "pron": "ttadollida",
+   "tr": {
+    "uz": {
+     "m": "Adashtirmoq, chalgʻitmoq"
+    }
+   }
+  },
+  {
+   "id": "v149",
+   "word": "따지다",
+   "pron": "ttajida",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri-notoʻgʻrisini tekshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v150",
+   "word": "떨치다",
+   "pron": "tteolchida",
+   "tr": {
+    "uz": {
+     "m": "Tarqatmoq, yoʻqotmoq, silkitish"
+    }
+   }
+  },
+  {
+   "id": "v151",
+   "word": "떼다",
+   "pron": "tteda",
+   "tr": {
+    "uz": {
+     "m": "Uzib olmoq"
+    }
+   }
+  },
+  {
+   "id": "v152",
+   "word": "뚫다",
+   "pron": "ttulta",
+   "tr": {
+    "uz": {
+     "m": "Teshmoq, yormoq"
+    }
+   }
+  },
+  {
+   "id": "v153",
+   "word": "뛰어넘다",
+   "pron": "ttwieoneomda",
+   "tr": {
+    "uz": {
+     "m": "Sakrab oʻtmoq"
+    }
+   }
+  },
+  {
+   "id": "v154",
+   "word": "뜸해지다",
+   "pron": "tteumhaejida",
+   "tr": {
+    "uz": {
+     "m": "Aloqa uzilmoq"
+    }
+   }
+  },
+  {
+   "id": "v155",
+   "word": "띄다",
+   "pron": "ttuida",
+   "tr": {
+    "uz": {
+     "m": "Koʻzga tashlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v156",
+   "word": "마다하다",
+   "pron": "madahada",
+   "tr": {
+    "uz": {
+     "m": "Rad qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v157",
+   "word": "마비되다",
+   "pron": "mabidoeda",
+   "tr": {
+    "uz": {
+     "m": "Shol boʻlib qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v158",
+   "word": "만끽하다",
+   "pron": "mankkikhada",
+   "tr": {
+    "uz": {
+     "m": "Judayam zavqlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v159",
+   "word": "말미암다",
+   "pron": "malmiamda",
+   "tr": {
+    "uz": {
+     "m": "-ga koʻra, samarasi oʻlaroq"
+    }
+   }
+  },
+  {
+   "id": "v160",
+   "word": "맞먹다",
+   "pron": "manmeokda",
+   "tr": {
+    "uz": {
+     "m": "Birga yemoq"
+    }
+   }
+  },
+  {
+   "id": "v161",
+   "word": "맞서다",
+   "pron": "matseoda",
+   "tr": {
+    "uz": {
+     "m": "Qarshi (yuzma-yuz)turmoq"
+    }
+   }
+  },
+  {
+   "id": "v162",
+   "word": "매기다",
+   "pron": "maegida",
+   "tr": {
+    "uz": {
+     "m": "Baholamoq"
+    }
+   }
+  },
+  {
+   "id": "v163",
+   "word": "매달리다",
+   "pron": "maedallida",
+   "tr": {
+    "uz": {
+     "m": "Bogʻlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v164",
+   "word": "매도하다",
+   "pron": "maedohada",
+   "tr": {
+    "uz": {
+     "m": "Sotmoq"
+    }
+   }
+  },
+  {
+   "id": "v165",
+   "word": "매료되다",
+   "pron": "maeryodoeda",
+   "tr": {
+    "uz": {
+     "m": "Sehirlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v166",
+   "word": "맺히다",
+   "pron": "maethida",
+   "tr": {
+    "uz": {
+     "m": "Tugilmoq"
+    }
+   }
+  },
+  {
+   "id": "v167",
+   "word": "머물다",
+   "pron": "meomulda",
+   "tr": {
+    "uz": {
+     "m": "Qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v168",
+   "word": "머뭇거리다",
+   "pron": "meomutgeorida",
+   "tr": {
+    "uz": {
+     "m": "Ikkilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v169",
+   "word": "면제하다",
+   "pron": "myeonjehada",
+   "tr": {
+    "uz": {
+     "m": "Halos etmoq, ozod qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v170",
+   "word": "면하다",
+   "pron": "myeonhada",
+   "tr": {
+    "uz": {
+     "m": "Qutilmoq"
+    }
+   }
+  },
+  {
+   "id": "v171",
+   "word": "멸망하다",
+   "pron": "myeolmanghada",
+   "tr": {
+    "uz": {
+     "m": "Barbod boʻlmoq, buzilmoq"
+    }
+   }
+  },
+  {
+   "id": "v172",
+   "word": "명심하다",
+   "pron": "myeongsimhada",
+   "tr": {
+    "uz": {
+     "m": "Ichida saqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v173",
+   "word": "모방하다",
+   "pron": "mobanghada",
+   "tr": {
+    "uz": {
+     "m": "Taqlid qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v174",
+   "word": "모색하다",
+   "pron": "mosaekhada",
+   "tr": {
+    "uz": {
+     "m": "Qidirmoq"
+    }
+   }
+  },
+  {
+   "id": "v175",
+   "word": "몰두하다",
+   "pron": "molduhada",
+   "tr": {
+    "uz": {
+     "m": "Shoʻngʻib ketmoq"
+    }
+   }
+  },
+  {
+   "id": "v176",
+   "word": "몰리다",
+   "pron": "mollida",
+   "tr": {
+    "uz": {
+     "m": "Ayblanmoq, toʻplanmoq"
+    }
+   }
+  },
+  {
+   "id": "v177",
+   "word": "몰아붙이다",
+   "pron": "morabutida",
+   "tr": {
+    "uz": {
+     "m": "Burchakka qisib qoʻymoq"
+    }
+   }
+  },
+  {
+   "id": "v178",
+   "word": "몰입하다",
+   "pron": "moriphada",
+   "tr": {
+    "uz": {
+     "m": "Berilib ketmoq"
+    }
+   }
+  },
+  {
+   "id": "v179",
+   "word": "묘사되다",
+   "pron": "myosadoeda",
+   "tr": {
+    "uz": {
+     "m": "Tasvirlanmoq, ifodalanmoq"
+    }
+   }
+  },
+  {
+   "id": "v180",
+   "word": "무르다",
+   "pron": "mureuda",
+   "tr": {
+    "uz": {
+     "m": "Qaytmoq, qaytarmoq"
+    }
+   }
+  },
+  {
+   "id": "v181",
+   "word": "무르익다",
+   "pron": "mureuikda",
+   "tr": {
+    "uz": {
+     "m": "Pishmoq, yetilmoq"
+    }
+   }
+  },
+  {
+   "id": "v182",
+   "word": "무산되다",
+   "pron": "musandoeda",
+   "tr": {
+    "uz": {
+     "m": "Bekor qilinmoq, tarqalmoq"
+    }
+   }
+  },
+  {
+   "id": "v183",
+   "word": "무시되다",
+   "pron": "musidoeda",
+   "tr": {
+    "uz": {
+     "m": "Eʼtibor bermaslik"
+    }
+   }
+  },
+  {
+   "id": "v184",
+   "word": "묵살하다",
+   "pron": "muksalhada",
+   "tr": {
+    "uz": {
+     "m": "Eʼtiborsiz qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v185",
+   "word": "묵히다",
+   "pron": "mukhida",
+   "tr": {
+    "uz": {
+     "m": "Qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v186",
+   "word": "문지르다",
+   "pron": "munjireuda",
+   "tr": {
+    "uz": {
+     "m": "Silamoq, surtmoq"
+    }
+   }
+  },
+  {
+   "id": "v187",
+   "word": "물러나다",
+   "pron": "mulleonada",
+   "tr": {
+    "uz": {
+     "m": "Bir qadam ortga tashlash"
+    }
+   }
+  },
+  {
+   "id": "v188",
+   "word": "물려주다",
+   "pron": "mullyeojuda",
+   "tr": {
+    "uz": {
+     "m": "Meros qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v189",
+   "word": "물리치다",
+   "pron": "mullichida",
+   "tr": {
+    "uz": {
+     "m": "Yengmoq"
+    }
+   }
+  },
+  {
+   "id": "v190",
+   "word": "뭉치다",
+   "pron": "mungchida",
+   "tr": {
+    "uz": {
+     "m": "Birlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v191",
+   "word": "미화되다",
+   "pron": "mihwadoeda",
+   "tr": {
+    "uz": {
+     "m": "Jalb qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v192",
+   "word": "밀려나다",
+   "pron": "millyeonada",
+   "tr": {
+    "uz": {
+     "m": "Tushmoq, surib chiqarilish"
+    }
+   }
+  },
+  {
+   "id": "v193",
+   "word": "밀어붙이다",
+   "pron": "mireobutida",
+   "tr": {
+    "uz": {
+     "m": "Surib qoʻymoq"
+    }
+   }
+  },
+  {
+   "id": "v194",
+   "word": "밀어주다",
+   "pron": "mireojuda",
+   "tr": {
+    "uz": {
+     "m": "Quvvatlamoq"
+    }
+   }
+  },
+  {
+   "id": "v195",
+   "word": "바로잡다",
+   "pron": "barojapda",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri turmoq, tuzatmoq"
+    }
+   }
+  },
+  {
+   "id": "v196",
+   "word": "박탈하다",
+   "pron": "baktalhada",
+   "tr": {
+    "uz": {
+     "m": "Tortib olmoq"
+    }
+   }
+  },
+  {
+   "id": "v197",
+   "word": "반박하다",
+   "pron": "banbakhada",
+   "tr": {
+    "uz": {
+     "m": "Rad qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v198",
+   "word": "반영하다",
+   "pron": "banyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Aks etmoq"
+    }
+   }
+  },
+  {
+   "id": "v199",
+   "word": "반항하다",
+   "pron": "banhanghada",
+   "tr": {
+    "uz": {
+     "m": "Qarshilik qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v200",
+   "word": "반환하다",
+   "pron": "banhwanhada",
+   "tr": {
+    "uz": {
+     "m": "Qaytarmoq"
+    }
+   }
+  },
+  {
+   "id": "v201",
+   "word": "발간하다",
+   "pron": "balganhada",
+   "tr": {
+    "uz": {
+     "m": "Nashr qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v202",
+   "word": "발굴하다",
+   "pron": "balgulhada",
+   "tr": {
+    "uz": {
+     "m": "Kovlamoq"
+    }
+   }
+  },
+  {
+   "id": "v203",
+   "word": "발효시키다",
+   "pron": "balhyosikida",
+   "tr": {
+    "uz": {
+     "m": "Bijitmoq"
+    }
+   }
+  },
+  {
+   "id": "v204",
+   "word": "발휘하다",
+   "pron": "balhwihada",
+   "tr": {
+    "uz": {
+     "m": "Namoyish qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v205",
+   "word": "방지하다",
+   "pron": "bangjihada",
+   "tr": {
+    "uz": {
+     "m": "Oldini olmoq"
+    }
+   }
+  },
+  {
+   "id": "v206",
+   "word": "방출하다",
+   "pron": "bangchulhada",
+   "tr": {
+    "uz": {
+     "m": "Taqdim etmoq"
+    }
+   }
+  },
+  {
+   "id": "v207",
+   "word": "방치하다",
+   "pron": "bangchihada",
+   "tr": {
+    "uz": {
+     "m": "Shundogʻicha tashlamoq"
+    }
+   }
+  },
+  {
+   "id": "v208",
+   "word": "배다",
+   "pron": "baeda",
+   "tr": {
+    "uz": {
+     "m": "Oʻtib qolmoq, shimib olish"
+    }
+   }
+  },
+  {
+   "id": "v209",
+   "word": "배분하다",
+   "pron": "baebunhada",
+   "tr": {
+    "uz": {
+     "m": "Taqsimlab bermoq"
+    }
+   }
+  },
+  {
+   "id": "v210",
+   "word": "배설하다",
+   "pron": "baeseolhada",
+   "tr": {
+    "uz": {
+     "m": "Najasni tanadan chiqarish"
+    }
+   }
+  },
+  {
+   "id": "v211",
+   "word": "배정되다",
+   "pron": "baejeongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Tayinlanmoq, taqdim etish"
+    }
+   }
+  },
+  {
+   "id": "v212",
+   "word": "배제하다",
+   "pron": "baejehada",
+   "tr": {
+    "uz": {
+     "m": "-ga yoʻl qoʻymaslik"
+    }
+   }
+  },
+  {
+   "id": "v213",
+   "word": "배척하다",
+   "pron": "baecheokhada",
+   "tr": {
+    "uz": {
+     "m": "Chiqarib tashlamoq"
+    }
+   }
+  },
+  {
+   "id": "v214",
+   "word": "배출하다",
+   "pron": "baechulhada",
+   "tr": {
+    "uz": {
+     "m": "Tarqatmoq, chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v215",
+   "word": "배치하다",
+   "pron": "baechihada",
+   "tr": {
+    "uz": {
+     "m": "Joylashtirmoq, oʻrnashtirish"
+    }
+   }
+  },
+  {
+   "id": "v216",
+   "word": "배회하다",
+   "pron": "baehoehada",
+   "tr": {
+    "uz": {
+     "m": "Oʻylanib yurmoq"
+    }
+   }
+  },
+  {
+   "id": "v217",
+   "word": "버티다",
+   "pron": "beotida",
+   "tr": {
+    "uz": {
+     "m": "Sabr qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v218",
+   "word": "번성하다",
+   "pron": "beonseonghada",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi rivojlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v219",
+   "word": "번식시키다",
+   "pron": "beonsiksikida",
+   "tr": {
+    "uz": {
+     "m": "Koʻpaymoq"
+    }
+   }
+  },
+  {
+   "id": "v220",
+   "word": "번창하다",
+   "pron": "beonchanghada",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi rivojlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v221",
+   "word": "벌이다",
+   "pron": "beorida",
+   "tr": {
+    "uz": {
+     "m": "Boshlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v222",
+   "word": "병행하다",
+   "pron": "byeonghaenghada",
+   "tr": {
+    "uz": {
+     "m": "Yonma-yon ketmoq"
+    }
+   }
+  },
+  {
+   "id": "v223",
+   "word": "보강하다",
+   "pron": "boganghada",
+   "tr": {
+    "uz": {
+     "m": "Kuchaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v224",
+   "word": "보급되다",
+   "pron": "bogeupdoeda",
+   "tr": {
+    "uz": {
+     "m": "Tarqalmoq"
+    }
+   }
+  },
+  {
+   "id": "v225",
+   "word": "보류되다",
+   "pron": "boryudoeda",
+   "tr": {
+    "uz": {
+     "m": "Kechiktirilmoq"
+    }
+   }
+  },
+  {
+   "id": "v226",
+   "word": "보상하다",
+   "pron": "bosanghada",
+   "tr": {
+    "uz": {
+     "m": "Badalini toʻlamoq"
+    }
+   }
+  },
+  {
+   "id": "v227",
+   "word": "보완되다",
+   "pron": "bowandoeda",
+   "tr": {
+    "uz": {
+     "m": "Toʻldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v228",
+   "word": "보유하다",
+   "pron": "boyuhada",
+   "tr": {
+    "uz": {
+     "m": "Ega boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v229",
+   "word": "보존하다",
+   "pron": "bojonhada",
+   "tr": {
+    "uz": {
+     "m": "Muhofaza qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v230",
+   "word": "복구하다",
+   "pron": "bokguhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻz holatiga qaytarmoq"
+    }
+   }
+  },
+  {
+   "id": "v231",
+   "word": "복받치다",
+   "pron": "bokbatchida",
+   "tr": {
+    "uz": {
+     "m": "Taʼsirlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v232",
+   "word": "복수하다",
+   "pron": "boksuhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻch olmoq"
+    }
+   }
+  },
+  {
+   "id": "v233",
+   "word": "복원하다",
+   "pron": "bogwonhada",
+   "tr": {
+    "uz": {
+     "m": "Eski holiga qaytmoq"
+    }
+   }
+  },
+  {
+   "id": "v234",
+   "word": "복제하다",
+   "pron": "bokjehada",
+   "tr": {
+    "uz": {
+     "m": "Nusxalamoq"
+    }
+   }
+  },
+  {
+   "id": "v235",
+   "word": "부각되다",
+   "pron": "bugakdoeda",
+   "tr": {
+    "uz": {
+     "m": "Ajralib turmoq"
+    }
+   }
+  },
+  {
+   "id": "v236",
+   "word": "부담하다",
+   "pron": "budamhada",
+   "tr": {
+    "uz": {
+     "m": "Tashvishi boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v237",
+   "word": "부양하다",
+   "pron": "buyanghada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻllamoq, qaramoq"
+    }
+   }
+  },
+  {
+   "id": "v238",
+   "word": "부여하다",
+   "pron": "buyeohada",
+   "tr": {
+    "uz": {
+     "m": "Bermoq, topshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v239",
+   "word": "부응하다",
+   "pron": "bueunghada",
+   "tr": {
+    "uz": {
+     "m": "Qondirmoq, muvofiqlik"
+    }
+   }
+  },
+  {
+   "id": "v240",
+   "word": "부임하다",
+   "pron": "buimhada",
+   "tr": {
+    "uz": {
+     "m": "Yangi kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v241",
+   "word": "부정하다",
+   "pron": "bujeonghada",
+   "tr": {
+    "uz": {
+     "m": "Inkor qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v242",
+   "word": "부추기다",
+   "pron": "buchugida",
+   "tr": {
+    "uz": {
+     "m": "Jonlantirmoq"
+    }
+   }
+  },
+  {
+   "id": "v243",
+   "word": "부풀리다",
+   "pron": "bupullida",
+   "tr": {
+    "uz": {
+     "m": "Toʻlishmoq"
+    }
+   }
+  },
+  {
+   "id": "v244",
+   "word": "부합하다",
+   "pron": "buhaphada",
+   "tr": {
+    "uz": {
+     "m": "Mos kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v245",
+   "word": "북돋우다",
+   "pron": "bukdoduda",
+   "tr": {
+    "uz": {
+     "m": "Ragʻbatlantirmoq"
+    }
+   }
+  },
+  {
+   "id": "v246",
+   "word": "북적대다",
+   "pron": "bukjeokdaeda",
+   "tr": {
+    "uz": {
+     "m": "Tiqilinch boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v247",
+   "word": "분간하다",
+   "pron": "bunganhada",
+   "tr": {
+    "uz": {
+     "m": "Farqlamoq, ajratmoq"
+    }
+   }
+  },
+  {
+   "id": "v248",
+   "word": "분배하다",
+   "pron": "bunbaehada",
+   "tr": {
+    "uz": {
+     "m": "Taqsimlab bermoq"
+    }
+   }
+  },
+  {
+   "id": "v249",
+   "word": "분별하다",
+   "pron": "bunbyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Farqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v250",
+   "word": "분석하다",
+   "pron": "bunseokhada",
+   "tr": {
+    "uz": {
+     "m": "Taqsimlamoq"
+    }
+   }
+  },
+  {
+   "id": "v251",
+   "word": "분열되다",
+   "pron": "bunyeoldoeda",
+   "tr": {
+    "uz": {
+     "m": "Boʻlinmoq"
+    }
+   }
+  },
+  {
+   "id": "v252",
+   "word": "분포되다",
+   "pron": "bunpodoeda",
+   "tr": {
+    "uz": {
+     "m": "Yoyilmoq"
+    }
+   }
+  },
+  {
+   "id": "v253",
+   "word": "분화되다",
+   "pron": "bunhwadoeda",
+   "tr": {
+    "uz": {
+     "m": "Boʻlinmoq, ajratilmoq"
+    }
+   }
+  },
+  {
+   "id": "v254",
+   "word": "불신하다",
+   "pron": "bulsinhada",
+   "tr": {
+    "uz": {
+     "m": "Ishonmaslik"
+    }
+   }
+  },
+  {
+   "id": "v255",
+   "word": "불어나다",
+   "pron": "bureonada",
+   "tr": {
+    "uz": {
+     "m": "Toshmoq, oʻsmoq"
+    }
+   }
+  },
+  {
+   "id": "v256",
+   "word": "불허하다",
+   "pron": "bulheohada",
+   "tr": {
+    "uz": {
+     "m": "Taqiqlamoq, ruxsat yoʻq"
+    }
+   }
+  },
+  {
+   "id": "v257",
+   "word": "붐비다",
+   "pron": "bumbida",
+   "tr": {
+    "uz": {
+     "m": "Tiqilmoq"
+    }
+   }
+  },
+  {
+   "id": "v258",
+   "word": "붙다",
+   "pron": "butda",
+   "tr": {
+    "uz": {
+     "m": "Yopishmoq"
+    }
+   }
+  },
+  {
+   "id": "v259",
+   "word": "비기다",
+   "pron": "bigida",
+   "tr": {
+    "uz": {
+     "m": "Durrang boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v260",
+   "word": "비롯되다",
+   "pron": "birotdoeda",
+   "tr": {
+    "uz": {
+     "m": "-dan boshlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v261",
+   "word": "비우다",
+   "pron": "biuda",
+   "tr": {
+    "uz": {
+     "m": "Boʻshatmoq"
+    }
+   }
+  },
+  {
+   "id": "v262",
+   "word": "비유하다",
+   "pron": "biyuhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻxshatmoq"
+    }
+   }
+  },
+  {
+   "id": "v263",
+   "word": "비치되다",
+   "pron": "bichidoeda",
+   "tr": {
+    "uz": {
+     "m": "Jihozlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v264",
+   "word": "비평하다",
+   "pron": "bipyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Tanqid qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v265",
+   "word": "빗발치다",
+   "pron": "bitbalchida",
+   "tr": {
+    "uz": {
+     "m": "Yogʻilmoq (oʻqdek, yomgʻir)"
+    }
+   }
+  },
+  {
+   "id": "v266",
+   "word": "빠져들다",
+   "pron": "ppajyeodeulda",
+   "tr": {
+    "uz": {
+     "m": "Ichiga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v267",
+   "word": "빼내다",
+   "pron": "ppaenaeda",
+   "tr": {
+    "uz": {
+     "m": "Sugʻurib chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v268",
+   "word": "빼돌리다",
+   "pron": "ppaedollida",
+   "tr": {
+    "uz": {
+     "m": "Oʻgʻirlamoq"
+    }
+   }
+  },
+  {
+   "id": "v269",
+   "word": "뺨치다",
+   "pron": "ppyamchida",
+   "tr": {
+    "uz": {
+     "m": "-dek, kabi"
+    }
+   }
+  },
+  {
+   "id": "v270",
+   "word": "뻗다",
+   "pron": "ppeotda",
+   "tr": {
+    "uz": {
+     "m": "Choʻzmoq"
+    }
+   }
+  },
+  {
+   "id": "v271",
+   "word": "뽐내다",
+   "pron": "ppomnaeda",
+   "tr": {
+    "uz": {
+     "m": "Maqtanmoq, maqtamoq"
+    }
+   }
+  },
+  {
+   "id": "v272",
+   "word": "뿌리박다",
+   "pron": "ppuribakda",
+   "tr": {
+    "uz": {
+     "m": "Ildiz otmoq, chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v273",
+   "word": "뿌리치다",
+   "pron": "ppurichida",
+   "tr": {
+    "uz": {
+     "m": "Silkitmoq"
+    }
+   }
+  },
+  {
+   "id": "v274",
+   "word": "사로잡히다",
+   "pron": "sarojaphida",
+   "tr": {
+    "uz": {
+     "m": "Asir boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v275",
+   "word": "살피다",
+   "pron": "salpida",
+   "tr": {
+    "uz": {
+     "m": "Sinchiklamoq"
+    }
+   }
+  },
+  {
+   "id": "v276",
+   "word": "삼다",
+   "pron": "samda",
+   "tr": {
+    "uz": {
+     "m": "-kabi, deb qabul qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v277",
+   "word": "상기되다",
+   "pron": "sanggidoeda",
+   "tr": {
+    "uz": {
+     "m": "Yuziga qon yugurmoq"
+    }
+   }
+  },
+  {
+   "id": "v278",
+   "word": "상승하다",
+   "pron": "sangseunghada",
+   "tr": {
+    "uz": {
+     "m": "Koʻtarilmoq, oshmoq"
+    }
+   }
+  },
+  {
+   "id": "v279",
+   "word": "상응하다",
+   "pron": "sangeunghada",
+   "tr": {
+    "uz": {
+     "m": "Toʻgri, mos kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v280",
+   "word": "상주하다",
+   "pron": "sangjuhada",
+   "tr": {
+    "uz": {
+     "m": "Doimiy yashamoq"
+    }
+   }
+  },
+  {
+   "id": "v281",
+   "word": "새기다",
+   "pron": "saegida",
+   "tr": {
+    "uz": {
+     "m": "Saqlamoq, saqlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v282",
+   "word": "서슴다",
+   "pron": "seoseumda",
+   "tr": {
+    "uz": {
+     "m": "Ikkilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v283",
+   "word": "석방되다",
+   "pron": "seokbangdoeda",
+   "tr": {
+    "uz": {
+     "m": "Ozodlikka chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v284",
+   "word": "선도하다",
+   "pron": "seondohada",
+   "tr": {
+    "uz": {
+     "m": "Boshqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v285",
+   "word": "선정되다",
+   "pron": "seonjeongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Tayinlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v286",
+   "word": "선출하다",
+   "pron": "seonchulhada",
+   "tr": {
+    "uz": {
+     "m": "Tanlanmoq, saralanmoq"
+    }
+   }
+  },
+  {
+   "id": "v287",
+   "word": "설계하다",
+   "pron": "seolgyehada",
+   "tr": {
+    "uz": {
+     "m": "Loyihalashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v288",
+   "word": "설립하다",
+   "pron": "seolliphada",
+   "tr": {
+    "uz": {
+     "m": "Tashkil topmoq"
+    }
+   }
+  },
+  {
+   "id": "v289",
+   "word": "섬기다",
+   "pron": "seomgida",
+   "tr": {
+    "uz": {
+     "m": "Xizmat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v290",
+   "word": "섭취하다",
+   "pron": "seopchwihada",
+   "tr": {
+    "uz": {
+     "m": "Oziq olmoq, istemol qilish"
+    }
+   }
+  },
+  {
+   "id": "v291",
+   "word": "성립되다",
+   "pron": "seongnipdoeda",
+   "tr": {
+    "uz": {
+     "m": "Paydo boʻlish, shakllanish"
+    }
+   }
+  },
+  {
+   "id": "v292",
+   "word": "성행하다",
+   "pron": "seonghaenghada",
+   "tr": {
+    "uz": {
+     "m": "Koʻp uchramoq"
+    }
+   }
+  },
+  {
+   "id": "v293",
+   "word": "소각하다",
+   "pron": "sogakhada",
+   "tr": {
+    "uz": {
+     "m": "Yoqmoq, kul qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v294",
+   "word": "소멸하다",
+   "pron": "somyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v295",
+   "word": "소모되다",
+   "pron": "somodoeda",
+   "tr": {
+    "uz": {
+     "m": "Sarflanmoq"
+    }
+   }
+  },
+  {
+   "id": "v296",
+   "word": "소비되다",
+   "pron": "sobidoeda",
+   "tr": {
+    "uz": {
+     "m": "Sarflanmoq"
+    }
+   }
+  },
+  {
+   "id": "v297",
+   "word": "소실되다",
+   "pron": "sosildoeda",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq boʻlib ketmoq"
+    }
+   }
+  },
+  {
+   "id": "v298",
+   "word": "소외되다",
+   "pron": "sooedoeda",
+   "tr": {
+    "uz": {
+     "m": "Koʻngildan qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v299",
+   "word": "소요되다",
+   "pron": "soyodoeda",
+   "tr": {
+    "uz": {
+     "m": "Kerak boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v300",
+   "word": "소유하다",
+   "pron": "soyuhada",
+   "tr": {
+    "uz": {
+     "m": "Ega boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v301",
+   "word": "소지하다",
+   "pron": "sojihada",
+   "tr": {
+    "uz": {
+     "m": "Olib yurmoq"
+    }
+   }
+  },
+  {
+   "id": "v302",
+   "word": "소진하다",
+   "pron": "sojinhada",
+   "tr": {
+    "uz": {
+     "m": "Holdan toymoq"
+    }
+   }
+  },
+  {
+   "id": "v303",
+   "word": "소통하다",
+   "pron": "sotonghada",
+   "tr": {
+    "uz": {
+     "m": "Muloqat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v304",
+   "word": "손꼽히다",
+   "pron": "sonkkophida",
+   "tr": {
+    "uz": {
+     "m": "-deb hisoblamoq"
+    }
+   }
+  },
+  {
+   "id": "v305",
+   "word": "솟다",
+   "pron": "sotda",
+   "tr": {
+    "uz": {
+     "m": "Tez koʻtarilmoq"
+    }
+   }
+  },
+  {
+   "id": "v306",
+   "word": "쇠퇴하다",
+   "pron": "soetoehada",
+   "tr": {
+    "uz": {
+     "m": "Susaymoq, zaiflashmoq"
+    }
+   }
+  },
+  {
+   "id": "v307",
+   "word": "수군거리다",
+   "pron": "sugungeorida",
+   "tr": {
+    "uz": {
+     "m": "Shivirlamoq, pichirlamoq"
+    }
+   }
+  },
+  {
+   "id": "v308",
+   "word": "수긍하다",
+   "pron": "sugeunghada",
+   "tr": {
+    "uz": {
+     "m": "Rozi boʻlmoq, maqullash"
+    }
+   }
+  },
+  {
+   "id": "v309",
+   "word": "수립하다",
+   "pron": "suriphada",
+   "tr": {
+    "uz": {
+     "m": "Tashkil etmoq"
+    }
+   }
+  },
+  {
+   "id": "v310",
+   "word": "수발하다",
+   "pron": "subalhada",
+   "tr": {
+    "uz": {
+     "m": "Gʻamhoʻrlik qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v311",
+   "word": "수소문하다",
+   "pron": "susomunhada",
+   "tr": {
+    "uz": {
+     "m": "Atroflicha soʻramoq"
+    }
+   }
+  },
+  {
+   "id": "v312",
+   "word": "수여되다",
+   "pron": "suyeodoeda",
+   "tr": {
+    "uz": {
+     "m": "Taqdim qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v313",
+   "word": "수용하다",
+   "pron": "suyonghada",
+   "tr": {
+    "uz": {
+     "m": "Qabul qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v314",
+   "word": "수행하다",
+   "pron": "suhaenghada",
+   "tr": {
+    "uz": {
+     "m": "Tugatmoq, bitirmoq"
+    }
+   }
+  },
+  {
+   "id": "v315",
+   "word": "순응하다",
+   "pron": "suneunghada",
+   "tr": {
+    "uz": {
+     "m": "Mos boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v316",
+   "word": "순환시키다",
+   "pron": "sunhwansikida",
+   "tr": {
+    "uz": {
+     "m": "Almashtirmoq, aylanmoq"
+    }
+   }
+  },
+  {
+   "id": "v317",
+   "word": "슬다",
+   "pron": "seulda",
+   "tr": {
+    "uz": {
+     "m": "Zanglamoq"
+    }
+   }
+  },
+  {
+   "id": "v318",
+   "word": "슬쩍하다",
+   "pron": "seuljjeokhada",
+   "tr": {
+    "uz": {
+     "m": "Yashirincha qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v319",
+   "word": "습득하다",
+   "pron": "seupdeukhada",
+   "tr": {
+    "uz": {
+     "m": "Unutib qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "v320",
+   "word": "습득하다",
+   "pron": "seupdeukhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻrganmoq"
+    }
+   }
+  },
+  {
+   "id": "v321",
+   "word": "승진하다",
+   "pron": "seungjinhada",
+   "tr": {
+    "uz": {
+     "m": "Lavozimi koʻtarilmoq"
+    }
+   }
+  },
+  {
+   "id": "v322",
+   "word": "시달리다",
+   "pron": "sidallida",
+   "tr": {
+    "uz": {
+     "m": "Azob chekmoq"
+    }
+   }
+  },
+  {
+   "id": "v323",
+   "word": "시사하다",
+   "pron": "sisahada",
+   "tr": {
+    "uz": {
+     "m": "Bildirmoq, nazarda tutish"
+    }
+   }
+  },
+  {
+   "id": "v324",
+   "word": "시행하다",
+   "pron": "sihaenghada",
+   "tr": {
+    "uz": {
+     "m": "Joriy qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v325",
+   "word": "신뢰하다",
+   "pron": "silloehada",
+   "tr": {
+    "uz": {
+     "m": "Ishonmoq"
+    }
+   }
+  },
+  {
+   "id": "v326",
+   "word": "신장시키다",
+   "pron": "sinjangsikida",
+   "tr": {
+    "uz": {
+     "m": "Koʻpaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v327",
+   "word": "실리다",
+   "pron": "sillida",
+   "tr": {
+    "uz": {
+     "m": "Yuklanmoq"
+    }
+   }
+  },
+  {
+   "id": "v328",
+   "word": "싫증나다",
+   "pron": "silcheungnada",
+   "tr": {
+    "uz": {
+     "m": "Joniga tegmoq"
+    }
+   }
+  },
+  {
+   "id": "v329",
+   "word": "심화되다",
+   "pron": "simhwadoeda",
+   "tr": {
+    "uz": {
+     "m": "Jiddiylashmoq, chuqurlash"
+    }
+   }
+  },
+  {
+   "id": "v330",
+   "word": "쏠리다",
+   "pron": "ssollida",
+   "tr": {
+    "uz": {
+     "m": "Tushmoq, starilmoq"
+    }
+   }
+  },
+  {
+   "id": "v331",
+   "word": "쑤시다",
+   "pron": "ssusida",
+   "tr": {
+    "uz": {
+     "m": "Ogʻrimoq"
+    }
+   }
+  },
+  {
+   "id": "v332",
+   "word": "쓰다듬다",
+   "pron": "sseudadeumda",
+   "tr": {
+    "uz": {
+     "m": "Silamoq"
+    }
+   }
+  },
+  {
+   "id": "v333",
+   "word": "아끼다",
+   "pron": "akkida",
+   "tr": {
+    "uz": {
+     "m": "Tejamoq"
+    }
+   }
+  },
+  {
+   "id": "v334",
+   "word": "아랑곳하다",
+   "pron": "aranggothada",
+   "tr": {
+    "uz": {
+     "m": "Tashvishlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v335",
+   "word": "아우르다",
+   "pron": "aureuda",
+   "tr": {
+    "uz": {
+     "m": "Aʼzo boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v336",
+   "word": "악물다",
+   "pron": "angmulda",
+   "tr": {
+    "uz": {
+     "m": "Tishlamoq"
+    }
+   }
+  },
+  {
+   "id": "v337",
+   "word": "악용하다",
+   "pron": "agyonghada",
+   "tr": {
+    "uz": {
+     "m": "Suistemol qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v338",
+   "word": "악화되다",
+   "pron": "akhwadoeda",
+   "tr": {
+    "uz": {
+     "m": "Yomon tomonga oʻzgarish"
+    }
+   }
+  },
+  {
+   "id": "v339",
+   "word": "안주하다",
+   "pron": "anjuhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻchmoq"
+    }
+   }
+  },
+  {
+   "id": "v340",
+   "word": "알선하다",
+   "pron": "alseonhada",
+   "tr": {
+    "uz": {
+     "m": "Tanishtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v341",
+   "word": "앞세우다",
+   "pron": "apseuda",
+   "tr": {
+    "uz": {
+     "m": "Oldindan reja qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v342",
+   "word": "앞장서다",
+   "pron": "apjangseoda",
+   "tr": {
+    "uz": {
+     "m": "Bosh boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v343",
+   "word": "애용하다",
+   "pron": "aeyonghada",
+   "tr": {
+    "uz": {
+     "m": "Yoqlamoq, homiylik qilish"
+    }
+   }
+  },
+  {
+   "id": "v344",
+   "word": "야기하다",
+   "pron": "yagihada",
+   "tr": {
+    "uz": {
+     "m": "Sabab boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v345",
+   "word": "약화되다",
+   "pron": "yakhwadoeda",
+   "tr": {
+    "uz": {
+     "m": "Kuchsizlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v346",
+   "word": "양육하다",
+   "pron": "yangyukhada",
+   "tr": {
+    "uz": {
+     "m": "Tarbiyalamoq"
+    }
+   }
+  },
+  {
+   "id": "v347",
+   "word": "얕보다",
+   "pron": "yatboda",
+   "tr": {
+    "uz": {
+     "m": "Mensimaslik"
+    }
+   }
+  },
+  {
+   "id": "v348",
+   "word": "어우러지다",
+   "pron": "eoureojida",
+   "tr": {
+    "uz": {
+     "m": "Qoʻshilmoq, birlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v349",
+   "word": "억제하다",
+   "pron": "eokjehada",
+   "tr": {
+    "uz": {
+     "m": "Nazorat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v350",
+   "word": "언급하다",
+   "pron": "eongeuphada",
+   "tr": {
+    "uz": {
+     "m": "Eslatib oʻtmoq, aytib oʻtish"
+    }
+   }
+  },
+  {
+   "id": "v351",
+   "word": "얽매이다",
+   "pron": "eongmaeida",
+   "tr": {
+    "uz": {
+     "m": "Bogʻlanib qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v352",
+   "word": "얽히다",
+   "pron": "eokhida",
+   "tr": {
+    "uz": {
+     "m": "Bogʻlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v353",
+   "word": "없애다",
+   "pron": "eopsaeda",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v354",
+   "word": "엎치락뒤치락하다",
+   "pron": "eopchirakdwichirakhada",
+   "tr": {
+    "uz": {
+     "m": "Aqa burilib baqa burilib"
+    }
+   }
+  },
+  {
+   "id": "v355",
+   "word": "여기다",
+   "pron": "yeogida",
+   "tr": {
+    "uz": {
+     "m": "-deb oʻylamoq, hisoblamoq"
+    }
+   }
+  },
+  {
+   "id": "v356",
+   "word": "연계하다",
+   "pron": "yeongyehada",
+   "tr": {
+    "uz": {
+     "m": "Birga ishlamoq"
+    }
+   }
+  },
+  {
+   "id": "v357",
+   "word": "연상되다",
+   "pron": "yeonsangdoeda",
+   "tr": {
+    "uz": {
+     "m": "Yodiga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v358",
+   "word": "연속하다",
+   "pron": "yeonsokhada",
+   "tr": {
+    "uz": {
+     "m": "Uzluksiz davom etmoq"
+    }
+   }
+  },
+  {
+   "id": "v359",
+   "word": "연출하다",
+   "pron": "yeonchulhada",
+   "tr": {
+    "uz": {
+     "m": "Chiqmoq, chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v360",
+   "word": "연합하다",
+   "pron": "yeonhaphada",
+   "tr": {
+    "uz": {
+     "m": "Birlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v361",
+   "word": "엿보다",
+   "pron": "yeotboda",
+   "tr": {
+    "uz": {
+     "m": "Moʻralab qaramoq"
+    }
+   }
+  },
+  {
+   "id": "v362",
+   "word": "영입하다",
+   "pron": "yeongiphada",
+   "tr": {
+    "uz": {
+     "m": "Jalb etmoq"
+    }
+   }
+  },
+  {
+   "id": "v363",
+   "word": "예견하다",
+   "pron": "yegyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Bashorat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v364",
+   "word": "예방하다",
+   "pron": "yebanghada",
+   "tr": {
+    "uz": {
+     "m": "Oldini olmoq"
+    }
+   }
+  },
+  {
+   "id": "v365",
+   "word": "완주하다",
+   "pron": "wanjuhada",
+   "tr": {
+    "uz": {
+     "m": "Nihoyasiga yetkazmoq"
+    }
+   }
+  },
+  {
+   "id": "v366",
+   "word": "완화하다",
+   "pron": "wanhwahada",
+   "tr": {
+    "uz": {
+     "m": "Yengillashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v367",
+   "word": "왜곡하다",
+   "pron": "waegokhada",
+   "tr": {
+    "uz": {
+     "m": "Buzib koʻrsatmoq"
+    }
+   }
+  },
+  {
+   "id": "v368",
+   "word": "우러나오다",
+   "pron": "ureonaoda",
+   "tr": {
+    "uz": {
+     "m": "Yuraktan chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v369",
+   "word": "우러러보다",
+   "pron": "ureoreoboda",
+   "tr": {
+    "uz": {
+     "m": "Hurmat koʻrsatmoq"
+    }
+   }
+  },
+  {
+   "id": "v370",
+   "word": "우려되다",
+   "pron": "uryeodoeda",
+   "tr": {
+    "uz": {
+     "m": "Havotirga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v371",
+   "word": "우선시하다",
+   "pron": "useonsihada",
+   "tr": {
+    "uz": {
+     "m": "Ustun deb bilmoq"
+    }
+   }
+  },
+  {
+   "id": "v372",
+   "word": "운영하다",
+   "pron": "unyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Boshqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v373",
+   "word": "울부짖다",
+   "pron": "ulbujitda",
+   "tr": {
+    "uz": {
+     "m": "Nola (faryod)qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v374",
+   "word": "원망하다",
+   "pron": "wonmanghada",
+   "tr": {
+    "uz": {
+     "m": "Ayblamoq"
+    }
+   }
+  },
+  {
+   "id": "v375",
+   "word": "원조하다",
+   "pron": "wonjohada",
+   "tr": {
+    "uz": {
+     "m": "Yordam bermoq"
+    }
+   }
+  },
+  {
+   "id": "v376",
+   "word": "위조하다",
+   "pron": "wijohada",
+   "tr": {
+    "uz": {
+     "m": "Sohtalashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v377",
+   "word": "위축되다",
+   "pron": "wichukdoeda",
+   "tr": {
+    "uz": {
+     "m": "Susaymoq"
+    }
+   }
+  },
+  {
+   "id": "v378",
+   "word": "위협하다",
+   "pron": "wihyeophada",
+   "tr": {
+    "uz": {
+     "m": "Taxdid, poʻpisa qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v379",
+   "word": "유도하다",
+   "pron": "yudohada",
+   "tr": {
+    "uz": {
+     "m": "Yoʻnaltirmoq, undamoq"
+    }
+   }
+  },
+  {
+   "id": "v380",
+   "word": "유래하다",
+   "pron": "yuraehada",
+   "tr": {
+    "uz": {
+     "m": "-dan kelib chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v381",
+   "word": "유발하다",
+   "pron": "yubalhada",
+   "tr": {
+    "uz": {
+     "m": "Sabab boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v382",
+   "word": "유언하다",
+   "pron": "yueonhada",
+   "tr": {
+    "uz": {
+     "m": "Vasiyat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v383",
+   "word": "유입되다",
+   "pron": "yuipdoeda",
+   "tr": {
+    "uz": {
+     "m": "Ichkariga oqmoq, kirmoq"
+    }
+   }
+  },
+  {
+   "id": "v384",
+   "word": "유지하다",
+   "pron": "yujihada",
+   "tr": {
+    "uz": {
+     "m": "Saqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v385",
+   "word": "유치하다",
+   "pron": "yuchihada",
+   "tr": {
+    "uz": {
+     "m": "Diqqatni tortmoq"
+    }
+   }
+  },
+  {
+   "id": "v386",
+   "word": "유통하다",
+   "pron": "yutonghada",
+   "tr": {
+    "uz": {
+     "m": "Aylantirmoq"
+    }
+   }
+  },
+  {
+   "id": "v387",
+   "word": "융합되다",
+   "pron": "yunghapdoeda",
+   "tr": {
+    "uz": {
+     "m": "Qoʻshilmoq, ulanmoq"
+    }
+   }
+  },
+  {
+   "id": "v388",
+   "word": "으깨다",
+   "pron": "eukkaeda",
+   "tr": {
+    "uz": {
+     "m": "Yanchmoq, ezgʻalamoq"
+    }
+   }
+  },
+  {
+   "id": "v389",
+   "word": "으뜸가다",
+   "pron": "eutteumgada",
+   "tr": {
+    "uz": {
+     "m": "Eng zoʻri boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v390",
+   "word": "응답하다",
+   "pron": "eungdaphada",
+   "tr": {
+    "uz": {
+     "m": "Javob bermoq"
+    }
+   }
+  },
+  {
+   "id": "v391",
+   "word": "응하다",
+   "pron": "eunghada",
+   "tr": {
+    "uz": {
+     "m": "Javob bermoq"
+    }
+   }
+  },
+  {
+   "id": "v392",
+   "word": "의식하다",
+   "pron": "uisikhada",
+   "tr": {
+    "uz": {
+     "m": "Idrok etmoq"
+    }
+   }
+  },
+  {
+   "id": "v393",
+   "word": "이끌다",
+   "pron": "ikkeulda",
+   "tr": {
+    "uz": {
+     "m": "Yoʻl koʻrsatmoq"
+    }
+   }
+  },
+  {
+   "id": "v394",
+   "word": "이룩하다",
+   "pron": "irukhada",
+   "tr": {
+    "uz": {
+     "m": "Amalga oshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v395",
+   "word": "이르다",
+   "pron": "ireuda",
+   "tr": {
+    "uz": {
+     "m": "Yetib (xulosaga)kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v396",
+   "word": "이바지하다",
+   "pron": "ibajihada",
+   "tr": {
+    "uz": {
+     "m": "Hissa qoʻshmoq"
+    }
+   }
+  },
+  {
+   "id": "v397",
+   "word": "이완되다",
+   "pron": "iwandoeda",
+   "tr": {
+    "uz": {
+     "m": "Boʻshashmoq"
+    }
+   }
+  },
+  {
+   "id": "v398",
+   "word": "이입되다",
+   "pron": "iipdoeda",
+   "tr": {
+    "uz": {
+     "m": "Import qilmoq, qabul"
+    }
+   }
+  },
+  {
+   "id": "v399",
+   "word": "이주하다",
+   "pron": "ijuhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻchmoq"
+    }
+   }
+  },
+  {
+   "id": "v400",
+   "word": "인수하다",
+   "pron": "insuhada",
+   "tr": {
+    "uz": {
+     "m": "Qabul qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v401",
+   "word": "인식하다",
+   "pron": "insikhada",
+   "tr": {
+    "uz": {
+     "m": "Tushunib yetmoq"
+    }
+   }
+  },
+  {
+   "id": "v402",
+   "word": "인용하다",
+   "pron": "inyonghada",
+   "tr": {
+    "uz": {
+     "m": "Oʻgirmoq, ga asoslanmoq"
+    }
+   }
+  },
+  {
+   "id": "v403",
+   "word": "인하하다",
+   "pron": "inhahada",
+   "tr": {
+    "uz": {
+     "m": "Tushirmoq"
+    }
+   }
+  },
+  {
+   "id": "v404",
+   "word": "일관하다",
+   "pron": "ilgwanhada",
+   "tr": {
+    "uz": {
+     "m": "Muntazam davom etmoq"
+    }
+   }
+  },
+  {
+   "id": "v405",
+   "word": "일다",
+   "pron": "ilda",
+   "tr": {
+    "uz": {
+     "m": "Sodir boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v406",
+   "word": "일치하다",
+   "pron": "ilchihada",
+   "tr": {
+    "uz": {
+     "m": "Mos boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v407",
+   "word": "일컫다",
+   "pron": "ilkeotda",
+   "tr": {
+    "uz": {
+     "m": "Chaqirmoq"
+    }
+   }
+  },
+  {
+   "id": "v408",
+   "word": "임명되다",
+   "pron": "immyeongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Tayinlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v409",
+   "word": "임하다",
+   "pron": "imhada",
+   "tr": {
+    "uz": {
+     "m": "Uchramoq"
+    }
+   }
+  },
+  {
+   "id": "v410",
+   "word": "입증하다",
+   "pron": "ipjeunghada",
+   "tr": {
+    "uz": {
+     "m": "Isbotlamoq"
+    }
+   }
+  },
+  {
+   "id": "v411",
+   "word": "잇다",
+   "pron": "itda",
+   "tr": {
+    "uz": {
+     "m": "Ulamoq, bogʻlamoq"
+    }
+   }
+  },
+  {
+   "id": "v412",
+   "word": "잇따르다",
+   "pron": "itttareuda",
+   "tr": {
+    "uz": {
+     "m": "Ketma-ket kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v413",
+   "word": "자극하다",
+   "pron": "jageukhada",
+   "tr": {
+    "uz": {
+     "m": "Kuchaytirish, qiziqtirish"
+    }
+   }
+  },
+  {
+   "id": "v414",
+   "word": "자라나다",
+   "pron": "jaranada",
+   "tr": {
+    "uz": {
+     "m": "Oʻsmoq"
+    }
+   }
+  },
+  {
+   "id": "v415",
+   "word": "자리매김하다",
+   "pron": "jarimaegimhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻrin tutmoq"
+    }
+   }
+  },
+  {
+   "id": "v416",
+   "word": "잠재하다",
+   "pron": "jamjaehada",
+   "tr": {
+    "uz": {
+     "m": "Yashirin boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v417",
+   "word": "잡히다",
+   "pron": "japhida",
+   "tr": {
+    "uz": {
+     "m": "Tushmoq, belgilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v418",
+   "word": "장담하다",
+   "pron": "jangdamhada",
+   "tr": {
+    "uz": {
+     "m": "Kafolat bermoq, ishontirish"
+    }
+   }
+  },
+  {
+   "id": "v419",
+   "word": "재건하다",
+   "pron": "jaegeonhada",
+   "tr": {
+    "uz": {
+     "m": "Qayta qurmoq"
+    }
+   }
+  },
+  {
+   "id": "v420",
+   "word": "재다",
+   "pron": "jaeda",
+   "tr": {
+    "uz": {
+     "m": "Oʻlchamoq"
+    }
+   }
+  },
+  {
+   "id": "v421",
+   "word": "재배하다",
+   "pron": "jaebaehada",
+   "tr": {
+    "uz": {
+     "m": "Yetishtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v422",
+   "word": "재현하다",
+   "pron": "jaehyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻrsatib bermoq"
+    }
+   }
+  },
+  {
+   "id": "v423",
+   "word": "저술하다",
+   "pron": "jeosulhada",
+   "tr": {
+    "uz": {
+     "m": "Yozmoq (kitob)"
+    }
+   }
+  },
+  {
+   "id": "v424",
+   "word": "적용하다",
+   "pron": "jeogyonghada",
+   "tr": {
+    "uz": {
+     "m": "Murojatnoma qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v425",
+   "word": "전래되다",
+   "pron": "jeollaedoeda",
+   "tr": {
+    "uz": {
+     "m": "Meros boʻlib kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v426",
+   "word": "전수하다",
+   "pron": "jeonsuhada",
+   "tr": {
+    "uz": {
+     "m": "Yetkazmoq"
+    }
+   }
+  },
+  {
+   "id": "v427",
+   "word": "전이되다",
+   "pron": "jeonidoeda",
+   "tr": {
+    "uz": {
+     "m": "Yetib bormoq"
+    }
+   }
+  },
+  {
+   "id": "v428",
+   "word": "전파하다",
+   "pron": "jeonpahada",
+   "tr": {
+    "uz": {
+     "m": "Yetkazmoq"
+    }
+   }
+  },
+  {
+   "id": "v429",
+   "word": "전후하다",
+   "pron": "jeonhuhada",
+   "tr": {
+    "uz": {
+     "m": "Arafasi boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v430",
+   "word": "절감하다",
+   "pron": "jeolgamhada",
+   "tr": {
+    "uz": {
+     "m": "Chuqur his qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v431",
+   "word": "절감하다",
+   "pron": "jeolgamhada",
+   "tr": {
+    "uz": {
+     "m": "Kamaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v432",
+   "word": "절제하다",
+   "pron": "jeoljehada",
+   "tr": {
+    "uz": {
+     "m": "Nazorat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v433",
+   "word": "점검하다",
+   "pron": "jeomgeomhada",
+   "tr": {
+    "uz": {
+     "m": "Tekshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v434",
+   "word": "점령하다",
+   "pron": "jeomnyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Bosib olmoq"
+    }
+   }
+  },
+  {
+   "id": "v435",
+   "word": "접다",
+   "pron": "jeopda",
+   "tr": {
+    "uz": {
+     "m": "Taxlamoq, buklamoq"
+    }
+   }
+  },
+  {
+   "id": "v436",
+   "word": "접목하다",
+   "pron": "jeommokhada",
+   "tr": {
+    "uz": {
+     "m": "Uygʻunlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v437",
+   "word": "접속하다",
+   "pron": "jeopsokhada",
+   "tr": {
+    "uz": {
+     "m": "Internetga kirmoq"
+    }
+   }
+  },
+  {
+   "id": "v438",
+   "word": "접어들다",
+   "pron": "jeobeodeulda",
+   "tr": {
+    "uz": {
+     "m": "Yaqinlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v439",
+   "word": "접하다",
+   "pron": "jeophada",
+   "tr": {
+    "uz": {
+     "m": "Tutashmoq, olmoq"
+    }
+   }
+  },
+  {
+   "id": "v440",
+   "word": "정칙하다",
+   "pron": "jeongchikhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻchib bormoq"
+    }
+   }
+  },
+  {
+   "id": "v441",
+   "word": "정체되다",
+   "pron": "jeongchedoeda",
+   "tr": {
+    "uz": {
+     "m": "Kasodga uchramoq"
+    }
+   }
+  },
+  {
+   "id": "v442",
+   "word": "제기하다",
+   "pron": "jegihada",
+   "tr": {
+    "uz": {
+     "m": "Kuchaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v443",
+   "word": "제외되다",
+   "pron": "jeoedoeda",
+   "tr": {
+    "uz": {
+     "m": "Hisobga olmaslik"
+    }
+   }
+  },
+  {
+   "id": "v444",
+   "word": "제작하다",
+   "pron": "jejakhada",
+   "tr": {
+    "uz": {
+     "m": "Ishlab chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v445",
+   "word": "제정하다",
+   "pron": "jejeonghada",
+   "tr": {
+    "uz": {
+     "m": "Belgilamoq"
+    }
+   }
+  },
+  {
+   "id": "v446",
+   "word": "제한되다",
+   "pron": "jehandoeda",
+   "tr": {
+    "uz": {
+     "m": "Chegaralamoq, cheklanmoq"
+    }
+   }
+  },
+  {
+   "id": "v447",
+   "word": "조르다",
+   "pron": "joreuda",
+   "tr": {
+    "uz": {
+     "m": "Talab qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v448",
+   "word": "조성하다",
+   "pron": "joseonghada",
+   "tr": {
+    "uz": {
+     "m": "Tuzmoq"
+    }
+   }
+  },
+  {
+   "id": "v449",
+   "word": "조이다",
+   "pron": "joida",
+   "tr": {
+    "uz": {
+     "m": "Siqmoq, qismoq"
+    }
+   }
+  },
+  {
+   "id": "v450",
+   "word": "조작하다",
+   "pron": "jojakhada",
+   "tr": {
+    "uz": {
+     "m": "Soxtalashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v451",
+   "word": "조장하다",
+   "pron": "jojanghada",
+   "tr": {
+    "uz": {
+     "m": "Ruhlantirmoq"
+    }
+   }
+  },
+  {
+   "id": "v452",
+   "word": "조정되다",
+   "pron": "jojeongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Oʻzgarmoq"
+    }
+   }
+  },
+  {
+   "id": "v453",
+   "word": "조직하다",
+   "pron": "jojikhada",
+   "tr": {
+    "uz": {
+     "m": "Tashkillashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v454",
+   "word": "종사하다",
+   "pron": "jongsahada",
+   "tr": {
+    "uz": {
+     "m": "Shugʻullanmoq, ishlamoq"
+    }
+   }
+  },
+  {
+   "id": "v455",
+   "word": "좌우하다",
+   "pron": "jwauhada",
+   "tr": {
+    "uz": {
+     "m": "Taʼsir qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v456",
+   "word": "좌절하다",
+   "pron": "jwajeolhada",
+   "tr": {
+    "uz": {
+     "m": "Taslim boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v457",
+   "word": "주관하다",
+   "pron": "jugwanhada",
+   "tr": {
+    "uz": {
+     "m": "Nazorat qilmoq, boshqarish"
+    }
+   }
+  },
+  {
+   "id": "v458",
+   "word": "주도하다",
+   "pron": "judohada",
+   "tr": {
+    "uz": {
+     "m": "Boshchilik qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v459",
+   "word": "주목하다",
+   "pron": "jumokhada",
+   "tr": {
+    "uz": {
+     "m": "Eʼtibor bermoq"
+    }
+   }
+  },
+  {
+   "id": "v460",
+   "word": "주선하다",
+   "pron": "juseonhada",
+   "tr": {
+    "uz": {
+     "m": "Tartibga solmoq"
+    }
+   }
+  },
+  {
+   "id": "v461",
+   "word": "주저하다",
+   "pron": "jujeohada",
+   "tr": {
+    "uz": {
+     "m": "Ikkilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v462",
+   "word": "준수하다",
+   "pron": "junsuhada",
+   "tr": {
+    "uz": {
+     "m": "Amal qilmoq, saqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v463",
+   "word": "증발하다",
+   "pron": "jeungbalhada",
+   "tr": {
+    "uz": {
+     "m": "Yoʻqolish, toʻkilib ketmoq"
+    }
+   }
+  },
+  {
+   "id": "v464",
+   "word": "증원하다",
+   "pron": "jeungwonhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻpaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v465",
+   "word": "증정하다",
+   "pron": "jeungjeonghada",
+   "tr": {
+    "uz": {
+     "m": "Bermoq, berilmoq"
+    }
+   }
+  },
+  {
+   "id": "v466",
+   "word": "지급하다",
+   "pron": "jigeuphada",
+   "tr": {
+    "uz": {
+     "m": "Bermoq"
+    }
+   }
+  },
+  {
+   "id": "v467",
+   "word": "지니다",
+   "pron": "jinida",
+   "tr": {
+    "uz": {
+     "m": "Ega boʻlmoq, olib yurmoq"
+    }
+   }
+  },
+  {
+   "id": "v468",
+   "word": "지망하다",
+   "pron": "jimanghada",
+   "tr": {
+    "uz": {
+     "m": "Ariza topshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v469",
+   "word": "지배하다",
+   "pron": "jibaehada",
+   "tr": {
+    "uz": {
+     "m": "Nazorat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v470",
+   "word": "지속되다",
+   "pron": "jisokdoeda",
+   "tr": {
+    "uz": {
+     "m": "Davom etmoq"
+    }
+   }
+  },
+  {
+   "id": "v471",
+   "word": "지적하다",
+   "pron": "jijeokhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻrsatib bermoq"
+    }
+   }
+  },
+  {
+   "id": "v472",
+   "word": "지정하다",
+   "pron": "jijeonghada",
+   "tr": {
+    "uz": {
+     "m": "Belgilamoq"
+    }
+   }
+  },
+  {
+   "id": "v473",
+   "word": "지참하다",
+   "pron": "jichamhada",
+   "tr": {
+    "uz": {
+     "m": "Olib kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v474",
+   "word": "지체되다",
+   "pron": "jichedoeda",
+   "tr": {
+    "uz": {
+     "m": "Kechikmoq, qorongʻulashmoq"
+    }
+   }
+  },
+  {
+   "id": "v475",
+   "word": "지칭하다",
+   "pron": "jichinghada",
+   "tr": {
+    "uz": {
+     "m": "Chaqirmoq"
+    }
+   }
+  },
+  {
+   "id": "v476",
+   "word": "지향하다",
+   "pron": "jihyanghada",
+   "tr": {
+    "uz": {
+     "m": "Maqsad qilmoq, nishonga olish"
+    }
+   }
+  },
+  {
+   "id": "v477",
+   "word": "직면하다",
+   "pron": "jingmyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Duch kelmoq, yuzlanmoq"
+    }
+   }
+  },
+  {
+   "id": "v478",
+   "word": "진단하다",
+   "pron": "jindanhada",
+   "tr": {
+    "uz": {
+     "m": "Tashxis qoʻymoq"
+    }
+   }
+  },
+  {
+   "id": "v479",
+   "word": "진입하다",
+   "pron": "jiniphada",
+   "tr": {
+    "uz": {
+     "m": "Kirmoq"
+    }
+   }
+  },
+  {
+   "id": "v480",
+   "word": "진출하다",
+   "pron": "jinchulhada",
+   "tr": {
+    "uz": {
+     "m": "Olgʻa surmoq, oldinga yurmoq"
+    }
+   }
+  },
+  {
+   "id": "v481",
+   "word": "진화하다",
+   "pron": "jinhwahada",
+   "tr": {
+    "uz": {
+     "m": "Rivojlanmoq, kuchaytirmoq"
+    }
+   }
+  },
+  {
+   "id": "v482",
+   "word": "짐작하다",
+   "pron": "jimjakhada",
+   "tr": {
+    "uz": {
+     "m": "Taxmin qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v483",
+   "word": "짓밟다",
+   "pron": "jitbalda",
+   "tr": {
+    "uz": {
+     "m": "Oyogʻosti qilmoq, tepmoq"
+    }
+   }
+  },
+  {
+   "id": "v484",
+   "word": "짚다",
+   "pron": "jipda",
+   "tr": {
+    "uz": {
+     "m": "Yuzlanmoq, ushlamoq"
+    }
+   }
+  },
+  {
+   "id": "v485",
+   "word": "째려보다",
+   "pron": "jjaeryeoboda",
+   "tr": {
+    "uz": {
+     "m": "Tikka qaramoq, oʻqraymoq"
+    }
+   }
+  },
+  {
+   "id": "v486",
+   "word": "쪼그라들다",
+   "pron": "jjogeuradeulda",
+   "tr": {
+    "uz": {
+     "m": "Qisqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v487",
+   "word": "찌푸리다",
+   "pron": "jjipurida",
+   "tr": {
+    "uz": {
+     "m": "Qovogʻini solmoq, bulutli"
+    }
+   }
+  },
+  {
+   "id": "v488",
+   "word": "착각하다",
+   "pron": "chakgakhada",
+   "tr": {
+    "uz": {
+     "m": "Notoʻgʻri tushunmoq"
+    }
+   }
+  },
+  {
+   "id": "v489",
+   "word": "창립하다",
+   "pron": "changniphada",
+   "tr": {
+    "uz": {
+     "m": "Tashkil etmoq, asos solmoq"
+    }
+   }
+  },
+  {
+   "id": "v490",
+   "word": "창제하다",
+   "pron": "changjehada",
+   "tr": {
+    "uz": {
+     "m": "Yaratmoq"
+    }
+   }
+  },
+  {
+   "id": "v491",
+   "word": "창출하다",
+   "pron": "changchulhada",
+   "tr": {
+    "uz": {
+     "m": "Yaratmoq, ishlab chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v492",
+   "word": "채우다",
+   "pron": "chaeuda",
+   "tr": {
+    "uz": {
+     "m": "Bekitmoq, taqmoq, qadamoq"
+    }
+   }
+  },
+  {
+   "id": "v493",
+   "word": "채택하다",
+   "pron": "chaetaekhada",
+   "tr": {
+    "uz": {
+     "m": "Tanlamoq"
+    }
+   }
+  },
+  {
+   "id": "v494",
+   "word": "책망하다",
+   "pron": "chaengmanghada",
+   "tr": {
+    "uz": {
+     "m": "Malomat qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v495",
+   "word": "처하다",
+   "pron": "cheohada",
+   "tr": {
+    "uz": {
+     "m": "Qiyin ahvolga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v496",
+   "word": "철수하다",
+   "pron": "cheolsuhada",
+   "tr": {
+    "uz": {
+     "m": "Orqaga chekinmoq"
+    }
+   }
+  },
+  {
+   "id": "v497",
+   "word": "철회하다",
+   "pron": "cheolhoehada",
+   "tr": {
+    "uz": {
+     "m": "Orqaga chekinmoq"
+    }
+   }
+  },
+  {
+   "id": "v498",
+   "word": "첨가되다",
+   "pron": "cheomgadoeda",
+   "tr": {
+    "uz": {
+     "m": "Qoʻshilmoq"
+    }
+   }
+  },
+  {
+   "id": "v499",
+   "word": "청구하다",
+   "pron": "cheongguhada",
+   "tr": {
+    "uz": {
+     "m": "Talab qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v500",
+   "word": "청하다",
+   "pron": "cheonghada",
+   "tr": {
+    "uz": {
+     "m": "Soʻramoq"
+    }
+   }
+  },
+  {
+   "id": "v501",
+   "word": "체결하다",
+   "pron": "chegyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Shartnoma imzolamoq"
+    }
+   }
+  },
+  {
+   "id": "v502",
+   "word": "체류하다",
+   "pron": "cheryuhada",
+   "tr": {
+    "uz": {
+     "m": "Qolmoq"
+    }
+   }
+  },
+  {
+   "id": "v503",
+   "word": "초래하다",
+   "pron": "choraehada",
+   "tr": {
+    "uz": {
+     "m": "Sabab, bahona boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v504",
+   "word": "초월하다",
+   "pron": "chowolhada",
+   "tr": {
+    "uz": {
+     "m": "Misli koʻrinmas"
+    }
+   }
+  },
+  {
+   "id": "v505",
+   "word": "촉진하다",
+   "pron": "chokjinhada",
+   "tr": {
+    "uz": {
+     "m": "Tashviqot qilish, tezlatish"
+    }
+   }
+  },
+  {
+   "id": "v506",
+   "word": "추구하다",
+   "pron": "chuguhada",
+   "tr": {
+    "uz": {
+     "m": "Ketidan quvmoq"
+    }
+   }
+  },
+  {
+   "id": "v507",
+   "word": "추론하다",
+   "pron": "churonhada",
+   "tr": {
+    "uz": {
+     "m": "Hulosa qilib bilib olmoq"
+    }
+   }
+  },
+  {
+   "id": "v508",
+   "word": "추리다",
+   "pron": "churida",
+   "tr": {
+    "uz": {
+     "m": "Tanlamoq"
+    }
+   }
+  },
+  {
+   "id": "v509",
+   "word": "추모하다",
+   "pron": "chumohada",
+   "tr": {
+    "uz": {
+     "m": "Eslatib turmoq"
+    }
+   }
+  },
+  {
+   "id": "v510",
+   "word": "추진하다",
+   "pron": "chujinhada",
+   "tr": {
+    "uz": {
+     "m": "Yurgizish, amalga oshirish"
+    }
+   }
+  },
+  {
+   "id": "v511",
+   "word": "출몰하다",
+   "pron": "chulmolhada",
+   "tr": {
+    "uz": {
+     "m": "Chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v512",
+   "word": "출시하다",
+   "pron": "chulsihada",
+   "tr": {
+    "uz": {
+     "m": "Bozorga chiqarmoq"
+    }
+   }
+  },
+  {
+   "id": "v513",
+   "word": "충족하다",
+   "pron": "chungjokhada",
+   "tr": {
+    "uz": {
+     "m": "Majburyatni bajarmoq"
+    }
+   }
+  },
+  {
+   "id": "v514",
+   "word": "취급하다",
+   "pron": "chwigeuphada",
+   "tr": {
+    "uz": {
+     "m": "Ishlatmoq, muomila qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v515",
+   "word": "취득하다",
+   "pron": "chwideukhada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻlga kiritish, ega boʻlish"
+    }
+   }
+  },
+  {
+   "id": "v516",
+   "word": "치닫다",
+   "pron": "chidatda",
+   "tr": {
+    "uz": {
+     "m": "Toʻkilmoq, poyoniga yetish"
+    }
+   }
+  },
+  {
+   "id": "v517",
+   "word": "치부하다",
+   "pron": "chibuhada",
+   "tr": {
+    "uz": {
+     "m": "Shunday deb hisoblamoq"
+    }
+   }
+  },
+  {
+   "id": "v518",
+   "word": "치우치다",
+   "pron": "chiuchida",
+   "tr": {
+    "uz": {
+     "m": "Ogʻmoq"
+    }
+   }
+  },
+  {
+   "id": "v519",
+   "word": "치중하다",
+   "pron": "chijunghada",
+   "tr": {
+    "uz": {
+     "m": "Diqqatni qaratmoq"
+    }
+   }
+  },
+  {
+   "id": "v520",
+   "word": "치켜들다",
+   "pron": "chikyeodeulda",
+   "tr": {
+    "uz": {
+     "m": "Boshini tepaga koʻtarmoq"
+    }
+   }
+  },
+  {
+   "id": "v521",
+   "word": "침해하다",
+   "pron": "chimhaehada",
+   "tr": {
+    "uz": {
+     "m": "Tajavvuz (poymol)qilish"
+    }
+   }
+  },
+  {
+   "id": "v522",
+   "word": "칭얼대다",
+   "pron": "chingeoldaeda",
+   "tr": {
+    "uz": {
+     "m": "Gʻingʻishlamoq"
+    }
+   }
+  },
+  {
+   "id": "v523",
+   "word": "타고나다",
+   "pron": "tagonada",
+   "tr": {
+    "uz": {
+     "m": "Tugʻma boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v524",
+   "word": "타이르다",
+   "pron": "taireuda",
+   "tr": {
+    "uz": {
+     "m": "Ovutmoq, koʻndirmoq"
+    }
+   }
+  },
+  {
+   "id": "v525",
+   "word": "탈출하다",
+   "pron": "talchulhada",
+   "tr": {
+    "uz": {
+     "m": "Qochmoq, qutilmoq"
+    }
+   }
+  },
+  {
+   "id": "v526",
+   "word": "탐방하다",
+   "pron": "tambanghada",
+   "tr": {
+    "uz": {
+     "m": "Oʻrganmoq, tadqiq etmoq"
+    }
+   }
+  },
+  {
+   "id": "v527",
+   "word": "탓하다",
+   "pron": "tathada",
+   "tr": {
+    "uz": {
+     "m": "Ayblamoq"
+    }
+   }
+  },
+  {
+   "id": "v528",
+   "word": "터득하다",
+   "pron": "teodeukhada",
+   "tr": {
+    "uz": {
+     "m": "Tushunmoq"
+    }
+   }
+  },
+  {
+   "id": "v529",
+   "word": "터지다",
+   "pron": "teojida",
+   "tr": {
+    "uz": {
+     "m": "Yorilmoq, yuzaga chiqish"
+    }
+   }
+  },
+  {
+   "id": "v530",
+   "word": "토로하다",
+   "pron": "torohada",
+   "tr": {
+    "uz": {
+     "m": "Toʻkib sochmoq"
+    }
+   }
+  },
+  {
+   "id": "v531",
+   "word": "통보하다",
+   "pron": "tongbohada",
+   "tr": {
+    "uz": {
+     "m": "Habar bermoq, bildirmoq"
+    }
+   }
+  },
+  {
+   "id": "v532",
+   "word": "통제하다",
+   "pron": "tongjehada",
+   "tr": {
+    "uz": {
+     "m": "Tekshiruv boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v533",
+   "word": "퇴색되다",
+   "pron": "toesaekdoeda",
+   "tr": {
+    "uz": {
+     "m": "Rangi oʻchmoq"
+    }
+   }
+  },
+  {
+   "id": "v534",
+   "word": "투입하다",
+   "pron": "tuiphada",
+   "tr": {
+    "uz": {
+     "m": "Kiritmoq, ish bn taminlash"
+    }
+   }
+  },
+  {
+   "id": "v535",
+   "word": "튀어나오다",
+   "pron": "twieonaoda",
+   "tr": {
+    "uz": {
+     "m": "Otilib chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v536",
+   "word": "틈나다",
+   "pron": "teumnada",
+   "tr": {
+    "uz": {
+     "m": "Imkon boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v537",
+   "word": "파견하다",
+   "pron": "pagyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Joʻnatmoq"
+    }
+   }
+  },
+  {
+   "id": "v538",
+   "word": "파악하다",
+   "pron": "paakhada",
+   "tr": {
+    "uz": {
+     "m": "Tushunmoq, anglamoq"
+    }
+   }
+  },
+  {
+   "id": "v539",
+   "word": "파헤치다",
+   "pron": "pahechida",
+   "tr": {
+    "uz": {
+     "m": "Qazimoq, ochib tashlash"
+    }
+   }
+  },
+  {
+   "id": "v540",
+   "word": "펼치다",
+   "pron": "pyeolchida",
+   "tr": {
+    "uz": {
+     "m": "Amalga oshirish, ochmoq"
+    }
+   }
+  },
+  {
+   "id": "v541",
+   "word": "평가하다",
+   "pron": "pyeonggahada",
+   "tr": {
+    "uz": {
+     "m": "Baholamoq"
+    }
+   }
+  },
+  {
+   "id": "v542",
+   "word": "폐지되다",
+   "pron": "pyejidoeda",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq qilinmoq, toʻxtatmoq"
+    }
+   }
+  },
+  {
+   "id": "v543",
+   "word": "포괄하다",
+   "pron": "pogwalhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻz ichiga qamrab olish"
+    }
+   }
+  },
+  {
+   "id": "v544",
+   "word": "포착하다",
+   "pron": "pochakhada",
+   "tr": {
+    "uz": {
+     "m": "Ushlab olmoq"
+    }
+   }
+  },
+  {
+   "id": "v545",
+   "word": "포함하다",
+   "pron": "pohamhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻz ichiga olmoq"
+    }
+   }
+  },
+  {
+   "id": "v546",
+   "word": "폭등하다",
+   "pron": "pokdeunghada",
+   "tr": {
+    "uz": {
+     "m": "Birdaniga koʻtarilmoq"
+    }
+   }
+  },
+  {
+   "id": "v547",
+   "word": "폭락하다",
+   "pron": "pongnakhada",
+   "tr": {
+    "uz": {
+     "m": "Birdaniga tushmoq"
+    }
+   }
+  },
+  {
+   "id": "v548",
+   "word": "폭로하다",
+   "pron": "pongnohada",
+   "tr": {
+    "uz": {
+     "m": "Ochib bermoq"
+    }
+   }
+  },
+  {
+   "id": "v549",
+   "word": "표명하다",
+   "pron": "pyomyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Oydinlashtirmoq, namoyish"
+    }
+   }
+  },
+  {
+   "id": "v550",
+   "word": "표출하다",
+   "pron": "pyochulhada",
+   "tr": {
+    "uz": {
+     "m": "Yashirmoq"
+    }
+   }
+  },
+  {
+   "id": "v551",
+   "word": "하소연하다",
+   "pron": "hasoyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Xasratlashmoq, dardlashish"
+    }
+   }
+  },
+  {
+   "id": "v552",
+   "word": "한몫하다",
+   "pron": "hanmokhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻmakchi boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v553",
+   "word": "한정되다",
+   "pron": "hanjeongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Chegaralanmoq"
+    }
+   }
+  },
+  {
+   "id": "v554",
+   "word": "한하다",
+   "pron": "hanhada",
+   "tr": {
+    "uz": {
+     "m": "Chegarasi boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v555",
+   "word": "합의하다",
+   "pron": "habuihada",
+   "tr": {
+    "uz": {
+     "m": "Qaror, kelishuv qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v556",
+   "word": "항의하다",
+   "pron": "hanguihada",
+   "tr": {
+    "uz": {
+     "m": "Qarshi chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "v557",
+   "word": "해독하다",
+   "pron": "haedokhada",
+   "tr": {
+    "uz": {
+     "m": "Rasshifrovka, aniqlamoq"
+    }
+   }
+  },
+  {
+   "id": "v558",
+   "word": "해소하다",
+   "pron": "haesohada",
+   "tr": {
+    "uz": {
+     "m": "Hal qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v559",
+   "word": "해체되다",
+   "pron": "haechedoeda",
+   "tr": {
+    "uz": {
+     "m": "Parchalanmoq"
+    }
+   }
+  },
+  {
+   "id": "v560",
+   "word": "향상되다",
+   "pron": "hyangsangdoeda",
+   "tr": {
+    "uz": {
+     "m": "Yaxshilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v561",
+   "word": "향하다",
+   "pron": "hyanghada",
+   "tr": {
+    "uz": {
+     "m": "-ga burilmoq"
+    }
+   }
+  },
+  {
+   "id": "v562",
+   "word": "허물다",
+   "pron": "heomulda",
+   "tr": {
+    "uz": {
+     "m": "Buzib tashlamoq"
+    }
+   }
+  },
+  {
+   "id": "v563",
+   "word": "허비하다",
+   "pron": "heobihada",
+   "tr": {
+    "uz": {
+     "m": "Sarflamoq"
+    }
+   }
+  },
+  {
+   "id": "v564",
+   "word": "허용되다",
+   "pron": "heoyongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Ruhsat bermoq"
+    }
+   }
+  },
+  {
+   "id": "v565",
+   "word": "헌납하다",
+   "pron": "heonnaphada",
+   "tr": {
+    "uz": {
+     "m": "Inom (ehson)qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v566",
+   "word": "헤어나다",
+   "pron": "heeonada",
+   "tr": {
+    "uz": {
+     "m": "Oʻtib ketmoq, qutilmoq"
+    }
+   }
+  },
+  {
+   "id": "v567",
+   "word": "헷갈리다",
+   "pron": "hetgallida",
+   "tr": {
+    "uz": {
+     "m": "Ikkilanmoq, adashib ketish"
+    }
+   }
+  },
+  {
+   "id": "v568",
+   "word": "헹구다",
+   "pron": "hengguda",
+   "tr": {
+    "uz": {
+     "m": "Chayqamoq, chaymoq"
+    }
+   }
+  },
+  {
+   "id": "v569",
+   "word": "현존하다",
+   "pron": "hyeonjonhada",
+   "tr": {
+    "uz": {
+     "m": "Mavjud boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v570",
+   "word": "형성되다",
+   "pron": "hyeongseongdoeda",
+   "tr": {
+    "uz": {
+     "m": "Tashkil topish, shakllanish"
+    }
+   }
+  },
+  {
+   "id": "v571",
+   "word": "형용하다",
+   "pron": "hyeongyonghada",
+   "tr": {
+    "uz": {
+     "m": "Ifodalamoq"
+    }
+   }
+  },
+  {
+   "id": "v572",
+   "word": "호전되다",
+   "pron": "hojeondoeda",
+   "tr": {
+    "uz": {
+     "m": "Yaxshilanmoq"
+    }
+   }
+  },
+  {
+   "id": "v573",
+   "word": "호흡하다",
+   "pron": "hoheuphada",
+   "tr": {
+    "uz": {
+     "m": "Nafas olmoq"
+    }
+   }
+  },
+  {
+   "id": "v574",
+   "word": "혹사하다",
+   "pron": "hoksahada",
+   "tr": {
+    "uz": {
+     "m": "Koʻp ishlatmoq"
+    }
+   }
+  },
+  {
+   "id": "v575",
+   "word": "혼동하다",
+   "pron": "hondonghada",
+   "tr": {
+    "uz": {
+     "m": "Adashtirish, ajratolmaslik"
+    }
+   }
+  },
+  {
+   "id": "v576",
+   "word": "화합하다",
+   "pron": "hwahaphada",
+   "tr": {
+    "uz": {
+     "m": "Birlashmoq"
+    }
+   }
+  },
+  {
+   "id": "v577",
+   "word": "확대하다",
+   "pron": "hwakdaehada",
+   "tr": {
+    "uz": {
+     "m": "Kattalashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "v578",
+   "word": "확립되다",
+   "pron": "hwangnipdoeda",
+   "tr": {
+    "uz": {
+     "m": "Maromiga kelmoq"
+    }
+   }
+  },
+  {
+   "id": "v579",
+   "word": "확보하다",
+   "pron": "hwakbohada",
+   "tr": {
+    "uz": {
+     "m": "Mahkamlamoq, qoʻriqlash"
+    }
+   }
+  },
+  {
+   "id": "v580",
+   "word": "확산되다",
+   "pron": "hwaksandoeda",
+   "tr": {
+    "uz": {
+     "m": "Tarqalmoq, yoyilmoq"
+    }
+   }
+  },
+  {
+   "id": "v581",
+   "word": "확충하다",
+   "pron": "hwakchunghada",
+   "tr": {
+    "uz": {
+     "m": "Hajmini oshirmoq"
+    }
+   }
+  },
+  {
+   "id": "v582",
+   "word": "환원하다",
+   "pron": "hwanwonhada",
+   "tr": {
+    "uz": {
+     "m": "Qaytmoq, qaytarmoq"
+    }
+   }
+  },
+  {
+   "id": "v583",
+   "word": "환호하다",
+   "pron": "hwanhohada",
+   "tr": {
+    "uz": {
+     "m": "Olqishlamoq"
+    }
+   }
+  },
+  {
+   "id": "v584",
+   "word": "활약하다",
+   "pron": "hwaryakhada",
+   "tr": {
+    "uz": {
+     "m": "Faol boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v585",
+   "word": "회복하다",
+   "pron": "hoebokhada",
+   "tr": {
+    "uz": {
+     "m": "Saqlamoq, yaxshilamoq"
+    }
+   }
+  },
+  {
+   "id": "v586",
+   "word": "후원하다",
+   "pron": "huwonhada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻllamoq"
+    }
+   }
+  },
+  {
+   "id": "v587",
+   "word": "훼방하다",
+   "pron": "hwebanghada",
+   "tr": {
+    "uz": {
+     "m": "Toʻsiq boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "v588",
+   "word": "훼손하다",
+   "pron": "hwesonhada",
+   "tr": {
+    "uz": {
+     "m": "Ziyon yetkazmoq"
+    }
+   }
+  },
+  {
+   "id": "v589",
+   "word": "휘날리다",
+   "pron": "hwinallida",
+   "tr": {
+    "uz": {
+     "m": "Chayqalmoq, toʻlqinlamoq"
+    }
+   }
+  },
+  {
+   "id": "v590",
+   "word": "휘둘러보다",
+   "pron": "hwidulleoboda",
+   "tr": {
+    "uz": {
+     "m": "Tikilib qaramoq"
+    }
+   }
+  },
+  {
+   "id": "v591",
+   "word": "휘말리다",
+   "pron": "hwimallida",
+   "tr": {
+    "uz": {
+     "m": "Voqeaga aralashib qolish"
+    }
+   }
+  },
+  {
+   "id": "v592",
+   "word": "흐느끼다",
+   "pron": "heuneukkida",
+   "tr": {
+    "uz": {
+     "m": "Hoʻrsinib (hiqillab)yegʻlash"
+    }
+   }
+  },
+  {
+   "id": "v593",
+   "word": "흐리다",
+   "pron": "heurida",
+   "tr": {
+    "uz": {
+     "m": "Buzmoq"
+    }
+   }
+  },
+  {
+   "id": "v594",
+   "word": "흐트러지다",
+   "pron": "heuteureojida",
+   "tr": {
+    "uz": {
+     "m": "Sochilmoq"
+    }
+   }
+  },
+  {
+   "id": "v595",
+   "word": "흡수되다",
+   "pron": "heupsudoeda",
+   "tr": {
+    "uz": {
+     "m": "Soʻrib olmoq, shimmoq"
+    }
+   }
+  },
+  {
+   "id": "v596",
+   "word": "흥얼거리다",
+   "pron": "heungeolgeorida",
+   "tr": {
+    "uz": {
+     "m": "Hirgoya qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v597",
+   "word": "흩날리다",
+   "pron": "heunnallida",
+   "tr": {
+    "uz": {
+     "m": "Hilpiramoq"
+    }
+   }
+  },
+  {
+   "id": "v598",
+   "word": "흩어지다",
+   "pron": "heuteojida",
+   "tr": {
+    "uz": {
+     "m": "Tarqalmoq"
+    }
+   }
+  },
+  {
+   "id": "v599",
+   "word": "희생하다",
+   "pron": "huisaenghada",
+   "tr": {
+    "uz": {
+     "m": "Qurbon qilmoq"
+    }
+   }
+  },
+  {
+   "id": "v600",
+   "word": "힐끔거리다",
+   "pron": "hilkkeumgeorida",
+   "tr": {
+    "uz": {
+     "m": "Nazar tashlamoq"
+    }
+   }
+  }
+ ]
+}

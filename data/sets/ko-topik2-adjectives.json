@@ -1,0 +1,3012 @@
+{
+ "id": "ko-topik2-adjectives",
+ "title": "TOPIK II · Adjectives",
+ "learn": "ko",
+ "back": [
+  "uz"
+ ],
+ "version": 1,
+ "updated": "2026-11-21T17:54:37.461Z",
+ "items": [
+  {
+   "id": "a1",
+   "word": "가지런하다",
+   "pron": "gajireonhada",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri, tartib bilan"
+    }
+   }
+  },
+  {
+   "id": "a2",
+   "word": "가파르다",
+   "pron": "gapareuda",
+   "tr": {
+    "uz": {
+     "m": "Tikka"
+    }
+   }
+  },
+  {
+   "id": "a3",
+   "word": "가혹하다",
+   "pron": "gahokhada",
+   "tr": {
+    "uz": {
+     "m": "Daxshatli"
+    }
+   }
+  },
+  {
+   "id": "a4",
+   "word": "간결하다",
+   "pron": "gangyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Qisqa, loʻnda"
+    }
+   }
+  },
+  {
+   "id": "a5",
+   "word": "간절하다",
+   "pron": "ganjeolhada",
+   "tr": {
+    "uz": {
+     "m": "Samimiy"
+    }
+   }
+  },
+  {
+   "id": "a6",
+   "word": "감미롭다",
+   "pron": "gammiropda",
+   "tr": {
+    "uz": {
+     "m": "Shirin"
+    }
+   }
+  },
+  {
+   "id": "a7",
+   "word": "갑갑하다",
+   "pron": "gapgaphada",
+   "tr": {
+    "uz": {
+     "m": "Dimiqmoq"
+    }
+   }
+  },
+  {
+   "id": "a8",
+   "word": "강력하다",
+   "pron": "gangnyeokhada",
+   "tr": {
+    "uz": {
+     "m": "Shiddatli"
+    }
+   }
+  },
+  {
+   "id": "a9",
+   "word": "개운하다",
+   "pron": "gaeunhada",
+   "tr": {
+    "uz": {
+     "m": "Yengillashish"
+    }
+   }
+  },
+  {
+   "id": "a10",
+   "word": "갸륵하다",
+   "pron": "gyareukhada",
+   "tr": {
+    "uz": {
+     "m": "Maqtovga loyiq"
+    }
+   }
+  },
+  {
+   "id": "a11",
+   "word": "거대하다",
+   "pron": "geodaehada",
+   "tr": {
+    "uz": {
+     "m": "Ulugʻ, buyuk"
+    }
+   }
+  },
+  {
+   "id": "a12",
+   "word": "거뜬하다",
+   "pron": "geotteunhada",
+   "tr": {
+    "uz": {
+     "m": "Yengil, oson"
+    }
+   }
+  },
+  {
+   "id": "a13",
+   "word": "거만하다",
+   "pron": "geomanhada",
+   "tr": {
+    "uz": {
+     "m": "Man-mansirash, kerilish"
+    }
+   }
+  },
+  {
+   "id": "a14",
+   "word": "거창하다",
+   "pron": "geochanghada",
+   "tr": {
+    "uz": {
+     "m": "Ulkan"
+    }
+   }
+  },
+  {
+   "id": "a15",
+   "word": "거칠다",
+   "pron": "geochilda",
+   "tr": {
+    "uz": {
+     "m": "Qoʻpol, dagʻal"
+    }
+   }
+  },
+  {
+   "id": "a16",
+   "word": "거침없다",
+   "pron": "geochimeopda",
+   "tr": {
+    "uz": {
+     "m": "Toʻsiqsiz"
+    }
+   }
+  },
+  {
+   "id": "a17",
+   "word": "건장하다",
+   "pron": "geonjanghada",
+   "tr": {
+    "uz": {
+     "m": "Katta oʻlcham"
+    }
+   }
+  },
+  {
+   "id": "a18",
+   "word": "검붉다",
+   "pron": "geombukda",
+   "tr": {
+    "uz": {
+     "m": "Toʻq qizil"
+    }
+   }
+  },
+  {
+   "id": "a19",
+   "word": "검소하다",
+   "pron": "geomsohada",
+   "tr": {
+    "uz": {
+     "m": "Tejamkor"
+    }
+   }
+  },
+  {
+   "id": "a20",
+   "word": "격렬하다",
+   "pron": "gyeongnyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Qattiq"
+    }
+   }
+  },
+  {
+   "id": "a21",
+   "word": "견고하다",
+   "pron": "gyeongohada",
+   "tr": {
+    "uz": {
+     "m": "Qattiq, mustahkam"
+    }
+   }
+  },
+  {
+   "id": "a22",
+   "word": "경솔하다",
+   "pron": "gyeongsolhada",
+   "tr": {
+    "uz": {
+     "m": "Shoshmoq"
+    }
+   }
+  },
+  {
+   "id": "a23",
+   "word": "경이롭다",
+   "pron": "gyeongiropda",
+   "tr": {
+    "uz": {
+     "m": "Hayratlanarli"
+    }
+   }
+  },
+  {
+   "id": "a24",
+   "word": "고루하다",
+   "pron": "goruhada",
+   "tr": {
+    "uz": {
+     "m": "Eskirmoq"
+    }
+   }
+  },
+  {
+   "id": "a25",
+   "word": "고유하다",
+   "pron": "goyuhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos"
+    }
+   }
+  },
+  {
+   "id": "a26",
+   "word": "고즈넉하다",
+   "pron": "gojeuneokhada",
+   "tr": {
+    "uz": {
+     "m": "Osoyishta, tinch"
+    }
+   }
+  },
+  {
+   "id": "a27",
+   "word": "공공연하다",
+   "pron": "gonggongyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Ochilmoq"
+    }
+   }
+  },
+  {
+   "id": "a28",
+   "word": "공허하다",
+   "pron": "gongheohada",
+   "tr": {
+    "uz": {
+     "m": "Harob, boʻsh"
+    }
+   }
+  },
+  {
+   "id": "a29",
+   "word": "과감하다",
+   "pron": "gwagamhada",
+   "tr": {
+    "uz": {
+     "m": "Mard, dovyurak"
+    }
+   }
+  },
+  {
+   "id": "a30",
+   "word": "과격하다",
+   "pron": "gwagyeokhada",
+   "tr": {
+    "uz": {
+     "m": "Ortiqcha, haddan ortiq"
+    }
+   }
+  },
+  {
+   "id": "a31",
+   "word": "과도하다",
+   "pron": "gwadohada",
+   "tr": {
+    "uz": {
+     "m": "Koʻp, ortiqcha"
+    }
+   }
+  },
+  {
+   "id": "a32",
+   "word": "광대하다",
+   "pron": "gwangdaehada",
+   "tr": {
+    "uz": {
+     "m": "Juda yirik, ulkan"
+    }
+   }
+  },
+  {
+   "id": "a33",
+   "word": "광활하다",
+   "pron": "gwanghwalhada",
+   "tr": {
+    "uz": {
+     "m": "Keng, yirik"
+    }
+   }
+  },
+  {
+   "id": "a34",
+   "word": "교묘하다",
+   "pron": "gyomyohada",
+   "tr": {
+    "uz": {
+     "m": "Mohirona, mahoratli"
+    }
+   }
+  },
+  {
+   "id": "a35",
+   "word": "구태의연하다",
+   "pron": "gutaeuiyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻzgarishsiz"
+    }
+   }
+  },
+  {
+   "id": "a36",
+   "word": "굳건하다",
+   "pron": "gutgeonhada",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy, kuchli"
+    }
+   }
+  },
+  {
+   "id": "a37",
+   "word": "궂다",
+   "pron": "gutda",
+   "tr": {
+    "uz": {
+     "m": "Yomon"
+    }
+   }
+  },
+  {
+   "id": "a38",
+   "word": "그렁그렁하다",
+   "pron": "geureonggeureonghada",
+   "tr": {
+    "uz": {
+     "m": "Toʻlib toshmoq"
+    }
+   }
+  },
+  {
+   "id": "a39",
+   "word": "그윽하다",
+   "pron": "geueukhada",
+   "tr": {
+    "uz": {
+     "m": "Shirin, oʻziga xos"
+    }
+   }
+  },
+  {
+   "id": "a40",
+   "word": "근접하다",
+   "pron": "geunjeophada",
+   "tr": {
+    "uz": {
+     "m": "Yaqin kelmoq"
+    }
+   }
+  },
+  {
+   "id": "a41",
+   "word": "근질근질하다",
+   "pron": "geunjilgeunjilhada",
+   "tr": {
+    "uz": {
+     "m": "Yana qigisi kelmoq"
+    }
+   }
+  },
+  {
+   "id": "a42",
+   "word": "급박하다",
+   "pron": "geupbakhada",
+   "tr": {
+    "uz": {
+     "m": "Shoshilinch, tigʻiz"
+    }
+   }
+  },
+  {
+   "id": "a43",
+   "word": "기특하다",
+   "pron": "giteukhada",
+   "tr": {
+    "uz": {
+     "m": "Qoyil qoldirmoq"
+    }
+   }
+  },
+  {
+   "id": "a44",
+   "word": "긴밀하다",
+   "pron": "ginmilhada",
+   "tr": {
+    "uz": {
+     "m": "Yaqin"
+    }
+   }
+  },
+  {
+   "id": "a45",
+   "word": "까칠까칠하다",
+   "pron": "kkachilkkachilhada",
+   "tr": {
+    "uz": {
+     "m": "Gʻadir-budur"
+    }
+   }
+  },
+  {
+   "id": "a46",
+   "word": "꺼림칙하다",
+   "pron": "kkeorimchikhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻzini noqulay his qilmoq"
+    }
+   }
+  },
+  {
+   "id": "a47",
+   "word": "끈끈하다",
+   "pron": "kkeunkkeunhada",
+   "tr": {
+    "uz": {
+     "m": "Qattiq, kuchli"
+    }
+   }
+  },
+  {
+   "id": "a48",
+   "word": "끈질기다",
+   "pron": "kkeunjilgida",
+   "tr": {
+    "uz": {
+     "m": "Oʻjar, qaysar"
+    }
+   }
+  },
+  {
+   "id": "a49",
+   "word": "끔찍하다",
+   "pron": "kkeumjjikhada",
+   "tr": {
+    "uz": {
+     "m": "Daxshatli"
+    }
+   }
+  },
+  {
+   "id": "a50",
+   "word": "나약하다",
+   "pron": "nayakhada",
+   "tr": {
+    "uz": {
+     "m": "Kuchsiz, madorsiz"
+    }
+   }
+  },
+  {
+   "id": "a51",
+   "word": "난처하다",
+   "pron": "nancheohada",
+   "tr": {
+    "uz": {
+     "m": "Uyatli, hijolat boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "a52",
+   "word": "냉담하다",
+   "pron": "naengdamhada",
+   "tr": {
+    "uz": {
+     "m": "Sovuq"
+    }
+   }
+  },
+  {
+   "id": "a53",
+   "word": "냉철하다",
+   "pron": "naengcheolhada",
+   "tr": {
+    "uz": {
+     "m": "Sovuqqonlik"
+    }
+   }
+  },
+  {
+   "id": "a54",
+   "word": "노련하다",
+   "pron": "noryeonhada",
+   "tr": {
+    "uz": {
+     "m": "Tajribali, malakali"
+    }
+   }
+  },
+  {
+   "id": "a55",
+   "word": "누추하다",
+   "pron": "nuchuhada",
+   "tr": {
+    "uz": {
+     "m": "Eski, harob"
+    }
+   }
+  },
+  {
+   "id": "a56",
+   "word": "눈부시다",
+   "pron": "nunbusida",
+   "tr": {
+    "uz": {
+     "m": "Koʻzni qamashtirmoq"
+    }
+   }
+  },
+  {
+   "id": "a57",
+   "word": "느긋하다",
+   "pron": "neugeuthada",
+   "tr": {
+    "uz": {
+     "m": "Sokin, xotirjam"
+    }
+   }
+  },
+  {
+   "id": "a58",
+   "word": "느슨하다",
+   "pron": "neuseunhada",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh, shalviragan"
+    }
+   }
+  },
+  {
+   "id": "a59",
+   "word": "능청스럽다",
+   "pron": "neungcheongseureopda",
+   "tr": {
+    "uz": {
+     "m": "Ayyor, hiylakor"
+    }
+   }
+  },
+  {
+   "id": "a60",
+   "word": "능통하다",
+   "pron": "neungtonghada",
+   "tr": {
+    "uz": {
+     "m": "Malakali, tajribali"
+    }
+   }
+  },
+  {
+   "id": "a61",
+   "word": "다채롭다",
+   "pron": "dachaeropda",
+   "tr": {
+    "uz": {
+     "m": "Bir-biriga oʻxshamagan"
+    }
+   }
+  },
+  {
+   "id": "a62",
+   "word": "단아하다",
+   "pron": "danahada",
+   "tr": {
+    "uz": {
+     "m": "Jozibali, chiroyli"
+    }
+   }
+  },
+  {
+   "id": "a63",
+   "word": "단조롭다",
+   "pron": "danjoropda",
+   "tr": {
+    "uz": {
+     "m": "Oddiy"
+    }
+   }
+  },
+  {
+   "id": "a64",
+   "word": "담담하다",
+   "pron": "damdamhada",
+   "tr": {
+    "uz": {
+     "m": "Xotirjam, osoyishta"
+    }
+   }
+  },
+  {
+   "id": "a65",
+   "word": "당당하다",
+   "pron": "dangdanghada",
+   "tr": {
+    "uz": {
+     "m": "Oliyjanob, oʻziga ishongan"
+    }
+   }
+  },
+  {
+   "id": "a66",
+   "word": "덤덤하다",
+   "pron": "deomdeomhada",
+   "tr": {
+    "uz": {
+     "m": "Kuchsiz, beparvolik"
+    }
+   }
+  },
+  {
+   "id": "a67",
+   "word": "데면데면하다",
+   "pron": "demyeondemyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Uzoqlik, yiroqlik"
+    }
+   }
+  },
+  {
+   "id": "a68",
+   "word": "도톰하다",
+   "pron": "dotomhada",
+   "tr": {
+    "uz": {
+     "m": "Chiroyli, toʻlacha"
+    }
+   }
+  },
+  {
+   "id": "a69",
+   "word": "두둑하다",
+   "pron": "dudukhada",
+   "tr": {
+    "uz": {
+     "m": "Yetarli"
+    }
+   }
+  },
+  {
+   "id": "a70",
+   "word": "두툼하다",
+   "pron": "dutumhada",
+   "tr": {
+    "uz": {
+     "m": "Qalin"
+    }
+   }
+  },
+  {
+   "id": "a71",
+   "word": "드물다",
+   "pron": "deumulda",
+   "tr": {
+    "uz": {
+     "m": "Nodir, noyob"
+    }
+   }
+  },
+  {
+   "id": "a72",
+   "word": "든든하다",
+   "pron": "deundeunhada",
+   "tr": {
+    "uz": {
+     "m": "Ishonchli, tinch"
+    }
+   }
+  },
+  {
+   "id": "a73",
+   "word": "따끔하다",
+   "pron": "ttakkeumhada",
+   "tr": {
+    "uz": {
+     "m": "Igna sanchgandek"
+    }
+   }
+  },
+  {
+   "id": "a74",
+   "word": "떳떳하다",
+   "pron": "tteottteothada",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga ishongan"
+    }
+   }
+  },
+  {
+   "id": "a75",
+   "word": "막대하다",
+   "pron": "makdaehada",
+   "tr": {
+    "uz": {
+     "m": "Kata, ulkan"
+    }
+   }
+  },
+  {
+   "id": "a76",
+   "word": "막막하다",
+   "pron": "mangmakhada",
+   "tr": {
+    "uz": {
+     "m": "Nomalum, uzoqda"
+    }
+   }
+  },
+  {
+   "id": "a77",
+   "word": "막연하다",
+   "pron": "magyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Nomalum"
+    }
+   }
+  },
+  {
+   "id": "a78",
+   "word": "만무하다",
+   "pron": "manmuhada",
+   "tr": {
+    "uz": {
+     "m": "Mumkin emas"
+    }
+   }
+  },
+  {
+   "id": "a79",
+   "word": "만연하다",
+   "pron": "manyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻp uchraydigon"
+    }
+   }
+  },
+  {
+   "id": "a80",
+   "word": "머지않다",
+   "pron": "meojianta",
+   "tr": {
+    "uz": {
+     "m": "Tez orada, yaqinda"
+    }
+   }
+  },
+  {
+   "id": "a81",
+   "word": "메마르다",
+   "pron": "memareuda",
+   "tr": {
+    "uz": {
+     "m": "Qurimoq"
+    }
+   }
+  },
+  {
+   "id": "a82",
+   "word": "메스껍다",
+   "pron": "meseukkeopda",
+   "tr": {
+    "uz": {
+     "m": "Kasal boʻlmoq"
+    }
+   }
+  },
+  {
+   "id": "a83",
+   "word": "명료하다",
+   "pron": "myeongnyohada",
+   "tr": {
+    "uz": {
+     "m": "Aniq, ravshan"
+    }
+   }
+  },
+  {
+   "id": "a84",
+   "word": "못마땅하다",
+   "pron": "monmattanghada",
+   "tr": {
+    "uz": {
+     "m": "Mos boʻlmagan, yomon"
+    }
+   }
+  },
+  {
+   "id": "a85",
+   "word": "못지않다",
+   "pron": "motjianta",
+   "tr": {
+    "uz": {
+     "m": "Tengi yoʻq, kam boʻlmagan"
+    }
+   }
+  },
+  {
+   "id": "a86",
+   "word": "묘하다",
+   "pron": "myohada",
+   "tr": {
+    "uz": {
+     "m": "Sirli, nozik, muloyim"
+    }
+   }
+  },
+  {
+   "id": "a87",
+   "word": "무관하다",
+   "pron": "mugwanhada",
+   "tr": {
+    "uz": {
+     "m": "Aloqador boʻlmaslik"
+    }
+   }
+  },
+  {
+   "id": "a88",
+   "word": "무궁무진하다",
+   "pron": "mugungmujinhada",
+   "tr": {
+    "uz": {
+     "m": "Cheksiz, poyonsiz"
+    }
+   }
+  },
+  {
+   "id": "a89",
+   "word": "무료하다",
+   "pron": "muryohada",
+   "tr": {
+    "uz": {
+     "m": "Zerikarli"
+    }
+   }
+  },
+  {
+   "id": "a90",
+   "word": "무모하다",
+   "pron": "mumohada",
+   "tr": {
+    "uz": {
+     "m": "Oʻylamay ish qilmoq"
+    }
+   }
+  },
+  {
+   "id": "a91",
+   "word": "무분별하다",
+   "pron": "mubunbyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Eʼtiborsizlik"
+    }
+   }
+  },
+  {
+   "id": "a92",
+   "word": "무색하다",
+   "pron": "musaekhada",
+   "tr": {
+    "uz": {
+     "m": "Uyaltiruvchi"
+    }
+   }
+  },
+  {
+   "id": "a93",
+   "word": "무수하다",
+   "pron": "musuhada",
+   "tr": {
+    "uz": {
+     "m": "Son-sanoqsiz"
+    }
+   }
+  },
+  {
+   "id": "a94",
+   "word": "무한하다",
+   "pron": "muhanhada",
+   "tr": {
+    "uz": {
+     "m": "Cheksiz, bepayon"
+    }
+   }
+  },
+  {
+   "id": "a95",
+   "word": "뭉뚝하다",
+   "pron": "mungttukhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻtmas, qoʻpol"
+    }
+   }
+  },
+  {
+   "id": "a96",
+   "word": "미미하다",
+   "pron": "mimihada",
+   "tr": {
+    "uz": {
+     "m": "Katta boʻlmagan, arzimas"
+    }
+   }
+  },
+  {
+   "id": "a97",
+   "word": "미세하다",
+   "pron": "misehada",
+   "tr": {
+    "uz": {
+     "m": "Kichkina, mayda"
+    }
+   }
+  },
+  {
+   "id": "a98",
+   "word": "미지근하다",
+   "pron": "mijigeunhada",
+   "tr": {
+    "uz": {
+     "m": "Isimaslik, ishtiyoqsiz"
+    }
+   }
+  },
+  {
+   "id": "a99",
+   "word": "미흡하다",
+   "pron": "miheuphada",
+   "tr": {
+    "uz": {
+     "m": "Nuqsonli, kamchiligi bor"
+    }
+   }
+  },
+  {
+   "id": "a100",
+   "word": "민첩하다",
+   "pron": "mincheophada",
+   "tr": {
+    "uz": {
+     "m": "Chaqqon, epchil"
+    }
+   }
+  },
+  {
+   "id": "a101",
+   "word": "밀접하다",
+   "pron": "miljeophada",
+   "tr": {
+    "uz": {
+     "m": "Yaqin (aloqa)"
+    }
+   }
+  },
+  {
+   "id": "a102",
+   "word": "바람직하다",
+   "pron": "baramjikhada",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri, namunali"
+    }
+   }
+  },
+  {
+   "id": "a103",
+   "word": "바르다",
+   "pron": "bareuda",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri"
+    }
+   }
+  },
+  {
+   "id": "a104",
+   "word": "벅차다",
+   "pron": "beokchada",
+   "tr": {
+    "uz": {
+     "m": "Kuchga toʻlgan, qattiq"
+    }
+   }
+  },
+  {
+   "id": "a105",
+   "word": "번거롭다",
+   "pron": "beongeoropda",
+   "tr": {
+    "uz": {
+     "m": "Chigal"
+    }
+   }
+  },
+  {
+   "id": "a106",
+   "word": "번듯하다",
+   "pron": "beondeuthada",
+   "tr": {
+    "uz": {
+     "m": "Talabga javob beradigon"
+    }
+   }
+  },
+  {
+   "id": "a107",
+   "word": "번잡하다",
+   "pron": "beonjaphada",
+   "tr": {
+    "uz": {
+     "m": "Tartibsizlik, chalkash"
+    }
+   }
+  },
+  {
+   "id": "a108",
+   "word": "범상하다",
+   "pron": "beomsanghada",
+   "tr": {
+    "uz": {
+     "m": "Oddiy"
+    }
+   }
+  },
+  {
+   "id": "a109",
+   "word": "변덕스럽다",
+   "pron": "byeondeokseureopda",
+   "tr": {
+    "uz": {
+     "m": "Injiq"
+    }
+   }
+  },
+  {
+   "id": "a110",
+   "word": "변변하다",
+   "pron": "byeonbyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Qoniqarl, durust"
+    }
+   }
+  },
+  {
+   "id": "a111",
+   "word": "보잘것없다",
+   "pron": "bojalgeoseopda",
+   "tr": {
+    "uz": {
+     "m": "Kambagʻal, arzimas"
+    }
+   }
+  },
+  {
+   "id": "a112",
+   "word": "볼록하다",
+   "pron": "bollokhada",
+   "tr": {
+    "uz": {
+     "m": "Boʻrtib chiqmoq"
+    }
+   }
+  },
+  {
+   "id": "a113",
+   "word": "부단하다",
+   "pron": "budanhada",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy, toʻxtovsiz"
+    }
+   }
+  },
+  {
+   "id": "a114",
+   "word": "부유하다",
+   "pron": "buyuhada",
+   "tr": {
+    "uz": {
+     "m": "Boy, badavlat"
+    }
+   }
+  },
+  {
+   "id": "a115",
+   "word": "부조리하다",
+   "pron": "bujorihada",
+   "tr": {
+    "uz": {
+     "m": "Ahamiyatsiz, bemani"
+    }
+   }
+  },
+  {
+   "id": "a116",
+   "word": "분분하다",
+   "pron": "bunbunhada",
+   "tr": {
+    "uz": {
+     "m": "Turlicha, har-hil"
+    }
+   }
+  },
+  {
+   "id": "a117",
+   "word": "분주하다",
+   "pron": "bunjuhada",
+   "tr": {
+    "uz": {
+     "m": "Band"
+    }
+   }
+  },
+  {
+   "id": "a118",
+   "word": "불가피하다",
+   "pron": "bulgapihada",
+   "tr": {
+    "uz": {
+     "m": "Muqarrar"
+    }
+   }
+  },
+  {
+   "id": "a119",
+   "word": "불공정하다",
+   "pron": "bulgongjeonghada",
+   "tr": {
+    "uz": {
+     "m": "Adolatsiz"
+    }
+   }
+  },
+  {
+   "id": "a120",
+   "word": "불과하다",
+   "pron": "bulgwahada",
+   "tr": {
+    "uz": {
+     "m": "Faqat, xolos"
+    }
+   }
+  },
+  {
+   "id": "a121",
+   "word": "불미스럽다",
+   "pron": "bulmiseureopda",
+   "tr": {
+    "uz": {
+     "m": "Uyatli"
+    }
+   }
+  },
+  {
+   "id": "a122",
+   "word": "불순하다",
+   "pron": "bulsunhada",
+   "tr": {
+    "uz": {
+     "m": "Buzuq, iflos, yomon"
+    }
+   }
+  },
+  {
+   "id": "a123",
+   "word": "불합리하다",
+   "pron": "bulhamnihada",
+   "tr": {
+    "uz": {
+     "m": "Bemani, asossiz"
+    }
+   }
+  },
+  {
+   "id": "a124",
+   "word": "빈번하다",
+   "pron": "binbeonhada",
+   "tr": {
+    "uz": {
+     "m": "Tez-tez"
+    }
+   }
+  },
+  {
+   "id": "a125",
+   "word": "빈약하다",
+   "pron": "binyakhada",
+   "tr": {
+    "uz": {
+     "m": "Kambagʻal, faqir"
+    }
+   }
+  },
+  {
+   "id": "a126",
+   "word": "빈틈없다",
+   "pron": "binteumeopda",
+   "tr": {
+    "uz": {
+     "m": "Zich, boʻsh joyi yoʻq"
+    }
+   }
+  },
+  {
+   "id": "a127",
+   "word": "빡빡하다",
+   "pron": "ppakppakhada",
+   "tr": {
+    "uz": {
+     "m": "Jiddiy, tigʻiz"
+    }
+   }
+  },
+  {
+   "id": "a128",
+   "word": "뻐근하다",
+   "pron": "ppeogeunhada",
+   "tr": {
+    "uz": {
+     "m": "Zirqiramoq"
+    }
+   }
+  },
+  {
+   "id": "a129",
+   "word": "뿌듯하다",
+   "pron": "ppudeuthada",
+   "tr": {
+    "uz": {
+     "m": "Magʻrurlanish, gʻururlanish"
+    }
+   }
+  },
+  {
+   "id": "a130",
+   "word": "사소하다",
+   "pron": "sasohada",
+   "tr": {
+    "uz": {
+     "m": "Ahamiyatsiz"
+    }
+   }
+  },
+  {
+   "id": "a131",
+   "word": "사치스럽다",
+   "pron": "sachiseureopda",
+   "tr": {
+    "uz": {
+     "m": "Dabdabali, hashamatli"
+    }
+   }
+  },
+  {
+   "id": "a132",
+   "word": "삭막하다",
+   "pron": "sangmakhada",
+   "tr": {
+    "uz": {
+     "m": "Tushkunlik, qarovsiz"
+    }
+   }
+  },
+  {
+   "id": "a133",
+   "word": "산만하다",
+   "pron": "sanmanhada",
+   "tr": {
+    "uz": {
+     "m": "Hayoli qochgan"
+    }
+   }
+  },
+  {
+   "id": "a134",
+   "word": "상당하다",
+   "pron": "sangdanghada",
+   "tr": {
+    "uz": {
+     "m": "Anchagina"
+    }
+   }
+  },
+  {
+   "id": "a135",
+   "word": "생소하다",
+   "pron": "saengsohada",
+   "tr": {
+    "uz": {
+     "m": "Yangicha, notanish"
+    }
+   }
+  },
+  {
+   "id": "a136",
+   "word": "서럽다",
+   "pron": "seoreopda",
+   "tr": {
+    "uz": {
+     "m": "Xafa, gʻamgin"
+    }
+   }
+  },
+  {
+   "id": "a137",
+   "word": "서먹하다",
+   "pron": "seomeokhada",
+   "tr": {
+    "uz": {
+     "m": "Gʻalati"
+    }
+   }
+  },
+  {
+   "id": "a138",
+   "word": "석연하다",
+   "pron": "seogyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Bilish oson"
+    }
+   }
+  },
+  {
+   "id": "a139",
+   "word": "섣부르다",
+   "pron": "seotbureuda",
+   "tr": {
+    "uz": {
+     "m": "Shoshilmoq"
+    }
+   }
+  },
+  {
+   "id": "a140",
+   "word": "섬세하다",
+   "pron": "seomsehada",
+   "tr": {
+    "uz": {
+     "m": "Nozik, nafis"
+    }
+   }
+  },
+  {
+   "id": "a141",
+   "word": "성기다",
+   "pron": "seonggida",
+   "tr": {
+    "uz": {
+     "m": "Siyrak, kam"
+    }
+   }
+  },
+  {
+   "id": "a142",
+   "word": "성대하다",
+   "pron": "seongdaehada",
+   "tr": {
+    "uz": {
+     "m": "Hashamatli"
+    }
+   }
+  },
+  {
+   "id": "a143",
+   "word": "성하다",
+   "pron": "seonghada",
+   "tr": {
+    "uz": {
+     "m": "Shikas yetmagan"
+    }
+   }
+  },
+  {
+   "id": "a144",
+   "word": "세밀하다",
+   "pron": "semilhada",
+   "tr": {
+    "uz": {
+     "m": "Toʻliq, batafsil"
+    }
+   }
+  },
+  {
+   "id": "a145",
+   "word": "세심하다",
+   "pron": "sesimhada",
+   "tr": {
+    "uz": {
+     "m": "Nozik, nafis"
+    }
+   }
+  },
+  {
+   "id": "a146",
+   "word": "소박하다",
+   "pron": "sobakhada",
+   "tr": {
+    "uz": {
+     "m": "Eskicha, oddiy"
+    }
+   }
+  },
+  {
+   "id": "a147",
+   "word": "소홀하다",
+   "pron": "soholhada",
+   "tr": {
+    "uz": {
+     "m": "Eʼtiborsiz, yuzaki"
+    }
+   }
+  },
+  {
+   "id": "a148",
+   "word": "속상하다",
+   "pron": "soksanghada",
+   "tr": {
+    "uz": {
+     "m": "Siqilmoq"
+    }
+   }
+  },
+  {
+   "id": "a149",
+   "word": "수두룩하다",
+   "pron": "sudurukhada",
+   "tr": {
+    "uz": {
+     "m": "Son sanoqsiz, juda koʻp"
+    }
+   }
+  },
+  {
+   "id": "a150",
+   "word": "수북하다",
+   "pron": "subukhada",
+   "tr": {
+    "uz": {
+     "m": "Qavat-qavat, koʻp"
+    }
+   }
+  },
+  {
+   "id": "a151",
+   "word": "수수하다",
+   "pron": "susuhada",
+   "tr": {
+    "uz": {
+     "m": "Kamtar, kamsuqum"
+    }
+   }
+  },
+  {
+   "id": "a152",
+   "word": "수월하다",
+   "pron": "suwolhada",
+   "tr": {
+    "uz": {
+     "m": "Oson"
+    }
+   }
+  },
+  {
+   "id": "a153",
+   "word": "수줍다",
+   "pron": "sujupda",
+   "tr": {
+    "uz": {
+     "m": "Tortinchoq"
+    }
+   }
+  },
+  {
+   "id": "a154",
+   "word": "순박하다",
+   "pron": "sunbakhada",
+   "tr": {
+    "uz": {
+     "m": "Sodda"
+    }
+   }
+  },
+  {
+   "id": "a155",
+   "word": "순조롭다",
+   "pron": "sunjoropda",
+   "tr": {
+    "uz": {
+     "m": "Oson, silliq"
+    }
+   }
+  },
+  {
+   "id": "a156",
+   "word": "시끌벅적하다",
+   "pron": "sikkeulbeokjeokhada",
+   "tr": {
+    "uz": {
+     "m": "Shovqinli"
+    }
+   }
+  },
+  {
+   "id": "a157",
+   "word": "신중하다",
+   "pron": "sinjunghada",
+   "tr": {
+    "uz": {
+     "m": "Extiyotkor, mulohazali"
+    }
+   }
+  },
+  {
+   "id": "a158",
+   "word": "심각하다",
+   "pron": "simgakhada",
+   "tr": {
+    "uz": {
+     "m": "Jiddiy"
+    }
+   }
+  },
+  {
+   "id": "a159",
+   "word": "쑥스럽다",
+   "pron": "ssukseureopda",
+   "tr": {
+    "uz": {
+     "m": "Uyatli"
+    }
+   }
+  },
+  {
+   "id": "a160",
+   "word": "쓸데없다",
+   "pron": "sseuldeeopda",
+   "tr": {
+    "uz": {
+     "m": "Foydasiz"
+    }
+   }
+  },
+  {
+   "id": "a161",
+   "word": "씁쓸하다",
+   "pron": "sseupsseulhada",
+   "tr": {
+    "uz": {
+     "m": "Achchiq, qaygʻuli"
+    }
+   }
+  },
+  {
+   "id": "a162",
+   "word": "아기자기하다",
+   "pron": "agijagihada",
+   "tr": {
+    "uz": {
+     "m": "Jozibali, tarovatli"
+    }
+   }
+  },
+  {
+   "id": "a163",
+   "word": "아담하다",
+   "pron": "adamhada",
+   "tr": {
+    "uz": {
+     "m": "Toza, pokiza"
+    }
+   }
+  },
+  {
+   "id": "a164",
+   "word": "아랑곳없다",
+   "pron": "aranggoseopda",
+   "tr": {
+    "uz": {
+     "m": "Huddi hech narsa boʻlmay"
+    }
+   }
+  },
+  {
+   "id": "a165",
+   "word": "아련하다",
+   "pron": "aryeonhada",
+   "tr": {
+    "uz": {
+     "m": "Uzoq, noaniq"
+    }
+   }
+  },
+  {
+   "id": "a166",
+   "word": "안락하다",
+   "pron": "allakhada",
+   "tr": {
+    "uz": {
+     "m": "Qulay, xotirjam"
+    }
+   }
+  },
+  {
+   "id": "a167",
+   "word": "안쓰럽다",
+   "pron": "ansseureopda",
+   "tr": {
+    "uz": {
+     "m": "Taʼsirli"
+    }
+   }
+  },
+  {
+   "id": "a168",
+   "word": "안이하다",
+   "pron": "anihada",
+   "tr": {
+    "uz": {
+     "m": "Beparvo, begʻam"
+    }
+   }
+  },
+  {
+   "id": "a169",
+   "word": "안일하다",
+   "pron": "anilhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻzidan koʻngli toʻq"
+    }
+   }
+  },
+  {
+   "id": "a170",
+   "word": "알차다",
+   "pron": "alchada",
+   "tr": {
+    "uz": {
+     "m": "Ulkan, zoʻr"
+    }
+   }
+  },
+  {
+   "id": "a171",
+   "word": "암울하다",
+   "pron": "amulhada",
+   "tr": {
+    "uz": {
+     "m": "Qorongʻu"
+    }
+   }
+  },
+  {
+   "id": "a172",
+   "word": "애처롭다",
+   "pron": "aecheoropda",
+   "tr": {
+    "uz": {
+     "m": "Ayanchli, yurakni ezadigon"
+    }
+   }
+  },
+  {
+   "id": "a173",
+   "word": "애틋하다",
+   "pron": "aeteuthada",
+   "tr": {
+    "uz": {
+     "m": "Iztirobli, alamli"
+    }
+   }
+  },
+  {
+   "id": "a174",
+   "word": "야릇하다",
+   "pron": "yareuthada",
+   "tr": {
+    "uz": {
+     "m": "Gʻayri, tabiiy"
+    }
+   }
+  },
+  {
+   "id": "a175",
+   "word": "야속하다",
+   "pron": "yasokhada",
+   "tr": {
+    "uz": {
+     "m": "Siqilmoq, qiynalmoq"
+    }
+   }
+  },
+  {
+   "id": "a176",
+   "word": "얄밉다",
+   "pron": "yalmipda",
+   "tr": {
+    "uz": {
+     "m": "Bezbet, surbet"
+    }
+   }
+  },
+  {
+   "id": "a177",
+   "word": "어김없다",
+   "pron": "eogimeopda",
+   "tr": {
+    "uz": {
+     "m": "Xatosiz, doim"
+    }
+   }
+  },
+  {
+   "id": "a178",
+   "word": "어눌하다",
+   "pron": "eonulhada",
+   "tr": {
+    "uz": {
+     "m": "Mujmal, tushunib boʻlmas"
+    }
+   }
+  },
+  {
+   "id": "a179",
+   "word": "어리석다",
+   "pron": "eoriseokda",
+   "tr": {
+    "uz": {
+     "m": "Axmoqona"
+    }
+   }
+  },
+  {
+   "id": "a180",
+   "word": "어마어마하다",
+   "pron": "eomaeomahada",
+   "tr": {
+    "uz": {
+     "m": "Juda katta"
+    }
+   }
+  },
+  {
+   "id": "a181",
+   "word": "어색하다",
+   "pron": "eosaekhada",
+   "tr": {
+    "uz": {
+     "m": "Gʻalati"
+    }
+   }
+  },
+  {
+   "id": "a182",
+   "word": "어설프다",
+   "pron": "eoseolpeuda",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh, hom"
+    }
+   }
+  },
+  {
+   "id": "a183",
+   "word": "엄숙하다",
+   "pron": "eomsukhada",
+   "tr": {
+    "uz": {
+     "m": "Jiddiy"
+    }
+   }
+  },
+  {
+   "id": "a184",
+   "word": "여리다",
+   "pron": "yeorida",
+   "tr": {
+    "uz": {
+     "m": "Yumshoq"
+    }
+   }
+  },
+  {
+   "id": "a185",
+   "word": "영험하다",
+   "pron": "yeongheomhada",
+   "tr": {
+    "uz": {
+     "m": "Moʻjizaviy ish"
+    }
+   }
+  },
+  {
+   "id": "a186",
+   "word": "예리하다",
+   "pron": "yerihada",
+   "tr": {
+    "uz": {
+     "m": "Oʻtkir, keskir"
+    }
+   }
+  },
+  {
+   "id": "a187",
+   "word": "예민하다",
+   "pron": "yeminhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻtkir, kuchli"
+    }
+   }
+  },
+  {
+   "id": "a188",
+   "word": "오목하다",
+   "pron": "omokhada",
+   "tr": {
+    "uz": {
+     "m": "Choʻkkan"
+    }
+   }
+  },
+  {
+   "id": "a189",
+   "word": "오붓하다",
+   "pron": "obuthada",
+   "tr": {
+    "uz": {
+     "m": "Bekami koʻs"
+    }
+   }
+  },
+  {
+   "id": "a190",
+   "word": "온순하다",
+   "pron": "onsunhada",
+   "tr": {
+    "uz": {
+     "m": "Yumshoq"
+    }
+   }
+  },
+  {
+   "id": "a191",
+   "word": "온화하다",
+   "pron": "onhwahada",
+   "tr": {
+    "uz": {
+     "m": "Iliq"
+    }
+   }
+  },
+  {
+   "id": "a192",
+   "word": "완만하다",
+   "pron": "wanmanhada",
+   "tr": {
+    "uz": {
+     "m": "Sekin"
+    }
+   }
+  },
+  {
+   "id": "a193",
+   "word": "완연하다",
+   "pron": "wanyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Ochiq, aniq"
+    }
+   }
+  },
+  {
+   "id": "a194",
+   "word": "우렁차다",
+   "pron": "ureongchada",
+   "tr": {
+    "uz": {
+     "m": "Jarangdor"
+    }
+   }
+  },
+  {
+   "id": "a195",
+   "word": "우수하다",
+   "pron": "usuhada",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi, ajoyib"
+    }
+   }
+  },
+  {
+   "id": "a196",
+   "word": "우아하다",
+   "pron": "uahada",
+   "tr": {
+    "uz": {
+     "m": "Muhtasham"
+    }
+   }
+  },
+  {
+   "id": "a197",
+   "word": "우직하다",
+   "pron": "ujikhada",
+   "tr": {
+    "uz": {
+     "m": "Ahmoqona"
+    }
+   }
+  },
+  {
+   "id": "a198",
+   "word": "울긋불긋하다",
+   "pron": "ulgeutbulgeuthada",
+   "tr": {
+    "uz": {
+     "m": "Rang-barang"
+    }
+   }
+  },
+  {
+   "id": "a199",
+   "word": "웅장하다",
+   "pron": "ungjanghada",
+   "tr": {
+    "uz": {
+     "m": "Ajoyib"
+    }
+   }
+  },
+  {
+   "id": "a200",
+   "word": "원만하다",
+   "pron": "wonmanhada",
+   "tr": {
+    "uz": {
+     "m": "Kirishimli"
+    }
+   }
+  },
+  {
+   "id": "a201",
+   "word": "원활하다",
+   "pron": "wonhwalhada",
+   "tr": {
+    "uz": {
+     "m": "Oson, silliq"
+    }
+   }
+  },
+  {
+   "id": "a202",
+   "word": "웬만하다",
+   "pron": "wenmanhada",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi"
+    }
+   }
+  },
+  {
+   "id": "a203",
+   "word": "위독하다",
+   "pron": "widokhada",
+   "tr": {
+    "uz": {
+     "m": "Juda xavfli"
+    }
+   }
+  },
+  {
+   "id": "a204",
+   "word": "위중하다",
+   "pron": "wijunghada",
+   "tr": {
+    "uz": {
+     "m": "Xavfli, jiddiy havf solmoq"
+    }
+   }
+  },
+  {
+   "id": "a205",
+   "word": "유난스럽다",
+   "pron": "yunanseureopda",
+   "tr": {
+    "uz": {
+     "m": "Gʻayri oddiy"
+    }
+   }
+  },
+  {
+   "id": "a206",
+   "word": "유능하다",
+   "pron": "yuneunghada",
+   "tr": {
+    "uz": {
+     "m": "Qobilyatli"
+    }
+   }
+  },
+  {
+   "id": "a207",
+   "word": "유리하다",
+   "pron": "yurihada",
+   "tr": {
+    "uz": {
+     "m": "Foydali"
+    }
+   }
+  },
+  {
+   "id": "a208",
+   "word": "유사하다",
+   "pron": "yusahada",
+   "tr": {
+    "uz": {
+     "m": "Oʻxshash"
+    }
+   }
+  },
+  {
+   "id": "a209",
+   "word": "유연하다",
+   "pron": "yuyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Egiluvchan"
+    }
+   }
+  },
+  {
+   "id": "a210",
+   "word": "유용하다",
+   "pron": "yuyonghada",
+   "tr": {
+    "uz": {
+     "m": "Foydali, kerakli"
+    }
+   }
+  },
+  {
+   "id": "a211",
+   "word": "유창하다",
+   "pron": "yuchanghada",
+   "tr": {
+    "uz": {
+     "m": "Ravon"
+    }
+   }
+  },
+  {
+   "id": "a212",
+   "word": "유해하다",
+   "pron": "yuhaehada",
+   "tr": {
+    "uz": {
+     "m": "Zararli, ziyonli"
+    }
+   }
+  },
+  {
+   "id": "a213",
+   "word": "유효하다",
+   "pron": "yuhyohada",
+   "tr": {
+    "uz": {
+     "m": "Kuchga ega"
+    }
+   }
+  },
+  {
+   "id": "a214",
+   "word": "이롭다",
+   "pron": "iropda",
+   "tr": {
+    "uz": {
+     "m": "Foydali"
+    }
+   }
+  },
+  {
+   "id": "a215",
+   "word": "익살스럽다",
+   "pron": "iksalseureopda",
+   "tr": {
+    "uz": {
+     "m": "Kulgili"
+    }
+   }
+  },
+  {
+   "id": "a216",
+   "word": "인색하다",
+   "pron": "insaekhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻta ketgan xasis"
+    }
+   }
+  },
+  {
+   "id": "a217",
+   "word": "자유분방하다",
+   "pron": "jayubunbanghada",
+   "tr": {
+    "uz": {
+     "m": "Erkin"
+    }
+   }
+  },
+  {
+   "id": "a218",
+   "word": "자잘하다",
+   "pron": "jajalhada",
+   "tr": {
+    "uz": {
+     "m": "Judayam kichkina"
+    }
+   }
+  },
+  {
+   "id": "a219",
+   "word": "잔인하다",
+   "pron": "janinhada",
+   "tr": {
+    "uz": {
+     "m": "Yomon"
+    }
+   }
+  },
+  {
+   "id": "a220",
+   "word": "잔잔하다",
+   "pron": "janjanhada",
+   "tr": {
+    "uz": {
+     "m": "Hali ham, haligacha"
+    }
+   }
+  },
+  {
+   "id": "a221",
+   "word": "장엄하다",
+   "pron": "jangeomhada",
+   "tr": {
+    "uz": {
+     "m": "Ulugʻvor"
+    }
+   }
+  },
+  {
+   "id": "a222",
+   "word": "잦다",
+   "pron": "jatda",
+   "tr": {
+    "uz": {
+     "m": "Koʻp, tez-tez"
+    }
+   }
+  },
+  {
+   "id": "a223",
+   "word": "저조하다",
+   "pron": "jeojohada",
+   "tr": {
+    "uz": {
+     "m": "Past, kuchsiz"
+    }
+   }
+  },
+  {
+   "id": "a224",
+   "word": "적막하다",
+   "pron": "jeongmakhada",
+   "tr": {
+    "uz": {
+     "m": "Sokin, jim-jit"
+    }
+   }
+  },
+  {
+   "id": "a225",
+   "word": "적잖다",
+   "pron": "jeokjanta",
+   "tr": {
+    "uz": {
+     "m": "Katta, koʻp"
+    }
+   }
+  },
+  {
+   "id": "a226",
+   "word": "적절하다",
+   "pron": "jeokjeolhada",
+   "tr": {
+    "uz": {
+     "m": "Mos"
+    }
+   }
+  },
+  {
+   "id": "a227",
+   "word": "적합하다",
+   "pron": "jeokhaphada",
+   "tr": {
+    "uz": {
+     "m": "Mos"
+    }
+   }
+  },
+  {
+   "id": "a228",
+   "word": "절친하다",
+   "pron": "jeolchinhada",
+   "tr": {
+    "uz": {
+     "m": "Yaqin, sirdosh"
+    }
+   }
+  },
+  {
+   "id": "a229",
+   "word": "점잖다",
+   "pron": "jeomjanta",
+   "tr": {
+    "uz": {
+     "m": "Oliyjanob"
+    }
+   }
+  },
+  {
+   "id": "a230",
+   "word": "정겹다",
+   "pron": "jeonggyeopda",
+   "tr": {
+    "uz": {
+     "m": "Sevimli"
+    }
+   }
+  },
+  {
+   "id": "a231",
+   "word": "정교하다",
+   "pron": "jeonggyohada",
+   "tr": {
+    "uz": {
+     "m": "Noziklik"
+    }
+   }
+  },
+  {
+   "id": "a232",
+   "word": "정당하다",
+   "pron": "jeongdanghada",
+   "tr": {
+    "uz": {
+     "m": "Toʻgʻri, odil"
+    }
+   }
+  },
+  {
+   "id": "a233",
+   "word": "정성스럽다",
+   "pron": "jeongseongseureopda",
+   "tr": {
+    "uz": {
+     "m": "Samimiy"
+    }
+   }
+  },
+  {
+   "id": "a234",
+   "word": "정정당당하다",
+   "pron": "jeongjeongdangdanghada",
+   "tr": {
+    "uz": {
+     "m": "Odilona, oʻziga ishongan"
+    }
+   }
+  },
+  {
+   "id": "a235",
+   "word": "정직하다",
+   "pron": "jeongjikhada",
+   "tr": {
+    "uz": {
+     "m": "Odil"
+    }
+   }
+  },
+  {
+   "id": "a236",
+   "word": "조급하다",
+   "pron": "jogeuphada",
+   "tr": {
+    "uz": {
+     "m": "Shoshilinch"
+    }
+   }
+  },
+  {
+   "id": "a237",
+   "word": "조밀하다",
+   "pron": "jomilhada",
+   "tr": {
+    "uz": {
+     "m": "Zich, qalin"
+    }
+   }
+  },
+  {
+   "id": "a238",
+   "word": "조촐하다",
+   "pron": "jocholhada",
+   "tr": {
+    "uz": {
+     "m": "Oddiy, tarzda"
+    }
+   }
+  },
+  {
+   "id": "a239",
+   "word": "주도면밀하다",
+   "pron": "judomyeonmilhada",
+   "tr": {
+    "uz": {
+     "m": "Puhtalik bilan"
+    }
+   }
+  },
+  {
+   "id": "a240",
+   "word": "즐비하다",
+   "pron": "jeulbihada",
+   "tr": {
+    "uz": {
+     "m": "Koʻpligidan"
+    }
+   }
+  },
+  {
+   "id": "a241",
+   "word": "진지하다",
+   "pron": "jinjihada",
+   "tr": {
+    "uz": {
+     "m": "Jiddiy"
+    }
+   }
+  },
+  {
+   "id": "a242",
+   "word": "질기다",
+   "pron": "jilgida",
+   "tr": {
+    "uz": {
+     "m": "Bemaza"
+    }
+   }
+  },
+  {
+   "id": "a243",
+   "word": "짜릿하다",
+   "pron": "jjarithada",
+   "tr": {
+    "uz": {
+     "m": "Hayajonli"
+    }
+   }
+  },
+  {
+   "id": "a244",
+   "word": "찌뿌드드하다",
+   "pron": "jjippudeudeuhada",
+   "tr": {
+    "uz": {
+     "m": "Avzoyi buzuq"
+    }
+   }
+  },
+  {
+   "id": "a245",
+   "word": "차분하다",
+   "pron": "chabunhada",
+   "tr": {
+    "uz": {
+     "m": "Xotirjam"
+    }
+   }
+  },
+  {
+   "id": "a246",
+   "word": "찬란하다",
+   "pron": "challanhada",
+   "tr": {
+    "uz": {
+     "m": "Olmosdek"
+    }
+   }
+  },
+  {
+   "id": "a247",
+   "word": "참신하다",
+   "pron": "chamsinhada",
+   "tr": {
+    "uz": {
+     "m": "Yangi"
+    }
+   }
+  },
+  {
+   "id": "a248",
+   "word": "처량하다",
+   "pron": "cheoryanghada",
+   "tr": {
+    "uz": {
+     "m": "Alamli, qaygʻuli"
+    }
+   }
+  },
+  {
+   "id": "a249",
+   "word": "철저하다",
+   "pron": "cheoljeohada",
+   "tr": {
+    "uz": {
+     "m": "Yetarli, loyiq"
+    }
+   }
+  },
+  {
+   "id": "a250",
+   "word": "청명하다",
+   "pron": "cheongmyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Toza, yaxshi"
+    }
+   }
+  },
+  {
+   "id": "a251",
+   "word": "초라하다",
+   "pron": "chorahada",
+   "tr": {
+    "uz": {
+     "m": "Bechora"
+    }
+   }
+  },
+  {
+   "id": "a252",
+   "word": "초조하다",
+   "pron": "chojohada",
+   "tr": {
+    "uz": {
+     "m": "Sabrsizlik"
+    }
+   }
+  },
+  {
+   "id": "a253",
+   "word": "치밀하다",
+   "pron": "chimilhada",
+   "tr": {
+    "uz": {
+     "m": "Puhta"
+    }
+   }
+  },
+  {
+   "id": "a254",
+   "word": "치열하다",
+   "pron": "chiyeolhada",
+   "tr": {
+    "uz": {
+     "m": "Jiddiy"
+    }
+   }
+  },
+  {
+   "id": "a255",
+   "word": "침착하다",
+   "pron": "chimchakhada",
+   "tr": {
+    "uz": {
+     "m": "Hotirjam"
+    }
+   }
+  },
+  {
+   "id": "a256",
+   "word": "쾌청하다",
+   "pron": "kwaecheonghada",
+   "tr": {
+    "uz": {
+     "m": "Toza"
+    }
+   }
+  },
+  {
+   "id": "a257",
+   "word": "쾌활하다",
+   "pron": "kwaehwalhada",
+   "tr": {
+    "uz": {
+     "m": "Ochiq koʻngil"
+    }
+   }
+  },
+  {
+   "id": "a258",
+   "word": "타당하다",
+   "pron": "tadanghada",
+   "tr": {
+    "uz": {
+     "m": "Mos, toʻgʻri"
+    }
+   }
+  },
+  {
+   "id": "a259",
+   "word": "탁월하다",
+   "pron": "tagwolhada",
+   "tr": {
+    "uz": {
+     "m": "Ajoyib"
+    }
+   }
+  },
+  {
+   "id": "a260",
+   "word": "탁하다",
+   "pron": "takhada",
+   "tr": {
+    "uz": {
+     "m": "Toʻla, kir"
+    }
+   }
+  },
+  {
+   "id": "a261",
+   "word": "탄탄하다",
+   "pron": "tantanhada",
+   "tr": {
+    "uz": {
+     "m": "Sogʻlom, baquvvat"
+    }
+   }
+  },
+  {
+   "id": "a262",
+   "word": "태연하다",
+   "pron": "taeyeonhada",
+   "tr": {
+    "uz": {
+     "m": "Xotirjamlik"
+    }
+   }
+  },
+  {
+   "id": "a263",
+   "word": "투명하다",
+   "pron": "tumyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Shaffof"
+    }
+   }
+  },
+  {
+   "id": "a264",
+   "word": "투박하다",
+   "pron": "tubakhada",
+   "tr": {
+    "uz": {
+     "m": "Qoʻpol, qavargan"
+    }
+   }
+  },
+  {
+   "id": "a265",
+   "word": "특수하다",
+   "pron": "teuksuhada",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos"
+    }
+   }
+  },
+  {
+   "id": "a266",
+   "word": "특이하다",
+   "pron": "teugihada",
+   "tr": {
+    "uz": {
+     "m": "Nodir, noyob"
+    }
+   }
+  },
+  {
+   "id": "a267",
+   "word": "특정하다",
+   "pron": "teukjeonghada",
+   "tr": {
+    "uz": {
+     "m": "Maxsus"
+    }
+   }
+  },
+  {
+   "id": "a268",
+   "word": "팽팽하다",
+   "pron": "paengpaenghada",
+   "tr": {
+    "uz": {
+     "m": "Qattiq, tiniq"
+    }
+   }
+  },
+  {
+   "id": "a269",
+   "word": "평평하다",
+   "pron": "pyeongpyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Oddiy, odatiy"
+    }
+   }
+  },
+  {
+   "id": "a270",
+   "word": "포근하다",
+   "pron": "pogeunhada",
+   "tr": {
+    "uz": {
+     "m": "Iliq, yumshoq"
+    }
+   }
+  },
+  {
+   "id": "a271",
+   "word": "폭넓다",
+   "pron": "pongneolda",
+   "tr": {
+    "uz": {
+     "m": "Keng"
+    }
+   }
+  },
+  {
+   "id": "a272",
+   "word": "풍부하다",
+   "pron": "pungbuhada",
+   "tr": {
+    "uz": {
+     "m": "Boy, toʻkin sochin"
+    }
+   }
+  },
+  {
+   "id": "a273",
+   "word": "하찮다",
+   "pron": "hachanta",
+   "tr": {
+    "uz": {
+     "m": "Ahamiyatsiz"
+    }
+   }
+  },
+  {
+   "id": "a274",
+   "word": "한없다",
+   "pron": "haneopda",
+   "tr": {
+    "uz": {
+     "m": "Cheksiz"
+    }
+   }
+  },
+  {
+   "id": "a275",
+   "word": "허망하다",
+   "pron": "heomanghada",
+   "tr": {
+    "uz": {
+     "m": "Foydasiz, befoyda"
+    }
+   }
+  },
+  {
+   "id": "a276",
+   "word": "허무하다",
+   "pron": "heomuhada",
+   "tr": {
+    "uz": {
+     "m": "Samarasiz, foydasiz"
+    }
+   }
+  },
+  {
+   "id": "a277",
+   "word": "허술하다",
+   "pron": "heosulhada",
+   "tr": {
+    "uz": {
+     "m": "Sodda, oddiy"
+    }
+   }
+  },
+  {
+   "id": "a278",
+   "word": "허전하다",
+   "pron": "heojeonhada",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh, lanj"
+    }
+   }
+  },
+  {
+   "id": "a279",
+   "word": "허하다",
+   "pron": "heohada",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh, lanjlik"
+    }
+   }
+  },
+  {
+   "id": "a280",
+   "word": "허황되다",
+   "pron": "heohwangdoeda",
+   "tr": {
+    "uz": {
+     "m": "Bemani"
+    }
+   }
+  },
+  {
+   "id": "a281",
+   "word": "헐렁하다",
+   "pron": "heolleonghada",
+   "tr": {
+    "uz": {
+     "m": "Shalviragan, keng"
+    }
+   }
+  },
+  {
+   "id": "a282",
+   "word": "험난하다",
+   "pron": "heomnanhada",
+   "tr": {
+    "uz": {
+     "m": "Xavfli"
+    }
+   }
+  },
+  {
+   "id": "a283",
+   "word": "헛되다",
+   "pron": "heotdoeda",
+   "tr": {
+    "uz": {
+     "m": "Boʻlmagʻur"
+    }
+   }
+  },
+  {
+   "id": "a284",
+   "word": "헤프다",
+   "pron": "hepeuda",
+   "tr": {
+    "uz": {
+     "m": "Oson, yengil"
+    }
+   }
+  },
+  {
+   "id": "a285",
+   "word": "현명하다",
+   "pron": "hyeonmyeonghada",
+   "tr": {
+    "uz": {
+     "m": "Donolarcha, oqilona"
+    }
+   }
+  },
+  {
+   "id": "a286",
+   "word": "현저하다",
+   "pron": "hyeonjeohada",
+   "tr": {
+    "uz": {
+     "m": "Aniq, maʼlum"
+    }
+   }
+  },
+  {
+   "id": "a287",
+   "word": "호들갑스럽다",
+   "pron": "hodeulgapseureopda",
+   "tr": {
+    "uz": {
+     "m": "Sezilarli"
+    }
+   }
+  },
+  {
+   "id": "a288",
+   "word": "호젓하다",
+   "pron": "hojeothada",
+   "tr": {
+    "uz": {
+     "m": "Jim-jit, tinch"
+    }
+   }
+  },
+  {
+   "id": "a289",
+   "word": "혼탁하다",
+   "pron": "hontakhada",
+   "tr": {
+    "uz": {
+     "m": "Ifloslanmoq"
+    }
+   }
+  },
+  {
+   "id": "a290",
+   "word": "홀가분하다",
+   "pron": "holgabunhada",
+   "tr": {
+    "uz": {
+     "m": "Yengil tortmoq"
+    }
+   }
+  },
+  {
+   "id": "a291",
+   "word": "화목하다",
+   "pron": "hwamokhada",
+   "tr": {
+    "uz": {
+     "m": "Hamjihatlik"
+    }
+   }
+  },
+  {
+   "id": "a292",
+   "word": "화사하다",
+   "pron": "hwasahada",
+   "tr": {
+    "uz": {
+     "m": "Ajoyib"
+    }
+   }
+  },
+  {
+   "id": "a293",
+   "word": "확고하다",
+   "pron": "hwakgohada",
+   "tr": {
+    "uz": {
+     "m": "Qatiiy turib olmoq"
+    }
+   }
+  },
+  {
+   "id": "a294",
+   "word": "후련하다",
+   "pron": "huryeonhada",
+   "tr": {
+    "uz": {
+     "m": "Yengil tortmoq"
+    }
+   }
+  },
+  {
+   "id": "a295",
+   "word": "훈훈하다",
+   "pron": "hunhunhada",
+   "tr": {
+    "uz": {
+     "m": "Iliq"
+    }
+   }
+  },
+  {
+   "id": "a296",
+   "word": "휘황찬란하다",
+   "pron": "hwihwangchallanhada",
+   "tr": {
+    "uz": {
+     "m": "Koʻzni qamashtiradigon"
+    }
+   }
+  },
+  {
+   "id": "a297",
+   "word": "흐뭇하다",
+   "pron": "heumuthada",
+   "tr": {
+    "uz": {
+     "m": "Mamnun qiluvchi"
+    }
+   }
+  },
+  {
+   "id": "a298",
+   "word": "흥겹다",
+   "pron": "heunggyeopda",
+   "tr": {
+    "uz": {
+     "m": "Miriqmoq, maroqli"
+    }
+   }
+  },
+  {
+   "id": "a299",
+   "word": "희미하다",
+   "pron": "huimihada",
+   "tr": {
+    "uz": {
+     "m": "Nomalum"
+    }
+   }
+  },
+  {
+   "id": "a300",
+   "word": "희박하다",
+   "pron": "huibakhada",
+   "tr": {
+    "uz": {
+     "m": "Nodir, oz, kam"
+    }
+   }
+  }
+ ]
+}

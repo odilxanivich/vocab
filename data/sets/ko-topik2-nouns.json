@@ -1,0 +1,4512 @@
+{
+ "id": "ko-topik2-nouns",
+ "title": "TOPIK II · Nouns",
+ "learn": "ko",
+ "back": [
+  "uz"
+ ],
+ "version": 1,
+ "updated": "2026-11-21T17:54:45.238Z",
+ "items": [
+  {
+   "id": "n1",
+   "word": "가닥",
+   "pron": "gadak",
+   "tr": {
+    "uz": {
+     "m": "Ip uchi"
+    }
+   }
+  },
+  {
+   "id": "n2",
+   "word": "가상",
+   "pron": "gasang",
+   "tr": {
+    "uz": {
+     "m": "Tasavvur"
+    }
+   }
+  },
+  {
+   "id": "n3",
+   "word": "가설",
+   "pron": "gaseol",
+   "tr": {
+    "uz": {
+     "m": "Faraz"
+    }
+   }
+  },
+  {
+   "id": "n4",
+   "word": "각광",
+   "pron": "gakgwang",
+   "tr": {
+    "uz": {
+     "m": "Diqqatni tortish"
+    }
+   }
+  },
+  {
+   "id": "n5",
+   "word": "각오",
+   "pron": "gago",
+   "tr": {
+    "uz": {
+     "m": "Qaror"
+    }
+   }
+  },
+  {
+   "id": "n6",
+   "word": "갈등",
+   "pron": "galdeung",
+   "tr": {
+    "uz": {
+     "m": "Kelishmovchilik"
+    }
+   }
+  },
+  {
+   "id": "n7",
+   "word": "갈피",
+   "pron": "galpi",
+   "tr": {
+    "uz": {
+     "m": "Yoʻnalish"
+    }
+   }
+  },
+  {
+   "id": "n8",
+   "word": "개발",
+   "pron": "gaebal",
+   "tr": {
+    "uz": {
+     "m": "Rivojlanish"
+    }
+   }
+  },
+  {
+   "id": "n9",
+   "word": "거리낌",
+   "pron": "georikkim",
+   "tr": {
+    "uz": {
+     "m": "Tortinchoqlik"
+    }
+   }
+  },
+  {
+   "id": "n10",
+   "word": "걸림돌",
+   "pron": "geollimdol",
+   "tr": {
+    "uz": {
+     "m": "Toʻsiq"
+    }
+   }
+  },
+  {
+   "id": "n11",
+   "word": "겨를",
+   "pron": "gyeoreul",
+   "tr": {
+    "uz": {
+     "m": "Vaqt, tinim"
+    }
+   }
+  },
+  {
+   "id": "n12",
+   "word": "격려",
+   "pron": "gyeongnyeo",
+   "tr": {
+    "uz": {
+     "m": "Qoʻllab quvvatlash"
+    }
+   }
+  },
+  {
+   "id": "n13",
+   "word": "견문",
+   "pron": "gyeonmun",
+   "tr": {
+    "uz": {
+     "m": "Bilim"
+    }
+   }
+  },
+  {
+   "id": "n14",
+   "word": "견본",
+   "pron": "gyeonbon",
+   "tr": {
+    "uz": {
+     "m": "Nusxa"
+    }
+   }
+  },
+  {
+   "id": "n15",
+   "word": "결손",
+   "pron": "gyeolson",
+   "tr": {
+    "uz": {
+     "m": "Zarar, ziyon"
+    }
+   }
+  },
+  {
+   "id": "n16",
+   "word": "결실",
+   "pron": "gyeolsil",
+   "tr": {
+    "uz": {
+     "m": "Natija, meva"
+    }
+   }
+  },
+  {
+   "id": "n17",
+   "word": "결의",
+   "pron": "gyeorui",
+   "tr": {
+    "uz": {
+     "m": "Qatiiylik, hal qiluvchi qaror"
+    }
+   }
+  },
+  {
+   "id": "n18",
+   "word": "결핍",
+   "pron": "gyeolpip",
+   "tr": {
+    "uz": {
+     "m": "Yetishmovchilik"
+    }
+   }
+  },
+  {
+   "id": "n19",
+   "word": "결함",
+   "pron": "gyeolham",
+   "tr": {
+    "uz": {
+     "m": "Yetishmaslik"
+    }
+   }
+  },
+  {
+   "id": "n20",
+   "word": "경쟁",
+   "pron": "gyeongjaeng",
+   "tr": {
+    "uz": {
+     "m": "Raqobat, musobaqa"
+    }
+   }
+  },
+  {
+   "id": "n21",
+   "word": "경향",
+   "pron": "gyeonghyang",
+   "tr": {
+    "uz": {
+     "m": "Mayil, havas"
+    }
+   }
+  },
+  {
+   "id": "n22",
+   "word": "계기",
+   "pron": "gyegi",
+   "tr": {
+    "uz": {
+     "m": "Fursat, imkoniyat, turtki"
+    }
+   }
+  },
+  {
+   "id": "n23",
+   "word": "고정관념",
+   "pron": "gojeonggwannyeom",
+   "tr": {
+    "uz": {
+     "m": "Tushuncha"
+    }
+   }
+  },
+  {
+   "id": "n24",
+   "word": "고집",
+   "pron": "gojip",
+   "tr": {
+    "uz": {
+     "m": "Qaysarlik, oʻjarlik"
+    }
+   }
+  },
+  {
+   "id": "n25",
+   "word": "고찰",
+   "pron": "gochal",
+   "tr": {
+    "uz": {
+     "m": "Qiziqish, eʼtibor"
+    }
+   }
+  },
+  {
+   "id": "n26",
+   "word": "고충",
+   "pron": "gochung",
+   "tr": {
+    "uz": {
+     "m": "Ichidagi gap"
+    }
+   }
+  },
+  {
+   "id": "n27",
+   "word": "곤경",
+   "pron": "gongyeong",
+   "tr": {
+    "uz": {
+     "m": "Qiyin ahvol"
+    }
+   }
+  },
+  {
+   "id": "n28",
+   "word": "공로",
+   "pron": "gongno",
+   "tr": {
+    "uz": {
+     "m": "Hizmat, (komunal)"
+    }
+   }
+  },
+  {
+   "id": "n29",
+   "word": "공모",
+   "pron": "gongmo",
+   "tr": {
+    "uz": {
+     "m": "Muzokara, bahs"
+    }
+   }
+  },
+  {
+   "id": "n30",
+   "word": "공모",
+   "pron": "gongmo",
+   "tr": {
+    "uz": {
+     "m": "Fitna, til biriktirish"
+    }
+   }
+  },
+  {
+   "id": "n31",
+   "word": "공익",
+   "pron": "gongik",
+   "tr": {
+    "uz": {
+     "m": "Umumiy foyda"
+    }
+   }
+  },
+  {
+   "id": "n32",
+   "word": "공존",
+   "pron": "gongjon",
+   "tr": {
+    "uz": {
+     "m": "Birga yashash"
+    }
+   }
+  },
+  {
+   "id": "n33",
+   "word": "과찬",
+   "pron": "gwachan",
+   "tr": {
+    "uz": {
+     "m": "Xushomad"
+    }
+   }
+  },
+  {
+   "id": "n34",
+   "word": "관념",
+   "pron": "gwannyeom",
+   "tr": {
+    "uz": {
+     "m": "Tushuncha"
+    }
+   }
+  },
+  {
+   "id": "n35",
+   "word": "관용",
+   "pron": "gwanyong",
+   "tr": {
+    "uz": {
+     "m": "Bagʻrikenglik"
+    }
+   }
+  },
+  {
+   "id": "n36",
+   "word": "관행",
+   "pron": "gwanhaeng",
+   "tr": {
+    "uz": {
+     "m": "Urf-odat"
+    }
+   }
+  },
+  {
+   "id": "n37",
+   "word": "궁핍",
+   "pron": "gungpip",
+   "tr": {
+    "uz": {
+     "m": "Qashshoqlik"
+    }
+   }
+  },
+  {
+   "id": "n38",
+   "word": "귀감",
+   "pron": "gwigam",
+   "tr": {
+    "uz": {
+     "m": "Oʻrnak, namuna"
+    }
+   }
+  },
+  {
+   "id": "n39",
+   "word": "균형",
+   "pron": "gyunhyeong",
+   "tr": {
+    "uz": {
+     "m": "Muvozanat, tenglik"
+    }
+   }
+  },
+  {
+   "id": "n40",
+   "word": "근검절약",
+   "pron": "geungeomjeoryak",
+   "tr": {
+    "uz": {
+     "m": "Tejamkorlik"
+    }
+   }
+  },
+  {
+   "id": "n41",
+   "word": "기량",
+   "pron": "giryang",
+   "tr": {
+    "uz": {
+     "m": "Qobilyat, isteʼdod"
+    }
+   }
+  },
+  {
+   "id": "n42",
+   "word": "기반",
+   "pron": "giban",
+   "tr": {
+    "uz": {
+     "m": "Asos"
+    }
+   }
+  },
+  {
+   "id": "n43",
+   "word": "기세",
+   "pron": "gise",
+   "tr": {
+    "uz": {
+     "m": "Kuch, quvvat"
+    }
+   }
+  },
+  {
+   "id": "n44",
+   "word": "기우",
+   "pron": "giu",
+   "tr": {
+    "uz": {
+     "m": "Bekorga tashvishlanish"
+    }
+   }
+  },
+  {
+   "id": "n45",
+   "word": "기질",
+   "pron": "gijil",
+   "tr": {
+    "uz": {
+     "m": "Harakter"
+    }
+   }
+  },
+  {
+   "id": "n46",
+   "word": "기치",
+   "pron": "gichi",
+   "tr": {
+    "uz": {
+     "m": "Bayroq"
+    }
+   }
+  },
+  {
+   "id": "n47",
+   "word": "기틀",
+   "pron": "giteul",
+   "tr": {
+    "uz": {
+     "m": "Fundament, asos"
+    }
+   }
+  },
+  {
+   "id": "n48",
+   "word": "기품",
+   "pron": "gipum",
+   "tr": {
+    "uz": {
+     "m": "Oliyjanoblik, nafis"
+    }
+   }
+  },
+  {
+   "id": "n49",
+   "word": "까닭",
+   "pron": "kkadak",
+   "tr": {
+    "uz": {
+     "m": "Sabab"
+    }
+   }
+  },
+  {
+   "id": "n50",
+   "word": "꼬투리",
+   "pron": "kkoturi",
+   "tr": {
+    "uz": {
+     "m": "Ayb, nuqson"
+    }
+   }
+  },
+  {
+   "id": "n51",
+   "word": "낌새",
+   "pron": "kkimsae",
+   "tr": {
+    "uz": {
+     "m": "Belgi"
+    }
+   }
+  },
+  {
+   "id": "n52",
+   "word": "나름",
+   "pron": "nareum",
+   "tr": {
+    "uz": {
+     "m": "Bogʻliq, qaram"
+    }
+   }
+  },
+  {
+   "id": "n53",
+   "word": "나위",
+   "pron": "nawi",
+   "tr": {
+    "uz": {
+     "m": "Xojat (aytishni xojati yoʻq)"
+    }
+   }
+  },
+  {
+   "id": "n54",
+   "word": "남녀노소",
+   "pron": "namnyeonoso",
+   "tr": {
+    "uz": {
+     "m": "Erkak ayol uchun"
+    }
+   }
+  },
+  {
+   "id": "n55",
+   "word": "낭패",
+   "pron": "nangpae",
+   "tr": {
+    "uz": {
+     "m": "Muvaffaqiyatsizlik"
+    }
+   }
+  },
+  {
+   "id": "n56",
+   "word": "노후",
+   "pron": "nohu",
+   "tr": {
+    "uz": {
+     "m": "Qari, Yoshi oʻtgan"
+    }
+   }
+  },
+  {
+   "id": "n57",
+   "word": "논거",
+   "pron": "nongeo",
+   "tr": {
+    "uz": {
+     "m": "Asos, dalil"
+    }
+   }
+  },
+  {
+   "id": "n58",
+   "word": "논란",
+   "pron": "nollan",
+   "tr": {
+    "uz": {
+     "m": "Baxs, muzokara"
+    }
+   }
+  },
+  {
+   "id": "n59",
+   "word": "논쟁",
+   "pron": "nonjaeng",
+   "tr": {
+    "uz": {
+     "m": "Muzokara"
+    }
+   }
+  },
+  {
+   "id": "n60",
+   "word": "논점",
+   "pron": "nonjeom",
+   "tr": {
+    "uz": {
+     "m": "Qarash"
+    }
+   }
+  },
+  {
+   "id": "n61",
+   "word": "뇌물",
+   "pron": "noemul",
+   "tr": {
+    "uz": {
+     "m": "Pora"
+    }
+   }
+  },
+  {
+   "id": "n62",
+   "word": "눈치",
+   "pron": "nunchi",
+   "tr": {
+    "uz": {
+     "m": "Ziyraklik"
+    }
+   }
+  },
+  {
+   "id": "n63",
+   "word": "능률",
+   "pron": "neungnyul",
+   "tr": {
+    "uz": {
+     "m": "Effect, taʼsir, unumdorlik"
+    }
+   }
+  },
+  {
+   "id": "n64",
+   "word": "단결",
+   "pron": "dangyeol",
+   "tr": {
+    "uz": {
+     "m": "Birlashish"
+    }
+   }
+  },
+  {
+   "id": "n65",
+   "word": "단서",
+   "pron": "danseo",
+   "tr": {
+    "uz": {
+     "m": "Kalava uchi, ip uchi"
+    }
+   }
+  },
+  {
+   "id": "n66",
+   "word": "당부",
+   "pron": "dangbu",
+   "tr": {
+    "uz": {
+     "m": "Iltimos qilish, soʻrash"
+    }
+   }
+  },
+  {
+   "id": "n67",
+   "word": "당시",
+   "pron": "dangsi",
+   "tr": {
+    "uz": {
+     "m": "Bir vaqt, u vaqt"
+    }
+   }
+  },
+  {
+   "id": "n68",
+   "word": "대상",
+   "pron": "daesang",
+   "tr": {
+    "uz": {
+     "m": "Ishtirokchi, obekt"
+    }
+   }
+  },
+  {
+   "id": "n69",
+   "word": "덜미",
+   "pron": "deolmi",
+   "tr": {
+    "uz": {
+     "m": "Boʻyinning orqa tomoni"
+    }
+   }
+  },
+  {
+   "id": "n70",
+   "word": "돌파구",
+   "pron": "dolpagu",
+   "tr": {
+    "uz": {
+     "m": "Yechim"
+    }
+   }
+  },
+  {
+   "id": "n71",
+   "word": "동작",
+   "pron": "dongjak",
+   "tr": {
+    "uz": {
+     "m": "Harakatlanish, qimirlash"
+    }
+   }
+  },
+  {
+   "id": "n72",
+   "word": "동조",
+   "pron": "dongjo",
+   "tr": {
+    "uz": {
+     "m": "Rozilik, tarafdorlik"
+    }
+   }
+  },
+  {
+   "id": "n73",
+   "word": "동향",
+   "pron": "donghyang",
+   "tr": {
+    "uz": {
+     "m": "Yoʻnalish, ogʻish"
+    }
+   }
+  },
+  {
+   "id": "n74",
+   "word": "두각",
+   "pron": "dugak",
+   "tr": {
+    "uz": {
+     "m": "Tafovut, farq qilish"
+    }
+   }
+  },
+  {
+   "id": "n75",
+   "word": "뒷받침",
+   "pron": "dwitbatchim",
+   "tr": {
+    "uz": {
+     "m": "Tirgak"
+    }
+   }
+  },
+  {
+   "id": "n76",
+   "word": "뒷전",
+   "pron": "dwitjeon",
+   "tr": {
+    "uz": {
+     "m": "Orqasida boʻlish, oʻrniga"
+    }
+   }
+  },
+  {
+   "id": "n77",
+   "word": "등용문",
+   "pron": "deungyongmun",
+   "tr": {
+    "uz": {
+     "m": "Yuksalish"
+    }
+   }
+  },
+  {
+   "id": "n78",
+   "word": "디딤돌",
+   "pron": "didimdol",
+   "tr": {
+    "uz": {
+     "m": "Toshli zina"
+    }
+   }
+  },
+  {
+   "id": "n79",
+   "word": "또래",
+   "pron": "ttorae",
+   "tr": {
+    "uz": {
+     "m": "Tengdosh, tengqur"
+    }
+   }
+  },
+  {
+   "id": "n80",
+   "word": "뜬구름",
+   "pron": "tteungureum",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh"
+    }
+   }
+  },
+  {
+   "id": "n81",
+   "word": "마감",
+   "pron": "magam",
+   "tr": {
+    "uz": {
+     "m": "Oxirgi, soʻnggi"
+    }
+   }
+  },
+  {
+   "id": "n82",
+   "word": "마구잡이",
+   "pron": "magujabi",
+   "tr": {
+    "uz": {
+     "m": "Eʼtiborsizlik bilan"
+    }
+   }
+  },
+  {
+   "id": "n83",
+   "word": "마찰",
+   "pron": "machal",
+   "tr": {
+    "uz": {
+     "m": "Kelishmovchilik"
+    }
+   }
+  },
+  {
+   "id": "n84",
+   "word": "막무가내",
+   "pron": "mangmuganae",
+   "tr": {
+    "uz": {
+     "m": "Oʻjarlik, qaysarlik"
+    }
+   }
+  },
+  {
+   "id": "n85",
+   "word": "막판",
+   "pron": "makpan",
+   "tr": {
+    "uz": {
+     "m": "Soʻnggi qism, oxirgi chora"
+    }
+   }
+  },
+  {
+   "id": "n86",
+   "word": "만료",
+   "pron": "mallyo",
+   "tr": {
+    "uz": {
+     "m": "Oxirgi muhlat"
+    }
+   }
+  },
+  {
+   "id": "n87",
+   "word": "말꼬리",
+   "pron": "malkkori",
+   "tr": {
+    "uz": {
+     "m": "Gap oxiri"
+    }
+   }
+  },
+  {
+   "id": "n88",
+   "word": "말문",
+   "pron": "malmun",
+   "tr": {
+    "uz": {
+     "m": "Tili soʻzga kelmaslik"
+    }
+   }
+  },
+  {
+   "id": "n89",
+   "word": "말썽",
+   "pron": "malsseong",
+   "tr": {
+    "uz": {
+     "m": "Ishkal qilish, janjallashish"
+    }
+   }
+  },
+  {
+   "id": "n90",
+   "word": "망상",
+   "pron": "mangsang",
+   "tr": {
+    "uz": {
+     "m": "Adashtirish,"
+    }
+   }
+  },
+  {
+   "id": "n91",
+   "word": "망신",
+   "pron": "mangsin",
+   "tr": {
+    "uz": {
+     "m": "Sharmandalik"
+    }
+   }
+  },
+  {
+   "id": "n92",
+   "word": "망정",
+   "pron": "mangjeong",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi boʻldi"
+    }
+   }
+  },
+  {
+   "id": "n93",
+   "word": "매듭",
+   "pron": "maedeup",
+   "tr": {
+    "uz": {
+     "m": "Tugun, tugish, bitirish"
+    }
+   }
+  },
+  {
+   "id": "n94",
+   "word": "매연",
+   "pron": "maeyeon",
+   "tr": {
+    "uz": {
+     "m": "Tutun, bugʻ"
+    }
+   }
+  },
+  {
+   "id": "n95",
+   "word": "매출",
+   "pron": "maechul",
+   "tr": {
+    "uz": {
+     "m": "Sotuv"
+    }
+   }
+  },
+  {
+   "id": "n96",
+   "word": "맥락",
+   "pron": "maengnak",
+   "tr": {
+    "uz": {
+     "m": "Kontekst"
+    }
+   }
+  },
+  {
+   "id": "n97",
+   "word": "면모",
+   "pron": "myeonmo",
+   "tr": {
+    "uz": {
+     "m": "Yuzning chiroyli koʻrinishi"
+    }
+   }
+  },
+  {
+   "id": "n98",
+   "word": "멸종",
+   "pron": "myeoljong",
+   "tr": {
+    "uz": {
+     "m": "Qirilish, bitirilish"
+    }
+   }
+  },
+  {
+   "id": "n99",
+   "word": "명목",
+   "pron": "myeongmok",
+   "tr": {
+    "uz": {
+     "m": "Sabab, roʻkach, bahona"
+    }
+   }
+  },
+  {
+   "id": "n100",
+   "word": "명복",
+   "pron": "myeongbok",
+   "tr": {
+    "uz": {
+     "m": "Ruhi shod boʻlsin"
+    }
+   }
+  },
+  {
+   "id": "n101",
+   "word": "명색",
+   "pron": "myeongsaek",
+   "tr": {
+    "uz": {
+     "m": "Nomiga"
+    }
+   }
+  },
+  {
+   "id": "n102",
+   "word": "명성",
+   "pron": "myeongseong",
+   "tr": {
+    "uz": {
+     "m": "Obroʻ, eʼtibor"
+    }
+   }
+  },
+  {
+   "id": "n103",
+   "word": "명칭",
+   "pron": "myeongching",
+   "tr": {
+    "uz": {
+     "m": "Ism, nom"
+    }
+   }
+  },
+  {
+   "id": "n104",
+   "word": "모범",
+   "pron": "mobeom",
+   "tr": {
+    "uz": {
+     "m": "Namuna"
+    }
+   }
+  },
+  {
+   "id": "n105",
+   "word": "모순",
+   "pron": "mosun",
+   "tr": {
+    "uz": {
+     "m": "Qarama-qarshilik"
+    }
+   }
+  },
+  {
+   "id": "n106",
+   "word": "몫",
+   "pron": "mok",
+   "tr": {
+    "uz": {
+     "m": "Ulush, masuliyat"
+    }
+   }
+  },
+  {
+   "id": "n107",
+   "word": "묘미",
+   "pron": "myomi",
+   "tr": {
+    "uz": {
+     "m": "Tarovat, fusunkor"
+    }
+   }
+  },
+  {
+   "id": "n108",
+   "word": "묵념",
+   "pron": "mungnyeom",
+   "tr": {
+    "uz": {
+     "m": "Sukut saqlash, qolish"
+    }
+   }
+  },
+  {
+   "id": "n109",
+   "word": "문명",
+   "pron": "munmyeong",
+   "tr": {
+    "uz": {
+     "m": "Madaniyat"
+    }
+   }
+  },
+  {
+   "id": "n110",
+   "word": "문물",
+   "pron": "munmul",
+   "tr": {
+    "uz": {
+     "m": "Madaniy buyum"
+    }
+   }
+  },
+  {
+   "id": "n111",
+   "word": "문턱",
+   "pron": "munteok",
+   "tr": {
+    "uz": {
+     "m": "Ostona, eshik oldi"
+    }
+   }
+  },
+  {
+   "id": "n112",
+   "word": "물질",
+   "pron": "muljil",
+   "tr": {
+    "uz": {
+     "m": "Material, buyum"
+    }
+   }
+  },
+  {
+   "id": "n113",
+   "word": "미궁",
+   "pron": "migung",
+   "tr": {
+    "uz": {
+     "m": "Mazayka, labirint"
+    }
+   }
+  },
+  {
+   "id": "n114",
+   "word": "미끼",
+   "pron": "mikki",
+   "tr": {
+    "uz": {
+     "m": "Xoʻrak"
+    }
+   }
+  },
+  {
+   "id": "n115",
+   "word": "미덕",
+   "pron": "mideok",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi xislat, fazilat"
+    }
+   }
+  },
+  {
+   "id": "n116",
+   "word": "미련",
+   "pron": "miryeon",
+   "tr": {
+    "uz": {
+     "m": "Afsus, pushaymonlik"
+    }
+   }
+  },
+  {
+   "id": "n117",
+   "word": "민원",
+   "pron": "minwon",
+   "tr": {
+    "uz": {
+     "m": "Xalq noroziligi, xalq"
+    }
+   }
+  },
+  {
+   "id": "n118",
+   "word": "밑거름",
+   "pron": "mitgeoreum",
+   "tr": {
+    "uz": {
+     "m": "Poydevor"
+    }
+   }
+  },
+  {
+   "id": "n119",
+   "word": "밑바탕",
+   "pron": "mitbatang",
+   "tr": {
+    "uz": {
+     "m": "Tamal, fundament"
+    }
+   }
+  },
+  {
+   "id": "n120",
+   "word": "바늘방석",
+   "pron": "baneulbangseok",
+   "tr": {
+    "uz": {
+     "m": "Ignali oʻrindiq"
+    }
+   }
+  },
+  {
+   "id": "n121",
+   "word": "바탕",
+   "pron": "batang",
+   "tr": {
+    "uz": {
+     "m": "Asos"
+    }
+   }
+  },
+  {
+   "id": "n122",
+   "word": "반란",
+   "pron": "ballan",
+   "tr": {
+    "uz": {
+     "m": "Isyon koʻtarish"
+    }
+   }
+  },
+  {
+   "id": "n123",
+   "word": "반발",
+   "pron": "banbal",
+   "tr": {
+    "uz": {
+     "m": "Teskari taʼsir koʻrsatish"
+    }
+   }
+  },
+  {
+   "id": "n124",
+   "word": "반열",
+   "pron": "banyeol",
+   "tr": {
+    "uz": {
+     "m": "Unvon, martaba"
+    }
+   }
+  },
+  {
+   "id": "n125",
+   "word": "반응",
+   "pron": "baneung",
+   "tr": {
+    "uz": {
+     "m": "Taʼsir, javob"
+    }
+   }
+  },
+  {
+   "id": "n126",
+   "word": "반입",
+   "pron": "banip",
+   "tr": {
+    "uz": {
+     "m": "Olib oʻtish"
+    }
+   }
+  },
+  {
+   "id": "n127",
+   "word": "발상",
+   "pron": "balsang",
+   "tr": {
+    "uz": {
+     "m": "Ideya, gʻoya"
+    }
+   }
+  },
+  {
+   "id": "n128",
+   "word": "방사능",
+   "pron": "bangsaneung",
+   "tr": {
+    "uz": {
+     "m": "Radiaktivlik"
+    }
+   }
+  },
+  {
+   "id": "n129",
+   "word": "방안",
+   "pron": "bangan",
+   "tr": {
+    "uz": {
+     "m": "Chora, tadbir"
+    }
+   }
+  },
+  {
+   "id": "n130",
+   "word": "방어",
+   "pron": "bangeo",
+   "tr": {
+    "uz": {
+     "m": "Ximoyalanish, mudofa"
+    }
+   }
+  },
+  {
+   "id": "n131",
+   "word": "방침",
+   "pron": "bangchim",
+   "tr": {
+    "uz": {
+     "m": "Tamoyil"
+    }
+   }
+  },
+  {
+   "id": "n132",
+   "word": "방패",
+   "pron": "bangpae",
+   "tr": {
+    "uz": {
+     "m": "Qalqon"
+    }
+   }
+  },
+  {
+   "id": "n133",
+   "word": "배경",
+   "pron": "baegyeong",
+   "tr": {
+    "uz": {
+     "m": "Orqa fon, koʻrinish"
+    }
+   }
+  },
+  {
+   "id": "n134",
+   "word": "배려",
+   "pron": "baeryeo",
+   "tr": {
+    "uz": {
+     "m": "Gʻamxoʻrlik"
+    }
+   }
+  },
+  {
+   "id": "n135",
+   "word": "버릇",
+   "pron": "beoreut",
+   "tr": {
+    "uz": {
+     "m": "Odat"
+    }
+   }
+  },
+  {
+   "id": "n136",
+   "word": "번영",
+   "pron": "beonyeong",
+   "tr": {
+    "uz": {
+     "m": "Gullab yashnashi"
+    }
+   }
+  },
+  {
+   "id": "n137",
+   "word": "변동",
+   "pron": "byeondong",
+   "tr": {
+    "uz": {
+     "m": "Almashish"
+    }
+   }
+  },
+  {
+   "id": "n138",
+   "word": "변천",
+   "pron": "byeoncheon",
+   "tr": {
+    "uz": {
+     "m": "Oʻzgarish"
+    }
+   }
+  },
+  {
+   "id": "n139",
+   "word": "별개",
+   "pron": "byeolgae",
+   "tr": {
+    "uz": {
+     "m": "Boshqa narsa"
+    }
+   }
+  },
+  {
+   "id": "n140",
+   "word": "별도",
+   "pron": "byeoldo",
+   "tr": {
+    "uz": {
+     "m": "Ajralish, boʻlinish"
+    }
+   }
+  },
+  {
+   "id": "n141",
+   "word": "보람",
+   "pron": "boram",
+   "tr": {
+    "uz": {
+     "m": "Foyda"
+    }
+   }
+  },
+  {
+   "id": "n142",
+   "word": "보상",
+   "pron": "bosang",
+   "tr": {
+    "uz": {
+     "m": "Badalini toʻlash"
+    }
+   }
+  },
+  {
+   "id": "n143",
+   "word": "복용",
+   "pron": "bogyong",
+   "tr": {
+    "uz": {
+     "m": "Dori ichish"
+    }
+   }
+  },
+  {
+   "id": "n144",
+   "word": "복제",
+   "pron": "bokje",
+   "tr": {
+    "uz": {
+     "m": "Noqonuniy nusxalash"
+    }
+   }
+  },
+  {
+   "id": "n145",
+   "word": "본능",
+   "pron": "bonneung",
+   "tr": {
+    "uz": {
+     "m": "Ichki tuygʻu, instinkt"
+    }
+   }
+  },
+  {
+   "id": "n146",
+   "word": "본보기",
+   "pron": "bonbogi",
+   "tr": {
+    "uz": {
+     "m": "Namuna, misol"
+    }
+   }
+  },
+  {
+   "id": "n147",
+   "word": "부담",
+   "pron": "budam",
+   "tr": {
+    "uz": {
+     "m": "Tashvish, ogʻir yuk"
+    }
+   }
+  },
+  {
+   "id": "n148",
+   "word": "부문",
+   "pron": "bumun",
+   "tr": {
+    "uz": {
+     "m": "Soha"
+    }
+   }
+  },
+  {
+   "id": "n149",
+   "word": "분노",
+   "pron": "bunno",
+   "tr": {
+    "uz": {
+     "m": "Jaxl"
+    }
+   }
+  },
+  {
+   "id": "n150",
+   "word": "분량",
+   "pron": "bullyang",
+   "tr": {
+    "uz": {
+     "m": "Miqdor"
+    }
+   }
+  },
+  {
+   "id": "n151",
+   "word": "분야",
+   "pron": "bunya",
+   "tr": {
+    "uz": {
+     "m": "Soha"
+    }
+   }
+  },
+  {
+   "id": "n152",
+   "word": "분쟁",
+   "pron": "bunjaeng",
+   "tr": {
+    "uz": {
+     "m": "Kelishmovchilik"
+    }
+   }
+  },
+  {
+   "id": "n153",
+   "word": "비결",
+   "pron": "bigyeol",
+   "tr": {
+    "uz": {
+     "m": "Sir"
+    }
+   }
+  },
+  {
+   "id": "n154",
+   "word": "비만",
+   "pron": "biman",
+   "tr": {
+    "uz": {
+     "m": "Ortiqcha semizlik"
+    }
+   }
+  },
+  {
+   "id": "n155",
+   "word": "비법",
+   "pron": "bibeop",
+   "tr": {
+    "uz": {
+     "m": "Sir, maxfiy usul"
+    }
+   }
+  },
+  {
+   "id": "n156",
+   "word": "비율",
+   "pron": "biyul",
+   "tr": {
+    "uz": {
+     "m": "Nisbat"
+    }
+   }
+  },
+  {
+   "id": "n157",
+   "word": "비중",
+   "pron": "bijung",
+   "tr": {
+    "uz": {
+     "m": "Ahamiyat"
+    }
+   }
+  },
+  {
+   "id": "n158",
+   "word": "빈도",
+   "pron": "bindo",
+   "tr": {
+    "uz": {
+     "m": "Tez-tez sodir boʻlishi"
+    }
+   }
+  },
+  {
+   "id": "n159",
+   "word": "사기",
+   "pron": "sagi",
+   "tr": {
+    "uz": {
+     "m": "Firibgarlik"
+    }
+   }
+  },
+  {
+   "id": "n160",
+   "word": "사례",
+   "pron": "sarye",
+   "tr": {
+    "uz": {
+     "m": "Misol, namuna"
+    }
+   }
+  },
+  {
+   "id": "n161",
+   "word": "사시사철",
+   "pron": "sasisacheol",
+   "tr": {
+    "uz": {
+     "m": "Har mavsum, yil boʻyi"
+    }
+   }
+  },
+  {
+   "id": "n162",
+   "word": "사태",
+   "pron": "satae",
+   "tr": {
+    "uz": {
+     "m": "Holat"
+    }
+   }
+  },
+  {
+   "id": "n163",
+   "word": "살림",
+   "pron": "sallim",
+   "tr": {
+    "uz": {
+     "m": "Yashash sharoiti"
+    }
+   }
+  },
+  {
+   "id": "n164",
+   "word": "상생",
+   "pron": "sangsaeng",
+   "tr": {
+    "uz": {
+     "m": "Birga yashash"
+    }
+   }
+  },
+  {
+   "id": "n165",
+   "word": "상식",
+   "pron": "sangsik",
+   "tr": {
+    "uz": {
+     "m": "Umumiy tuygʻu"
+    }
+   }
+  },
+  {
+   "id": "n166",
+   "word": "상황",
+   "pron": "sanghwang",
+   "tr": {
+    "uz": {
+     "m": "Vaziyat"
+    }
+   }
+  },
+  {
+   "id": "n167",
+   "word": "새싹",
+   "pron": "saessak",
+   "tr": {
+    "uz": {
+     "m": "Gʻuncha"
+    }
+   }
+  },
+  {
+   "id": "n168",
+   "word": "생계",
+   "pron": "saenggye",
+   "tr": {
+    "uz": {
+     "m": "Yashash"
+    }
+   }
+  },
+  {
+   "id": "n169",
+   "word": "생성",
+   "pron": "saengseong",
+   "tr": {
+    "uz": {
+     "m": "Yuzaga kelish, tarqalish"
+    }
+   }
+  },
+  {
+   "id": "n170",
+   "word": "생존",
+   "pron": "saengjon",
+   "tr": {
+    "uz": {
+     "m": "Tirik qolish"
+    }
+   }
+  },
+  {
+   "id": "n171",
+   "word": "선의",
+   "pron": "seonui",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi niyat"
+    }
+   }
+  },
+  {
+   "id": "n172",
+   "word": "선착순",
+   "pron": "seonchaksun",
+   "tr": {
+    "uz": {
+     "m": "Birinchi kelgan kishi"
+    }
+   }
+  },
+  {
+   "id": "n173",
+   "word": "성과",
+   "pron": "seonggwa",
+   "tr": {
+    "uz": {
+     "m": "Natija"
+    }
+   }
+  },
+  {
+   "id": "n174",
+   "word": "성능",
+   "pron": "seongneung",
+   "tr": {
+    "uz": {
+     "m": "Sifati, funksiya"
+    }
+   }
+  },
+  {
+   "id": "n175",
+   "word": "성분",
+   "pron": "seongbun",
+   "tr": {
+    "uz": {
+     "m": "Tarkibidagi modda"
+    }
+   }
+  },
+  {
+   "id": "n176",
+   "word": "성비",
+   "pron": "seongbi",
+   "tr": {
+    "uz": {
+     "m": "Jinsiy nisbat"
+    }
+   }
+  },
+  {
+   "id": "n177",
+   "word": "성원",
+   "pron": "seongwon",
+   "tr": {
+    "uz": {
+     "m": "Qoʻllash"
+    }
+   }
+  },
+  {
+   "id": "n178",
+   "word": "성품",
+   "pron": "seongpum",
+   "tr": {
+    "uz": {
+     "m": "Shaxsiyat, insoniyat"
+    }
+   }
+  },
+  {
+   "id": "n179",
+   "word": "성향",
+   "pron": "seonghyang",
+   "tr": {
+    "uz": {
+     "m": "Mijoz, mayil"
+    }
+   }
+  },
+  {
+   "id": "n180",
+   "word": "세균",
+   "pron": "segyun",
+   "tr": {
+    "uz": {
+     "m": "Bakteriya, mikrob"
+    }
+   }
+  },
+  {
+   "id": "n181",
+   "word": "소감",
+   "pron": "sogam",
+   "tr": {
+    "uz": {
+     "m": "Taʼsurot, his tuygʻu"
+    }
+   }
+  },
+  {
+   "id": "n182",
+   "word": "소견",
+   "pron": "sogyeon",
+   "tr": {
+    "uz": {
+     "m": "Qarash"
+    }
+   }
+  },
+  {
+   "id": "n183",
+   "word": "소란",
+   "pron": "soran",
+   "tr": {
+    "uz": {
+     "m": "Besaramjonlik, bezovtalik"
+    }
+   }
+  },
+  {
+   "id": "n184",
+   "word": "소망",
+   "pron": "somang",
+   "tr": {
+    "uz": {
+     "m": "Xoxish"
+    }
+   }
+  },
+  {
+   "id": "n185",
+   "word": "소신",
+   "pron": "sosin",
+   "tr": {
+    "uz": {
+     "m": "Ishonch"
+    }
+   }
+  },
+  {
+   "id": "n186",
+   "word": "소재",
+   "pron": "sojae",
+   "tr": {
+    "uz": {
+     "m": "Material"
+    }
+   }
+  },
+  {
+   "id": "n187",
+   "word": "속성",
+   "pron": "sokseong",
+   "tr": {
+    "uz": {
+     "m": "Xususiyat"
+    }
+   }
+  },
+  {
+   "id": "n188",
+   "word": "손길",
+   "pron": "songil",
+   "tr": {
+    "uz": {
+     "m": "Yordam qoʻli"
+    }
+   }
+  },
+  {
+   "id": "n189",
+   "word": "손실",
+   "pron": "sonsil",
+   "tr": {
+    "uz": {
+     "m": "Zarar (ziyon) koʻrish"
+    }
+   }
+  },
+  {
+   "id": "n190",
+   "word": "손질",
+   "pron": "sonjil",
+   "tr": {
+    "uz": {
+     "m": "Parvarish qilish"
+    }
+   }
+  },
+  {
+   "id": "n191",
+   "word": "솜씨",
+   "pron": "somssi",
+   "tr": {
+    "uz": {
+     "m": "Mahorat"
+    }
+   }
+  },
+  {
+   "id": "n192",
+   "word": "수거",
+   "pron": "sugeo",
+   "tr": {
+    "uz": {
+     "m": "Yegʻish"
+    }
+   }
+  },
+  {
+   "id": "n193",
+   "word": "수립",
+   "pron": "surip",
+   "tr": {
+    "uz": {
+     "m": "Barpo qilish, asos solish"
+    }
+   }
+  },
+  {
+   "id": "n194",
+   "word": "수면",
+   "pron": "sumyeon",
+   "tr": {
+    "uz": {
+     "m": "Uyqu"
+    }
+   }
+  },
+  {
+   "id": "n195",
+   "word": "수법",
+   "pron": "subeop",
+   "tr": {
+    "uz": {
+     "m": "Uslub"
+    }
+   }
+  },
+  {
+   "id": "n196",
+   "word": "수색",
+   "pron": "susaek",
+   "tr": {
+    "uz": {
+     "m": "Qidirish"
+    }
+   }
+  },
+  {
+   "id": "n197",
+   "word": "수위",
+   "pron": "suwi",
+   "tr": {
+    "uz": {
+     "m": "Suv sathi"
+    }
+   }
+  },
+  {
+   "id": "n198",
+   "word": "수칙",
+   "pron": "suchik",
+   "tr": {
+    "uz": {
+     "m": "Tartib-qoida"
+    }
+   }
+  },
+  {
+   "id": "n199",
+   "word": "수확",
+   "pron": "suhwak",
+   "tr": {
+    "uz": {
+     "m": "Oʻrim-yegʻim, hosil yegʻish"
+    }
+   }
+  },
+  {
+   "id": "n200",
+   "word": "숙면",
+   "pron": "sungmyeon",
+   "tr": {
+    "uz": {
+     "m": "Qattiq uyqu"
+    }
+   }
+  },
+  {
+   "id": "n201",
+   "word": "숙명",
+   "pron": "sungmyeong",
+   "tr": {
+    "uz": {
+     "m": "Taqdir"
+    }
+   }
+  },
+  {
+   "id": "n202",
+   "word": "숙원",
+   "pron": "sugwon",
+   "tr": {
+    "uz": {
+     "m": "Istak"
+    }
+   }
+  },
+  {
+   "id": "n203",
+   "word": "순간",
+   "pron": "sungan",
+   "tr": {
+    "uz": {
+     "m": "Lahza, daqiqa"
+    }
+   }
+  },
+  {
+   "id": "n204",
+   "word": "숨통",
+   "pron": "sumtong",
+   "tr": {
+    "uz": {
+     "m": "Hayot, umr, boʻgʻziga kelish"
+    }
+   }
+  },
+  {
+   "id": "n205",
+   "word": "승부",
+   "pron": "seungbu",
+   "tr": {
+    "uz": {
+     "m": "Gʻalaba yo yengilish"
+    }
+   }
+  },
+  {
+   "id": "n206",
+   "word": "승산",
+   "pron": "seungsan",
+   "tr": {
+    "uz": {
+     "m": "Gʻalaba imkoni"
+    }
+   }
+  },
+  {
+   "id": "n207",
+   "word": "시각",
+   "pron": "sigak",
+   "tr": {
+    "uz": {
+     "m": "Qarash, nuqtai nazar"
+    }
+   }
+  },
+  {
+   "id": "n208",
+   "word": "시련",
+   "pron": "siryeon",
+   "tr": {
+    "uz": {
+     "m": "Sinov"
+    }
+   }
+  },
+  {
+   "id": "n209",
+   "word": "시름",
+   "pron": "sireum",
+   "tr": {
+    "uz": {
+     "m": "Tashvish, xavotir"
+    }
+   }
+  },
+  {
+   "id": "n210",
+   "word": "시시각각",
+   "pron": "sisigakgak",
+   "tr": {
+    "uz": {
+     "m": "Vaqti-vaqti bilan"
+    }
+   }
+  },
+  {
+   "id": "n211",
+   "word": "식이요법",
+   "pron": "sigiyobeop",
+   "tr": {
+    "uz": {
+     "m": "Tibbiy parhez"
+    }
+   }
+  },
+  {
+   "id": "n212",
+   "word": "신경질",
+   "pron": "singyeongjil",
+   "tr": {
+    "uz": {
+     "m": "Serjahllik, asabiylik"
+    }
+   }
+  },
+  {
+   "id": "n213",
+   "word": "신명",
+   "pron": "sinmyeong",
+   "tr": {
+    "uz": {
+     "m": "Shodlanish"
+    }
+   }
+  },
+  {
+   "id": "n214",
+   "word": "신분",
+   "pron": "sinbun",
+   "tr": {
+    "uz": {
+     "m": "Oʻzini kimligi (nasl-nasab)"
+    }
+   }
+  },
+  {
+   "id": "n215",
+   "word": "신비",
+   "pron": "sinbi",
+   "tr": {
+    "uz": {
+     "m": "Sir, afsona"
+    }
+   }
+  },
+  {
+   "id": "n216",
+   "word": "신앙",
+   "pron": "sinang",
+   "tr": {
+    "uz": {
+     "m": "Imon"
+    }
+   }
+  },
+  {
+   "id": "n217",
+   "word": "실마리",
+   "pron": "silmari",
+   "tr": {
+    "uz": {
+     "m": "Ip uchi, kalava uchi"
+    }
+   }
+  },
+  {
+   "id": "n218",
+   "word": "실의",
+   "pron": "sirui",
+   "tr": {
+    "uz": {
+     "m": "Xafa boʻlish, siqilish"
+    }
+   }
+  },
+  {
+   "id": "n219",
+   "word": "실전",
+   "pron": "siljeon",
+   "tr": {
+    "uz": {
+     "m": "Haqiqiy jang, urushish"
+    }
+   }
+  },
+  {
+   "id": "n220",
+   "word": "실천",
+   "pron": "silcheon",
+   "tr": {
+    "uz": {
+     "m": "Amaliyot"
+    }
+   }
+  },
+  {
+   "id": "n221",
+   "word": "실태",
+   "pron": "siltae",
+   "tr": {
+    "uz": {
+     "m": "Haqiqiy holat"
+    }
+   }
+  },
+  {
+   "id": "n222",
+   "word": "심리",
+   "pron": "simni",
+   "tr": {
+    "uz": {
+     "m": "Psixologiya"
+    }
+   }
+  },
+  {
+   "id": "n223",
+   "word": "심의",
+   "pron": "simui",
+   "tr": {
+    "uz": {
+     "m": "Muhokama qilish"
+    }
+   }
+  },
+  {
+   "id": "n224",
+   "word": "심정",
+   "pron": "simjeong",
+   "tr": {
+    "uz": {
+     "m": "Ichidagilar, koʻngildagilar"
+    }
+   }
+  },
+  {
+   "id": "n225",
+   "word": "심혈",
+   "pron": "simhyeol",
+   "tr": {
+    "uz": {
+     "m": "Butun vujudini berish"
+    }
+   }
+  },
+  {
+   "id": "n226",
+   "word": "십상",
+   "pron": "sipsang",
+   "tr": {
+    "uz": {
+     "m": "Kundek ravshan"
+    }
+   }
+  },
+  {
+   "id": "n227",
+   "word": "씀씀이",
+   "pron": "sseumsseumi",
+   "tr": {
+    "uz": {
+     "m": "Xarajat, sarf"
+    }
+   }
+  },
+  {
+   "id": "n228",
+   "word": "악취",
+   "pron": "akchwi",
+   "tr": {
+    "uz": {
+     "m": "Ifor, xid"
+    }
+   }
+  },
+  {
+   "id": "n229",
+   "word": "안간힘",
+   "pron": "anganhim",
+   "tr": {
+    "uz": {
+     "m": "Kurashish"
+    }
+   }
+  },
+  {
+   "id": "n230",
+   "word": "안목",
+   "pron": "anmok",
+   "tr": {
+    "uz": {
+     "m": "Tushunish qobilyati"
+    }
+   }
+  },
+  {
+   "id": "n231",
+   "word": "암시",
+   "pron": "amsi",
+   "tr": {
+    "uz": {
+     "m": "Ishora, imo, shama"
+    }
+   }
+  },
+  {
+   "id": "n232",
+   "word": "압도",
+   "pron": "apdo",
+   "tr": {
+    "uz": {
+     "m": "Ustun kelish"
+    }
+   }
+  },
+  {
+   "id": "n233",
+   "word": "야심",
+   "pron": "yasim",
+   "tr": {
+    "uz": {
+     "m": "Hirs"
+    }
+   }
+  },
+  {
+   "id": "n234",
+   "word": "양해",
+   "pron": "yanghae",
+   "tr": {
+    "uz": {
+     "m": "Hayrihohlik, hamjihatlik"
+    }
+   }
+  },
+  {
+   "id": "n235",
+   "word": "어리광",
+   "pron": "eorigwang",
+   "tr": {
+    "uz": {
+     "m": "Yoshbolacha harakat"
+    }
+   }
+  },
+  {
+   "id": "n236",
+   "word": "어원",
+   "pron": "eowon",
+   "tr": {
+    "uz": {
+     "m": "Kelib chiqishi"
+    }
+   }
+  },
+  {
+   "id": "n237",
+   "word": "억압",
+   "pron": "eogap",
+   "tr": {
+    "uz": {
+     "m": "Bosim ostida boʻlish, zulm"
+    }
+   }
+  },
+  {
+   "id": "n238",
+   "word": "억양",
+   "pron": "eogyang",
+   "tr": {
+    "uz": {
+     "m": "Ohang, urgʻu berish"
+    }
+   }
+  },
+  {
+   "id": "n239",
+   "word": "엄살",
+   "pron": "eomsal",
+   "tr": {
+    "uz": {
+     "m": "Bekorga dod voy solish"
+    }
+   }
+  },
+  {
+   "id": "n240",
+   "word": "엉망진창",
+   "pron": "eongmangjinchang",
+   "tr": {
+    "uz": {
+     "m": "Tartibsizlik, ivirsib yotish"
+    }
+   }
+  },
+  {
+   "id": "n241",
+   "word": "여건",
+   "pron": "yeogeon",
+   "tr": {
+    "uz": {
+     "m": "Holat"
+    }
+   }
+  },
+  {
+   "id": "n242",
+   "word": "여백",
+   "pron": "yeobaek",
+   "tr": {
+    "uz": {
+     "m": "Boʻshliq"
+    }
+   }
+  },
+  {
+   "id": "n243",
+   "word": "여유",
+   "pron": "yeoyu",
+   "tr": {
+    "uz": {
+     "m": "Boʻsh vaqt"
+    }
+   }
+  },
+  {
+   "id": "n244",
+   "word": "역량",
+   "pron": "yeongnyang",
+   "tr": {
+    "uz": {
+     "m": "Qobilyat"
+    }
+   }
+  },
+  {
+   "id": "n245",
+   "word": "역전",
+   "pron": "yeokjeon",
+   "tr": {
+    "uz": {
+     "m": "Teskari oʻgirilish"
+    }
+   }
+  },
+  {
+   "id": "n246",
+   "word": "연간",
+   "pron": "yeongan",
+   "tr": {
+    "uz": {
+     "m": "Yillik"
+    }
+   }
+  },
+  {
+   "id": "n247",
+   "word": "연금",
+   "pron": "yeongeum",
+   "tr": {
+    "uz": {
+     "m": "Nafaqa puli, pensiya"
+    }
+   }
+  },
+  {
+   "id": "n248",
+   "word": "연민",
+   "pron": "yeonmin",
+   "tr": {
+    "uz": {
+     "m": "Shafqat, rahm"
+    }
+   }
+  },
+  {
+   "id": "n249",
+   "word": "열의",
+   "pron": "yeorui",
+   "tr": {
+    "uz": {
+     "m": "Xoxish, iroda"
+    }
+   }
+  },
+  {
+   "id": "n250",
+   "word": "염려",
+   "pron": "yeomnyeo",
+   "tr": {
+    "uz": {
+     "m": "Xavotir, bezovta"
+    }
+   }
+  },
+  {
+   "id": "n251",
+   "word": "예언",
+   "pron": "yeeon",
+   "tr": {
+    "uz": {
+     "m": "Taxmin"
+    }
+   }
+  },
+  {
+   "id": "n252",
+   "word": "예의범절",
+   "pron": "yeuibeomjeol",
+   "tr": {
+    "uz": {
+     "m": "Etika"
+    }
+   }
+  },
+  {
+   "id": "n253",
+   "word": "예측",
+   "pron": "yecheuk",
+   "tr": {
+    "uz": {
+     "m": "Oldindan taxmin qilish"
+    }
+   }
+  },
+  {
+   "id": "n254",
+   "word": "오류",
+   "pron": "oryu",
+   "tr": {
+    "uz": {
+     "m": "Xato"
+    }
+   }
+  },
+  {
+   "id": "n255",
+   "word": "오산",
+   "pron": "osan",
+   "tr": {
+    "uz": {
+     "m": "Notoʻgʻri (narsa)tekshirish"
+    }
+   }
+  },
+  {
+   "id": "n256",
+   "word": "옹호",
+   "pron": "ongho",
+   "tr": {
+    "uz": {
+     "m": "Himoya qilish"
+    }
+   }
+  },
+  {
+   "id": "n257",
+   "word": "외면",
+   "pron": "oemyeon",
+   "tr": {
+    "uz": {
+     "m": "Oldini olish"
+    }
+   }
+  },
+  {
+   "id": "n258",
+   "word": "외환위기",
+   "pron": "oehwanwigi",
+   "tr": {
+    "uz": {
+     "m": "Tashqi (krizis)almashinuv"
+    }
+   }
+  },
+  {
+   "id": "n259",
+   "word": "요령",
+   "pron": "yoryeong",
+   "tr": {
+    "uz": {
+     "m": "Zamonga qarab harakat"
+    }
+   }
+  },
+  {
+   "id": "n260",
+   "word": "요행",
+   "pron": "yohaeng",
+   "tr": {
+    "uz": {
+     "m": "Omad"
+    }
+   }
+  },
+  {
+   "id": "n261",
+   "word": "우호",
+   "pron": "uho",
+   "tr": {
+    "uz": {
+     "m": "Doʻstlik"
+    }
+   }
+  },
+  {
+   "id": "n262",
+   "word": "운송",
+   "pron": "unsong",
+   "tr": {
+    "uz": {
+     "m": "Yuk tashish (transportda)"
+    }
+   }
+  },
+  {
+   "id": "n263",
+   "word": "울타리",
+   "pron": "ultari",
+   "tr": {
+    "uz": {
+     "m": "Toʻqima devor"
+    }
+   }
+  },
+  {
+   "id": "n264",
+   "word": "원리",
+   "pron": "wolli",
+   "tr": {
+    "uz": {
+     "m": "Asos, nazariya"
+    }
+   }
+  },
+  {
+   "id": "n265",
+   "word": "원본",
+   "pron": "wonbon",
+   "tr": {
+    "uz": {
+     "m": "Asl nusxa, orginal"
+    }
+   }
+  },
+  {
+   "id": "n266",
+   "word": "원칙",
+   "pron": "wonchik",
+   "tr": {
+    "uz": {
+     "m": "Tamoyil, prinsp"
+    }
+   }
+  },
+  {
+   "id": "n267",
+   "word": "위계질서",
+   "pron": "wigyejilseo",
+   "tr": {
+    "uz": {
+     "m": "Tutgan oʻrni, tartib"
+    }
+   }
+  },
+  {
+   "id": "n268",
+   "word": "위생",
+   "pron": "wisaeng",
+   "tr": {
+    "uz": {
+     "m": "Gigeyna"
+    }
+   }
+  },
+  {
+   "id": "n269",
+   "word": "위안",
+   "pron": "wian",
+   "tr": {
+    "uz": {
+     "m": "Tasalli, dalda"
+    }
+   }
+  },
+  {
+   "id": "n270",
+   "word": "위용",
+   "pron": "wiyong",
+   "tr": {
+    "uz": {
+     "m": "Viqori, salobati (musobaqa)"
+    }
+   }
+  },
+  {
+   "id": "n271",
+   "word": "위주",
+   "pron": "wiju",
+   "tr": {
+    "uz": {
+     "m": "Asos"
+    }
+   }
+  },
+  {
+   "id": "n272",
+   "word": "위탁",
+   "pron": "witak",
+   "tr": {
+    "uz": {
+     "m": "Topshirish, yuklash"
+    }
+   }
+  },
+  {
+   "id": "n273",
+   "word": "유세",
+   "pron": "yuse",
+   "tr": {
+    "uz": {
+     "m": "Saylov komissiyasi"
+    }
+   }
+  },
+  {
+   "id": "n274",
+   "word": "유형",
+   "pron": "yuhyeong",
+   "tr": {
+    "uz": {
+     "m": "Tur, hil"
+    }
+   }
+  },
+  {
+   "id": "n275",
+   "word": "유혹",
+   "pron": "yuhok",
+   "tr": {
+    "uz": {
+     "m": "Shahvatlanish, nafs"
+    }
+   }
+  },
+  {
+   "id": "n276",
+   "word": "은퇴",
+   "pron": "euntoe",
+   "tr": {
+    "uz": {
+     "m": "Nafaqaga chiqish"
+    }
+   }
+  },
+  {
+   "id": "n277",
+   "word": "응모",
+   "pron": "eungmo",
+   "tr": {
+    "uz": {
+     "m": "Kirish, yozilish"
+    }
+   }
+  },
+  {
+   "id": "n278",
+   "word": "의도",
+   "pron": "uido",
+   "tr": {
+    "uz": {
+     "m": "Niyat, maqsad"
+    }
+   }
+  },
+  {
+   "id": "n279",
+   "word": "의문",
+   "pron": "uimun",
+   "tr": {
+    "uz": {
+     "m": "Dolzarb (masala)muammo"
+    }
+   }
+  },
+  {
+   "id": "n280",
+   "word": "이론",
+   "pron": "iron",
+   "tr": {
+    "uz": {
+     "m": "Tamoyil"
+    }
+   }
+  },
+  {
+   "id": "n281",
+   "word": "이면",
+   "pron": "imyeon",
+   "tr": {
+    "uz": {
+     "m": "Tarafi"
+    }
+   }
+  },
+  {
+   "id": "n282",
+   "word": "이치",
+   "pron": "ichi",
+   "tr": {
+    "uz": {
+     "m": "Kishini asosli harakat qilishga undovchi narsa"
+    }
+   }
+  },
+  {
+   "id": "n283",
+   "word": "인근",
+   "pron": "ingeun",
+   "tr": {
+    "uz": {
+     "m": "Yaqin atrofda"
+    }
+   }
+  },
+  {
+   "id": "n284",
+   "word": "인상",
+   "pron": "insang",
+   "tr": {
+    "uz": {
+     "m": "Koʻtarish"
+    }
+   }
+  },
+  {
+   "id": "n285",
+   "word": "인재",
+   "pron": "injae",
+   "tr": {
+    "uz": {
+     "m": "Iqtidorli odam"
+    }
+   }
+  },
+  {
+   "id": "n286",
+   "word": "인적",
+   "pron": "injeok",
+   "tr": {
+    "uz": {
+     "m": "Odamlar, odamlar soni"
+    }
+   }
+  },
+  {
+   "id": "n287",
+   "word": "인접",
+   "pron": "injeop",
+   "tr": {
+    "uz": {
+     "m": "Qoʻshni"
+    }
+   }
+  },
+  {
+   "id": "n288",
+   "word": "인파",
+   "pron": "inpa",
+   "tr": {
+    "uz": {
+     "m": "Koʻpchilik, olomon"
+    }
+   }
+  },
+  {
+   "id": "n289",
+   "word": "일각",
+   "pron": "ilgak",
+   "tr": {
+    "uz": {
+     "m": "Bir burchak"
+    }
+   }
+  },
+  {
+   "id": "n290",
+   "word": "일거수일투족",
+   "pron": "ilgeosuiltujok",
+   "tr": {
+    "uz": {
+     "m": "Kunlik ish"
+    }
+   }
+  },
+  {
+   "id": "n291",
+   "word": "일리",
+   "pron": "illi",
+   "tr": {
+    "uz": {
+     "m": "Bir sababi bor"
+    }
+   }
+  },
+  {
+   "id": "n292",
+   "word": "일선",
+   "pron": "ilseon",
+   "tr": {
+    "uz": {
+     "m": "Bir taraf"
+    }
+   }
+  },
+  {
+   "id": "n293",
+   "word": "일쑤",
+   "pron": "ilssu",
+   "tr": {
+    "uz": {
+     "m": "Odat"
+    }
+   }
+  },
+  {
+   "id": "n294",
+   "word": "일품",
+   "pron": "ilpum",
+   "tr": {
+    "uz": {
+     "m": "Zoʻr, ajoyib"
+    }
+   }
+  },
+  {
+   "id": "n295",
+   "word": "일환",
+   "pron": "ilhwan",
+   "tr": {
+    "uz": {
+     "m": "Bir qismi, bir boʻlagi"
+    }
+   }
+  },
+  {
+   "id": "n296",
+   "word": "임무",
+   "pron": "immu",
+   "tr": {
+    "uz": {
+     "m": "Topshiriq"
+    }
+   }
+  },
+  {
+   "id": "n297",
+   "word": "입지",
+   "pron": "ipji",
+   "tr": {
+    "uz": {
+     "m": "Turar joy, turgan joy"
+    }
+   }
+  },
+  {
+   "id": "n298",
+   "word": "자각",
+   "pron": "jagak",
+   "tr": {
+    "uz": {
+     "m": "Fahmlash, anglash"
+    }
+   }
+  },
+  {
+   "id": "n299",
+   "word": "자격",
+   "pron": "jagyeok",
+   "tr": {
+    "uz": {
+     "m": "Malaka"
+    }
+   }
+  },
+  {
+   "id": "n300",
+   "word": "자랑",
+   "pron": "jarang",
+   "tr": {
+    "uz": {
+     "m": "Maqtash, gʻurur, iftihor"
+    }
+   }
+  },
+  {
+   "id": "n301",
+   "word": "자선",
+   "pron": "jaseon",
+   "tr": {
+    "uz": {
+     "m": "Xayriya qilish"
+    }
+   }
+  },
+  {
+   "id": "n302",
+   "word": "자질",
+   "pron": "jajil",
+   "tr": {
+    "uz": {
+     "m": "Sifati, xususiyati"
+    }
+   }
+  },
+  {
+   "id": "n303",
+   "word": "자태",
+   "pron": "jatae",
+   "tr": {
+    "uz": {
+     "m": "Figura, koʻrinish"
+    }
+   }
+  },
+  {
+   "id": "n304",
+   "word": "잡념",
+   "pron": "jamnyeom",
+   "tr": {
+    "uz": {
+     "m": "Aralash fikr"
+    }
+   }
+  },
+  {
+   "id": "n305",
+   "word": "잡음",
+   "pron": "jabeum",
+   "tr": {
+    "uz": {
+     "m": "Shovqin, tovush"
+    }
+   }
+  },
+  {
+   "id": "n306",
+   "word": "저항",
+   "pron": "jeohang",
+   "tr": {
+    "uz": {
+     "m": "Tiranish, qarshi turish"
+    }
+   }
+  },
+  {
+   "id": "n307",
+   "word": "적응",
+   "pron": "jeogeung",
+   "tr": {
+    "uz": {
+     "m": "Mos"
+    }
+   }
+  },
+  {
+   "id": "n308",
+   "word": "적정",
+   "pron": "jeokjeong",
+   "tr": {
+    "uz": {
+     "m": "Haqiqiy"
+    }
+   }
+  },
+  {
+   "id": "n309",
+   "word": "전략",
+   "pron": "jeollyak",
+   "tr": {
+    "uz": {
+     "m": "Strategiya"
+    }
+   }
+  },
+  {
+   "id": "n310",
+   "word": "전망",
+   "pron": "jeonmang",
+   "tr": {
+    "uz": {
+     "m": "Kuzatuv, koʻrinish"
+    }
+   }
+  },
+  {
+   "id": "n311",
+   "word": "절약",
+   "pron": "jeoryak",
+   "tr": {
+    "uz": {
+     "m": "Tejamkorlik"
+    }
+   }
+  },
+  {
+   "id": "n312",
+   "word": "절차",
+   "pron": "jeolcha",
+   "tr": {
+    "uz": {
+     "m": "Tartib"
+    }
+   }
+  },
+  {
+   "id": "n313",
+   "word": "정복",
+   "pron": "jeongbok",
+   "tr": {
+    "uz": {
+     "m": "Zabt etish"
+    }
+   }
+  },
+  {
+   "id": "n314",
+   "word": "정비",
+   "pron": "jeongbi",
+   "tr": {
+    "uz": {
+     "m": "Tamirlash, tartibga solish"
+    }
+   }
+  },
+  {
+   "id": "n315",
+   "word": "정식",
+   "pron": "jeongsik",
+   "tr": {
+    "uz": {
+     "m": "Rasmiylik"
+    }
+   }
+  },
+  {
+   "id": "n316",
+   "word": "정의",
+   "pron": "jeongui",
+   "tr": {
+    "uz": {
+     "m": "Maʼno"
+    }
+   }
+  },
+  {
+   "id": "n317",
+   "word": "정의",
+   "pron": "jeongui",
+   "tr": {
+    "uz": {
+     "m": "Adolat"
+    }
+   }
+  },
+  {
+   "id": "n318",
+   "word": "정책",
+   "pron": "jeongchaek",
+   "tr": {
+    "uz": {
+     "m": "Siyosat"
+    }
+   }
+  },
+  {
+   "id": "n319",
+   "word": "정화",
+   "pron": "jeonghwa",
+   "tr": {
+    "uz": {
+     "m": "Tozalanish, tozalash"
+    }
+   }
+  },
+  {
+   "id": "n320",
+   "word": "정황",
+   "pron": "jeonghwang",
+   "tr": {
+    "uz": {
+     "m": "Vaziyat"
+    }
+   }
+  },
+  {
+   "id": "n321",
+   "word": "제격",
+   "pron": "jegyeok",
+   "tr": {
+    "uz": {
+     "m": "Mukammal, eng yaxshi"
+    }
+   }
+  },
+  {
+   "id": "n322",
+   "word": "제도",
+   "pron": "jedo",
+   "tr": {
+    "uz": {
+     "m": "Tizim"
+    }
+   }
+  },
+  {
+   "id": "n323",
+   "word": "제약",
+   "pron": "jeyak",
+   "tr": {
+    "uz": {
+     "m": "Chegaralash, cheklash"
+    }
+   }
+  },
+  {
+   "id": "n324",
+   "word": "제자리 걸음",
+   "pron": "jejari georeum",
+   "tr": {
+    "uz": {
+     "m": "Oʻz yerida turish"
+    }
+   }
+  },
+  {
+   "id": "n325",
+   "word": "조망",
+   "pron": "jomang",
+   "tr": {
+    "uz": {
+     "m": "Kuzatish"
+    }
+   }
+  },
+  {
+   "id": "n326",
+   "word": "조화",
+   "pron": "johwa",
+   "tr": {
+    "uz": {
+     "m": "Mosligi"
+    }
+   }
+  },
+  {
+   "id": "n327",
+   "word": "존폐",
+   "pron": "jonpye",
+   "tr": {
+    "uz": {
+     "m": "Mavjud boʻlish yo barbod boʻlish"
+    }
+   }
+  },
+  {
+   "id": "n328",
+   "word": "주목",
+   "pron": "jumok",
+   "tr": {
+    "uz": {
+     "m": "Eʼtibor qaratish"
+    }
+   }
+  },
+  {
+   "id": "n329",
+   "word": "주범",
+   "pron": "jubeom",
+   "tr": {
+    "uz": {
+     "m": "Asosiy aybdor"
+    }
+   }
+  },
+  {
+   "id": "n330",
+   "word": "주체",
+   "pron": "juche",
+   "tr": {
+    "uz": {
+     "m": "Asosiy tana"
+    }
+   }
+  },
+  {
+   "id": "n331",
+   "word": "줏대",
+   "pron": "jutdae",
+   "tr": {
+    "uz": {
+     "m": "Mohiyat, tub"
+    }
+   }
+  },
+  {
+   "id": "n332",
+   "word": "중반",
+   "pron": "jungban",
+   "tr": {
+    "uz": {
+     "m": "Yarmi"
+    }
+   }
+  },
+  {
+   "id": "n333",
+   "word": "중앙",
+   "pron": "jungang",
+   "tr": {
+    "uz": {
+     "m": "Markaz"
+    }
+   }
+  },
+  {
+   "id": "n334",
+   "word": "증진",
+   "pron": "jeungjin",
+   "tr": {
+    "uz": {
+     "m": "Saqlash, oshirish"
+    }
+   }
+  },
+  {
+   "id": "n335",
+   "word": "지능",
+   "pron": "jineung",
+   "tr": {
+    "uz": {
+     "m": "Aql"
+    }
+   }
+  },
+  {
+   "id": "n336",
+   "word": "지렛대",
+   "pron": "jiretdae",
+   "tr": {
+    "uz": {
+     "m": "Richag, dastag"
+    }
+   }
+  },
+  {
+   "id": "n337",
+   "word": "지름길",
+   "pron": "jireumgil",
+   "tr": {
+    "uz": {
+     "m": "Qisqa yoʻl"
+    }
+   }
+  },
+  {
+   "id": "n338",
+   "word": "지면",
+   "pron": "jimyeon",
+   "tr": {
+    "uz": {
+     "m": "Joy"
+    }
+   }
+  },
+  {
+   "id": "n339",
+   "word": "지반",
+   "pron": "jiban",
+   "tr": {
+    "uz": {
+     "m": "Fundament"
+    }
+   }
+  },
+  {
+   "id": "n340",
+   "word": "지수",
+   "pron": "jisu",
+   "tr": {
+    "uz": {
+     "m": "Koʻrsatkich"
+    }
+   }
+  },
+  {
+   "id": "n341",
+   "word": "지연",
+   "pron": "jiyeon",
+   "tr": {
+    "uz": {
+     "m": "Kechikish"
+    }
+   }
+  },
+  {
+   "id": "n342",
+   "word": "지장",
+   "pron": "jijang",
+   "tr": {
+    "uz": {
+     "m": "Xalaqit"
+    }
+   }
+  },
+  {
+   "id": "n343",
+   "word": "지침",
+   "pron": "jichim",
+   "tr": {
+    "uz": {
+     "m": "Yoʻriqnoma"
+    }
+   }
+  },
+  {
+   "id": "n344",
+   "word": "지혜",
+   "pron": "jihye",
+   "tr": {
+    "uz": {
+     "m": "Tajriba, bilim, aql"
+    }
+   }
+  },
+  {
+   "id": "n345",
+   "word": "진로",
+   "pron": "jillo",
+   "tr": {
+    "uz": {
+     "m": "Kelajak yoʻl, yoʻnalish"
+    }
+   }
+  },
+  {
+   "id": "n346",
+   "word": "진열",
+   "pron": "jinyeol",
+   "tr": {
+    "uz": {
+     "m": "Ekspozitsiya"
+    }
+   }
+  },
+  {
+   "id": "n347",
+   "word": "질",
+   "pron": "jil",
+   "tr": {
+    "uz": {
+     "m": "Feʼl-atvor"
+    }
+   }
+  },
+  {
+   "id": "n348",
+   "word": "질의",
+   "pron": "jirui",
+   "tr": {
+    "uz": {
+     "m": "Savol"
+    }
+   }
+  },
+  {
+   "id": "n349",
+   "word": "차단",
+   "pron": "chadan",
+   "tr": {
+    "uz": {
+     "m": "Bekitish, yopish"
+    }
+   }
+  },
+  {
+   "id": "n350",
+   "word": "차원",
+   "pron": "chawon",
+   "tr": {
+    "uz": {
+     "m": "Koʻlam, bosqich"
+    }
+   }
+  },
+  {
+   "id": "n351",
+   "word": "차질",
+   "pron": "chajil",
+   "tr": {
+    "uz": {
+     "m": "Muammo"
+    }
+   }
+  },
+  {
+   "id": "n352",
+   "word": "착오",
+   "pron": "chago",
+   "tr": {
+    "uz": {
+     "m": "Xato"
+    }
+   }
+  },
+  {
+   "id": "n353",
+   "word": "찬사",
+   "pron": "chansa",
+   "tr": {
+    "uz": {
+     "m": "Maqtov"
+    }
+   }
+  },
+  {
+   "id": "n354",
+   "word": "참모습",
+   "pron": "chammoseup",
+   "tr": {
+    "uz": {
+     "m": "Asl koʻrinish, asl bashara"
+    }
+   }
+  },
+  {
+   "id": "n355",
+   "word": "처벌",
+   "pron": "cheobeol",
+   "tr": {
+    "uz": {
+     "m": "Jazo"
+    }
+   }
+  },
+  {
+   "id": "n356",
+   "word": "처지",
+   "pron": "cheoji",
+   "tr": {
+    "uz": {
+     "m": "Ahvol, holat"
+    }
+   }
+  },
+  {
+   "id": "n357",
+   "word": "청중",
+   "pron": "cheongjung",
+   "tr": {
+    "uz": {
+     "m": "Tinglovchi"
+    }
+   }
+  },
+  {
+   "id": "n358",
+   "word": "체계",
+   "pron": "chegye",
+   "tr": {
+    "uz": {
+     "m": "Tizim, system"
+    }
+   }
+  },
+  {
+   "id": "n359",
+   "word": "체면",
+   "pron": "chemyeon",
+   "tr": {
+    "uz": {
+     "m": "Obroʻ, qadr-qimmat"
+    }
+   }
+  },
+  {
+   "id": "n360",
+   "word": "체증",
+   "pron": "chejeung",
+   "tr": {
+    "uz": {
+     "m": "Tana jarohati"
+    }
+   }
+  },
+  {
+   "id": "n361",
+   "word": "체질",
+   "pron": "chejil",
+   "tr": {
+    "uz": {
+     "m": "Tana tuzilishi"
+    }
+   }
+  },
+  {
+   "id": "n362",
+   "word": "체통",
+   "pron": "chetong",
+   "tr": {
+    "uz": {
+     "m": "Obroʻ, oʻz mavqe"
+    }
+   }
+  },
+  {
+   "id": "n363",
+   "word": "추세",
+   "pron": "chuse",
+   "tr": {
+    "uz": {
+     "m": "Yoʻnalish, oqim"
+    }
+   }
+  },
+  {
+   "id": "n364",
+   "word": "출신",
+   "pron": "chulsin",
+   "tr": {
+    "uz": {
+     "m": "Kelib chiqish"
+    }
+   }
+  },
+  {
+   "id": "n365",
+   "word": "출판",
+   "pron": "chulpan",
+   "tr": {
+    "uz": {
+     "m": "Nashr qilish"
+    }
+   }
+  },
+  {
+   "id": "n366",
+   "word": "충격",
+   "pron": "chunggyeok",
+   "tr": {
+    "uz": {
+     "m": "Qattiq iztirob, ruhiy zarba"
+    }
+   }
+  },
+  {
+   "id": "n367",
+   "word": "충동",
+   "pron": "chungdong",
+   "tr": {
+    "uz": {
+     "m": "Ichki turtki"
+    }
+   }
+  },
+  {
+   "id": "n368",
+   "word": "취지",
+   "pron": "chwiji",
+   "tr": {
+    "uz": {
+     "m": "Maqsad"
+    }
+   }
+  },
+  {
+   "id": "n369",
+   "word": "측면",
+   "pron": "cheungmyeon",
+   "tr": {
+    "uz": {
+     "m": "Yon tomon, yon taraf"
+    }
+   }
+  },
+  {
+   "id": "n370",
+   "word": "치안",
+   "pron": "chian",
+   "tr": {
+    "uz": {
+     "m": "Ijtimoiy xavfsizlik"
+    }
+   }
+  },
+  {
+   "id": "n371",
+   "word": "치유",
+   "pron": "chiyu",
+   "tr": {
+    "uz": {
+     "m": "Shifo topish, davolanish"
+    }
+   }
+  },
+  {
+   "id": "n372",
+   "word": "침체",
+   "pron": "chimche",
+   "tr": {
+    "uz": {
+     "m": "Toʻxtab qolish, turgʻunlik"
+    }
+   }
+  },
+  {
+   "id": "n373",
+   "word": "침투",
+   "pron": "chimtu",
+   "tr": {
+    "uz": {
+     "m": "Sizish, tarqalish"
+    }
+   }
+  },
+  {
+   "id": "n374",
+   "word": "쾌거",
+   "pron": "kwaegeo",
+   "tr": {
+    "uz": {
+     "m": "Qoyilmaqom muvaffaqiyat"
+    }
+   }
+  },
+  {
+   "id": "n375",
+   "word": "타격",
+   "pron": "tagyeok",
+   "tr": {
+    "uz": {
+     "m": "Zarba boʻlish, taʼsir qilish"
+    }
+   }
+  },
+  {
+   "id": "n376",
+   "word": "타협",
+   "pron": "tahyeop",
+   "tr": {
+    "uz": {
+     "m": "Kelishuv, murosa"
+    }
+   }
+  },
+  {
+   "id": "n377",
+   "word": "탈락",
+   "pron": "tallak",
+   "tr": {
+    "uz": {
+     "m": "Yeqilish"
+    }
+   }
+  },
+  {
+   "id": "n378",
+   "word": "탓",
+   "pron": "tat",
+   "tr": {
+    "uz": {
+     "m": "Sabab, ayb"
+    }
+   }
+  },
+  {
+   "id": "n379",
+   "word": "터전",
+   "pron": "teojeon",
+   "tr": {
+    "uz": {
+     "m": "Asos"
+    }
+   }
+  },
+  {
+   "id": "n380",
+   "word": "토대",
+   "pron": "todae",
+   "tr": {
+    "uz": {
+     "m": "Baza, asos"
+    }
+   }
+  },
+  {
+   "id": "n381",
+   "word": "통계",
+   "pron": "tonggye",
+   "tr": {
+    "uz": {
+     "m": "Statistika"
+    }
+   }
+  },
+  {
+   "id": "n382",
+   "word": "통념",
+   "pron": "tongnyeom",
+   "tr": {
+    "uz": {
+     "m": "Hamfikrlik, umumiy fikr"
+    }
+   }
+  },
+  {
+   "id": "n383",
+   "word": "통증",
+   "pron": "tongjeung",
+   "tr": {
+    "uz": {
+     "m": "Ogʻriq"
+    }
+   }
+  },
+  {
+   "id": "n384",
+   "word": "통합",
+   "pron": "tonghap",
+   "tr": {
+    "uz": {
+     "m": "Guruhga qoʻshilish"
+    }
+   }
+  },
+  {
+   "id": "n385",
+   "word": "퇴치",
+   "pron": "toechi",
+   "tr": {
+    "uz": {
+     "m": "Yoʻq qilish"
+    }
+   }
+  },
+  {
+   "id": "n386",
+   "word": "투기",
+   "pron": "tugi",
+   "tr": {
+    "uz": {
+     "m": "Aldam, olib sotarlik"
+    }
+   }
+  },
+  {
+   "id": "n387",
+   "word": "투자",
+   "pron": "tuja",
+   "tr": {
+    "uz": {
+     "m": "Investor"
+    }
+   }
+  },
+  {
+   "id": "n388",
+   "word": "투정",
+   "pron": "tujeong",
+   "tr": {
+    "uz": {
+     "m": "Tilanish, injiqlik qilish"
+    }
+   }
+  },
+  {
+   "id": "n389",
+   "word": "특색",
+   "pron": "teuksaek",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos xususiyat"
+    }
+   }
+  },
+  {
+   "id": "n390",
+   "word": "특유",
+   "pron": "teugyu",
+   "tr": {
+    "uz": {
+     "m": "Oʻziga xos, mislsiz"
+    }
+   }
+  },
+  {
+   "id": "n391",
+   "word": "특집",
+   "pron": "teukjip",
+   "tr": {
+    "uz": {
+     "m": "Maxsus son"
+    }
+   }
+  },
+  {
+   "id": "n392",
+   "word": "틈새",
+   "pron": "teumsae",
+   "tr": {
+    "uz": {
+     "m": "Yoriq, tirqich"
+    }
+   }
+  },
+  {
+   "id": "n393",
+   "word": "파급",
+   "pron": "pageup",
+   "tr": {
+    "uz": {
+     "m": "Tarqalish, yoyilish"
+    }
+   }
+  },
+  {
+   "id": "n394",
+   "word": "파동",
+   "pron": "padong",
+   "tr": {
+    "uz": {
+     "m": "Oʻzgarib turish, qimirlash"
+    }
+   }
+  },
+  {
+   "id": "n395",
+   "word": "판단",
+   "pron": "pandan",
+   "tr": {
+    "uz": {
+     "m": "Hukm qilish, tekshirish"
+    }
+   }
+  },
+  {
+   "id": "n396",
+   "word": "판독",
+   "pron": "pandok",
+   "tr": {
+    "uz": {
+     "m": "Tushunish"
+    }
+   }
+  },
+  {
+   "id": "n397",
+   "word": "판정",
+   "pron": "panjeong",
+   "tr": {
+    "uz": {
+     "m": "Qaror chiqarish"
+    }
+   }
+  },
+  {
+   "id": "n398",
+   "word": "패기",
+   "pron": "paegi",
+   "tr": {
+    "uz": {
+     "m": "Orzu, istak"
+    }
+   }
+  },
+  {
+   "id": "n399",
+   "word": "팽창",
+   "pron": "paengchang",
+   "tr": {
+    "uz": {
+     "m": "Kengaytirish"
+    }
+   }
+  },
+  {
+   "id": "n400",
+   "word": "편식",
+   "pron": "pyeonsik",
+   "tr": {
+    "uz": {
+     "m": "Yengil ovqat"
+    }
+   }
+  },
+  {
+   "id": "n401",
+   "word": "평생",
+   "pron": "pyeongsaeng",
+   "tr": {
+    "uz": {
+     "m": "Bir umr"
+    }
+   }
+  },
+  {
+   "id": "n402",
+   "word": "폐기물",
+   "pron": "pyegimul",
+   "tr": {
+    "uz": {
+     "m": "Isrof mahsulot"
+    }
+   }
+  },
+  {
+   "id": "n403",
+   "word": "포부",
+   "pron": "pobu",
+   "tr": {
+    "uz": {
+     "m": "Umid, niyat, istak"
+    }
+   }
+  },
+  {
+   "id": "n404",
+   "word": "포용",
+   "pron": "poyong",
+   "tr": {
+    "uz": {
+     "m": "Shafqatlilik, muruvatlilik"
+    }
+   }
+  },
+  {
+   "id": "n405",
+   "word": "폭력",
+   "pron": "pongnyeok",
+   "tr": {
+    "uz": {
+     "m": "Zoʻrlash"
+    }
+   }
+  },
+  {
+   "id": "n406",
+   "word": "표창",
+   "pron": "pyochang",
+   "tr": {
+    "uz": {
+     "m": "Mukofot"
+    }
+   }
+  },
+  {
+   "id": "n407",
+   "word": "품격",
+   "pron": "pumgyeok",
+   "tr": {
+    "uz": {
+     "m": "Qadr-qimmat"
+    }
+   }
+  },
+  {
+   "id": "n408",
+   "word": "풍모",
+   "pron": "pungmo",
+   "tr": {
+    "uz": {
+     "m": "Tashqi koʻrinish"
+    }
+   }
+  },
+  {
+   "id": "n409",
+   "word": "핀잔",
+   "pron": "pinjan",
+   "tr": {
+    "uz": {
+     "m": "Kesatish, asabga tegish"
+    }
+   }
+  },
+  {
+   "id": "n410",
+   "word": "핑계",
+   "pron": "pinggye",
+   "tr": {
+    "uz": {
+     "m": "Bahona"
+    }
+   }
+  },
+  {
+   "id": "n411",
+   "word": "하자",
+   "pron": "haja",
+   "tr": {
+    "uz": {
+     "m": "Dogʻ, kamchilik"
+    }
+   }
+  },
+  {
+   "id": "n412",
+   "word": "한복판",
+   "pron": "hanbokpan",
+   "tr": {
+    "uz": {
+     "m": "Oʻrtada, markazda"
+    }
+   }
+  },
+  {
+   "id": "n413",
+   "word": "함양",
+   "pron": "hamyang",
+   "tr": {
+    "uz": {
+     "m": "Rivojlantirish, oshirish"
+    }
+   }
+  },
+  {
+   "id": "n414",
+   "word": "항목",
+   "pron": "hangmok",
+   "tr": {
+    "uz": {
+     "m": "Masala"
+    }
+   }
+  },
+  {
+   "id": "n415",
+   "word": "향수병",
+   "pron": "hyangsubyeong",
+   "tr": {
+    "uz": {
+     "m": "Qumsash, soginch"
+    }
+   }
+  },
+  {
+   "id": "n416",
+   "word": "허구",
+   "pron": "heogu",
+   "tr": {
+    "uz": {
+     "m": "Uydirma, toʻqima"
+    }
+   }
+  },
+  {
+   "id": "n417",
+   "word": "현황",
+   "pron": "hyeonhwang",
+   "tr": {
+    "uz": {
+     "m": "Hozirgi holat"
+    }
+   }
+  },
+  {
+   "id": "n418",
+   "word": "협조",
+   "pron": "hyeopjo",
+   "tr": {
+    "uz": {
+     "m": "Yordam, koʻmak"
+    }
+   }
+  },
+  {
+   "id": "n419",
+   "word": "형편",
+   "pron": "hyeongpyeon",
+   "tr": {
+    "uz": {
+     "m": "Holat, sharoit"
+    }
+   }
+  },
+  {
+   "id": "n420",
+   "word": "혜택",
+   "pron": "hyetaek",
+   "tr": {
+    "uz": {
+     "m": "Foyda, daromad"
+    }
+   }
+  },
+  {
+   "id": "n421",
+   "word": "호응",
+   "pron": "hoeung",
+   "tr": {
+    "uz": {
+     "m": "Javob, otvet qaytarish"
+    }
+   }
+  },
+  {
+   "id": "n422",
+   "word": "호칭",
+   "pron": "hoching",
+   "tr": {
+    "uz": {
+     "m": "Nomlash, chaqirish"
+    }
+   }
+  },
+  {
+   "id": "n423",
+   "word": "호평",
+   "pron": "hopyeong",
+   "tr": {
+    "uz": {
+     "m": "Yaxshi baho"
+    }
+   }
+  },
+  {
+   "id": "n424",
+   "word": "혹한",
+   "pron": "hokhan",
+   "tr": {
+    "uz": {
+     "m": "Qattiq sovuq, juda sovuq"
+    }
+   }
+  },
+  {
+   "id": "n425",
+   "word": "혼돈",
+   "pron": "hondon",
+   "tr": {
+    "uz": {
+     "m": "Tartibsizlik, algʻov-dalgʻov"
+    }
+   }
+  },
+  {
+   "id": "n426",
+   "word": "혼란",
+   "pron": "hollan",
+   "tr": {
+    "uz": {
+     "m": "Tartibsizlik, inqiroz"
+    }
+   }
+  },
+  {
+   "id": "n427",
+   "word": "혼합",
+   "pron": "honhap",
+   "tr": {
+    "uz": {
+     "m": "Aralashma, qorishma"
+    }
+   }
+  },
+  {
+   "id": "n428",
+   "word": "화근",
+   "pron": "hwageun",
+   "tr": {
+    "uz": {
+     "m": "Falokatga sababchi ish"
+    }
+   }
+  },
+  {
+   "id": "n429",
+   "word": "화두",
+   "pron": "hwadu",
+   "tr": {
+    "uz": {
+     "m": "Bosh mavzu"
+    }
+   }
+  },
+  {
+   "id": "n430",
+   "word": "화법",
+   "pron": "hwabeop",
+   "tr": {
+    "uz": {
+     "m": "Soʻzlash qobilyati, nutq"
+    }
+   }
+  },
+  {
+   "id": "n431",
+   "word": "화제",
+   "pron": "hwaje",
+   "tr": {
+    "uz": {
+     "m": "Suhbat mavzusi, dolzarb"
+    }
+   }
+  },
+  {
+   "id": "n432",
+   "word": "화질",
+   "pron": "hwajil",
+   "tr": {
+    "uz": {
+     "m": "Koʻrinish sifati"
+    }
+   }
+  },
+  {
+   "id": "n433",
+   "word": "화합",
+   "pron": "hwahap",
+   "tr": {
+    "uz": {
+     "m": "Birlashish, uygʻunlik"
+    }
+   }
+  },
+  {
+   "id": "n434",
+   "word": "화해",
+   "pron": "hwahae",
+   "tr": {
+    "uz": {
+     "m": "Kelishuv, yarashuv"
+    }
+   }
+  },
+  {
+   "id": "n435",
+   "word": "확답",
+   "pron": "hwakdap",
+   "tr": {
+    "uz": {
+     "m": "Aniq javob"
+    }
+   }
+  },
+  {
+   "id": "n436",
+   "word": "확률",
+   "pron": "hwangnyul",
+   "tr": {
+    "uz": {
+     "m": "Ehtimoliyligi, imkoni"
+    }
+   }
+  },
+  {
+   "id": "n437",
+   "word": "확보",
+   "pron": "hwakbo",
+   "tr": {
+    "uz": {
+     "m": "Rozilik, kafolat, taminlash"
+    }
+   }
+  },
+  {
+   "id": "n438",
+   "word": "확장",
+   "pron": "hwakjang",
+   "tr": {
+    "uz": {
+     "m": "Kengaytirish"
+    }
+   }
+  },
+  {
+   "id": "n439",
+   "word": "환상",
+   "pron": "hwansang",
+   "tr": {
+    "uz": {
+     "m": "Fantastik"
+    }
+   }
+  },
+  {
+   "id": "n440",
+   "word": "환심",
+   "pron": "hwansim",
+   "tr": {
+    "uz": {
+     "m": "Eʼtibor, diqqat"
+    }
+   }
+  },
+  {
+   "id": "n441",
+   "word": "황금기",
+   "pron": "hwanggeumgi",
+   "tr": {
+    "uz": {
+     "m": "Oltin davr"
+    }
+   }
+  },
+  {
+   "id": "n442",
+   "word": "획득",
+   "pron": "hoekdeuk",
+   "tr": {
+    "uz": {
+     "m": "Qoʻlga kiritish, ega boʻlish"
+    }
+   }
+  },
+  {
+   "id": "n443",
+   "word": "횡포",
+   "pron": "hoengpo",
+   "tr": {
+    "uz": {
+     "m": "Zolimlik, zulm"
+    }
+   }
+  },
+  {
+   "id": "n444",
+   "word": "효율",
+   "pron": "hyoyul",
+   "tr": {
+    "uz": {
+     "m": "Samara"
+    }
+   }
+  },
+  {
+   "id": "n445",
+   "word": "훈련",
+   "pron": "hullyeon",
+   "tr": {
+    "uz": {
+     "m": "Mashgʻulot"
+    }
+   }
+  },
+  {
+   "id": "n446",
+   "word": "훼손",
+   "pron": "hweson",
+   "tr": {
+    "uz": {
+     "m": "Zarar, ziyon, shikast"
+    }
+   }
+  },
+  {
+   "id": "n447",
+   "word": "흉내",
+   "pron": "hyungnae",
+   "tr": {
+    "uz": {
+     "m": "Taqlid qilish, oʻxshatish"
+    }
+   }
+  },
+  {
+   "id": "n448",
+   "word": "흔적",
+   "pron": "heunjeok",
+   "tr": {
+    "uz": {
+     "m": "Iz"
+    }
+   }
+  },
+  {
+   "id": "n449",
+   "word": "흥망",
+   "pron": "heungmang",
+   "tr": {
+    "uz": {
+     "m": "Koʻtarilish va tushish"
+    }
+   }
+  },
+  {
+   "id": "n450",
+   "word": "흥행",
+   "pron": "heunghaeng",
+   "tr": {
+    "uz": {
+     "m": "Sahna koʻrinishi, tomosha"
+    }
+   }
+  }
+ ]
+}
