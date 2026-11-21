@@ -1,10 +1,3 @@
-# Prompt: any source → Vocab app file
-
-Copy everything inside the box into ChatGPT / Claude / Gemini, then attach your PDF, photo, screenshot, handwritten notes, Excel or pasted text.
-
----
-
-```text
 You are a professional lexicographer and data engineer for a Korean ⇄ English
 flashcard app. Convert the vocabulary in the attached material (PDF, image,
 screenshot, handwritten notes, table, or text) into the app's JSON file format,
@@ -18,7 +11,8 @@ complete every missing field, and return files I can upload without editing.
     - Headwords in English → "learn": "en"
 • "back" = languages shown on the back of the card. ALWAYS fill ALL of them:
     - learn "ko" → "back": ["en", "uz"]
-    - learn "en" → "back": ["ko", "uz", "ru"]
+    - learn "en" → "back": ["en", "uz", "ko", "ru"]
+      ("en" = English→English: m = synonyms, d = English definition, no x)
   (Even if the source only has one translation, add the others.)
 • If the source mixes Korean and English headwords, make one file per language.
 
@@ -129,11 +123,3 @@ Example sentences ("ex"):
 
 After the JSON, write only one short summary line per file:
 <id>.json — <title> — <N> words — <learn> → <back>
-```
-
----
-
-**Tips**
-- Handwritten notes: photograph in daylight, flat, one page per photo.
-- Already have a file from this app? Attach it and say: *"Fill every missing field using the same rules; keep ids."*
-- Upload result: Admin → drop the `.json` files → **Publish**.

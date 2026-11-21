@@ -9,11 +9,11 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 const debounce=(f,ms)=>{let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>f(...a),ms)}};
 const hap=(s='LIGHT')=>{try{CAP.Haptics&&CAP.Haptics.impact({style:s})}catch{}};
 const LANG={ko:'Korean',en:'English',uz:'Uzbek',ru:'Russian'};
-const BACKS={ko:['en','uz'],en:['ko','uz','ru']};
+const BACKS={ko:['en','uz'],en:['en','uz','ko','ru']};
 const DATA=(NATIVE?CFG.GITHUB_RAW:'data').replace(/\/$/,'');   // web: same origin (Pages / local admin)
 
 /* ---------- state ---------- */
-const DEF={mode:'ko',back:{ko:'en',en:'uz'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0};
+const DEF={mode:'ko',back:{ko:'en',en:'en'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0};
 let S=JSON.parse(JSON.stringify(DEF)),lib=[],sets=new Map(),deck=[],idx=0,online=navigator.onLine,anim=false,asked=false;
 const save=debounce(()=>V.put('state.json',S).catch(()=>{}),350);
 const posKey=()=>S.mode+'|'+S.filter;

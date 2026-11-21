@@ -8,7 +8,7 @@ const ROOT=path.resolve(__dirname,'..'),DATA=path.join(ROOT,'data'),SETS=path.jo
 const env=(()=>{try{return Object.fromEntries(fs.readFileSync(path.join(ROOT,'.env'),'utf8').split(/\r?\n/)
   .map(l=>l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/)).filter(Boolean).map(m=>[m[1],m[2].replace(/^["']|["']$/g,'')]))}catch{return{}}})();
 const PORT=+process.env.PORT||+env.ADMIN_PORT||4321;
-const BACKS={ko:['en','uz'],en:['ko','uz','ru']};
+const BACKS={ko:['en','uz'],en:['en','uz','ko','ru']};
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8',
   '.svg':'image/svg+xml','.woff2':'font/woff2','.webmanifest':'application/manifest+json','.png':'image/png'};
 fs.mkdirSync(SETS,{recursive:true});
