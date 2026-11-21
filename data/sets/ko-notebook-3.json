@@ -1,0 +1,1277 @@
+{
+ "id": "ko-notebook-3",
+ "title": "Notebook Vocab · Part 3",
+ "learn": "ko",
+ "back": [
+  "en",
+  "uz"
+ ],
+ "by": {
+  "name": "Vocab",
+  "url": "https://t.me/odilxanivich"
+ },
+ "version": 1,
+ "updated": "2026-11-21T19:27:25.646Z",
+ "items": [
+  {
+   "id": "n1",
+   "word": "티셔츠",
+   "pron": "tisyeocheu",
+   "ex": "여름에는 티셔츠를 입어요.",
+   "tr": {
+    "en": {
+     "m": "T-shirt",
+     "d": "A short-sleeved casual top.",
+     "x": "I wear a T-shirt in summer."
+    },
+    "uz": {
+     "m": "futbolka",
+     "d": "Qisqa yengli oddiy ustki kiyim.",
+     "x": "Yozda futbolka kiyaman."
+    }
+   }
+  },
+  {
+   "id": "n2",
+   "word": "포도",
+   "pron": "podo",
+   "ex": "포도는 달고 맛있어요.",
+   "tr": {
+    "en": {
+     "m": "grape",
+     "d": "A small round fruit that grows in bunches.",
+     "x": "Grapes are sweet and delicious."
+    },
+    "uz": {
+     "m": "uzum",
+     "d": "Boylam-boylam osiladigan mayda yumaloq meva.",
+     "x": "Uzum shirin va mazali."
+    }
+   }
+  },
+  {
+   "id": "n3",
+   "word": "밥",
+   "pron": "bap",
+   "ex": "저녁에 밥을 먹어요.",
+   "tr": {
+    "en": {
+     "m": "cooked rice, meal",
+     "d": "Cooked rice, or a meal.",
+     "x": "I eat a meal in the evening."
+    },
+    "uz": {
+     "m": "guruch (pishirilgan), ovqat",
+     "d": "Pishirilgan guruch yoki ovqat.",
+     "x": "Kechqurun ovqat yeyman."
+    }
+   }
+  },
+  {
+   "id": "n4",
+   "word": "편지",
+   "pron": "pyeonji",
+   "ex": "친구에게 편지를 보냈어요.",
+   "tr": {
+    "en": {
+     "m": "letter",
+     "d": "A written message sent to a person.",
+     "x": "I sent a letter to my friend."
+    },
+    "uz": {
+     "m": "xat",
+     "d": "Kishiga joʻnatiladigan yozma xabar.",
+     "x": "Doʻstimga xat joʻnatdim."
+    }
+   }
+  },
+  {
+   "id": "n5",
+   "word": "도로",
+   "pron": "doro",
+   "ex": "도로에 차가 많아요.",
+   "tr": {
+    "en": {
+     "m": "road",
+     "d": "A wide paved way for cars.",
+     "x": "There are many cars on the road."
+    },
+    "uz": {
+     "m": "yoʻl, shosse",
+     "d": "Mashinalar yuradigan keng asfaltlangan yoʻl.",
+     "x": "Yoʻlda mashina koʻp."
+    }
+   }
+  },
+  {
+   "id": "n6",
+   "word": "주부",
+   "pron": "jubu",
+   "ex": "어머니는 주부예요.",
+   "tr": {
+    "en": {
+     "m": "housewife, homemaker",
+     "d": "A person who manages the home.",
+     "x": "My mother is a housewife."
+    },
+    "uz": {
+     "m": "uy bekasi",
+     "d": "Oilaviy uy ishlarini yuritadigan odam.",
+     "x": "Onam uy bekasi."
+    }
+   }
+  },
+  {
+   "id": "n7",
+   "word": "허수아비",
+   "pron": "heosuabi",
+   "ex": "밭에 허수아비가 서 있어요.",
+   "tr": {
+    "en": {
+     "m": "scarecrow",
+     "d": "A figure in a field that scares birds away.",
+     "x": "A scarecrow stands in the field."
+    },
+    "uz": {
+     "m": "dala qoʻriqchisi, qoʻrqitgich",
+     "d": "Qushlarni qoʻrqitish uchun dalaga qoʻyiladigan odam shakli.",
+     "x": "Dalada qoʻrqitgich turibdi."
+    }
+   }
+  },
+  {
+   "id": "n8",
+   "word": "오후",
+   "pron": "ohu",
+   "ex": "오후에는 도서관에 가요.",
+   "tr": {
+    "en": {
+     "m": "afternoon, PM",
+     "d": "The time from noon until evening.",
+     "x": "I go to the library in the afternoon."
+    },
+    "uz": {
+     "m": "tushdan keyin",
+     "d": "Tushdan kechgacha boʻlgan vaqt.",
+     "x": "Tushdan keyin kutubxonaga boraman."
+    }
+   }
+  },
+  {
+   "id": "n9",
+   "word": "혀",
+   "pron": "hyeo",
+   "ex": "뜨거운 차에 혀를 데었어요.",
+   "tr": {
+    "en": {
+     "m": "tongue",
+     "d": "The soft part inside your mouth used for tasting.",
+     "x": "I burned my tongue on hot tea."
+    },
+    "uz": {
+     "m": "til",
+     "d": "Ogʻiz ichidagi, maza bilish uchun xizmat qiladigan yumshoq aʼzo.",
+     "x": "Issiq choydan tilim kuydi."
+    }
+   }
+  },
+  {
+   "id": "n10",
+   "word": "크리스마스",
+   "pron": "keuriseumaseu",
+   "ex": "크리스마스에 가족과 파티를 해요.",
+   "tr": {
+    "en": {
+     "m": "Christmas",
+     "d": "A holiday on December 25 celebrating the birth of Jesus.",
+     "x": "We have a party with family at Christmas."
+    },
+    "uz": {
+     "m": "Rojdestvo",
+     "d": "Iso tugʻilishini nishonlaydigan 25-dekabrdagi bayram.",
+     "x": "Rojdestvoda oila bilan bazm qilamiz."
+    }
+   }
+  },
+  {
+   "id": "n11",
+   "word": "포크",
+   "pron": "pokeu",
+   "ex": "포크로 파스타를 먹어요.",
+   "tr": {
+    "en": {
+     "m": "fork",
+     "d": "A tool with points for picking up food.",
+     "x": "I eat pasta with a fork."
+    },
+    "uz": {
+     "m": "vilka",
+     "d": "Ovqatni olish uchun uchli tishli asbob.",
+     "x": "Pastani vilka bilan yeyman."
+    }
+   }
+  },
+  {
+   "id": "n12",
+   "word": "구름",
+   "pron": "gureum",
+   "ex": "하늘에 구름이 많아요.",
+   "tr": {
+    "en": {
+     "m": "cloud",
+     "d": "A white or gray mass floating in the sky.",
+     "x": "There are many clouds in the sky."
+    },
+    "uz": {
+     "m": "bulut",
+     "d": "Osmonda suzib yuradigan oq yoki kulrang massa.",
+     "x": "Osmonda bulut koʻp."
+    }
+   }
+  },
+  {
+   "id": "n13",
+   "word": "그림",
+   "pron": "geurim",
+   "ex": "벽에 그림을 걸었어요.",
+   "tr": {
+    "en": {
+     "m": "picture, drawing",
+     "d": "An image made with a pencil or paint.",
+     "x": "I hung a picture on the wall."
+    },
+    "uz": {
+     "m": "rasm, chizma",
+     "d": "Qalam yoki boʻyoq bilan yaratilgan tasvir.",
+     "x": "Devorga rasm osdim."
+    }
+   }
+  },
+  {
+   "id": "n14",
+   "word": "달",
+   "pron": "dal",
+   "ex": "오늘 밤에는 달이 밝아요.",
+   "tr": {
+    "en": {
+     "m": "moon, month",
+     "d": "The bright object in the night sky; also a month.",
+     "x": "The moon is bright tonight."
+    },
+    "uz": {
+     "m": "oy",
+     "d": "Tungi osmondagi yorqin jism; shuningdek oy (vaqt).",
+     "x": "Bugun kechqurun oy yorqin."
+    }
+   }
+  },
+  {
+   "id": "n15",
+   "word": "말",
+   "pron": "mal",
+   "ex": "말이 초원을 달려요.",
+   "tr": {
+    "en": {
+     "m": "horse",
+     "d": "A large animal people ride.",
+     "x": "A horse runs across the grassland."
+    },
+    "uz": {
+     "m": "ot",
+     "d": "Odamlar minadigan katta hayvon.",
+     "x": "Ot dasht boʻylab yuguryapti."
+    }
+   }
+  },
+  {
+   "id": "n16",
+   "word": "경찰",
+   "pron": "gyeongchal",
+   "ex": "경찰이 길을 안내해 줬어요.",
+   "tr": {
+    "en": {
+     "m": "police",
+     "d": "People who keep order and protect safety.",
+     "x": "The police officer showed me the way."
+    },
+    "uz": {
+     "m": "politsiya",
+     "d": "Tartib va xavfsizlikni saqlaydigan odamlar.",
+     "x": "Politsiyachi yoʻl koʻrsatib berdi."
+    }
+   }
+  },
+  {
+   "id": "n17",
+   "word": "두통",
+   "pron": "dutong",
+   "ex": "두통이 심해서 약을 먹었어요.",
+   "tr": {
+    "en": {
+     "m": "headache",
+     "d": "Pain in the head.",
+     "x": "I had a bad headache, so I took medicine."
+    },
+    "uz": {
+     "m": "bosh ogʻrigʻi",
+     "d": "Boshdagi ogʻriq.",
+     "x": "Boshim qattiq ogʻrigani uchun dori ichdim."
+    }
+   }
+  },
+  {
+   "id": "n18",
+   "word": "감기",
+   "pron": "gamgi",
+   "ex": "감기에 걸려서 학교에 못 갔어요.",
+   "tr": {
+    "en": {
+     "m": "cold",
+     "d": "An illness with a runny nose and cough.",
+     "x": "I caught a cold, so I could not go to school."
+    },
+    "uz": {
+     "m": "shamollash",
+     "d": "Burun oqishi va yoʻtal bilan kechadigan kasallik.",
+     "x": "Shamollab qolganim uchun maktabga bora olmadim."
+    }
+   }
+  },
+  {
+   "id": "n19",
+   "word": "소화불량",
+   "pron": "sohwabullyang",
+   "ex": "소화불량 때문에 배가 아파요.",
+   "tr": {
+    "en": {
+     "m": "indigestion",
+     "d": "Stomach trouble from not digesting food well.",
+     "x": "My stomach hurts because of indigestion."
+    },
+    "uz": {
+     "m": "hazmsizlik, qorin ogʻrigʻi",
+     "d": "Ovqat yaxshi hazm boʻlmasligidan qorin bezovtaligi.",
+     "x": "Hazmsizlik tufayli qornim ogʻriyapti."
+    }
+   }
+  },
+  {
+   "id": "n20",
+   "word": "심한 소화불량",
+   "pron": "simhan sohwabullyang",
+   "ex": "어제 심한 소화불량이 있었어요.",
+   "tr": {
+    "en": {
+     "m": "severe indigestion",
+     "d": "Very bad trouble digesting food.",
+     "x": "I had severe indigestion yesterday."
+    },
+    "uz": {
+     "m": "kuchli hazmsizlik",
+     "d": "Ovqat hazm boʻlishidagi juda qattiq muammo.",
+     "x": "Kecha kuchli hazmsizlik boʻldi."
+    }
+   }
+  },
+  {
+   "id": "n21",
+   "word": "알레르기",
+   "pron": "allereugi",
+   "ex": "저는 땅콩 알레르기가 있어요.",
+   "tr": {
+    "en": {
+     "m": "allergy",
+     "d": "A bad body reaction to a certain thing.",
+     "x": "I have a peanut allergy."
+    },
+    "uz": {
+     "m": "allergiya",
+     "d": "Muayyan narsaga organizmning kuchli reaksiyasi.",
+     "x": "Menda yeryongʻoqqa allergiya bor."
+    }
+   }
+  },
+  {
+   "id": "n22",
+   "word": "열",
+   "pron": "yeol",
+   "ex": "열이 많이 나서 병원에 갔어요.",
+   "tr": {
+    "en": {
+     "m": "fever",
+     "d": "A high body temperature from illness.",
+     "x": "I had a high fever, so I went to the hospital."
+    },
+    "uz": {
+     "m": "isitma",
+     "d": "Kasallik tufayli tana haroratining koʻtarilishi.",
+     "x": "Isitmam baland boʻlgani uchun shifoxonaga bordim."
+    }
+   }
+  },
+  {
+   "id": "n23",
+   "word": "기침",
+   "pron": "gichim",
+   "ex": "기침을 자주 해서 목이 아파요.",
+   "tr": {
+    "en": {
+     "m": "cough",
+     "d": "Forcing air out of your throat suddenly.",
+     "x": "I cough a lot, so my throat hurts."
+    },
+    "uz": {
+     "m": "yoʻtal",
+     "d": "Tomoqdan havoning keskin chiqishi.",
+     "x": "Tez-tez yoʻtalgani uchun tomogʻim ogʻriyapti."
+    }
+   }
+  },
+  {
+   "id": "n24",
+   "word": "인후통",
+   "pron": "inhutong",
+   "ex": "인후통이 있으면 따뜻한 물을 마셔요.",
+   "tr": {
+    "en": {
+     "m": "sore throat",
+     "d": "Pain in the throat.",
+     "x": "If you have a sore throat, drink warm water."
+    },
+    "uz": {
+     "m": "tomoq ogʻrigʻi",
+     "d": "Tomoqdagi ogʻriq.",
+     "x": "Tomogʻingiz ogʻrisa, iliq suv iching."
+    }
+   }
+  },
+  {
+   "id": "n25",
+   "word": "지도",
+   "pron": "jido",
+   "ex": "지도를 보고 길을 찾아요.",
+   "tr": {
+    "en": {
+     "m": "map",
+     "d": "A drawing that shows places and roads.",
+     "x": "I look at a map to find the way."
+    },
+    "uz": {
+     "m": "xarita",
+     "d": "Joylar va yoʻllarni koʻrsatuvchi chizma.",
+     "x": "Xaritaga qarab yoʻl topaman."
+    }
+   }
+  },
+  {
+   "id": "n26",
+   "word": "휴지",
+   "pron": "hyuji",
+   "ex": "휴지를 한 장 주세요.",
+   "tr": {
+    "en": {
+     "m": "toilet paper, tissue",
+     "d": "Soft thin paper used for cleaning.",
+     "x": "Please give me a sheet of tissue paper."
+    },
+    "uz": {
+     "m": "tualet qogʻozi",
+     "d": "Tozalash uchun ishlatiladigan yumshoq yupqa qogʻoz.",
+     "x": "Iltimos, bir varaq tualet qogʻozi bering."
+    }
+   }
+  },
+  {
+   "id": "n27",
+   "word": "허리",
+   "pron": "heori",
+   "ex": "오래 앉아서 허리가 아파요.",
+   "tr": {
+    "en": {
+     "m": "waist, lower back",
+     "d": "The middle part of the body.",
+     "x": "I sat too long, so my lower back hurts."
+    },
+    "uz": {
+     "m": "bel",
+     "d": "Tananing oʻrta qismi.",
+     "x": "Uzoq oʻtirganim uchun belim ogʻriyapti."
+    }
+   }
+  },
+  {
+   "id": "n28",
+   "word": "바다",
+   "pron": "bada",
+   "ex": "여름에 바다에서 수영해요.",
+   "tr": {
+    "en": {
+     "m": "sea, ocean",
+     "d": "A very large body of salt water.",
+     "x": "I swim in the sea in summer."
+    },
+    "uz": {
+     "m": "dengiz, okean",
+     "d": "Juda katta shoʻr suv havzasi.",
+     "x": "Yozda dengizda suzaman."
+    }
+   }
+  },
+  {
+   "id": "n29",
+   "word": "하마",
+   "pron": "hama",
+   "ex": "하마는 입이 아주 커요.",
+   "tr": {
+    "en": {
+     "m": "hippo",
+     "d": "A big African animal that lives in water.",
+     "x": "A hippo has a very big mouth."
+    },
+    "uz": {
+     "m": "begemot",
+     "d": "Suvda yashaydigan katta Afrika hayvoni.",
+     "x": "Begemotning ogʻzi juda katta."
+    }
+   }
+  },
+  {
+   "id": "n30",
+   "word": "도마",
+   "pron": "doma",
+   "ex": "도마 위에서 채소를 썰어요.",
+   "tr": {
+    "en": {
+     "m": "cutting board",
+     "d": "A board for cutting food on.",
+     "x": "I cut vegetables on the cutting board."
+    },
+    "uz": {
+     "m": "kesish taxtasi",
+     "d": "Ovqat kesiladigan taxta.",
+     "x": "Kesish taxtasida sabzavot toʻgʻrayman."
+    }
+   }
+  },
+  {
+   "id": "n31",
+   "word": "다리미",
+   "pron": "darimi",
+   "ex": "다리미로 셔츠를 다려요.",
+   "tr": {
+    "en": {
+     "m": "iron (for clothes)",
+     "d": "A tool that smooths clothes with heat.",
+     "x": "I iron the shirt with an iron."
+    },
+    "uz": {
+     "m": "dazmol",
+     "d": "Kiyimni issiqlik bilan tekislaydigan asbob.",
+     "x": "Dazmol bilan koʻylakni dazmollayman."
+    }
+   }
+  },
+  {
+   "id": "n32",
+   "word": "주사",
+   "pron": "jusa",
+   "ex": "병원에서 주사를 맞았어요.",
+   "tr": {
+    "en": {
+     "m": "injection, shot",
+     "d": "Putting medicine into the body with a needle.",
+     "x": "I got an injection at the hospital."
+    },
+    "uz": {
+     "m": "ukol, shprits",
+     "d": "Igna bilan tanaga dori yuborish.",
+     "x": "Shifoxonada ukol qildirdim."
+    }
+   }
+  },
+  {
+   "id": "n33",
+   "word": "철",
+   "pron": "cheol",
+   "ex": "철로 만든 다리예요.",
+   "tr": {
+    "en": {
+     "m": "iron, metal",
+     "d": "A hard gray metal.",
+     "x": "It is a bridge made of iron."
+    },
+    "uz": {
+     "m": "temir",
+     "d": "Qattiq kulrang metall.",
+     "x": "Bu temirdan yasalgan koʻprik."
+    }
+   }
+  },
+  {
+   "id": "n34",
+   "word": "불고기",
+   "pron": "bulgogi",
+   "ex": "불고기는 달콤하고 맛있어요.",
+   "tr": {
+    "en": {
+     "m": "bulgogi, marinated beef",
+     "d": "Thin beef marinated in sweet soy sauce and grilled.",
+     "x": "Bulgogi is sweet and delicious."
+    },
+    "uz": {
+     "m": "bulgogi, marinadlangan mol goʻshti",
+     "d": "Shirin soya sousida marinadlanib pishiriladigan yupqa mol goʻshti.",
+     "x": "Bulgogi shirin va mazali."
+    }
+   }
+  },
+  {
+   "id": "n35",
+   "word": "착하다",
+   "pron": "chakada",
+   "ex": "그 아이는 마음이 착해요.",
+   "tr": {
+    "en": {
+     "m": "kind, good-hearted",
+     "d": "Having a gentle and good heart.",
+     "x": "That child has a kind heart."
+    },
+    "uz": {
+     "m": "mehribon",
+     "d": "Yumshoq va yaxshi qalbli.",
+     "x": "U bolaning dili mehribon."
+    }
+   }
+  },
+  {
+   "id": "n36",
+   "word": "지우개",
+   "pron": "jiugae",
+   "ex": "지우개로 글씨를 지워요.",
+   "tr": {
+    "en": {
+     "m": "eraser",
+     "d": "A small tool for rubbing out pencil marks.",
+     "x": "I erase the writing with an eraser."
+    },
+    "uz": {
+     "m": "oʻchirgich",
+     "d": "Qalam izlarini oʻchiradigan kichik buyum.",
+     "x": "Oʻchirgich bilan yozuvni oʻchiraman."
+    }
+   }
+  },
+  {
+   "id": "n37",
+   "word": "돼지",
+   "pron": "dwaeji",
+   "ex": "농장에 돼지가 많아요.",
+   "tr": {
+    "en": {
+     "m": "pig",
+     "d": "A pink farm animal raised for meat.",
+     "x": "There are many pigs on the farm."
+    },
+    "uz": {
+     "m": "choʻchqa",
+     "d": "Goʻsht uchun boqiladigan pushti qishloq hayvoni.",
+     "x": "Fermada choʻchqa koʻp."
+    }
+   }
+  },
+  {
+   "id": "n38",
+   "word": "의사",
+   "pron": "uisa",
+   "ex": "의사가 약을 줬어요.",
+   "tr": {
+    "en": {
+     "m": "doctor",
+     "d": "A person who treats sick people.",
+     "x": "The doctor gave me medicine."
+    },
+    "uz": {
+     "m": "shifokor",
+     "d": "Bemorlarni davolaydigan odam.",
+     "x": "Shifokor menga dori berdi."
+    }
+   }
+  },
+  {
+   "id": "n39",
+   "word": "의자",
+   "pron": "uija",
+   "ex": "이 의자는 너무 불편해요.",
+   "tr": {
+    "en": {
+     "m": "chair",
+     "d": "A seat with a back for one person.",
+     "x": "This chair is too uncomfortable."
+    },
+    "uz": {
+     "m": "stul",
+     "d": "Bir kishiga moʻljallangan suyanchiqli oʻrindiq.",
+     "x": "Bu stul juda noqulay."
+    }
+   }
+  },
+  {
+   "id": "n40",
+   "word": "시계",
+   "pron": "sigye",
+   "ex": "손목에 시계를 찼어요.",
+   "tr": {
+    "en": {
+     "m": "clock, watch",
+     "d": "A device that shows the time.",
+     "x": "I wore a watch on my wrist."
+    },
+    "uz": {
+     "m": "soat",
+     "d": "Vaqtni koʻrsatadigan qurilma.",
+     "x": "Qoʻlimga soat taqib oldim."
+    }
+   }
+  },
+  {
+   "id": "n41",
+   "word": "어렵다",
+   "pron": "eoryeopda",
+   "ex": "이 문제는 너무 어려워요.",
+   "tr": {
+    "en": {
+     "m": "difficult",
+     "d": "Hard to do or understand.",
+     "x": "This problem is too difficult."
+    },
+    "uz": {
+     "m": "qiyin",
+     "d": "Bajarish yoki tushunish ogʻir boʻlgan.",
+     "x": "Bu masala juda qiyin."
+    }
+   }
+  },
+  {
+   "id": "n42",
+   "word": "쉽다",
+   "pron": "swipda",
+   "ex": "한국어 문법이 쉬워요.",
+   "tr": {
+    "en": {
+     "m": "easy",
+     "d": "Not hard to do or understand.",
+     "x": "Korean grammar is easy."
+    },
+    "uz": {
+     "m": "oson",
+     "d": "Bajarish yoki tushunish qiyin boʻlmagan.",
+     "x": "Koreys tili grammatikasi oson."
+    }
+   }
+  },
+  {
+   "id": "n43",
+   "word": "피자",
+   "pron": "pija",
+   "ex": "주말에 피자를 시켜 먹어요.",
+   "tr": {
+    "en": {
+     "m": "pizza",
+     "d": "A flat round bread baked with cheese and toppings.",
+     "x": "I order pizza on weekends."
+    },
+    "uz": {
+     "m": "pitsa",
+     "d": "Pishloq va qoʻshimchalar bilan pishirilgan yassi non.",
+     "x": "Dam olish kunlari pitsa buyurtma qilaman."
+    }
+   }
+  },
+  {
+   "id": "n44",
+   "word": "마트",
+   "pron": "mateu",
+   "ex": "마트에서 장을 봐요.",
+   "tr": {
+    "en": {
+     "m": "supermarket",
+     "d": "A large store that sells food and daily goods.",
+     "x": "I do grocery shopping at the supermarket."
+    },
+    "uz": {
+     "m": "supermarket",
+     "d": "Oziq-ovqat va kundalik tovarlar sotiladigan katta doʻkon.",
+     "x": "Supermarketda xarid qilaman."
+    }
+   }
+  },
+  {
+   "id": "n45",
+   "word": "기타",
+   "pron": "gita",
+   "ex": "남동생이 기타를 쳐요.",
+   "tr": {
+    "en": {
+     "m": "guitar",
+     "d": "A string instrument played with fingers.",
+     "x": "My younger brother plays the guitar."
+    },
+    "uz": {
+     "m": "gitara",
+     "d": "Barmoq bilan chalinadigan torli cholgʻu asbobi.",
+     "x": "Ukam gitara chaladi."
+    }
+   }
+  },
+  {
+   "id": "n46",
+   "word": "소금",
+   "pron": "sogeum",
+   "ex": "국에 소금을 조금 넣었어요.",
+   "tr": {
+    "en": {
+     "m": "salt",
+     "d": "A white seasoning that makes food salty.",
+     "x": "I put a little salt in the soup."
+    },
+    "uz": {
+     "m": "tuz",
+     "d": "Taomni shoʻr qiladigan oq ziravor.",
+     "x": "Shoʻrvaga ozgina tuz soldim."
+    }
+   }
+  },
+  {
+   "id": "n47",
+   "word": "후추",
+   "pron": "huchu",
+   "ex": "스테이크에 후추를 뿌려요.",
+   "tr": {
+    "en": {
+     "m": "black pepper",
+     "d": "A spicy powder used to season food.",
+     "x": "I sprinkle pepper on the steak."
+    },
+    "uz": {
+     "m": "murch, qora murch",
+     "d": "Taomga ziravor sifatida qoʻshiladigan achchiq kukun.",
+     "x": "Bifshteksga murch sepaman."
+    }
+   }
+  },
+  {
+   "id": "n48",
+   "word": "기차",
+   "pron": "gicha",
+   "ex": "기차를 타고 부산에 가요.",
+   "tr": {
+    "en": {
+     "m": "train",
+     "d": "A vehicle that runs on rails.",
+     "x": "I go to Busan by train."
+    },
+    "uz": {
+     "m": "poyezd",
+     "d": "Relslarda yuradigan transport.",
+     "x": "Poyezdda Busanga boraman."
+    }
+   }
+  },
+  {
+   "id": "n49",
+   "word": "버스",
+   "pron": "beoseu",
+   "ex": "버스로 학교에 가요.",
+   "tr": {
+    "en": {
+     "m": "bus",
+     "d": "A large vehicle that carries many people.",
+     "x": "I go to school by bus."
+    },
+    "uz": {
+     "m": "avtobus",
+     "d": "Koʻp yoʻlovchi tashiydigan katta transport.",
+     "x": "Avtobusda maktabga boraman."
+    }
+   }
+  },
+  {
+   "id": "n50",
+   "word": "택시",
+   "pron": "taeksi",
+   "ex": "늦어서 택시를 탔어요.",
+   "tr": {
+    "en": {
+     "m": "taxi",
+     "d": "A car you pay to ride.",
+     "x": "I was late, so I took a taxi."
+    },
+    "uz": {
+     "m": "taksi",
+     "d": "Pul toʻlab minadigan mashina.",
+     "x": "Kechikkanim uchun taksiga oʻtirdim."
+    }
+   }
+  },
+  {
+   "id": "n51",
+   "word": "빨강",
+   "pron": "ppalgang",
+   "ex": "빨강은 제가 좋아하는 색이에요.",
+   "tr": {
+    "en": {
+     "m": "red",
+     "d": "The color of blood or a ripe tomato.",
+     "x": "Red is my favorite color."
+    },
+    "uz": {
+     "m": "qizil",
+     "d": "Qon yoki pishgan pomidor rangi.",
+     "x": "Qizil — mening sevimli rangim."
+    }
+   }
+  },
+  {
+   "id": "n52",
+   "word": "파란색",
+   "pron": "paransaek",
+   "ex": "하늘이 파란색이에요.",
+   "tr": {
+    "en": {
+     "m": "blue",
+     "d": "The color of the sky on a clear day.",
+     "x": "The sky is blue."
+    },
+    "uz": {
+     "m": "koʻk",
+     "d": "Ochiq kundagi osmon rangi.",
+     "x": "Osmon koʻk rangda."
+    }
+   }
+  },
+  {
+   "id": "n53",
+   "word": "노란색",
+   "pron": "noransaek",
+   "ex": "바나나는 노란색이에요.",
+   "tr": {
+    "en": {
+     "m": "yellow",
+     "d": "The color of a banana or lemon.",
+     "x": "Bananas are yellow."
+    },
+    "uz": {
+     "m": "sariq",
+     "d": "Banan yoki limon rangi.",
+     "x": "Banan sariq rangda."
+    }
+   }
+  },
+  {
+   "id": "n54",
+   "word": "초록색",
+   "pron": "choroksaek",
+   "ex": "풀은 초록색이에요.",
+   "tr": {
+    "en": {
+     "m": "green",
+     "d": "The color of grass and leaves.",
+     "x": "Grass is green."
+    },
+    "uz": {
+     "m": "yashil",
+     "d": "Oʻt va barglar rangi.",
+     "x": "Oʻt yashil rangda."
+    }
+   }
+  },
+  {
+   "id": "n55",
+   "word": "검정색",
+   "pron": "geomjeongsaek",
+   "ex": "검정색 가방을 샀어요.",
+   "tr": {
+    "en": {
+     "m": "black",
+     "d": "The darkest color, like night.",
+     "x": "I bought a black bag."
+    },
+    "uz": {
+     "m": "qora",
+     "d": "Tun kabi eng toʻq rang.",
+     "x": "Qora sumka sotib oldim."
+    }
+   }
+  },
+  {
+   "id": "n56",
+   "word": "하얀색",
+   "pron": "hayansaek",
+   "ex": "눈은 하얀색이에요.",
+   "tr": {
+    "en": {
+     "m": "white",
+     "d": "The color of snow or milk.",
+     "x": "Snow is white."
+    },
+    "uz": {
+     "m": "oq",
+     "d": "Qor yoki sut rangi.",
+     "x": "Qor oq rangda."
+    }
+   }
+  },
+  {
+   "id": "n57",
+   "word": "주황",
+   "pron": "juhwang",
+   "ex": "주황 우산을 샀어요.",
+   "tr": {
+    "en": {
+     "m": "orange (color)",
+     "d": "The color between red and yellow.",
+     "x": "I bought an orange umbrella."
+    },
+    "uz": {
+     "m": "toʻq sariq, apelsin rangi",
+     "d": "Qizil va sariq orasidagi rang.",
+     "x": "Toʻq sariq zontik sotib oldim."
+    }
+   }
+  },
+  {
+   "id": "n58",
+   "word": "보라",
+   "pron": "bora",
+   "ex": "보라색 꽃이 예뻐요.",
+   "tr": {
+    "en": {
+     "m": "purple",
+     "d": "The color of grapes or lavender.",
+     "x": "The purple flowers are pretty."
+    },
+    "uz": {
+     "m": "binafsha rang",
+     "d": "Uzum yoki lavanda rangi.",
+     "x": "Binafsha gullar chiroyli."
+    }
+   }
+  },
+  {
+   "id": "n59",
+   "word": "분홍",
+   "pron": "bunhong",
+   "ex": "분홍 치마를 입었어요.",
+   "tr": {
+    "en": {
+     "m": "pink",
+     "d": "A light red color.",
+     "x": "I wore a pink skirt."
+    },
+    "uz": {
+     "m": "pushti",
+     "d": "Och qizil rang.",
+     "x": "Pushti yubka kiydim."
+    }
+   }
+  },
+  {
+   "id": "n60",
+   "word": "갈색",
+   "pron": "galsaek",
+   "ex": "갈색 신발을 신었어요.",
+   "tr": {
+    "en": {
+     "m": "brown",
+     "d": "The color of soil or chocolate.",
+     "x": "I wore brown shoes."
+    },
+    "uz": {
+     "m": "jigarrang",
+     "d": "Tuproq yoki shokolad rangi.",
+     "x": "Jigarrang poyabzal kiydim."
+    }
+   }
+  },
+  {
+   "id": "n61",
+   "word": "회색",
+   "pron": "hoesaek",
+   "ex": "하늘이 회색이에요.",
+   "tr": {
+    "en": {
+     "m": "gray",
+     "d": "The color between black and white.",
+     "x": "The sky is gray."
+    },
+    "uz": {
+     "m": "kulrang",
+     "d": "Qora va oq orasidagi rang.",
+     "x": "Osmon kulrang."
+    }
+   }
+  },
+  {
+   "id": "n62",
+   "word": "저고리",
+   "pron": "jeogori",
+   "ex": "한복 저고리는 색이 예뻐요.",
+   "tr": {
+    "en": {
+     "m": "jeogori, hanbok jacket",
+     "d": "The short upper jacket of a hanbok.",
+     "x": "The jeogori of a hanbok has pretty colors."
+    },
+    "uz": {
+     "m": "jeogori, pidjak",
+     "d": "Hanbokning qisqa ustki kiyimi.",
+     "x": "Hanbok jeogorisining ranglari chiroyli."
+    }
+   }
+  },
+  {
+   "id": "n63",
+   "word": "치마",
+   "pron": "chima",
+   "ex": "치마가 너무 짧아요.",
+   "tr": {
+    "en": {
+     "m": "skirt",
+     "d": "Clothing for the lower body that hangs from the waist.",
+     "x": "The skirt is too short."
+    },
+    "uz": {
+     "m": "yubka",
+     "d": "Belidan pastga tushadigan ayollar kiyimi.",
+     "x": "Yubka juda qisqa."
+    }
+   }
+  },
+  {
+   "id": "n64",
+   "word": "고름",
+   "pron": "goreum",
+   "ex": "저고리 고름을 예쁘게 묶었어요.",
+   "tr": {
+    "en": {
+     "m": "hanbok ribbon, coat-string",
+     "d": "The ribbon that ties a hanbok jacket.",
+     "x": "I tied the jeogori ribbon neatly."
+    },
+    "uz": {
+     "m": "kurtka bogʻichi, lenta",
+     "d": "Hanbok kurtkasini bogʻlaydigan lenta.",
+     "x": "Jeogori bogʻichini chiroyli bogʻladim."
+    }
+   }
+  },
+  {
+   "id": "n65",
+   "word": "조끼",
+   "pron": "jokki",
+   "ex": "추워서 조끼를 입었어요.",
+   "tr": {
+    "en": {
+     "m": "vest",
+     "d": "A sleeveless garment worn over a shirt.",
+     "x": "It was cold, so I put on a vest."
+    },
+    "uz": {
+     "m": "nimcha, jilet",
+     "d": "Koʻylak ustidan kiyiladigan yengsiz kiyim.",
+     "x": "Sovuq boʻlgani uchun nimcha kiydim."
+    }
+   }
+  },
+  {
+   "id": "n66",
+   "word": "바지",
+   "pron": "baji",
+   "ex": "이 바지는 너무 길어요.",
+   "tr": {
+    "en": {
+     "m": "pants, trousers",
+     "d": "Clothing that covers each leg.",
+     "x": "These pants are too long."
+    },
+    "uz": {
+     "m": "shim",
+     "d": "Har bir oyoqni qoplaydigan kiyim.",
+     "x": "Bu shim juda uzun."
+    }
+   }
+  },
+  {
+   "id": "n67",
+   "word": "다리",
+   "pron": "dari",
+   "ex": "저 다리를 건너면 학교예요.",
+   "tr": {
+    "en": {
+     "m": "bridge",
+     "d": "A structure built over water or a road.",
+     "x": "If you cross that bridge, you reach the school."
+    },
+    "uz": {
+     "m": "koʻprik",
+     "d": "Suv yoki yoʻl ustiga qurilgan inshoot.",
+     "x": "U koʻprikdan oʻtsangiz, maktab."
+    }
+   }
+  },
+  {
+   "id": "n68",
+   "word": "다리",
+   "pron": "dari",
+   "ex": "오래 걸어서 다리가 아파요.",
+   "tr": {
+    "en": {
+     "m": "leg",
+     "d": "The body part you walk on.",
+     "x": "I walked a long time, so my legs hurt."
+    },
+    "uz": {
+     "m": "oyoq",
+     "d": "Yurish uchun xizmat qiladigan aʼzo.",
+     "x": "Uzoq yurganim uchun oyoqlarim ogʻriyapti."
+    }
+   }
+  },
+  {
+   "id": "n69",
+   "word": "비누",
+   "pron": "binu",
+   "ex": "비누로 손을 씻어요.",
+   "tr": {
+    "en": {
+     "m": "soap",
+     "d": "A product used with water for washing.",
+     "x": "I wash my hands with soap."
+    },
+    "uz": {
+     "m": "sovun",
+     "d": "Suv bilan yuvish uchun ishlatiladigan vosita.",
+     "x": "Sovun bilan qoʻlimni yuvaman."
+    }
+   }
+  },
+  {
+   "id": "n70",
+   "word": "요리사",
+   "pron": "yorisa",
+   "ex": "그 요리사는 음식을 잘해요.",
+   "tr": {
+    "en": {
+     "m": "cook, chef",
+     "d": "A person who cooks food as a job.",
+     "x": "That chef is good at cooking."
+    },
+    "uz": {
+     "m": "oshpaz",
+     "d": "Ovqat pishirishni kasb qilgan odam.",
+     "x": "U oshpaz ovqatni yaxshi pishiradi."
+    }
+   }
+  }
+ ]
+}

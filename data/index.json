@@ -1,6 +1,64 @@
 {
- "updated": "2026-11-21T19:26:39.079Z",
+ "updated": "2026-11-21T19:27:56.165Z",
  "sets": [
+  {
+   "id": "ko-notebook-1",
+   "title": "Notebook Vocab · Part 1",
+   "learn": "ko",
+   "back": [
+    "en",
+    "uz"
+   ],
+   "count": 101,
+   "version": 2,
+   "updated": "2026-11-21T19:27:56.137Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
+   "partner": {
+    "name": "Odilxanivich",
+    "url": "https://odilxanivichinkorea.com"
+   },
+   "file": "sets/ko-notebook-1.json",
+   "size": 41432
+  },
+  {
+   "id": "ko-notebook-2",
+   "title": "Notebook Vocab · Part 2",
+   "learn": "ko",
+   "back": [
+    "en",
+    "uz"
+   ],
+   "count": 96,
+   "version": 1,
+   "updated": "2026-11-21T19:27:25.678Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
+   "file": "sets/ko-notebook-2.json",
+   "size": 38483
+  },
+  {
+   "id": "ko-notebook-3",
+   "title": "Notebook Vocab · Part 3",
+   "learn": "ko",
+   "back": [
+    "en",
+    "uz"
+   ],
+   "count": 70,
+   "version": 1,
+   "updated": "2026-11-21T19:27:25.646Z",
+   "by": {
+    "name": "Vocab",
+    "url": "https://t.me/odilxanivich"
+   },
+   "file": "sets/ko-notebook-3.json",
+   "size": 28252
+  },
   {
    "id": "ko-topik2-adjectives",
    "title": "TOPIK II · Adjectives",
