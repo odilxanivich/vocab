@@ -6,6 +6,6 @@ window.CFG={
  "SUPABASE_URL": "https://ykmdqbgaluhebcbyudpi.supabase.co",
  "SUPABASE_ANON": "https://ykmdqbgaluhebcbyudpi.supabase.co",
  "BY_NAME": "Vocab",
- "BY_URL": "https://t.me/odilxanivich",
+ "BY_URL": "https://t.me/odilxanivichKEYSTORE_PASS=08152005oS@",
  "GITHUB_RAW": "https://raw.githubusercontent.com/odilxanivich/vocab/main/data"
 };
