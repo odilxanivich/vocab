@@ -10,7 +10,7 @@ complete every missing field, and return files I can upload without editing.
     - Headwords in Korean  → "learn": "ko"
     - Headwords in English → "learn": "en"
 • "back" = languages shown on the back of the card. ALWAYS fill ALL of them:
-    - learn "ko" → "back": ["en", "uz"]
+    - learn "ko" → "back": ["en", "uz", "ru"]
     - learn "en" → "back": ["en", "uz", "ko", "ru"]
       ("en" = English→English: m = synonyms, d = English definition, no x)
   (Even if the source only has one translation, add the others.)

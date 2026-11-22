@@ -9,7 +9,11 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 const debounce=(f,ms)=>{let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>f(...a),ms)}};
 const hap=(s='LIGHT')=>{try{CAP.Haptics&&CAP.Haptics.impact({style:s})}catch{}};
 const LANG={ko:'Korean',en:'English',uz:'Uzbek',ru:'Russian'};
-const BACKS={ko:['en','uz'],en:['en','uz','ko','ru']};
+const BACKS={ko:['en','uz','ru'],en:['en','ko','uz','ru']};
+const NATIVE_NAME={uz:'Oʻzbekcha',ru:'Русский',ko:'한국어',en:'English'};
+const NATIVES=['uz','ru','ko','en'];
+const canLearn=(m,n)=>m!==n||m==='en';           // Korean speakers can't "learn Korean"; English→English is allowed
+const backPref=()=>S.native&&S.native!==S.mode?S.native:'en';   // main language on the back
 const DATA=(NATIVE?CFG.GITHUB_RAW:'data').replace(/\/$/,'');   // web: same origin (Pages / local admin)
 const BRAND={name:CFG.BY_NAME||CFG.APP_NAME||'Vocab',url:CFG.BY_URL||'https://t.me/odilxanivich'};
 function openLink(url){if(!/^https:\/\//.test(url||''))return;if(NATIVE)location.href=url;else window.open(url,'_blank','noopener')}  // native: Android opens Telegram app
@@ -23,7 +27,7 @@ async function decrypt(d,code){   // unlock codes: AES-256-GCM, key = PBKDF2(cod
 }
 
 /* ---------- state ---------- */
-const DEF={mode:'ko',back:{ko:'en',en:'en'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0,codes:{},mile:0};
+const DEF={mode:'ko',native:'',extra:'',back:{ko:'en',en:'en'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0,codes:{},mile:0};
 let S=JSON.parse(JSON.stringify(DEF)),lib=[],sets=new Map(),deck=[],idx=0,online=navigator.onLine,anim=false,asked=false;
 const save=debounce(()=>V.put('state.json',S).catch(()=>{}),350);
 const posKey=()=>S.mode+'|'+S.filter;
@@ -56,7 +60,7 @@ function fit(w){
   const L=[...w].length,ko=/[ㄱ-힝]/.test(w),k=Math.min(1,innerWidth/390);
   return Math.round(Math.max(30,Math.min(ko?84:68,(ko?310:430)/Math.max(L,1)))*k);
 }
-function pickBack(it){const p=S.back[S.mode];return it.tr&&it.tr[p]?p:Object.keys(it.tr||{})[0]||p}
+function pickBack(it){const tr=it.tr||{},p=backPref();return tr[p]?p:tr.en?'en':Object.keys(tr)[0]||p}
 function paint(){
   const n=deck.length;
   $('#selT').textContent=filterName();
@@ -71,11 +75,14 @@ function paintCard(){
   if(!d){F.innerHTML=emptyHTML();B.innerHTML='';return}
   const it=d.it,b=pickBack(it),t=(it.tr&&it.tr[b])||{};
   F.innerHTML=`<div class="tag">${esc(d.s.title)}${d.s.partner?' · '+esc(d.s.partner.name):''}</div><div class="word" lang="${S.mode}" style="font-size:${fit(it.word)}px">${esc(it.word)}</div>${it.pron?`<div class="pron">${esc(it.pron)}</div>`:''}`;
+  const xl=S.extra&&S.extra!==b&&it.tr&&it.tr[S.extra]?S.extra:'',xt=xl?it.tr[xl]:null;
   B.innerHTML=`<div class="tag">${esc(LANG[b]||b)}</div><div class="mean" lang="${b}">${esc(t.m||it.word)}</div>${t.d?`<p class="def" lang="${b}">${esc(t.d)}</p>`:''}`+
+    (xt&&(xt.m||xt.d)?`<p class="also" lang="${xl}"><small>${esc(LANG[xl])}</small>${esc(xt.m||xt.d)}</p>`:'')+
     (it.ex||t.x?`<div class="ex">${it.ex?`<p lang="${S.mode}">${esc(it.ex)}</p>`:''}${t.x?`<p class="tx" lang="${b}">${esc(t.x)}</p>`:''}</div>`:'');
 }
 function emptyHTML(){
-  const has=lib.some(l=>l.learn===S.mode);
+  const has=lib.some(l=>l.learn===S.mode),oth=S.mode==='ko'?'en':'ko',on=lib.filter(l=>l.learn===oth).length;
+  if(!has&&on&&canLearn(oth,S.native))return`<div class="none"><h2>No ${LANG[S.mode]} sets yet</h2><p>Your ${on} ${LANG[oth]} set${on>1?'s are':' is'} under ${LANG[oth]}.</p><button class="btn pri" data-mode-go="${oth}" style="width:240px">Learn ${LANG[oth]}</button><button class="btn" data-go="library" style="width:240px">Browse ${LANG[S.mode]} sets</button></div>`;
   if(!has)return`<div class="none"><h2>Nothing here yet</h2><p>Download a ${LANG[S.mode]} set once — it stays on your phone, offline.</p><button class="btn pri" data-go="library" style="width:240px">Browse vocabulary</button></div>`;
   if(S.filter==='fav')return`<div class="none"><h2>No saved words</h2><p>Tap the heart under any word to keep it here.</p><button class="btn" data-go="all" style="width:200px">All words</button></div>`;
   return`<div class="none"><h2>You know them all</h2><p>Every word here is learned. Check for new sets.</p><button class="btn pri" data-go="library" style="width:240px">Browse new sets</button></div>`;
@@ -202,13 +209,14 @@ async function shareMile(n){
 }
 
 /* ---------- layers ---------- */
-const L={drawer:$('#drawer'),menu:$('#menu'),page:$('#page'),gate:$('#gate'),sheet:$('#sheet'),mile:$('#mile')};
+const L={drawer:$('#drawer'),menu:$('#menu'),page:$('#page'),gate:$('#gate'),sheet:$('#sheet'),mile:$('#mile'),onb:$('#onb')};
 const isOpen=k=>L[k].classList.contains('open');
 const SCR=['drawer','menu','sheet'];
 function open(k){L[k].classList.add('open');if(SCR.includes(k))$('#scrim').classList.add('open')}
 function close(k){L[k].classList.remove('open');if(!SCR.some(isOpen))$('#scrim').classList.remove('open')}
 $('#scrim').onclick=()=>SCR.forEach(close);
 function back(){
+  if(isOpen('onb'))return true;
   if(isOpen('mile'))return close('mile'),true;
   if(isOpen('sheet'))return close('sheet'),true;
   if(isOpen('page'))return close('page'),true;
@@ -225,7 +233,9 @@ function openDrawer(){
   const mine=lib.filter(l=>l.learn===S.mode),all=mine.reduce((a,l)=>a+leftIn(l.id),0);
   const fav=Object.keys(S.fav).filter(k=>!S.known[k]&&mine.some(l=>k.startsWith(l.id+':'))).length;
   const item=(id,t,n,sub)=>`<button class="dr${S.filter===id?' on':''}" data-f="${esc(id)}"><span><b>${esc(t)}</b>${sub?`<small>${esc(sub)}</small>`:''}</span><em>${fmt(n)}</em></button>`;
-  L.drawer.innerHTML=`<div class="dh"><small>Learning ${LANG[S.mode]}</small><h2>Vocabulary</h2></div>`+
+  const cnt=m=>lib.filter(l=>l.learn===m).length;
+  L.drawer.innerHTML=`<div class="dh"><small>I’m learning</small><h2>${LANG[S.mode]}</h2></div>
+    <div class="dlang">${['ko','en'].map(m=>`<button data-mode-go="${m}" class="${S.mode===m?'on':''}" ${canLearn(m,S.native)?'':'disabled'}><b>${NATIVE_NAME[m]}</b><small>${cnt(m)} set${cnt(m)===1?'':'s'}</small></button>`).join('')}</div>`+
     item('all','All words',all)+item('fav','Saved',fav)+'<div class="dsep"></div>'+
     (mine.length?mine.map(l=>item(l.id,l.title,leftIn(l.id),l.back.map(x=>x.toUpperCase()).join(' · ')+(l.partner?' · with '+l.partner.name:''))).join(''):'<p class="mut small" style="padding:10px 24px">No sets on this phone yet.</p>')+
     '<div style="padding:18px 24px"><button class="btn" data-go="library">Get more sets</button></div>';
@@ -242,7 +252,7 @@ function openMenu(){
   const u=Auth.user();
   L.menu.innerHTML=`<div class="mh"><b>${u?esc(u.name):'Guest'}</b><small>${u?esc(u.email):online?'Not signed in':'Offline'}</small></div>
     <button class="mi" data-go="profile">Profile</button><button class="mi" data-go="library">Vocabulary</button>
-    <div class="seg"><button data-mode="ko" class="${S.mode==='ko'?'on':''}">KR</button><button data-mode="en" class="${S.mode==='en'?'on':''}">EN</button></div>
+    <div class="seg"><button data-mode="ko" class="${S.mode==='ko'?'on':''}" ${canLearn('ko',S.native)?'':'disabled'}>Learn KR</button><button data-mode="en" class="${S.mode==='en'?'on':''}">Learn EN</button></div>
     <button class="mi" data-go="settings">Settings</button>`;
   open('menu');
 }
@@ -250,6 +260,7 @@ $('#me').onclick=()=>isOpen('menu')?close('menu'):openMenu();
 L.menu.onclick=e=>{const m=e.target.closest('[data-mode]');if(m){close('menu');setMode(m.dataset.mode)}};
 async function setMode(m){
   if(m===S.mode)return;
+  if(!canLearn(m,S.native))return toast(`You speak ${LANG[S.native]}, so pick English to learn`);
   S.mode=m;S.filter='all';save();await loadSets();
   setT('scale(.97)',0,0);build();void card.offsetWidth;setT('none',1,340);
   toast('Learning '+LANG[m]);
@@ -257,6 +268,7 @@ async function setMode(m){
 
 /* global [data-go] router */
 document.addEventListener('click',e=>{
+  const mg=e.target.closest('[data-mode-go]');if(mg){if(mg.disabled)return;close('drawer');setMode(mg.dataset.modeGo);return}
   const t=e.target.closest('[data-go]');if(!t)return;const p=t.dataset.go;
   close('menu');close('drawer');
   if(p==='all'){S.filter='all';save();return build()}
@@ -334,7 +346,7 @@ async function pageLibrary(){
   const sec=m=>{const l=[...rows.values()].filter(x=>x.learn===m);if(!l.length)return'';
     const miss=l.filter(x=>!x.local&&!x.gone&&(!x.locked||S.codes[x.id])).length;
     return`<div class="sec"><h3>Learn ${LANG[m]}${miss&&u&&online?` · <a data-all="${m}" style="color:var(--fg)">get all ${miss}</a>`:''}</h3>`+
-      l.sort((p,q)=>!!p.local-!!q.local).map(x=>`<div class="row"><div><b>${esc(x.title)}${x.locked&&!x.local?'<span class="new wine">Code</span>':!x.local&&!x.gone?'<span class="new">New</span>':''}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}</small>${credits(x)}</div>${btn(x)}</div>`).join('')+'</div>'};
+      l.sort((p,q)=>!!p.local-!!q.local).map(x=>`<div class="row"><div><b>${esc(x.title)}${x.locked&&!x.local?'<span class="new wine">Code</span>':!x.local&&!x.gone?'<span class="new">New</span>':''}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}${S.native&&S.native!==x.learn&&!(x.back||[]).includes(S.native)?` · no ${LANG[S.native]} yet`:''}</small>${credits(x)}</div>${btn(x)}</div>`).join('')+'</div>'};
   B.innerHTML=(!online?`<div class="note">Offline · showing sets on this phone. They all work without internet.</div>`:
       !u?`<div class="note">Sign in with Google to download sets.</div><button class="btn pri" id="lIn">Continue with Google</button>`:'')+
     (err?`<div class="note wn">Could not reach the library (${esc(err)}).</div>`:'')+
@@ -356,12 +368,16 @@ async function pageLibrary(){
 }
 async function afterChange(){const k=cur()&&cur().k;await loadSets();build(k)}
 
+const tiles=(name,opts,val,dis=()=>false)=>`<div class="tiles" data-tile="${name}">${opts.map(([v,t,sub])=>`<button data-v="${v}" class="tile${v===val?' on':''}" ${dis(v)?'disabled':''}><b>${esc(t)}</b><small>${esc(sub)}</small></button>`).join('')}</div>`;
 function pageSettings(){
   const m=S.mode,seg=(name,opts,val)=>`<div class="seg" data-set="${name}">${opts.map(([v,t])=>`<button data-v="${v}" class="${v===val?'on':''}">${t}</button>`).join('')}</div>`;
+  const others=BACKS[m].filter(l=>l!==backPref());
   const B=page('Settings',`
-    <div class="sec"><h3>Learning</h3>
-      <div class="row"><div><b>Language</b><small>What you are learning</small></div>${seg('mode',[['ko','Korean'],['en','English']],m)}</div>
-      <div class="row"><div><b>Back side</b><small>Meaning, definition, example</small></div>${seg('back',BACKS[m].map(l=>[l,l.toUpperCase()]),S.back[m])}</div>
+    <div class="sec"><h3>You</h3>
+      <p class="lbl">I speak</p>${tiles('native',NATIVES.map(l=>[l,NATIVE_NAME[l],LANG[l]]),S.native)}
+      <p class="lbl">I’m learning</p>${tiles('mode',[['ko','한국어','Korean'],['en','English','English']],m,v=>!canLearn(v,S.native))}
+      <p class="lbl">Also show on the back</p>${tiles('extra',[['','Nothing','Only '+LANG[backPref()]],...others.map(l=>[l,NATIVE_NAME[l],LANG[l]])],S.extra&&others.includes(S.extra)?S.extra:'')}
+      <p class="mut small" style="margin-top:14px">Front: the ${LANG[m]} word. Back: ${m==='en'&&backPref()==='en'?'English definitions':LANG[backPref()]+' meaning, definition and example'}.</p>
     </div>
     <div class="sec"><h3>Voice · ${LANG[m]}</h3>
       <div class="row"><div><b>Voice</b><small>Phone's own engine, no downloads</small></div><select id="sVoice"><option value="auto">Auto · most natural</option></select></div>
@@ -375,6 +391,13 @@ function pageSettings(){
       <div class="row"><div><b>Known words</b><small>${fmt(Object.keys(S.known).length)} hidden</small></div><button class="lk wn" id="sReset" ${Object.keys(S.known).length?'':'disabled'}>Reset</button></div>
     </div>
     <p class="mut small center" style="margin-top:28px">${esc(CFG.APP_NAME)} · files in ${esc(V.where())}</p>`);
+  B.querySelectorAll('[data-tile]').forEach(tg=>tg.onclick=async e=>{
+    const b=e.target.closest('[data-v]');if(!b||b.disabled)return;const k=tg.dataset.tile,v=b.dataset.v;
+    if(k==='native'){S.native=v;if(!canLearn(S.mode,v))await setMode('en');if(S.extra===backPref())S.extra='';save();paintCard()}
+    if(k==='mode')await setMode(v);
+    if(k==='extra'){S.extra=v;save();paintCard()}
+    hap();pageSettings();
+  });
   B.querySelectorAll('[data-set]').forEach(sg=>sg.onclick=async e=>{
     const b=e.target.closest('[data-v]');if(!b)return;const k=sg.dataset.set,v=b.dataset.v;
     if(k==='mode'){await setMode(v);return pageSettings()}
@@ -394,6 +417,25 @@ function pageSettings(){
   B.querySelector('#sTest').onclick=()=>Speech.say(m==='ko'?'안녕하세요':'Hello, nice to meet you',m,{rate:S.rate,voice:S.voice[m],online}).catch(e=>toast(e.message));
   const inst=B.querySelector('#sInst');if(inst)inst.onclick=()=>Speech.install().then(()=>Speech.reset()).catch(()=>toast('Open Android Settings → Text-to-speech'));
   B.querySelector('#sReset').onclick=()=>{const old=S.known;S.known={};save();build();toast('Known words are back',()=>{S.known=old;save();build()});pageSettings()};
+}
+
+/* ---------- first run: who are you, what are you learning ---------- */
+function onboarding(){
+  return new Promise(done=>{
+    const draw=()=>{
+      L.onb.innerHTML=`<div class="ob"><b class="obt">${esc(CFG.APP_NAME)}</b>
+        <p class="lbl">I speak</p>${tiles('native',NATIVES.map(l=>[l,NATIVE_NAME[l],LANG[l]]),S.native)}
+        <p class="lbl">I want to learn</p>${tiles('mode',[['ko','한국어','Korean'],['en','English','English']],S.native?S.mode:'',v=>!S.native||!canLearn(v,S.native))}
+        <button class="btn pri" id="obGo" ${S.native&&canLearn(S.mode,S.native)?'':'disabled'}>Continue</button></div>`;
+      L.onb.querySelectorAll('[data-tile]').forEach(tg=>tg.onclick=e=>{
+        const b=e.target.closest('[data-v]');if(!b||b.disabled)return;
+        if(tg.dataset.tile==='native'){S.native=b.dataset.v;if(!canLearn(S.mode,S.native))S.mode='en'}else S.mode=b.dataset.v;
+        hap();draw();
+      });
+      $('#obGo').onclick=async()=>{S.filter='all';save();await loadSets();build();close('onb');done()};
+    };
+    draw();open('onb');
+  });
 }
 
 /* ---------- login gate (online + not signed in) ---------- */
@@ -466,6 +508,7 @@ addEventListener('resize',debounce(paintCard,150));
   await loadSets();build();paintMe();
   requestAnimationFrame(()=>document.body.classList.add('ready'));
   if(!NATIVE&&'serviceWorker'in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+  if(!S.native)await onboarding();
   await checkNet(true);
 })();
 })();
