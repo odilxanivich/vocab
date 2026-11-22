@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "version": "1.1",
+  "code": 1,
+  "date": "2026-11-22T14:59:47.547Z",
+  "size": 5084970,
+  "sha256": "8fc033ab8df70b7279b0d754f38edd8e93faaeaf50be33266e73953ba0b6f876",
+  "url": "https://github.com/odilxanivich/vocab/releases/download/v1.1/vocab-1.1.apk",
+  "notes": []
+ }
+]
