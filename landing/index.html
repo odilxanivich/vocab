@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>Vocab — Korean & English vocabulary, offline</title>
+<meta name="description" content="A quiet flashcard app for Korean and English. Hold to see the meaning, swipe for the next word. Works fully offline. Official Android downloads.">
+<meta property="og:title" content="Vocab — every word you need, nothing you don't">
+<meta property="og:description" content="Korean & English vocabulary that lives on your phone. Offline, ad-free, official signed APK.">
+<meta property="og:type" content="website">
+<link rel="icon" href="app/icon.png">
+<link rel="preload" href="app/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Pretendard;src:url(app/fonts/PretendardVariable.woff2) format("woff2-variations"),url(app/fonts/PretendardVariable.woff2) format("woff2");font-weight:45 920;font-display:swap}
+:root{
+  --bg:#050505;--p1:#0b0b0b;--p2:#111;
+  --fg:#f3efe7;--mut:rgba(243,239,231,.58);--dim:rgba(243,239,231,.32);--line:rgba(243,239,231,.09);
+  --olive:#4f5a2a;--olive2:#77843f;--wine:#5e1624;--wine2:#9a2a3e;
+  --ease:cubic-bezier(.2,.8,.2,1);--max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{color:var(--fg);font:17px/1.6 Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+::selection{background:var(--olive);color:var(--fg)}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:20;transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+nav.s{background:rgba(5,5,5,.78);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-weight:720;font-size:21px;letter-spacing:-.04em;display:flex;align-items:center;gap:10px}
+.logo i{width:30px;height:18px;border-radius:999px;background:linear-gradient(120deg,var(--olive),#1d220f);border:1px solid rgba(119,132,63,.55);position:relative}
+.logo i::after{content:"";position:absolute;left:3px;top:3px;width:10px;height:10px;border-radius:50%;background:var(--fg)}
+.nl{display:flex;align-items:center;gap:30px;font-size:14.5px;color:var(--mut)}
+.nl a:hover{color:var(--fg)}
+.pill{display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 22px;border-radius:999px;font-weight:620;font-size:15px;transition:transform .2s var(--ease),background .25s,border-color .25s;white-space:nowrap}
+.pill:active{transform:scale(.97)}
+.pill.pri{background:var(--fg);color:var(--bg)}
+.pill.pri:hover{background:#fff}
+.pill.gh{border:1px solid var(--line);color:var(--fg)}
+.pill.gh:hover{border-color:var(--dim)}
+.pill.lg{height:58px;padding:0 30px;font-size:16.5px}
+.pill small{font-weight:500;opacity:.6;font-size:13px}
+.nl .pill{height:38px;padding:0 18px;font-size:14px;color:var(--bg)}
+
+/* hero */
+.hero{position:relative;padding:170px 0 120px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto;height:900px;background:radial-gradient(50% 50% at 70% 30%,rgba(79,90,42,.32),transparent 70%),radial-gradient(40% 40% at 15% 85%,rgba(94,22,36,.22),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.ey{font-size:12px;font-weight:650;letter-spacing:.28em;text-transform:uppercase;color:var(--olive2)}
+h1{font-size:clamp(46px,7vw,96px);line-height:.98;letter-spacing:-.055em;font-weight:720;margin:22px 0 28px}
+h1 em{font-style:normal;color:var(--dim)}
+.lead{font-size:clamp(18px,1.6vw,21px);color:var(--mut);max-width:520px;line-height:1.55}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
+.trust{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:30px;font-size:13.5px;color:var(--dim)}
+.trust span{display:flex;align-items:center;gap:8px}
+.trust span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--olive2)}
+
+/* phone */
+.phone{justify-self:center;width:310px;height:640px;border-radius:52px;padding:12px;background:linear-gradient(160deg,#1a1a1a,#070707);
+  box-shadow:0 0 0 1px rgba(243,239,231,.08),0 60px 120px rgba(0,0,0,.7),0 0 140px rgba(79,90,42,.18);position:relative;transform:rotate(2deg)}
+.scr{position:relative;width:100%;height:100%;border-radius:41px;background:var(--bg);overflow:hidden;display:flex;flex-direction:column}
+.st{display:flex;justify-content:space-between;align-items:center;padding:26px 20px 0;font-size:12px}
+.st b{font-weight:650;font-size:13px}.st small{display:block;font-size:8.5px;letter-spacing:.16em;color:var(--dim);margin-top:1px}
+.st .cap{height:24px;padding:0 12px;border-radius:999px;display:flex;align-items:center;font-size:8.5px;letter-spacing:.22em;font-weight:650;background:linear-gradient(120deg,var(--olive),#171b0c);border:1px solid rgba(119,132,63,.5)}
+.stage{position:relative;flex:1;perspective:1200px}
+.cd{position:absolute;inset:0;transition:transform .45s var(--ease),opacity .45s}
+.in{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .55s var(--ease)}
+.flip .in{transform:rotateY(180deg)}
+.fc{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 22px 140px}
+.fc.bk{transform:rotateY(180deg);padding-bottom:80px}
+.tg{position:absolute;top:14px;left:0;right:0;font-size:8px;letter-spacing:.26em;text-transform:uppercase;color:var(--dim)}
+.bk .tg{color:var(--olive2)}
+.w{font-size:54px;font-weight:600;letter-spacing:-.02em;line-height:1.05}
+.pr{margin-top:10px;font-size:12px;color:var(--mut);letter-spacing:.05em}
+.mn{font-size:26px;font-weight:620;letter-spacing:-.02em;line-height:1.15}
+.df{margin-top:10px;font-size:12px;color:var(--mut);line-height:1.5;max-width:22ch}
+.ex{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;line-height:1.5;max-width:24ch}.ex span{display:block;color:var(--mut);margin-top:3px;font-size:11px}
+.acts{position:absolute;left:0;right:0;bottom:70px;display:flex;justify-content:center;gap:18px;transition:opacity .3s}
+.flip~.acts{opacity:0}
+.acts div{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:7px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
+.acts svg{width:42px;height:42px;padding:11px;border-radius:50%;border:1px solid var(--line);fill:none;stroke:var(--fg);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.acts .on svg{fill:var(--wine2);stroke:var(--wine2);background:rgba(94,22,36,.3);border-color:rgba(154,42,62,.45)}
+.ft{padding:0 22px 26px}.ft p{text-align:center;font-size:8.5px;letter-spacing:.16em;color:var(--dim);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.bar{height:2px;background:var(--line);border-radius:2px;overflow:hidden}.bar i{display:block;height:100%;background:var(--olive2);transition:width .5s var(--ease)}
+.touch{position:absolute;left:50%;top:42%;width:46px;height:46px;margin:-23px;border-radius:50%;background:rgba(243,239,231,.18);border:1px solid rgba(243,239,231,.35);opacity:0;transform:scale(.6);transition:opacity .25s,transform .25s;pointer-events:none}
+.touch.on{opacity:1;transform:scale(1)}
+
+/* sections */
+section{position:relative}
+.sec{padding:130px 0;border-top:1px solid var(--line)}
+.sh{display:grid;grid-template-columns:200px 1fr;gap:40px;margin-bottom:70px}
+.sh .n{font-size:13px;color:var(--dim);font-variant-numeric:tabular-nums;padding-top:12px}
+h2{font-size:clamp(34px,4.6vw,60px);line-height:1.02;letter-spacing:-.045em;font-weight:700}
+h2 em{font-style:normal;color:var(--dim)}
+.sh p{color:var(--mut);margin-top:18px;max-width:560px;font-size:18px}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:28px;overflow:hidden}
+.stats div{padding:38px 30px}.stats div+div{border-left:1px solid var(--line)}
+.stats b{display:block;font-size:clamp(36px,4vw,54px);font-weight:700;letter-spacing:-.045em;line-height:1;font-variant-numeric:tabular-nums}
+.stats small{display:block;margin-top:12px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
+
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:28px;overflow:hidden}
+.feat{background:var(--bg);padding:40px 34px 44px;min-height:280px;display:flex;flex-direction:column;transition:background .3s}
+.feat:hover{background:var(--p1)}
+.feat .k{font-size:12px;color:var(--olive2);letter-spacing:.2em;font-weight:650;font-variant-numeric:tabular-nums}
+.feat h3{font-size:24px;letter-spacing:-.03em;font-weight:650;margin:auto 0 12px;padding-top:60px}
+.feat p{color:var(--mut);font-size:15.5px;line-height:1.6}
+
+.lib{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.set{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 28px;border:1px solid var(--line);border-radius:22px;transition:border-color .3s,background .3s}
+.set:hover{border-color:rgba(119,132,63,.4);background:rgba(79,90,42,.06)}
+.set b{font-size:19px;font-weight:620;letter-spacing:-.02em}
+.set small{display:block;color:var(--dim);font-size:13px;margin-top:4px;letter-spacing:.04em}
+.set em{font-style:normal;font-size:28px;font-weight:700;letter-spacing:-.04em;font-variant-numeric:tabular-nums;text-align:right}
+.set em small{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:600}
+.badge{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--olive);vertical-align:3px;margin-left:8px}
+.badge.w{background:var(--wine)}
+
+/* download */
+.dl{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
+.latest{position:relative;border-radius:32px;padding:46px;overflow:hidden;border:1px solid rgba(119,132,63,.3);
+  background:radial-gradient(90% 80% at 100% 0%,rgba(79,90,42,.35),transparent 60%),radial-gradient(70% 60% at 0% 100%,rgba(94,22,36,.25),transparent 60%),var(--p1)}
+.latest .ver{font-size:clamp(64px,8vw,104px);font-weight:720;letter-spacing:-.06em;line-height:.95;margin:18px 0 8px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 22px;color:var(--mut);font-size:14.5px}
+.sha{margin-top:30px;padding:16px 18px;border-radius:16px;background:rgba(0,0,0,.45);border:1px solid var(--line);display:flex;gap:14px;align-items:center}
+.sha code{flex:1;font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--mut);word-break:break-all}
+.sha small{display:block;font-family:Pretendard,sans-serif;font-size:10px;letter-spacing:.22em;color:var(--olive2);font-weight:650;margin-bottom:4px}
+.cp{font-size:12.5px;font-weight:650;padding:8px 14px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+.cp:hover{border-color:var(--dim)}
+.latest .pill{margin-top:30px}
+.news{border:1px solid var(--line);border-radius:32px;padding:46px;display:flex;flex-direction:column}
+.news h3{font-size:22px;letter-spacing:-.03em;font-weight:650;margin:14px 0 22px}
+.news ul{list-style:none;display:grid;gap:14px}
+.news li{display:grid;grid-template-columns:18px 1fr;gap:12px;color:var(--mut);font-size:15.5px}
+.news li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--olive2);margin-top:9px}
+.req{margin-top:auto;padding-top:30px;display:grid;grid-template-columns:1fr 1fr;gap:16px;font-size:13.5px;color:var(--dim)}
+.req b{display:block;color:var(--fg);font-weight:600;font-size:15px}
+.hist{margin-top:20px;border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.hist summary{list-style:none;cursor:pointer;padding:24px 30px;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.hist summary::-webkit-details-marker{display:none}
+.hist summary span{color:var(--dim);font-weight:500;font-size:14px}
+.hist summary::after{content:"";width:9px;height:9px;border:solid var(--dim);border-width:0 1.5px 1.5px 0;transform:rotate(45deg);transition:transform .3s}
+.hist[open] summary::after{transform:rotate(-135deg)}
+.vt{width:100%;border-collapse:collapse;font-size:14.5px}
+.vt td,.vt th{padding:18px 30px;border-top:1px solid var(--line);text-align:left}
+.vt th{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);font-weight:600}
+.vt td:first-child{font-weight:650}.vt td.m{color:var(--mut)}
+.vt code{font:12px ui-monospace,monospace;color:var(--dim)}
+.vt a{color:var(--olive2);font-weight:600}
+.empty{padding:60px 46px;text-align:center;border:1px dashed var(--line);border-radius:32px;color:var(--mut)}
+
+/* steps / faq */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.step{padding:32px 28px;border:1px solid var(--line);border-radius:24px;counter-increment:s}
+.step::before{content:counter(s,decimal-leading-zero);display:block;font-size:13px;font-weight:650;color:var(--olive2);letter-spacing:.1em;margin-bottom:46px}
+.step b{display:block;font-size:18px;font-weight:620;letter-spacing:-.02em;margin-bottom:8px}
+.step p{color:var(--mut);font-size:14.5px}
+.step code{font:12.5px ui-monospace,monospace;color:var(--fg);background:var(--p2);padding:2px 6px;border-radius:6px}
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:28px 0;font-size:20px;font-weight:600;letter-spacing:-.02em;display:flex;justify-content:space-between;gap:20px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-weight:300;font-size:28px;line-height:.9;color:var(--dim);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq p{color:var(--mut);padding:0 0 28px;max-width:720px}
+
+.end{padding:150px 0;text-align:center;border-top:1px solid var(--line);position:relative;overflow:hidden}
+.end::before{content:"";position:absolute;left:50%;top:100%;width:1200px;height:700px;transform:translate(-50%,-55%);background:radial-gradient(closest-side,rgba(94,22,36,.35),transparent),radial-gradient(closest-side,rgba(79,90,42,.25),transparent);pointer-events:none}
+.end h2{font-size:clamp(44px,7vw,92px);position:relative}
+.end .cta{justify-content:center;position:relative}
+footer{border-top:1px solid var(--line);padding:34px 0 44px;color:var(--dim);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a:hover{color:var(--fg)}
+
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.vis{opacity:1;transform:none}
+#toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,20px);opacity:0;background:var(--p2);border:1px solid var(--line);border-radius:999px;padding:12px 22px;font-size:14px;transition:.3s var(--ease);pointer-events:none;z-index:30}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media(max-width:960px){
+  .hero{padding:130px 0 90px}.hero .wrap{grid-template-columns:1fr;gap:70px}.phone{transform:none}
+  .sh{grid-template-columns:1fr;gap:10px;margin-bottom:46px}.sh .n{padding:0}
+  .feats{grid-template-columns:1fr 1fr}.dl{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}.stats div:nth-child(3){border-left:0}.stats div:nth-child(n+3){border-top:1px solid var(--line)}
+  .nl a:not(.pill){display:none}
+}
+@media(max-width:620px){
+  body{font-size:16px}.wrap{padding:0 20px}.sec{padding:90px 0}
+  .feats,.lib,.steps{grid-template-columns:1fr}.feat{min-height:0}.feat h3{padding-top:30px}
+  .latest,.news{padding:32px 26px}.vt th:nth-child(4),.vt td:nth-child(4){display:none}.vt td,.vt th{padding:16px 18px}
+  .cta .pill{width:100%;justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav"><div class="wrap">
+  <a href="#" class="logo"><i></i>Vocab</a>
+  <div class="nl"><a href="#features">Features</a><a href="#library">Library</a><a href="#download">Download</a><a href="#faq">FAQ</a><a class="pill pri" href="#download">Get the app</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <div class="ey rv">Korean · English · Offline</div>
+    <h1 class="rv">Every word you need.<br><em>Nothing you don’t.</em></h1>
+    <p class="lead rv">A quiet flashcard app for serious learners. Hold to see the meaning, swipe for the next word. Everything lives on your phone — no ads, no noise, no internet needed.</p>
+    <div class="cta rv">
+      <a class="pill pri lg" id="heroDl" href="#download">Download for Android <small id="heroV"></small></a>
+      <a class="pill gh lg" href="app/">Open in browser</a>
+    </div>
+    <div class="trust rv"><span>Signed APK</span><span>SHA-256 verified</span><span>No ads, no trackers</span><span>Works offline</span></div>
+  </div>
+
+  <div class="phone rv" aria-hidden="true"><div class="scr">
+    <div class="st"><div><b id="pS">All words</b><small id="pN">2,600 WORDS</small></div><div class="cap">VOCAB</div></div>
+    <div class="stage">
+      <div class="cd" id="pC"><div class="in">
+        <div class="fc"><div class="tg" id="pT"></div><div class="w" id="pW"></div><div class="pr" id="pP"></div></div>
+        <div class="fc bk"><div class="tg" id="pBT"></div><div class="mn" id="pM"></div><div class="df" id="pD"></div><div class="ex" id="pE"></div></div>
+      </div></div>
+      <div class="acts">
+        <div id="pF"><svg viewBox="0 0 24 24"><path d="M12 20.3s-7.6-4.6-9.3-9.3C1.6 7.8 3.7 4.6 7 4.6c2.1 0 3.6 1.2 5 3 1.4-1.8 2.9-3 5-3 3.3 0 5.4 3.2 4.3 6.4-1.7 4.7-9.3 9.3-9.3 9.3z"/></svg>Save</div>
+        <div><svg viewBox="0 0 24 24"><path d="M4 10.5v3M8 7.5v9M12 4.5v15M16 8v8M20 10.5v3"/></svg>Listen</div>
+        <div><svg viewBox="0 0 24 24"><path d="M5 12.6l4.4 4.4L19 7.4"/></svg>I know</div>
+      </div>
+      <div class="touch" id="pTouch"></div>
+    </div>
+    <div class="ft"><p id="pI">1 / 2,600</p><div class="bar"><i id="pB" style="width:4%"></i></div></div>
+  </div></div>
+</div></header>
+
+<section class="sec"><div class="wrap">
+  <div class="stats rv">
+    <div><b id="sW">2,600+</b><small>Words</small></div>
+    <div><b id="sS">8</b><small>Sets</small></div>
+    <div><b>4</b><small>Languages</small></div>
+    <div><b>0</b><small>Ads</small></div>
+  </div>
+</div></section>
+
+<section class="sec" id="features"><div class="wrap">
+  <div class="sh rv"><div class="n">01 — Features</div><div><h2>Designed to disappear.<br><em>So the words don’t.</em></h2><p>One word on a black screen. Three quiet buttons. Nothing between you and memory.</p></div></div>
+  <div class="feats rv">
+    <div class="feat"><span class="k">01</span><h3>Hold to peek</h3><p>Press and hold anywhere to flip the card. Lift your finger and it turns back — your brain does the work, not a button.</p></div>
+    <div class="feat"><span class="k">02</span><h3>Fully offline</h3><p>Download a set once and it lives in your phone’s storage. Subway, plane, mountain — every word still works.</p></div>
+    <div class="feat"><span class="k">03</span><h3>Natural voice</h3><p>Pronunciation from your phone’s own speech engine — neural voices when online, the best local voice when not. No audio files, no bloat.</p></div>
+    <div class="feat"><span class="k">04</span><h3>One endless line</h3><p>Every word you download flows into a single deck that loops forever. Or pick one set when you want focus.</p></div>
+    <div class="feat"><span class="k">05</span><h3>Your language on the back</h3><p>Learn Korean with English or Uzbek. Learn English with English, Korean, Uzbek or Russian — meaning, definition and example.</p></div>
+    <div class="feat"><span class="k">06</span><h3>Know it? Gone.</h3><p>Mark a word as known and it never comes back. Milestones mark your progress as the deck gets smaller.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="library"><div class="wrap">
+  <div class="sh rv"><div class="n">02 — Library</div><div><h2>Real exam vocabulary.<br><em>Updated quietly.</em></h2><p>New sets appear in the app the moment they’re published. Downloaded sets update themselves.</p></div></div>
+  <div class="lib rv" id="lib"></div>
+</div></section>
+
+<section class="sec" id="download"><div class="wrap">
+  <div class="sh rv"><div class="n">03 — Download</div><div><h2>Official downloads.<br><em>Signed and verifiable.</em></h2><p>Every release is signed with the same key and published with its SHA-256 checksum, so you always know the file is genuine.</p></div></div>
+  <div id="dl" class="rv"></div>
+</div></section>
+
+<section class="sec" id="install"><div class="wrap">
+  <div class="sh rv"><div class="n">04 — Install</div><div><h2>Four steps.<br><em>About a minute.</em></h2></div></div>
+  <div class="steps rv">
+    <div class="step"><b>Download</b><p>Tap <em>Download APK</em> above on your Android phone.</p></div>
+    <div class="step"><b>Allow</b><p>When asked, allow your browser to install apps — <em>Settings → Install unknown apps</em>.</p></div>
+    <div class="step"><b>Install</b><p>Open the file and tap <em>Install</em>. Updates install over the old version and keep your progress.</p></div>
+    <div class="step"><b>Verify <span style="color:var(--dim);font-weight:500">(optional)</span></b><p>On a computer: <code>sha256sum vocab-x.x.apk</code> must match the checksum shown.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="faq"><div class="wrap">
+  <div class="sh rv"><div class="n">05 — Questions</div><div><h2>Good questions.</h2></div></div>
+  <div class="faq rv">
+    <details><summary>Is the APK safe?</summary><p>Yes. It’s built from the project’s source, signed with a single private key, and hosted on GitHub Releases. Each version lists its SHA-256 checksum — if the numbers match, the file is exactly what was published. Android also refuses to update the app with a file signed by anyone else.</p></details>
+    <details><summary>Why isn’t it on Google Play?</summary><p>Direct downloads let new versions reach you immediately, without store fees or review delays. The app stays small, ad-free and independent.</p></details>
+    <details><summary>Does it need the internet?</summary><p>Only to sign in and to download sets. After that, learning, voice and progress all work fully offline.</p></details>
+    <details><summary>What happens to my data?</summary><p>Your progress, saved words and known words stay on your phone. Google sign-in is used only to unlock downloads. No ads, no trackers, no selling anything.</p></details>
+    <details><summary>How do I update?</summary><p>Download the newest version here and install it over the old one. Your words and progress stay. Vocabulary sets update by themselves inside the app.</p></details>
+    <details><summary>The voice sounds robotic.</summary><p>Open the app’s Settings → Better voices, and install high-quality voice data for Korean or English from Android’s speech settings.</p></details>
+  </div>
+</div></section>
+
+<section class="end"><div class="wrap">
+  <div class="ey rv">Start tonight</div>
+  <h2 class="rv" style="margin:22px 0 40px">One word at a time.</h2>
+  <div class="cta rv"><a class="pill pri lg" href="#download">Download for Android</a><a class="pill gh lg" href="app/">Open in browser</a></div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>© <span id="yr"></span> Vocab. Made for learners.</span>
+  <span><a href="#download">Downloads</a> · <a href="app/">Web app</a> · <a href="https://t.me/odilxanivich" target="_blank" rel="noopener">Telegram</a></span>
+</div></footer>
+<div id="toast"></div>
+
+<script>
+(()=>{
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=n=>Number(n||0).toLocaleString('en-US'),mb=b=>(b/1048576).toFixed(1)+' MB';
+const date=d=>new Date(d).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+const LN={ko:'KO',en:'EN',uz:'UZ',ru:'RU'};
+$('#yr').textContent=new Date().getFullYear();
+let TOTAL=2600;
+let tt;const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('on'),2200)};
+
+/* nav + reveal */
+const nav=$('#nav');addEventListener('scroll',()=>nav.classList.toggle('s',scrollY>20),{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}}),{threshold:.12});
+const watch=()=>document.querySelectorAll('.rv:not(.vis)').forEach(el=>io.observe(el));watch();
+
+/* releases */
+fetch('releases.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]).then(rel=>{
+  rel=(Array.isArray(rel)?rel:[]).sort((a,b)=>b.code-a.code);
+  const D=$('#dl'),L=rel[0];
+  if(!L){D.innerHTML=`<div class="empty"><div class="ey">Coming soon</div><p style="margin-top:12px">The first official release is on its way. Meanwhile, use the <a href="app/" style="color:var(--fg);text-decoration:underline">web app</a>.</p></div>`;return}
+  $('#heroV').textContent='v'+L.version;$('#heroDl').href=L.url;
+  D.innerHTML=`<div class="dl">
+    <div class="latest"><div class="ey">Latest release</div><div class="ver">Version ${esc(L.version)}</div>
+      <div class="meta"><span>${date(L.date)}</span><span>${mb(L.size)}</span><span>Android 5.1+</span><span>Signed release</span></div>
+      <div class="sha"><code><small>SHA-256</small>${esc(L.sha256)}</code><button class="cp" data-cp="${esc(L.sha256)}">Copy</button></div>
+      <a class="pill pri lg" href="${esc(L.url)}" download>Download APK <small>v${esc(L.version)} · ${mb(L.size)}</small></a></div>
+    <div class="news"><div class="ey">What’s new</div><h3>In version ${esc(L.version)}</h3>
+      <ul>${(L.notes||[]).map(n=>`<li>${esc(n)}</li>`).join('')||'<li>Improvements and fixes.</li>'}</ul>
+      <div class="req"><div><b>Android 5.1+</b>Requirement</div><div><b>${rel.length} release${rel.length>1?'s':''}</b>Since ${date(rel[rel.length-1].date)}</div></div></div>
+  </div>
+  ${rel.length>1?`<details class="hist"><summary>All versions <span>${rel.length} releases</span></summary><table class="vt">
+    <tr><th>Version</th><th>Date</th><th>Size</th><th>SHA-256</th><th></th></tr>
+    ${rel.map(r=>`<tr><td>${esc(r.version)}</td><td class="m">${date(r.date)}</td><td class="m">${mb(r.size)}</td><td><code title="${esc(r.sha256)}">${esc(r.sha256.slice(0,16))}…</code></td><td><a href="${esc(r.url)}">Download</a></td></tr>`).join('')}
+  </table></details>`:''}`;
+  watch();
+});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-cp]');if(!b)return;navigator.clipboard.writeText(b.dataset.cp).then(()=>toast('Checksum copied'),()=>toast('Copy failed'))});
+
+/* library (live from the app's data) */
+fetch('app/data/index.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
+  const s=j.sets||[];if(!s.length)throw 0;
+  const total=s.reduce((a,x)=>a+x.count,0);
+  $('#sW').textContent=fmt(total);$('#sS').textContent=s.length;$('#pN').textContent=fmt(total)+' WORDS';TOTAL=total;
+  $('#lib').innerHTML=s.map(x=>`<div class="set"><div><b>${esc(x.title)}${x.locked?'<span class="badge w">Code</span>':''}</b><small>${LN[x.learn]} → ${x.back.map(b=>LN[b]||b).join(' · ')}${x.partner?' · with '+esc(x.partner.name):''}</small></div><em>${fmt(x.count)}<small><br>words</small></em></div>`).join('');
+}).catch(()=>{$('#library').style.display='none'});
+
+/* phone demo: show → hold (flip) → release → swipe */
+const W=[
+  {s:'TOPIK II · Nouns',w:'갈등',p:'galdeung',l:'English',m:'conflict',d:'A clash between people with different opinions.',e:'두 사람 사이에 갈등이 생겼어요.',x:'A conflict arose between the two.'},
+  {s:'IELTS 8.0+',w:'meticulous',p:'/məˈtɪk.jə.ləs/',l:'English',m:'thorough, painstaking',d:'Showing extreme care about every detail.',e:'She kept meticulous records.',x:'',f:1},
+  {s:'Food & Drinks',w:'사과',p:'sagwa',l:'Uzbek',m:'olma',d:'Qizil yoki yashil poʻstli yumaloq meva.',e:'사과를 먹어요.',x:'Men olma yeyman.'},
+  {s:'IELTS 8.0+',w:'ephemeral',p:'/ɪˈfem.ɚ.əl/',l:'Russian',m:'мимолётный',d:'',e:'Social media fame is often ephemeral.',x:'Слава в соцсетях часто мимолётна.'},
+  {s:'TOPIK II · Verbs',w:'극복하다',p:'geukbokada',l:'English',m:'to overcome',d:'To succeed in dealing with a difficulty.',e:'어려움을 극복했어요.',x:'I overcame the difficulty.'}
+];
+const C=$('#pC'),T=$('#pTouch'),wait=ms=>new Promise(r=>setTimeout(r,ms));
+function show(i){const k=W[i%W.length];$('#pT').textContent=k.s;$('#pW').textContent=k.w;$('#pW').style.fontSize=(k.w.length>7?36:54)+'px';$('#pP').textContent=k.p;
+  $('#pBT').textContent=k.l;$('#pM').textContent=k.m;$('#pD').textContent=k.d;$('#pE').innerHTML=esc(k.e)+(k.x?`<span>${esc(k.x)}</span>`:'');
+  $('#pF').classList.toggle('on',!!k.f);$('#pI').textContent=`${fmt(i+1)} / ${fmt(TOTAL)}`;$('#pB').style.width=Math.min(100,(i+1)/W.length*100)+'%'}
+(async()=>{
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){show(0);return}
+  let i=0;show(0);await wait(1400);
+  for(;;){
+    T.style.left='50%';T.classList.add('on');await wait(250);C.classList.add('flip');
+    await wait(2100);T.classList.remove('on');C.classList.remove('flip');await wait(900);
+    T.style.transition='none';T.style.left='30%';T.classList.add('on');void T.offsetWidth;T.style.transition='left .45s cubic-bezier(.2,.8,.2,1),opacity .25s,transform .25s';T.style.left='80%';
+    C.style.transform='translateX(120%) rotate(8deg)';C.style.opacity=0;await wait(420);T.classList.remove('on');
+    i++;show(i);C.style.transition='none';C.style.transform='translateX(-40%)';void C.offsetWidth;C.style.transition='';C.style.transform='';C.style.opacity=1;
+    await wait(1700);
+  }
+})();
+})();
+</script>
+</body>
+</html>

@@ -24,13 +24,28 @@ async function loadFiles(){
   F=(await api('/api/sets')).sets;
   const words=F.reduce((a,s)=>a+s.count,0);
   $('#fN').textContent=`${F.length} files · ${words.toLocaleString()} words`;
-  $('#fL').innerHTML=F.map(s=>`<div class="f"><div><b>${esc(s.title)}</b><br><small>${esc(s.id)}.json · ${s.learn.toUpperCase()} → ${s.back.map(x=>x.toUpperCase()).join(' · ')} · v${s.version} · ${kb(s.size)} · ${ago(s.updated)}</small></div>
-    <div class="n"><b>${s.count.toLocaleString()}</b><small>words</small></div><button class="btn wn" data-del="${s.id}">Delete</button></div>`).join('')||'<p class="empty">No files yet — drop one above.</p>';
+  $('#fL').innerHTML=F.map(s=>`<div class="f"><div><b>${esc(s.title)}</b>${s.locked?'<span class="chip lk">LOCKED</span>':''}${s.partner?`<span class="chip">with ${esc(s.partner.name)}</span>`:''}<br>
+    <small>${esc(s.id)}.json · ${s.learn.toUpperCase()} → ${s.back.map(x=>x.toUpperCase()).join(' · ')} · v${s.version} · ${kb(s.size)} · ${ago(s.updated)}${s.by?' · by '+esc(s.by.name):''}</small></div>
+    <div class="n"><b>${s.count.toLocaleString()}</b><small>words</small></div>
+    <div class="hr"><button class="btn ghost" data-pt="${s.id}">Partner</button><button class="btn ${s.locked?'ol':'ghost'}" data-lk="${s.id}">${s.locked?'Unlock':'Lock'}</button><button class="btn wn" data-del="${s.id}">Delete</button></div></div>`).join('')||'<p class="empty">No files yet — drop one above.</p>';
 }
 $('#fL').onclick=async e=>{
-  const b=e.target.closest('[data-del]');if(!b)return;const s=F.find(x=>x.id===b.dataset.del);
-  if(!confirm(`Delete “${s.title}” (${s.count} words)?\nPhones keep their copy until you Publish.`))return;
-  await api('/api/sets/'+s.id,{method:'DELETE'});toast('Deleted · press Publish');loadFiles();
+  const t=e.target.closest('[data-del],[data-lk],[data-pt]');if(!t)return;const id=t.dataset.del||t.dataset.lk||t.dataset.pt,s=F.find(x=>x.id===id);
+  try{
+    if(t.dataset.del){
+      if(!confirm(`Delete “${s.title}” (${s.count} words)?\nPhones keep their copy until you Publish.`))return;
+      await api('/api/sets/'+id,{method:'DELETE'});toast('Deleted · press Publish');
+    }else if(t.dataset.lk){
+      if(s.locked){const code=prompt(`Unlock “${s.title}” — enter its current code:`);if(!code)return;await api(`/api/sets/${id}/unlock`,{method:'POST',body:JSON.stringify({code})});toast('Unlocked · free for everyone after Publish')}
+      else{const code=prompt(`Lock “${s.title}”.\nUsers need this code to download it (post it in your Telegram channel).\nCode (4+ letters/numbers):`,'VOCAB'+Math.floor(1000+Math.random()*9000));if(!code)return;
+        await api(`/api/sets/${id}/lock`,{method:'POST',body:JSON.stringify({code})});dialog('Locked ✓',`<p class="mut">Code for <b>${esc(s.title)}</b>:</p><pre style="font-size:22px;color:var(--fg)">${esc(code.toUpperCase().replace(/\s+/g,''))}</pre><p class="mut">Save it — it is not stored anywhere. Press Publish, then post the code in your channel.</p>`)}
+    }else{
+      const name=prompt('Partner name (empty = remove partner):',s.partner?s.partner.name:'');if(name===null)return;
+      const url=name?prompt('Partner link (https://…, optional):',s.partner&&s.partner.url||'https://'):'';
+      await api(`/api/sets/${id}/partner`,{method:'POST',body:JSON.stringify({partner:name?{name,url:url&&url!=='https://'?url:''}:null})});toast(name?'Partner saved · press Publish':'Partner removed');
+    }
+  }catch(err){toast(err.message)}
+  loadFiles();
 };
 const slug=n=>n.toLowerCase().replace(/\.json$/,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
 async function upload(files){
@@ -39,7 +54,7 @@ async function upload(files){
     try{
       if(!/\.json$/i.test(f.name))throw new Error('not a .json file');
       const d=JSON.parse(await f.text());
-      if(!d||Array.isArray(d)||!Array.isArray(d.items))throw new Error('missing "items" array — use the app format');
+      if(!d||Array.isArray(d)||!Array.isArray(d.items)&&!d.enc)throw new Error('missing "items" array — use the app format');
       d.id=d.id||slug(f.name);
       if(F.some(x=>x.id===d.id)&&!confirm(`“${d.id}” already exists. Replace it?`))continue;
       const m=await api('/api/sets/'+d.id,{method:'PUT',body:JSON.stringify(d)});

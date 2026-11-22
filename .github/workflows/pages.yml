@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: mkdir -p _site && cp -r www/. _site/ && cp -r data _site/data
+      - run: mkdir -p _site/app && cp -r landing/. _site/ && cp -r www/. _site/app/ && cp -r data _site/app/data   # / = landing, /app/ = web app
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v5
         with: { path: _site }

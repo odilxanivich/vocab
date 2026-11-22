@@ -145,3 +145,23 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;heigh
 #toast button{color:var(--fg);font-weight:650;font-size:13px;letter-spacing:.06em;padding:6px 12px;border-radius:999px;background:var(--olive)}
 #toast:not(:has(button)){padding-right:20px}
 .new{font-size:9.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--fg);background:var(--olive);padding:3px 7px;border-radius:999px;vertical-align:2px;margin-left:6px}
+
+/* credits · locked sets · milestone */
+.row small.cr{display:block;margin-top:2px}.cr a{color:var(--olive2);text-decoration:none;cursor:pointer}
+.new.wine{background:var(--wine)}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:11;background:var(--p2);border-top:1px solid var(--line);border-radius:26px 26px 0 0;
+  padding:26px 22px calc(var(--bot) + 22px);transform:translateY(105%);transition:transform .38s var(--ease)}
+#sheet.open{transform:none}
+#sheet h2{font-size:24px;font-weight:650;letter-spacing:-.02em;margin:4px 0 6px}#sheet p.mut{font-size:14px}
+.ey{font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--olive2);font-weight:600}
+#sheet input{width:100%;margin-top:18px;height:58px;border-radius:16px;border:1px solid var(--line);background:var(--bg);color:var(--fg);
+  font:inherit;font-size:22px;font-weight:650;letter-spacing:.3em;text-align:center;text-transform:uppercase;outline:none;user-select:text;-webkit-user-select:text}
+#sheet input:focus{border-color:var(--olive2)}
+.err{min-height:20px;margin-top:8px;color:#d6a2ab;font-size:13px;text-align:center}
+#mile{position:fixed;inset:0;z-index:13;display:flex;flex-direction:column;justify-content:space-between;padding:calc(var(--top) + 18vh) 26px calc(var(--bot) + 26px);
+  background:radial-gradient(110% 60% at 50% 0%,rgba(79,90,42,.42),transparent 65%),radial-gradient(90% 45% at 50% 110%,rgba(94,22,36,.38),transparent 60%),var(--bg);
+  opacity:0;pointer-events:none;transition:opacity .45s}
+#mile.open{opacity:1;pointer-events:auto}
+.mw{text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px}
+.mn{font-size:min(30vw,140px);font-weight:700;letter-spacing:-.05em;line-height:1;font-variant-numeric:tabular-nums;margin-top:8px}
+.mw p{font-size:20px;font-weight:550;color:rgba(243,239,231,.8)}.mw .mut{margin-top:10px;font-size:14.5px}

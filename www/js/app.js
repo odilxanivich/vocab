@@ -11,9 +11,19 @@ const hap=(s='LIGHT')=>{try{CAP.Haptics&&CAP.Haptics.impact({style:s})}catch{}};
 const LANG={ko:'Korean',en:'English',uz:'Uzbek',ru:'Russian'};
 const BACKS={ko:['en','uz'],en:['en','uz','ko','ru']};
 const DATA=(NATIVE?CFG.GITHUB_RAW:'data').replace(/\/$/,'');   // web: same origin (Pages / local admin)
+const BRAND={name:CFG.BY_NAME||CFG.APP_NAME||'Vocab',url:CFG.BY_URL||'https://t.me/odilxanivich'};
+function openLink(url){if(!/^https:\/\//.test(url||''))return;if(NATIVE)location.href=url;else window.open(url,'_blank','noopener')}  // native: Android opens Telegram app
+document.addEventListener('click',e=>{const a=e.target.closest('[data-url]');if(a){e.preventDefault();e.stopPropagation();openLink(a.dataset.url)}},true);
+const normCode=c=>String(c||'').toUpperCase().replace(/\s+/g,'');
+async function decrypt(d,code){   // unlock codes: AES-256-GCM, key = PBKDF2(code) — same as admin/server.js
+  const b64=x=>Uint8Array.from(atob(x),c=>c.charCodeAt(0)),C=crypto.subtle;
+  const base=await C.importKey('raw',new TextEncoder().encode(normCode(code)),'PBKDF2',false,['deriveKey']);
+  const key=await C.deriveKey({name:'PBKDF2',salt:b64(d.lock.salt),iterations:150000,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+  return JSON.parse(new TextDecoder().decode(await C.decrypt({name:'AES-GCM',iv:b64(d.lock.iv)},key,b64(d.enc))));
+}
 
 /* ---------- state ---------- */
-const DEF={mode:'ko',back:{ko:'en',en:'en'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0};
+const DEF={mode:'ko',back:{ko:'en',en:'en'},fav:{},known:{},pos:{},filter:'all',rate:1,voice:{ko:'auto',en:'auto'},swipe:'right',order:'seq',seed:0,codes:{},mile:0};
 let S=JSON.parse(JSON.stringify(DEF)),lib=[],sets=new Map(),deck=[],idx=0,online=navigator.onLine,anim=false,asked=false;
 const save=debounce(()=>V.put('state.json',S).catch(()=>{}),350);
 const posKey=()=>S.mode+'|'+S.filter;
@@ -60,7 +70,7 @@ function paintCard(){
   document.body.classList.toggle('empty',!d);
   if(!d){F.innerHTML=emptyHTML();B.innerHTML='';return}
   const it=d.it,b=pickBack(it),t=(it.tr&&it.tr[b])||{};
-  F.innerHTML=`<div class="tag">${esc(d.s.title)}</div><div class="word" lang="${S.mode}" style="font-size:${fit(it.word)}px">${esc(it.word)}</div>${it.pron?`<div class="pron">${esc(it.pron)}</div>`:''}`;
+  F.innerHTML=`<div class="tag">${esc(d.s.title)}${d.s.partner?' · '+esc(d.s.partner.name):''}</div><div class="word" lang="${S.mode}" style="font-size:${fit(it.word)}px">${esc(it.word)}</div>${it.pron?`<div class="pron">${esc(it.pron)}</div>`:''}`;
   B.innerHTML=`<div class="tag">${esc(LANG[b]||b)}</div><div class="mean" lang="${b}">${esc(t.m||it.word)}</div>${t.d?`<p class="def" lang="${b}">${esc(t.d)}</p>`:''}`+
     (it.ex||t.x?`<div class="ex">${it.ex?`<p lang="${S.mode}">${esc(it.ex)}</p>`:''}${t.x?`<p class="tx" lang="${b}">${esc(t.x)}</p>`:''}</div>`:'');
 }
@@ -147,15 +157,60 @@ $('#aKnow').onclick=async()=>{
   S.known[d.k]=Date.now();const at=idx;deck.splice(idx,1);if(idx>=deck.length)idx=0;savePos();
   setT('translateY(24px)',0,0);paint();void card.offsetWidth;setT('none',1,300);await wait(260);anim=false;
   toast('Marked as known',()=>{delete S.known[d.k];deck.splice(at,0,d);idx=at;savePos();paint()});
+  checkMile();
 };
 
+/* ---------- milestones ---------- */
+const MILES=[25,100,250,500,1000,2000,3000,5000,10000];
+function checkMile(){const n=Object.keys(S.known).length,m=MILES.filter(x=>x<=n).pop();if(m&&m>(S.mile||0)){S.mile=m;save();setTimeout(()=>showMile(m),450)}}
+function showMile(n){
+  L.mile.innerHTML=`<div class="mw"><small class="ey">Milestone</small><b class="mn" id="mN">0</b><p>words learned</p>
+    <span class="mut">${n>=1000?'That’s serious vocabulary.':n>=250?'You’re building real fluency.':'A strong start. Keep the streak.'}</span></div>
+    <div class="mb"><button class="btn pri" id="mShare">Share</button><button class="btn" id="mOk">Continue</button></div>`;
+  $('#toast').classList.remove('show');open('mile');hap('HEAVY');
+  const t0=performance.now(),el=$('#mN'),tick=t=>{const k=Math.min(1,(t-t0)/900);el.textContent=fmt(Math.round(n*(1-Math.pow(1-k,3))));if(k<1)requestAnimationFrame(tick)};requestAnimationFrame(tick);
+  $('#mOk').onclick=()=>close('mile');
+  $('#mShare').onclick=()=>shareMile(n).catch(e=>toast(e.message||'Could not share'));
+}
+async function mileImage(n){
+  try{await document.fonts.load('700 100px Pretendard')}catch{}
+  const W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;const x=c.getContext('2d');
+  x.fillStyle='#050505';x.fillRect(0,0,W,H);
+  let g=x.createRadialGradient(W/2,0,0,W/2,0,900);g.addColorStop(0,'rgba(79,90,42,.55)');g.addColorStop(1,'rgba(5,5,5,0)');x.fillStyle=g;x.fillRect(0,0,W,H);
+  g=x.createRadialGradient(W/2,H+120,0,W/2,H+120,800);g.addColorStop(0,'rgba(94,22,36,.5)');g.addColorStop(1,'rgba(5,5,5,0)');x.fillStyle=g;x.fillRect(0,0,W,H);
+  const F='Pretendard,InterC,system-ui,sans-serif';x.textAlign='center';x.fillStyle='#f3efe7';
+  const sp=(t,y,font,ls,col)=>{x.font=font;x.fillStyle=col;if('letterSpacing'in x)x.letterSpacing=ls+'px';x.fillText(t,W/2,y);if('letterSpacing'in x)x.letterSpacing='0px'};
+  sp('MILESTONE',300,`600 30px ${F}`,12,'rgba(119,132,63,1)');
+  const num=fmt(n);sp(num,640,`700 ${num.length>4?250:320}px ${F}`,-8,'#f3efe7');
+  sp('words learned',740,`500 60px ${F}`,0,'rgba(243,239,231,.75)');
+  sp(S.mode==='ko'?'Korean · 한국어':'English',820,`500 38px ${F}`,2,'rgba(243,239,231,.45)');
+  x.fillStyle='rgba(243,239,231,.12)';x.fillRect(W/2-180,1060,360,2);
+  sp(CFG.APP_NAME||'Vocab',1190,`700 92px ${F}`,-3,'#f3efe7');
+  return c;
+}
+async function shareMile(n){
+  const c=await mileImage(n),text=`I learned ${fmt(n)} words with ${CFG.APP_NAME||'Vocab'}.`;
+  if(NATIVE&&CAP.Share&&CAP.Filesystem){
+    const data=c.toDataURL('image/png').split(',')[1],path='vocab-'+n+'.png';
+    await CAP.Filesystem.writeFile({path,data,directory:'CACHE'});
+    const {uri}=await CAP.Filesystem.getUri({path,directory:'CACHE'});
+    return CAP.Share.share({title:'Milestone',text,files:[uri],dialogTitle:'Share'});
+  }
+  const blob=await new Promise(r=>c.toBlob(r,'image/png')),file=new File([blob],'vocab-'+n+'.png',{type:'image/png'});
+  if(navigator.canShare&&navigator.canShare({files:[file]}))return navigator.share({files:[file],text});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=file.name;a.click();toast('Image saved');
+}
+
 /* ---------- layers ---------- */
-const L={drawer:$('#drawer'),menu:$('#menu'),page:$('#page'),gate:$('#gate')};
+const L={drawer:$('#drawer'),menu:$('#menu'),page:$('#page'),gate:$('#gate'),sheet:$('#sheet'),mile:$('#mile')};
 const isOpen=k=>L[k].classList.contains('open');
-function open(k){L[k].classList.add('open');if(k==='drawer'||k==='menu')$('#scrim').classList.add('open')}
-function close(k){L[k].classList.remove('open');if(!isOpen('drawer')&&!isOpen('menu'))$('#scrim').classList.remove('open')}
-$('#scrim').onclick=()=>{close('drawer');close('menu')};
+const SCR=['drawer','menu','sheet'];
+function open(k){L[k].classList.add('open');if(SCR.includes(k))$('#scrim').classList.add('open')}
+function close(k){L[k].classList.remove('open');if(!SCR.some(isOpen))$('#scrim').classList.remove('open')}
+$('#scrim').onclick=()=>SCR.forEach(close);
 function back(){
+  if(isOpen('mile'))return close('mile'),true;
+  if(isOpen('sheet'))return close('sheet'),true;
   if(isOpen('page'))return close('page'),true;
   if(isOpen('menu'))return close('menu'),true;
   if(isOpen('drawer'))return close('drawer'),true;
@@ -172,7 +227,7 @@ function openDrawer(){
   const item=(id,t,n,sub)=>`<button class="dr${S.filter===id?' on':''}" data-f="${esc(id)}"><span><b>${esc(t)}</b>${sub?`<small>${esc(sub)}</small>`:''}</span><em>${fmt(n)}</em></button>`;
   L.drawer.innerHTML=`<div class="dh"><small>Learning ${LANG[S.mode]}</small><h2>Vocabulary</h2></div>`+
     item('all','All words',all)+item('fav','Saved',fav)+'<div class="dsep"></div>'+
-    (mine.length?mine.map(l=>item(l.id,l.title,leftIn(l.id),l.back.map(x=>x.toUpperCase()).join(' · '))).join(''):'<p class="mut small" style="padding:10px 24px">No sets on this phone yet.</p>')+
+    (mine.length?mine.map(l=>item(l.id,l.title,leftIn(l.id),l.back.map(x=>x.toUpperCase()).join(' · ')+(l.partner?' · with '+l.partner.name:''))).join(''):'<p class="mut small" style="padding:10px 24px">No sets on this phone yet.</p>')+
     '<div style="padding:18px 24px"><button class="btn" data-go="library">Get more sets</button></div>';
   open('drawer');
 }
@@ -229,17 +284,39 @@ async function fetchIndex(){
   if(!r.ok)throw new Error('Index '+r.status);
   const j=await r.json();return remote=j.sets||[];
 }
-async function download(m){
+const codeErr=(msg,wrong)=>Object.assign(new Error(msg),{needCode:true,wrong});
+async function download(m,code){
   const r=await fetch(DATA+'/'+m.file+'?v='+m.version,{cache:'no-store'});
   if(!r.ok)throw new Error(m.title+': '+r.status);
   const d=await r.json();if(!d||!Array.isArray(d.items))throw new Error(m.title+': bad file');
+  if(d.lock&&d.enc){
+    code=code||S.codes[d.id];if(!code)throw codeErr('Code needed');
+    try{d.items=await decrypt(d,code)}catch{throw codeErr('Wrong code',true)}
+    delete d.enc;delete d.lock;S.codes[d.id]=normCode(code);save();
+  }
   await V.put('sets/'+d.id+'.json',d);sets.set(d.id,d);
-  lib=lib.filter(x=>x.id!==d.id).concat({id:d.id,title:d.title,learn:d.learn,back:d.back,count:d.items.length,version:d.version||m.version});
+  lib=lib.filter(x=>x.id!==d.id).concat({id:d.id,title:d.title,learn:d.learn,back:d.back,count:d.items.length,version:d.version||m.version,by:d.by,partner:d.partner});
   await V.put('library.json',lib);
 }
 async function removeSet(id){
   await V.del('sets/'+id+'.json');sets.delete(id);lib=lib.filter(x=>x.id!==id);await V.put('library.json',lib);
   if(S.filter===id)S.filter='all';save();build();
+}
+const credits=x=>{const b=x.by||BRAND,p=x.partner;return`<small class="cr"><a ${b.url?`data-url="${esc(b.url)}"`:''}>by ${esc(b.name)}</a>${p?` · <a ${p.url?`data-url="${esc(p.url)}"`:''}>with ${esc(p.name)}</a>`:''}</small>`};
+function askCode(m){
+  return new Promise(done=>{
+    L.sheet.innerHTML=`<small class="ey">Locked set</small><h2>${esc(m.title)}</h2><p class="mut">${fmt(m.count)} words. Enter the code from our Telegram channel.</p>
+      <input id="cIn" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="CODE" maxlength="40"><p class="err" id="cErr"></p>
+      <button class="btn pri" id="cGo">Unlock</button><button class="btn" data-url="${esc(BRAND.url)}">Get the code on Telegram</button>`;
+    open('sheet');const inp=$('#cIn');setTimeout(()=>inp.focus(),300);
+    const go=async()=>{
+      const c=normCode(inp.value);if(c.length<4)return $('#cErr').textContent='Enter the code';
+      $('#cGo').disabled=true;$('#cGo').textContent='Checking…';
+      try{await download(m,c);close('sheet');hap('HEAVY');done(true)}
+      catch(e){$('#cErr').textContent=e.wrong?'Wrong code — check the latest post':e.message;$('#cGo').disabled=false;$('#cGo').textContent='Unlock'}
+    };
+    $('#cGo').onclick=go;inp.onkeydown=e=>{if(e.key==='Enter')go()};
+  });
 }
 async function pageLibrary(){
   const B=page('Vocabulary','<p class="mut center" style="padding:40px 0">Loading…</p>');
@@ -252,12 +329,12 @@ async function pageLibrary(){
   const btn=x=>{
     if(x.local&&x.version>x.local.version)return`<button class="lk ol" data-dl="${x.id}" ${u&&online?'':'disabled'}>Update</button>`;
     if(x.local)return`<button class="lk wn" data-rm="${x.id}">Remove</button>`;
-    return`<button class="lk pri" data-dl="${x.id}" ${u&&online?'':'disabled'}>Get</button>`;
+    return`<button class="lk ${x.locked&&!S.codes[x.id]?'ol':'pri'}" data-dl="${x.id}" ${u&&online?'':'disabled'}>${x.locked&&!S.codes[x.id]?'Unlock':'Get'}</button>`;
   };
   const sec=m=>{const l=[...rows.values()].filter(x=>x.learn===m);if(!l.length)return'';
-    const miss=l.filter(x=>!x.local&&!x.gone).length;
+    const miss=l.filter(x=>!x.local&&!x.gone&&(!x.locked||S.codes[x.id])).length;
     return`<div class="sec"><h3>Learn ${LANG[m]}${miss&&u&&online?` · <a data-all="${m}" style="color:var(--fg)">get all ${miss}</a>`:''}</h3>`+
-      l.sort((p,q)=>!!p.local-!!q.local).map(x=>`<div class="row"><div><b>${esc(x.title)}${!x.local&&!x.gone?'<span class="new">New</span>':''}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}</small></div>${btn(x)}</div>`).join('')+'</div>'};
+      l.sort((p,q)=>!!p.local-!!q.local).map(x=>`<div class="row"><div><b>${esc(x.title)}${x.locked&&!x.local?'<span class="new wine">Code</span>':!x.local&&!x.gone?'<span class="new">New</span>':''}</b><small>${fmt(x.count)} words · ${x.learn.toUpperCase()} → ${(x.back||[]).map(b=>b.toUpperCase()).join(' · ')}${x.local?' · on phone':''}</small>${credits(x)}</div>${btn(x)}</div>`).join('')+'</div>'};
   B.innerHTML=(!online?`<div class="note">Offline · showing sets on this phone. They all work without internet.</div>`:
       !u?`<div class="note">Sign in with Google to download sets.</div><button class="btn pri" id="lIn">Continue with Google</button>`:'')+
     (err?`<div class="note wn">Could not reach the library (${esc(err)}).</div>`:'')+
@@ -266,9 +343,13 @@ async function pageLibrary(){
   B.onclick=async e=>{
     const d=e.target.closest('[data-dl]'),r=e.target.closest('[data-rm]'),a=e.target.closest('[data-all]');
     try{
-      if(d){d.disabled=true;d.textContent='…';await download(rows.get(d.dataset.dl));await afterChange();toast('Downloaded · works offline');return pageLibrary()}
+      if(d){const x=rows.get(d.dataset.dl);
+        if(x.locked&&!S.codes[x.id]){await askCode(x);await afterChange();toast('Unlocked · works offline');return pageLibrary()}
+        d.disabled=true;d.textContent='…';
+        try{await download(x)}catch(er){if(!er.needCode)throw er;delete S.codes[x.id];await askCode(x)}
+        await afterChange();toast('Downloaded · works offline');return pageLibrary()}
       if(r){const x=rows.get(r.dataset.rm);if(!confirm(`Remove “${x.title}” from this phone?`))return;await removeSet(x.id);toast('Removed');return pageLibrary()}
-      if(a){const l=[...rows.values()].filter(x=>x.learn===a.dataset.all&&!x.local&&!x.gone);let n=0;
+      if(a){const l=[...rows.values()].filter(x=>x.learn===a.dataset.all&&!x.local&&!x.gone&&(!x.locked||S.codes[x.id]));let n=0;
         for(const x of l){toast(`Downloading ${++n}/${l.length}…`);await download(x)}await afterChange();toast(`${l.length} set${l.length>1?"s":""} ready offline`);return pageLibrary()}
     }catch(err){toast(err.message||'Download failed');pageLibrary()}
   };
@@ -354,7 +435,7 @@ async function autoUpdate(){       // silently refresh downloaded sets that chan
   if(upd||!online||!Auth.user()||!lib.length)return;upd=true;
   try{
     const r=await fetchIndex(),loc=new Map(lib.map(l=>[l.id,l]));let n=0;
-    for(const x of r){const l=loc.get(x.id);if(l&&x.version>l.version){await download(x);n++}}
+    for(const x of r){const l=loc.get(x.id);if(l&&x.version>l.version){try{await download(x);n++}catch{}}}
     if(n){await afterChange();toast(`${n} set${n>1?'s':''} updated`)}
   }catch{}finally{upd=false}
 }
@@ -379,7 +460,7 @@ addEventListener('resize',debounce(paintCard,150));
 (async()=>{
   try{if(CAP.StatusBar){CAP.StatusBar.setBackgroundColor({color:'#050505'});CAP.StatusBar.setStyle({style:'DARK'})}}catch{}
   const s=await V.get('state.json',null);
-  if(s)S={...DEF,...s,back:{...DEF.back,...(s.back||{})},voice:{...DEF.voice,...(s.voice||{})}};
+  if(s)S={...DEF,...s,back:{...DEF.back,...(s.back||{})},voice:{...DEF.voice,...(s.voice||{})},codes:{...(s.codes||{})}};
   if(!S.seed)S.seed=(Math.random()*1e9)|0;
   lib=await V.get('library.json',[]);
   await loadSets();build();paintMe();

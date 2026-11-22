@@ -5,5 +5,7 @@ window.CFG={
  "FOLDER": "vocab",
  "SUPABASE_URL": "https://ykmdqbgaluhebcbyudpi.supabase.co",
  "SUPABASE_ANON": "https://ykmdqbgaluhebcbyudpi.supabase.co",
+ "BY_NAME": "Vocab",
+ "BY_URL": "https://t.me/odilxanivich",
  "GITHUB_RAW": "https://raw.githubusercontent.com/odilxanivich/vocab/main/data"
 };
