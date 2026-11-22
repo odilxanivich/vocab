@@ -1,5 +1,20 @@
 [
  {
+  "version": "2.1",
+  "code": 2,
+  "date": "2026-11-22T17:27:17.039Z",
+  "size": 5086513,
+  "sha256": "29966e1168811f6f2ff699873b5df1ec0db8a9d64b1dda025afe44c53b735d02",
+  "url": "https://github.com/odilxanivich/vocab/releases/download/v2.1/vocab-2.1.apk",
+  "notes": [
+   "New: choose the language you speak and the one you learn",
+   "New: one set works for every learner (Uzbek, Russian, Korean or English on the back)",
+   "New: show a second language on the back",
+   "Improved: switching Korean ⇄ English no longer hides your sets",
+   "Improved: settings use clear option tiles"
+  ]
+ },
+ {
   "version": "1.1",
   "code": 1,
   "date": "2026-11-22T14:59:47.547Z",
