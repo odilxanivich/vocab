@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<base href="/vocab/">  <!-- same paths on menki.uz/vocab and github.io/vocab -->
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#050505">
 <title>Vocab — Korean & English vocabulary, offline</title>
@@ -200,7 +201,7 @@ footer a:hover{color:var(--fg)}
 <body>
 
 <nav id="nav"><div class="wrap">
-  <a href="#" class="logo"><i></i>Vocab</a>
+  <a href="#top" class="logo"><i></i>Vocab</a>
   <div class="nl"><a href="#features">Features</a><a href="#library">Library</a><a href="#download">Download</a><a href="#faq">FAQ</a><a class="pill pri" href="#download">Get the app</a></div>
 </div></nav>
 
@@ -335,6 +336,7 @@ fetch('releases.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[]
   </table></details>`:''}`;
   watch();
 });
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();const id=a.getAttribute('href').slice(1),el=id==='top'?document.body:document.getElementById(id);el&&el.scrollIntoView({behavior:'smooth'})});  // in-page links (works with <base>)
 document.addEventListener('click',e=>{const b=e.target.closest('[data-cp]');if(!b)return;navigator.clipboard.writeText(b.dataset.cp).then(()=>toast('Checksum copied'),()=>toast('Copy failed'))});
 
 /* library (live from the app's data) */

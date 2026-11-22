@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
+<script>/* menki.uz/vocab/app (no trailing slash) → keep relative paths working; no effect in the APK */
+if(/^\/vocab\/app$/.test(location.pathname))document.write('<base href="/vocab/app/">')</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#050505">
 <meta name="mobile-web-app-capable" content="yes">
